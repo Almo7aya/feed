@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-12T00:25:23.293Z</id>
+    <id>urn:2022-09-13T00:27:46.396Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-12T00:25:23.293Z</updated>
+    <updated>2022-09-13T00:27:46.396Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[12 Sep 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Sep/12</id>
+        <link href="https://this-week-in-neovim.org/2022/Sep/12"/>
+        <updated>2022-09-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+spellsitter merged to core!. A
+huge contribution by @lewis6991 and @vigoux. If you did not know, spellsitter is a tree-sitter powered spell
+checking mechanism that only checks spells for specified queries. This allows checking only relevant parts such as
+comments or markdown text for spelling errors. (#19419)
+#15391 adds tree-sitter parsers and queries for core languages (C, Lua
+and VimL).
+Neovim now bundles parsers and highlight queries for Lua, Vimscript, and C; by default the former are installed in
+/usr/local/lib/nvim/parse…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5 Sep 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Sep/5</id>
