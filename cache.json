@@ -50,16 +50,6 @@
           "wordCount": 990,
           "title": "22 Aug 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Aug/15",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nFollowing HEAD: breaking changes on master (#14090)\n\n#19693: changed the nightly (and release) builds and\nappimages to be built on Ubuntu 20.04 instead of Ubuntu 18.04, which is\nbeing deprecated by Github.\nThis means that Linux releases (including app images) from now on require GLIBC 2.29 or above. Users that cannot\nupgrade their distribution need to\nbuild from source instead.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      LuaS…",
-          "link": "https://this-week-in-neovim.org/2022/Aug/15",
-          "publishedOn": "2022-08-15T00:00:00.000Z",
-          "wordCount": 874,
-          "title": "15 Aug 2022",
-          "imageUrl": null
         }
       ]
     }
