@@ -50,16 +50,6 @@
           "wordCount": 1105,
           "title": "29 Aug 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Aug/22",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNothing much this week… 🤷\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      nvim-surround: testers wanted!\n    \n  \n\n\n  \n\n@kylechui is calling for helpers to stress, test and polish their plugin!\nReddit\nGitHub\nPre v2.0.0 release discussion\n\n      \n      ccls.nvim: testers wanted!\n    \n  \n\n\nA plugin to configure the ccls language server and use its extensions. ccls is a language server for C, C++ and\nvariants that offers comparable …",
-          "link": "https://this-week-in-neovim.org/2022/Aug/22",
-          "publishedOn": "2022-08-22T00:00:00.000Z",
-          "wordCount": 990,
-          "title": "22 Aug 2022",
-          "imageUrl": null
         }
       ]
     }
