@@ -50,16 +50,6 @@
           "wordCount": 1095,
           "title": "5 Sep 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Aug/29",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#19862 changed the behavior of fargs in Lua callbacks for\nnvim_create_user_command with nargs='?' to match the behavior of nargs='*' if no arguments were provided\n(fargs = {} instead of fargs = { \"\" }).\n#19743 changed Vim functions winheight(), winwidth(),\ngetwininfo() to return inner window width and height. In non-multigrid UI the only change is that the returned\nheight now excludes winbar, and this is compatible with Vim. In multigrid UI this means the return value of these\nfunctions now reflect the space available for buffe…",
-          "link": "https://this-week-in-neovim.org/2022/Aug/29",
-          "publishedOn": "2022-08-29T00:00:00.000Z",
-          "wordCount": 1105,
-          "title": "29 Aug 2022",
-          "imageUrl": null
         }
       ]
     }
