@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-05T00:35:58.042Z</id>
+    <id>urn:2022-10-05T10:12:26.626Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-05T00:35:58.042Z</updated>
+    <updated>2022-10-05T10:12:26.626Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Process Of Creating almo7aya.dev]]></title>
+        <id>/posts/the-process-of-creating-almo7aya.dev/</id>
+        <link href="https://almo7aya.dev/posts/the-process-of-creating-almo7aya.dev/"/>
+        <updated>2022-10-05T03:42:43.000Z</updated>
+        <summary type="html"><![CDATA[Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basies.]]></summary>
+        <author>
+            <name>almo7aya.md</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3 Oct 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Oct/3</id>
