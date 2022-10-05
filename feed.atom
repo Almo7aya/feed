@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-04T00:36:23.444Z</id>
+    <id>urn:2022-10-05T00:35:58.042Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-04T00:36:23.444Z</updated>
+    <updated>2022-10-05T00:35:58.042Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -126,29 +126,6 @@ comments or markdown text for spelling errors. (#19419)
 and VimL).
 Neovim now bundles parsers and highlight queries for Lua, Vimscript, and C; by default the former are installed in
 /usr/local/lib/nvim/parse…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Sep 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Sep/5</id>
-        <link href="https://this-week-in-neovim.org/2022/Sep/5"/>
-        <updated>2022-09-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#20020 introduced the following breaking changes:
-
-nvim_get_keymap now always returns a LuaRef object as callback for a Lua mapping regardless of how it is
-called. The LuaRef object can be called from Lua and Vim script, but is lost over RPC.
-maparg() now returns a Funcref instead of a ref number as callback for a Lua mapping. The Funcref can be
-called from Lua and Vim script, but is lost over RPC.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Need he…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>

@@ -50,16 +50,6 @@
           "wordCount": 1058,
           "title": "12 Sep 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Sep/5",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#20020 introduced the following breaking changes:\n\nnvim_get_keymap now always returns a LuaRef object as callback for a Lua mapping regardless of how it is\ncalled. The LuaRef object can be called from Lua and Vim script, but is lost over RPC.\nmaparg() now returns a Funcref instead of a ref number as callback for a Lua mapping. The Funcref can be\ncalled from Lua and Vim script, but is lost over RPC.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed he…",
-          "link": "https://this-week-in-neovim.org/2022/Sep/5",
-          "publishedOn": "2022-09-05T00:00:00.000Z",
-          "wordCount": 1095,
-          "title": "5 Sep 2022",
-          "imageUrl": null
         }
       ]
     }
