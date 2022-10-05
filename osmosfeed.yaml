@@ -7,3 +7,4 @@
 sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://this-week-in-neovim.org/rss
+  - href: https://almo7aya.dev/index.xml
