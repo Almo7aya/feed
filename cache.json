@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Oct/10",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#19243 splitkeep merged upstream\nThis option should replace the stabilize.nvim plugin.\nA video is\navailable to demonstrate that new feature.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      \n      neotest-haskell is looking for contributors\n    \n  \n@mrcjkb is looking for help for their neotest-haskell project, which is a\nNeotest adapter for Haskell (cabal-v2 or stack) with Hspec.\nReddit\nGitHub\nGuides, tours, articles, etc.\n\n      …",
+          "link": "https://this-week-in-neovim.org/2022/Oct/10",
+          "publishedOn": "2022-10-10T00:00:00.000Z",
+          "wordCount": 806,
+          "title": "10 Oct 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Oct/3",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n      openingh.nvim\n    \n  \n\n\n@almo7aya’s first plugin! This plugin gives you two simple commands :OpenInGHRepo and :OpenInGHFile to easily open the current file or repo page in GitHub.\nReddit\nGitHub\n\n      \n      neobeans.vim\n    \n  \n\n\nA new theme by @mweisshaupt1988.\nReddit\nGitHub\n\n      \n      DelayTrain.nvim\n    \n  \n\n\nTrain yourself to stop repeating keys… gently.\nReddit\nGitHub\n\n   …",
           "link": "https://this-week-in-neovim.org/2022/Oct/3",
           "publishedOn": "2022-10-03T00:00:00.000Z",
-          "wordCount": 399,
+          "wordCount": 402,
           "title": "3 Oct 2022",
           "imageUrl": null
         },
