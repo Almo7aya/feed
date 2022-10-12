@@ -50,16 +50,6 @@
           "wordCount": 1181,
           "title": "19 Sep 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Sep/12",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nspellsitter merged to core!. A\nhuge contribution by @lewis6991 and @vigoux. If you did not know, spellsitter is a tree-sitter powered spell\nchecking mechanism that only checks spells for specified queries. This allows checking only relevant parts such as\ncomments or markdown text for spelling errors. (#19419)\n#15391 adds tree-sitter parsers and queries for core languages (C, Lua\nand VimL).\nNeovim now bundles parsers and highlight queries for Lua, Vimscript, and C; by default the former are installed in\n/usr/local/lib/nvim/parse…",
-          "link": "https://this-week-in-neovim.org/2022/Sep/12",
-          "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 1058,
-          "title": "12 Sep 2022",
-          "imageUrl": null
         }
       ]
     },
