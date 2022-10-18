@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-17T00:37:03.456Z</id>
+    <id>urn:2022-10-18T00:35:31.827Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-17T00:37:03.456Z</updated>
+    <updated>2022-10-18T00:35:31.827Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[17 Oct 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Oct/17</id>
+        <link href="https://this-week-in-neovim.org/2022/Oct/17"/>
+        <updated>2022-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+      copilot.lua
+    
+  
+
+
+Pure lua replacement for github/copilot.vim. Copilot.lua has support for both Copilot Suggestion and
+Copilot Panel, with custom keybindings and configurable settings. It also integrates nicely with other Lua plugins, e.g. nvim-cmp.
+GitHub
+New plugins
+
+      
+      zhiyuan.nvim
+    
+  
+
+zhiyuan.nvim provides a way to send system-wide notifications on linux usi…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 Oct 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Oct/10</id>
