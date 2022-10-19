@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-18T00:35:31.827Z</id>
+    <id>urn:2022-10-19T00:35:32.641Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-18T00:35:31.827Z</updated>
+    <updated>2022-10-19T00:35:32.641Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -161,28 +161,6 @@ New plugins
 
 
 Capture and show any messages in a customisable (floati…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19 Sep 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Sep/19</id>
-        <link href="https://this-week-in-neovim.org/2022/Sep/19"/>
-        <updated>2022-09-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-nvim-0.8 freeze
-(text extracted from the Reddit post by u/bfredl):
-As of today, Neovim nighty is entering the feature freeze period for the upcoming 0.8 release. No further features
-will be merged for 0.8, just bug fixes and documentation improvements (and possibly minor adjustments to new
-features/API).
-The preliminary release date for 0.8 is 30 September (as has been our aim for some time), but might get delayed if
-needed for critical bug fixes to land. As an example, cmdheight=0 feature recently received a larger change in
-i…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>

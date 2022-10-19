@@ -50,16 +50,6 @@
           "wordCount": 743,
           "title": "26 Sep 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Sep/19",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nnvim-0.8 freeze\n(text extracted from the Reddit post by u/bfredl):\nAs of today, Neovim nighty is entering the feature freeze period for the upcoming 0.8 release. No further features\nwill be merged for 0.8, just bug fixes and documentation improvements (and possibly minor adjustments to new\nfeatures/API).\nThe preliminary release date for 0.8 is 30 September (as has been our aim for some time), but might get delayed if\nneeded for critical bug fixes to land. As an example, cmdheight=0 feature recently received a larger change in\ni…",
-          "link": "https://this-week-in-neovim.org/2022/Sep/19",
-          "publishedOn": "2022-09-19T00:00:00.000Z",
-          "wordCount": 1181,
-          "title": "19 Sep 2022",
-          "imageUrl": null
         }
       ]
     },
