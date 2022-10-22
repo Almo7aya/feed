@@ -14,10 +14,10 @@
         {
           "id": "https://this-week-in-neovim.org/2022/Oct/17",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n      copilot.lua\n    \n  \n\n\nPure lua replacement for github/copilot.vim. Copilot.lua has support for both Copilot Suggestion and\nCopilot Panel, with custom keybindings and configurable settings. It also integrates nicely with other Lua plugins, e.g. nvim-cmp.\nGitHub\nNew plugins\n\n      \n      zhiyuan.nvim\n    \n  \n\nzhiyuan.nvim provides a way to send system-wide notifications on linux usi…",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n      copilot.lua\n    \n  \n\n\nPure lua replacement for github/copilot.vim. Copilot.lua has support for both Copilot Suggestion and\nCopilot Panel, with custom keybindings and configurable settings. It also integrates nicely with other Lua plugins, e.g. nvim-cmp.\nGitHub\n\n      \n      zhiyuan.nvim\n    \n  \n\nzhiyuan.nvim provides a way to send system-wide notifications on linux using libnotify…",
           "link": "https://this-week-in-neovim.org/2022/Oct/17",
           "publishedOn": "2022-10-17T00:00:00.000Z",
-          "wordCount": 757,
+          "wordCount": 754,
           "title": "17 Oct 2022",
           "imageUrl": null
         },

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-21T00:29:44.804Z</id>
+    <id>urn:2022-10-22T00:34:31.097Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-21T00:29:44.804Z</updated>
+    <updated>2022-10-22T00:34:31.097Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -28,14 +28,13 @@ New plugins
 Pure lua replacement for github/copilot.vim. Copilot.lua has support for both Copilot Suggestion and
 Copilot Panel, with custom keybindings and configurable settings. It also integrates nicely with other Lua plugins, e.g. nvim-cmp.
 GitHub
-New plugins
 
       
       zhiyuan.nvim
     
   
 
-zhiyuan.nvim provides a way to send system-wide notifications on linux usi…]]></summary>
+zhiyuan.nvim provides a way to send system-wide notifications on linux using libnotify…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
