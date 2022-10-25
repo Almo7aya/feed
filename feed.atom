@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-24T00:37:37.915Z</id>
+    <id>urn:2022-10-25T00:38:11.053Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-24T00:37:37.915Z</updated>
+    <updated>2022-10-25T00:38:11.053Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[24 Oct 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Oct/24</id>
+        <link href="https://this-week-in-neovim.org/2022/Oct/24"/>
+        <updated>2022-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+#20428 removes filetype.vim in favor of the now default filetype.lua.
+(If you install from the repo, make sure to clean out /usr/local/share/nvim/runtime before make install.)
+The filetype detection logic and tests still align with Vim, so additions or changes still need to be contributed
+there first and then ported to Neovim.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Need help
+
+      
+      
+      import.nvim is looking for feedback
+    
+  
+@mive…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[17 Oct 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Oct/17</id>

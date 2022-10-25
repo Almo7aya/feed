@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Oct/24",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#20428 removes filetype.vim in favor of the now default filetype.lua.\n(If you install from the repo, make sure to clean out /usr/local/share/nvim/runtime before make install.)\nThe filetype detection logic and tests still align with Vim, so additions or changes still need to be contributed\nthere first and then ported to Neovim.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      \n      import.nvim is looking for feedback\n    \n  \n@mive…",
+          "link": "https://this-week-in-neovim.org/2022/Oct/24",
+          "publishedOn": "2022-10-24T00:00:00.000Z",
+          "wordCount": 942,
+          "title": "24 Oct 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Oct/17",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n      copilot.lua\n    \n  \n\n\nPure lua replacement for github/copilot.vim. Copilot.lua has support for both Copilot Suggestion and\nCopilot Panel, with custom keybindings and configurable settings. It also integrates nicely with other Lua plugins, e.g. nvim-cmp.\nGitHub\n\n      \n      zhiyuan.nvim\n    \n  \n\nzhiyuan.nvim provides a way to send system-wide notifications on linux using libnotify…",
           "link": "https://this-week-in-neovim.org/2022/Oct/17",
           "publishedOn": "2022-10-17T00:00:00.000Z",
-          "wordCount": 754,
+          "wordCount": 757,
           "title": "17 Oct 2022",
           "imageUrl": null
         },
