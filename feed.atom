@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-25T00:38:11.053Z</id>
+    <id>urn:2022-10-26T00:29:11.778Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-25T00:38:11.053Z</updated>
+    <updated>2022-10-26T00:29:11.778Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -156,38 +156,6 @@ Reddit
 GitHub
 
    …]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[26 Sep 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Sep/26</id>
-        <link href="https://this-week-in-neovim.org/2022/Sep/26"/>
-        <updated>2022-09-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#20103:
-The methods append, prepend, remove in vim.opt[_local] no longer return a value and now act on the option
-object in-place.
-#20331:
-
-Renamed vim.treesitter.get_captures_at_position => vim.treesitter.get_captures_at_pos
-Renamed vim.treesitter.get_node_at_position => vim.treesitter.get_node_at_pos
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-      messages.nvim
-    
-  
-
-
-Capture and show any messages in a customisable (floati…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>

@@ -50,16 +50,6 @@
           "wordCount": 402,
           "title": "3 Oct 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Sep/26",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#20103:\nThe methods append, prepend, remove in vim.opt[_local] no longer return a value and now act on the option\nobject in-place.\n#20331:\n\nRenamed vim.treesitter.get_captures_at_position => vim.treesitter.get_captures_at_pos\nRenamed vim.treesitter.get_node_at_position => vim.treesitter.get_node_at_pos\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n      messages.nvim\n    \n  \n\n\nCapture and show any messages in a customisable (floati…",
-          "link": "https://this-week-in-neovim.org/2022/Sep/26",
-          "publishedOn": "2022-09-26T00:00:00.000Z",
-          "wordCount": 743,
-          "title": "26 Sep 2022",
-          "imageUrl": null
         }
       ]
     },
