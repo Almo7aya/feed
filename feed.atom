@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-29T00:23:24.676Z</id>
+    <id>urn:2022-10-30T00:31:25.804Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-29T00:23:24.676Z</updated>
+    <updated>2022-10-30T00:31:25.804Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -106,9 +106,9 @@ Guides, tours, articles, etc.
         <id>/posts/the-process-of-creating-almo7aya.dev/</id>
         <link href="https://almo7aya.dev/posts/the-process-of-creating-almo7aya.dev/"/>
         <updated>2022-10-05T03:42:43.000Z</updated>
-        <summary type="html"><![CDATA[Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basies.]]></summary>
+        <summary type="html"><![CDATA[Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basis.]]></summary>
         <author>
-            <name>almo7aya.md</name>
+            <name>almo7aya.dev</name>
         </author>
     </entry>
     <entry>
