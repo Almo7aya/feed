@@ -59,12 +59,22 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "/about/",
+          "author": null,
+          "description": "Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.",
+          "link": "https://almo7aya.dev/about/",
+          "publishedOn": "2022-10-30T00:08:49.000Z",
+          "wordCount": 203,
+          "title": "About",
+          "imageUrl": null
+        },
+        {
           "id": "/posts/the-process-of-creating-almo7aya.dev/",
           "author": null,
           "description": "Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basis.",
           "link": "https://almo7aya.dev/posts/the-process-of-creating-almo7aya.dev/",
           "publishedOn": "2022-10-05T03:42:43.000Z",
-          "wordCount": 631,
+          "wordCount": 630,
           "title": "The Process Of Creating almo7aya.dev",
           "imageUrl": null
         }

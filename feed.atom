@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-30T00:31:25.804Z</id>
+    <id>urn:2022-10-31T00:31:37.443Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-30T00:31:25.804Z</updated>
+    <updated>2022-10-31T00:31:37.443Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[About]]></title>
+        <id>/about/</id>
+        <link href="https://almo7aya.dev/about/"/>
+        <updated>2022-10-30T00:08:49.000Z</updated>
+        <summary type="html"><![CDATA[Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[24 Oct 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Oct/24</id>
