@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Oct/31",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "This Week In Neovim updates\nWoh, a new section?! No, this is just an exceptional section that will spawn from time to time to provide you with some\ninformation about https://this-week-in-neovim.org itself.\nThis TWiN #16 is a special weekly update, so I need to make a small announcement in your feed to ensure people read\nthis right away. I (@phaazon) took the time this week to update the Rust library I use to\nparse the weekly updates (called twin). Next week, for TWiN #17, the contribution process changes a bit, following\nthe changes I introduced in twin-0.2. If you have already contributed to TWiN or plan to, then you will probably want\nto read the following updated section on the\nREADME. If not, jump directly to\nthe next section!\nNeovim Core updates\nUpdates of Neovim itself, which are ava…",
+          "link": "https://this-week-in-neovim.org/2022/Oct/31",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 1290,
+          "title": "31 Oct 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Oct/24",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#20428 removes filetype.vim in favor of the now default filetype.lua.\n(If you install from the repo, make sure to clean out /usr/local/share/nvim/runtime before make install.)\nThe filetype detection logic and tests still align with Vim, so additions or changes still need to be contributed\nthere first and then ported to Neovim.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      \n      import.nvim is looking for feedback\n    \n  \n@mive…",
           "link": "https://this-week-in-neovim.org/2022/Oct/24",
           "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 942,
+          "wordCount": 945,
           "title": "24 Oct 2022",
           "imageUrl": null
         },
@@ -64,8 +74,28 @@
           "description": "Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.",
           "link": "https://almo7aya.dev/about/",
           "publishedOn": "2022-10-30T00:08:49.000Z",
-          "wordCount": 203,
+          "wordCount": 195,
           "title": "About",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/test/",
+          "author": null,
+          "description": "Test",
+          "link": "https://almo7aya.dev/reading/test/",
+          "publishedOn": "2022-10-30T00:08:49.000Z",
+          "wordCount": 46,
+          "title": "Creative Commons &mdash; Attribution 3.0 Unported CC BY 3.0",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/test2/",
+          "author": null,
+          "description": "How to create and configure your own STUN/TURN server with coturn in Ubuntu 18.04",
+          "link": "https://almo7aya.dev/reading/test2/",
+          "publishedOn": "2022-10-30T00:08:49.000Z",
+          "wordCount": 64,
+          "title": "How to create and configure your own STUN/TURN server with coturn in Ubuntu 18.04 | Our Code World",
           "imageUrl": null
         },
         {
@@ -74,7 +104,7 @@
           "description": "Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basis.",
           "link": "https://almo7aya.dev/posts/the-process-of-creating-almo7aya.dev/",
           "publishedOn": "2022-10-05T03:42:43.000Z",
-          "wordCount": 630,
+          "wordCount": 638,
           "title": "The Process Of Creating almo7aya.dev",
           "imageUrl": null
         }

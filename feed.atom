@@ -1,16 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-31T00:31:37.443Z</id>
+    <id>urn:2022-11-01T00:33:59.004Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-31T00:31:37.443Z</updated>
+    <updated>2022-11-01T00:33:59.004Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[31 Oct 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Oct/31</id>
+        <link href="https://this-week-in-neovim.org/2022/Oct/31"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This Week In Neovim updates
+Woh, a new section?! No, this is just an exceptional section that will spawn from time to time to provide you with some
+information about https://this-week-in-neovim.org itself.
+This TWiN #16 is a special weekly update, so I need to make a small announcement in your feed to ensure people read
+this right away. I (@phaazon) took the time this week to update the Rust library I use to
+parse the weekly updates (called twin). Next week, for TWiN #17, the contribution process changes a bit, following
+the changes I introduced in twin-0.2. If you have already contributed to TWiN or plan to, then you will probably want
+to read the following updated section on the
+README. If not, jump directly to
+the next section!
+Neovim Core updates
+Updates of Neovim itself, which are ava…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[About]]></title>
         <id>/about/</id>
         <link href="https://almo7aya.dev/about/"/>
         <updated>2022-10-30T00:08:49.000Z</updated>
         <summary type="html"><![CDATA[Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creative Commons &mdash; Attribution 3.0 Unported CC BY 3.0]]></title>
+        <id>/reading/test/</id>
+        <link href="https://almo7aya.dev/reading/test/"/>
+        <updated>2022-10-30T00:08:49.000Z</updated>
+        <summary type="html"><![CDATA[Test]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to create and configure your own STUN/TURN server with coturn in Ubuntu 18.04 | Our Code World]]></title>
+        <id>/reading/test2/</id>
+        <link href="https://almo7aya.dev/reading/test2/"/>
+        <updated>2022-10-30T00:08:49.000Z</updated>
+        <summary type="html"><![CDATA[How to create and configure your own STUN/TURN server with coturn in Ubuntu 18.04]]></summary>
         <author>
             <name>almo7aya.dev</name>
         </author>
