@@ -8,3 +8,14 @@ sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://this-week-in-neovim.org/rss
   - href: https://almo7aya.dev/index.xml
+  - href: https://overreacted.io/rss.xml
+  - href: https://fasterthanli.me/index.xml
+  - href: https://til.hashrocket.com/rss
+  - href: https://laurakalbag.com/posts/index.xml
+  - href: https://chrismorgan.info/feed.xml
+  - href: https://webglfundamentals.org/atom.xml
+  - href: https://feeds.feedburner.com/brad-frosts-blog
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA
+        
