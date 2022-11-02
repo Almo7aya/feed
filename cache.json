@@ -50,16 +50,6 @@
           "wordCount": 809,
           "title": "10 Oct 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Oct/3",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n      openingh.nvim\n    \n  \n\n\n@almo7aya’s first plugin! This plugin gives you two simple commands :OpenInGHRepo and :OpenInGHFile to easily open the current file or repo page in GitHub.\nReddit\nGitHub\n\n      \n      neobeans.vim\n    \n  \n\n\nA new theme by @mweisshaupt1988.\nReddit\nGitHub\n\n      \n      DelayTrain.nvim\n    \n  \n\n\nTrain yourself to stop repeating keys… gently.\nReddit\nGitHub\n\n   …",
-          "link": "https://this-week-in-neovim.org/2022/Oct/3",
-          "publishedOn": "2022-10-03T00:00:00.000Z",
-          "wordCount": 402,
-          "title": "3 Oct 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -68,6 +58,16 @@
       "feedUrl": "https://almo7aya.dev/index.xml",
       "siteUrl": "/",
       "articles": [
+        {
+          "id": "/reading/the-http-crash-course-nobody-asked-for/",
+          "author": null,
+          "description": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
+          "link": "https://almo7aya.dev/reading/the-http-crash-course-nobody-asked-for/",
+          "publishedOn": "2022-11-01T04:08:00.000Z",
+          "wordCount": 42,
+          "title": "The HTTP crash course nobody asked for",
+          "imageUrl": null
+        },
         {
           "id": "/about/",
           "author": null,
@@ -217,7 +217,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18057,
+          "wordCount": 18058,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -227,7 +227,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 1000,
+          "wordCount": 977,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -238,6 +238,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
+          "author": "jackrosa",
+          "description": "With capybara you can access the page’s driver by using page.driver. Next you can access the browser methods on the driver withpage.driver.browser, then the .execute_cdpmethod can be used to execute chrome devtools commands on your webdriver browser.  \n\nIn a capybara test, it could like: \ntest_browser = page.driver.browser\r\n\ncoordinates = { latitude: 35.689487,\r\n                  longitude: 139.691706,\r\n                  accuracy: 100 }\r\n\ntest_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)\r\n\nThis can be used to mock some client-side information such as user device metrics, geo-location, or even emulate slow CPUs 😳",
+          "link": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
+          "publishedOn": "2022-11-01T18:48:46.000Z",
+          "wordCount": 251,
+          "title": "Execute CDP from a Capybara test  - #testing",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/jh5ohxujw5-how-to-change-chromes-timezonelocation",
           "author": "jackrosa",
@@ -406,16 +416,6 @@
           "publishedOn": "2022-10-03T15:52:06.000Z",
           "wordCount": 298,
           "title": "Attaching Fixture Files in Rails Model Tests  - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/wshule8slt-enforce-tls-except-for-health-checks",
-          "author": "dillonhafer",
-          "description": "force_ssl = true config option, but without TLS, causing a failure. \n\nRails 7 has an option to work around this (config.ssl_options):\n# config/environments/production.rb\r\n# Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.\r\nconfig.force_ssl = true\r\nconfig.ssl_options = {\r\n  redirect: {exclude: ->(request) { /healthz/.match?(request.path) }}\r\n}",
-          "link": "http://til.hashrocket.com/posts/wshule8slt-enforce-tls-except-for-health-checks",
-          "publishedOn": "2022-10-03T11:29:34.000Z",
-          "wordCount": 306,
-          "title": "Enforce TLS... except for health checks - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
@@ -1954,6 +1954,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/link/design-system-roi-calculator/",
+          "author": null,
+          "description": "This Design System ROI Calculator by Knapsack is fun. It&#8217;s often tough to quantify the benefits a design system provides, so things like this are helpful even as a conversation starter.",
+          "link": "https://bradfrost.com/blog/link/design-system-roi-calculator/",
+          "publishedOn": "2022-11-01T10:38:35.000Z",
+          "wordCount": 657,
+          "title": "Design System ROI Calculator",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/the-component-gallery/",
           "author": null,

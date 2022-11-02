@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-01T03:35:36.936Z</id>
+    <id>urn:2022-11-02T00:30:33.771Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-01T03:35:36.936Z</updated>
+    <updated>2022-11-02T00:30:33.771Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Execute CDP from a Capybara test  - #testing]]></title>
+        <id>http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-</id>
+        <link href="http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-"/>
+        <updated>2022-11-01T18:48:46.000Z</updated>
+        <summary type="html"><![CDATA[With capybara you can access the page’s driver by using page.driver. Next you can access the browser methods on the driver withpage.driver.browser, then the .execute_cdpmethod can be used to execute chrome devtools commands on your webdriver browser.  
+
+In a capybara test, it could like: 
+test_browser = page.driver.browser
+
+coordinates = { latitude: 35.689487,
+                  longitude: 139.691706,
+                  accuracy: 100 }
+
+test_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)
+
+This can be used to mock some client-side information such as user device metrics, geo-location, or even emulate slow CPUs 😳]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design System ROI Calculator]]></title>
+        <id>https://bradfrost.com/blog/link/design-system-roi-calculator/</id>
+        <link href="https://bradfrost.com/blog/link/design-system-roi-calculator/"/>
+        <updated>2022-11-01T10:38:35.000Z</updated>
+        <summary type="html"><![CDATA[This Design System ROI Calculator by Knapsack is fun. It&#8217;s often tough to quantify the benefits a design system provides, so things like this are helpful even as a conversation starter.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The HTTP crash course nobody asked for]]></title>
+        <id>/reading/the-http-crash-course-nobody-asked-for/</id>
+        <link href="https://almo7aya.dev/reading/the-http-crash-course-nobody-asked-for/"/>
+        <updated>2022-11-01T04:08:00.000Z</updated>
+        <summary type="html"><![CDATA[https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When your JavaScript framework gets acquired]]></title>
         <id>https://www.youtube.com/watch?v=HleppfVh8jc</id>
@@ -2239,73 +2280,6 @@ Attach the fixture to the model instance by providing the .attach method with a 
 @object.image.attach(io: File.open('test/fixtures/files/filename'), filename: 'filename')]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enforce TLS... except for health checks - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/wshule8slt-enforce-tls-except-for-health-checks</id>
-        <link href="http://til.hashrocket.com/posts/wshule8slt-enforce-tls-except-for-health-checks"/>
-        <updated>2022-10-03T11:29:34.000Z</updated>
-        <summary type="html"><![CDATA[force_ssl = true config option, but without TLS, causing a failure. 
-
-Rails 7 has an option to work around this (config.ssl_options):
-# config/environments/production.rb
-# Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-config.force_ssl = true
-config.ssl_options = {
-  redirect: {exclude: ->(request) { /healthz/.match?(request.path) }}
-}]]></summary>
-        <author>
-            <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Oct 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Oct/3</id>
-        <link href="https://this-week-in-neovim.org/2022/Oct/3"/>
-        <updated>2022-10-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-      openingh.nvim
-    
-  
-
-
-@almo7aya’s first plugin! This plugin gives you two simple commands :OpenInGHRepo and :OpenInGHFile to easily open the current file or repo page in GitHub.
-Reddit
-GitHub
-
-      
-      neobeans.vim
-    
-  
-
-
-A new theme by @mweisshaupt1988.
-Reddit
-GitHub
-
-      
-      DelayTrain.nvim
-    
-  
-
-
-Train yourself to stop repeating keys… gently.
-Reddit
-GitHub
-
-   …]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
