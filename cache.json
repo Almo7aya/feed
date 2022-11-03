@@ -59,6 +59,16 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
+          "author": null,
+          "description": "https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6",
+          "link": "https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
+          "publishedOn": "2022-11-02T08:47:00.000Z",
+          "wordCount": 42,
+          "title": "nvim: fix treesitter highlighting after breaking change",
+          "imageUrl": null
+        },
+        {
           "id": "/reading/the-http-crash-course-nobody-asked-for/",
           "author": null,
           "description": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
@@ -217,7 +227,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18058,
+          "wordCount": 18054,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -227,7 +237,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 977,
+          "wordCount": 1000,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -241,7 +251,7 @@
         {
           "id": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
           "author": "jackrosa",
-          "description": "With capybara you can access the page’s driver by using page.driver. Next you can access the browser methods on the driver withpage.driver.browser, then the .execute_cdpmethod can be used to execute chrome devtools commands on your webdriver browser.  \n\nIn a capybara test, it could like: \ntest_browser = page.driver.browser\r\n\ncoordinates = { latitude: 35.689487,\r\n                  longitude: 139.691706,\r\n                  accuracy: 100 }\r\n\ntest_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)\r\n\nThis can be used to mock some client-side information such as user device metrics, geo-location, or even emulate slow CPUs 😳",
+          "description": "With capybara you can access the page’s driver by using page.driver. Next you can access the browser methods on the driver withpage.driver.browser, then the .execute_cdpmethod can be used to execute chrome devtools commands on your webdriver browser.  \n\nIn a capybara test, it could like: \ntest_browser = page.driver.browser\r\n\ncoordinates = { latitude: 35.689487,\r\n                longitude: 139.691706,\r\n                accuracy: 100 }\r\n\ntest_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)\r\n\nThis can be used to mock some client-side information such as user device metrics, geo-location, or even emulate slow CPUs 😳",
           "link": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
           "publishedOn": "2022-11-01T18:48:46.000Z",
           "wordCount": 251,
@@ -407,16 +417,6 @@
           "wordCount": 261,
           "title": "Reset Phoenix LiveDashboard Ecto Stats - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/netiwkqq8f-attaching-fixture-files-in-rails-model-tests-",
-          "author": "jackrosa",
-          "description": "check this out, then follow these steps:\n\ntest/fixtures/files folder  \n\nAttach the fixture to the model instance by providing the .attach method with a hash including an IO object and the name of the file you wish to attach.  \n\n@object.image.attach(io: File.open('test/fixtures/files/filename'), filename: 'filename')",
-          "link": "http://til.hashrocket.com/posts/netiwkqq8f-attaching-fixture-files-in-rails-model-tests-",
-          "publishedOn": "2022-10-03T15:52:06.000Z",
-          "wordCount": 298,
-          "title": "Attaching Fixture Files in Rails Model Tests  - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },

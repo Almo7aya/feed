@@ -22,6 +22,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-02 datetime="2022-11-02T08:47:00.000Z">2022-11-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-02 datetime="2022-11-02T08:47:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >almo7aya.dev</button>
+                  <a class="source-heading__link" href="/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="/reading/nvim-fix-treesitter-highlighting-after-breaking-change/"
+                        open
+                      >
+                        <summary class="article-expander__title">nvim: fix treesitter highlighting after breaking change</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-01 datetime="2022-11-01T18:48:46.000Z">2022-11-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-01 datetime="2022-11-01T18:48:46.000Z"></time>
           </button>
@@ -56,8 +101,8 @@ In a capybara test, it could like:
 test_browser &#x3D; page.driver.browser
 
 coordinates &#x3D; { latitude: 35.689487,
-                  longitude: 139.691706,
-                  accuracy: 100 }
+                longitude: 139.691706,
+                accuracy: 100 }
 
 test_browser.execute_cdp(&#x27;Emulation.setGeolocationOverride&#x27;, **coordinates)
 
@@ -5248,64 +5293,10 @@ select pg_stat_statements_reset();</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-03 datetime="2022-10-03T15:52:06.000Z">2022-10-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-03 datetime="2022-10-03T15:52:06.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/netiwkqq8f-attaching-fixture-files-in-rails-model-tests-"
-                        open
-                      >
-                        <summary class="article-expander__title">Attaching Fixture Files in Rails Model Tests  - #rails</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/netiwkqq8f-attaching-fixture-files-in-rails-model-tests-">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>check this out, then follow these steps:
-
-test/fixtures/files folder  
-
-Attach the fixture to the model instance by providing the .attach method with a hash including an IO object and the name of the file you wish to attach.  
-
-@object.image.attach(io: File.open(&#x27;test/fixtures/files/filename&#x27;), filename: &#x27;filename&#x27;)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3373937890">
-        <time id="build-timestamp" datetime="2022-11-02T00:30:33.741Z">2022-11-02T00:30:33.741Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3382129333">
+        <time id="build-timestamp" datetime="2022-11-03T00:28:30.729Z">2022-11-03T00:28:30.729Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

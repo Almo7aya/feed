@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-02T00:30:33.771Z</id>
+    <id>urn:2022-11-03T00:28:30.758Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-02T00:30:33.771Z</updated>
+    <updated>2022-11-03T00:28:30.758Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[nvim: fix treesitter highlighting after breaking change]]></title>
+        <id>/reading/nvim-fix-treesitter-highlighting-after-breaking-change/</id>
+        <link href="https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/"/>
+        <updated>2022-11-02T08:47:00.000Z</updated>
+        <summary type="html"><![CDATA[https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Execute CDP from a Capybara test  - #testing]]></title>
         <id>http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-</id>
@@ -16,8 +26,8 @@ In a capybara test, it could like:
 test_browser = page.driver.browser
 
 coordinates = { latitude: 35.689487,
-                  longitude: 139.691706,
-                  accuracy: 100 }
+                longitude: 139.691706,
+                accuracy: 100 }
 
 test_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)
 
@@ -2264,22 +2274,6 @@ If you improve your queries and want to reset the stats then connect to your dat
 select pg_stat_statements_reset();]]></summary>
         <author>
             <name>gabrielreis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Attaching Fixture Files in Rails Model Tests  - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/netiwkqq8f-attaching-fixture-files-in-rails-model-tests-</id>
-        <link href="http://til.hashrocket.com/posts/netiwkqq8f-attaching-fixture-files-in-rails-model-tests-"/>
-        <updated>2022-10-03T15:52:06.000Z</updated>
-        <summary type="html"><![CDATA[check this out, then follow these steps:
-
-test/fixtures/files folder  
-
-Attach the fixture to the model instance by providing the .attach method with a hash including an IO object and the name of the file you wish to attach.  
-
-@object.image.attach(io: File.open('test/fixtures/files/filename'), filename: 'filename')]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
