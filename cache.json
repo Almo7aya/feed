@@ -59,6 +59,26 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/",
+          "author": null,
+          "description": "https://github.com/B16f00t/whapa",
+          "link": "https://almo7aya.dev/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/",
+          "publishedOn": "2022-11-03T22:02:00.000Z",
+          "wordCount": 38,
+          "title": "B16f00t-whapa: WhatsApp Parser Toolset v1.59",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/astronvim-status.lua-at-main-astronvim-astronvim/",
+          "author": null,
+          "description": "https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459",
+          "link": "https://almo7aya.dev/reading/astronvim-status.lua-at-main-astronvim-astronvim/",
+          "publishedOn": "2022-11-03T11:55:00.000Z",
+          "wordCount": 38,
+          "title": "AstroNvim-status.lua at main · AstroNvim-AstroNvim",
+          "imageUrl": null
+        },
+        {
           "id": "/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
           "author": null,
           "description": "https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6",
@@ -197,16 +217,6 @@
           "wordCount": 52,
           "title": "How to build a (simple) blog using Rust | by Morten Vistisen",
           "imageUrl": null
-        },
-        {
-          "id": "/posts/the-process-of-creating-almo7aya.dev/",
-          "author": null,
-          "description": "Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basis.",
-          "link": "https://almo7aya.dev/posts/the-process-of-creating-almo7aya.dev/",
-          "publishedOn": "2022-10-05T03:42:43.000Z",
-          "wordCount": 638,
-          "title": "The Process Of Creating almo7aya.dev",
-          "imageUrl": null
         }
       ]
     },
@@ -227,7 +237,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18054,
+          "wordCount": 18062,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -237,7 +247,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 1000,
+          "wordCount": 963,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -407,16 +417,6 @@
           "wordCount": 291,
           "title": "Add custom flash keys - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/brn3jtztez-reset-phoenix-livedashboard-ecto-stats",
-          "author": "gabrielreis",
-          "description": "Ecto stats like cache hit, unused indexes and outlier queries.\nUnder the hood it’s using the ecto_psql_extras library which depends on the pg_stat_statements extension.\n\nIf you improve your queries and want to reset the stats then connect to your database with psql and run:\nselect pg_stat_statements_reset();",
-          "link": "http://til.hashrocket.com/posts/brn3jtztez-reset-phoenix-livedashboard-ecto-stats",
-          "publishedOn": "2022-10-05T00:38:14.000Z",
-          "wordCount": 261,
-          "title": "Reset Phoenix LiveDashboard Ecto Stats - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
     },
@@ -2012,6 +2012,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=WHyOHQ_GkNo",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=WHyOHQ_GkNo",
+          "publishedOn": "2022-11-03T14:44:07.000Z",
+          "wordCount": null,
+          "title": "Nim in 100 Seconds",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=HleppfVh8jc",
           "author": null,
           "description": "",
@@ -2098,6 +2108,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=Vl06SzD-PDY",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=Vl06SzD-PDY",
+          "publishedOn": "2022-11-03T16:04:55.000Z",
+          "wordCount": null,
+          "title": "5 MUST know Rust database libraries",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=mNTkTV81tHU",
           "author": null,

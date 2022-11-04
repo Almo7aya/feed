@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-03T00:28:30.758Z</id>
+    <id>urn:2022-11-04T00:29:09.025Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-03T00:28:30.758Z</updated>
+    <updated>2022-11-04T00:29:09.025Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[B16f00t-whapa: WhatsApp Parser Toolset v1.59]]></title>
+        <id>/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/</id>
+        <link href="https://almo7aya.dev/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/"/>
+        <updated>2022-11-03T22:02:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/B16f00t/whapa]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 MUST know Rust database libraries]]></title>
+        <id>https://www.youtube.com/watch?v=Vl06SzD-PDY</id>
+        <link href="https://www.youtube.com/watch?v=Vl06SzD-PDY"/>
+        <updated>2022-11-03T16:04:55.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nim in 100 Seconds]]></title>
+        <id>https://www.youtube.com/watch?v=WHyOHQ_GkNo</id>
+        <link href="https://www.youtube.com/watch?v=WHyOHQ_GkNo"/>
+        <updated>2022-11-03T14:44:07.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AstroNvim-status.lua at main · AstroNvim-AstroNvim]]></title>
+        <id>/reading/astronvim-status.lua-at-main-astronvim-astronvim/</id>
+        <link href="https://almo7aya.dev/reading/astronvim-status.lua-at-main-astronvim-astronvim/"/>
+        <updated>2022-11-03T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[nvim: fix treesitter highlighting after breaking change]]></title>
         <id>/reading/nvim-fix-treesitter-highlighting-after-breaking-change/</id>
@@ -2250,30 +2288,6 @@ class Controller < ActionController::Base
   end]]></summary>
         <author>
             <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Process Of Creating almo7aya.dev]]></title>
-        <id>/posts/the-process-of-creating-almo7aya.dev/</id>
-        <link href="https://almo7aya.dev/posts/the-process-of-creating-almo7aya.dev/"/>
-        <updated>2022-10-05T03:42:43.000Z</updated>
-        <summary type="html"><![CDATA[Why I have been thinking about creating a personal website for myself to show my projects and to write about the interesting stuff I found online, and maybe to write some blogs about my learnings and the other tools that I’m using on my daily basis.]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reset Phoenix LiveDashboard Ecto Stats - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/brn3jtztez-reset-phoenix-livedashboard-ecto-stats</id>
-        <link href="http://til.hashrocket.com/posts/brn3jtztez-reset-phoenix-livedashboard-ecto-stats"/>
-        <updated>2022-10-05T00:38:14.000Z</updated>
-        <summary type="html"><![CDATA[Ecto stats like cache hit, unused indexes and outlier queries.
-Under the hood it’s using the ecto_psql_extras library which depends on the pg_stat_statements extension.
-
-If you improve your queries and want to reset the stats then connect to your database with psql and run:
-select pg_stat_statements_reset();]]></summary>
-        <author>
-            <name>gabrielreis</name>
         </author>
     </entry>
 </feed>
