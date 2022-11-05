@@ -232,12 +232,22 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
+          "id": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
+          "author": null,
+          "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
+          "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
+          "publishedOn": "2022-11-04T06:40:00.000Z",
+          "wordCount": 2253,
+          "title": "Becoming fasterthanlime full-time",
+          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+        },
+        {
           "id": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "author": null,
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18062,
+          "wordCount": 18059,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -247,7 +257,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 963,
+          "wordCount": 1004,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -406,16 +416,6 @@
           "publishedOn": "2022-10-06T14:11:26.000Z",
           "wordCount": 279,
           "title": "Truncate by Word Count in Rails - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/ouyfd1cpfu-add-custom-flash-keys",
-          "author": "dillonhafer",
-          "description": "ActionController::Base has a default flash types of [:notice] allowing you to pass a key to #redirect_to:\nclass Controller < ActionController::Base\r\n  def create\r\n    if true\r\n      redirect_to root_path, status: :see_other, notice: \"Created\"\r\n    else\r\n      flash[:error] = \"Could not create\"\r\n      redirect_to root_path, status: :see_other\r\n    end\r\n  end\r\n\nHowever, you can add :error as a custom type to get the convenience argument:\nclass Controller < ActionController::Base\r\n  add_flash_types :error\r\n\n  def create\r\n    if true\r\n      redirect_to root_path, status: :see_other, notice: \"Created\"\r\n    else\r\n      redirect_to root_path, status: :see_other, error: \"Could not create\"\r\n    end\r\n  end",
-          "link": "http://til.hashrocket.com/posts/ouyfd1cpfu-add-custom-flash-keys",
-          "publishedOn": "2022-10-05T13:19:31.000Z",
-          "wordCount": 291,
-          "title": "Add custom flash keys - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
@@ -2108,16 +2108,6 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
-        {
-          "id": "https://www.youtube.com/watch?v=Vl06SzD-PDY",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=Vl06SzD-PDY",
-          "publishedOn": "2022-11-03T16:04:55.000Z",
-          "wordCount": null,
-          "title": "5 MUST know Rust database libraries",
-          "imageUrl": null
-        },
         {
           "id": "https://www.youtube.com/watch?v=mNTkTV81tHU",
           "author": null,
