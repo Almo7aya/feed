@@ -237,7 +237,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2253,
+          "wordCount": 2250,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -247,7 +247,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18059,
+          "wordCount": 18061,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -257,7 +257,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 1004,
+          "wordCount": 963,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -406,16 +406,6 @@
           "publishedOn": "2022-10-11T18:15:11.000Z",
           "wordCount": 245,
           "title": "Strip HTML tags in Rails Views - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/pv6a3dep8n-truncate-by-word-count-in-rails",
-          "author": "jackrosa",
-          "description": "my_string = \"Hello World you are now reading a til post\"\r\nmy_string.truncate_words(2) \r\n#=> \"Hello World...\"\r\n\nThe method automatically adds ... to the end of the string to indicate that the string has been shortened. You can customize this omission by passing an omission argument.\nmy_string.truncate_words(2, omission: \"... (read more)\")\r\n#=> \"Hello World... (read more)\"",
-          "link": "http://til.hashrocket.com/posts/pv6a3dep8n-truncate-by-word-count-in-rails",
-          "publishedOn": "2022-10-06T14:11:26.000Z",
-          "wordCount": 279,
-          "title": "Truncate by Word Count in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
@@ -2127,16 +2117,6 @@
           "wordCount": null,
           "title": "Rust - The Bad Parts",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=QzK2maO89uw",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=QzK2maO89uw",
-          "publishedOn": "2022-10-06T13:00:16.000Z",
-          "wordCount": null,
-          "title": "Why companies are migrating from C++ to Rust",
-          "imageUrl": null
         }
       ]
     },
@@ -2153,16 +2133,6 @@
           "publishedOn": "2022-10-20T11:48:23.000Z",
           "wordCount": null,
           "title": "Web-native Rust apps (what will YOU build?) [RUST-12] PART 2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=4dvf6kM70qM",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=4dvf6kM70qM",
-          "publishedOn": "2022-10-06T16:14:00.000Z",
-          "wordCount": null,
-          "title": "Rust makes cents (Speed is a FEATURE) [RUST-11]",
           "imageUrl": null
         }
       ]
