@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-06T00:26:55.194Z</id>
+    <id>urn:2022-11-07T00:24:57.747Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-06T00:26:55.194Z</updated>
+    <updated>2022-11-07T00:24:57.747Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[string - Extract filename and extension in Bash - Stack Overflow]]></title>
+        <id>/reading/string-extract-filename-and-extension-in-bash-stack-overflow/</id>
+        <link href="https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/"/>
+        <updated>2022-11-06T01:04:00.000Z</updated>
+        <summary type="html"><![CDATA[https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Becoming fasterthanlime full-time]]></title>
         <id>https://fasterthanli.me/articles/becoming-fasterthanlime-full-time</id>

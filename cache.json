@@ -59,6 +59,16 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
+          "author": null,
+          "description": "https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash",
+          "link": "https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
+          "publishedOn": "2022-11-06T01:04:00.000Z",
+          "wordCount": 50,
+          "title": "string - Extract filename and extension in Bash - Stack Overflow",
+          "imageUrl": null
+        },
+        {
           "id": "/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/",
           "author": null,
           "description": "https://github.com/B16f00t/whapa",
@@ -237,7 +247,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2250,
+          "wordCount": 2262,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -257,7 +267,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 963,
+          "wordCount": 981,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
