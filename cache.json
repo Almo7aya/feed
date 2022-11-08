@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Nov/7",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      legendary.nvim is requesting community feedback\n    \n  \n\n\n🗺️ A legend for your keymaps, commands, and autocmds, with which-key.nvim integration\nlegendary.nvim will be introducing semantic versioning via git tags in order to safely allow for a large refactor/rewrite.\nFeedback is requested to help make decisions during the rewrite.\nIf you are a legendary.nvim user, please provide fee…",
+          "link": "https://this-week-in-neovim.org/2022/Nov/7",
+          "publishedOn": "2022-11-07T00:00:00.000Z",
+          "wordCount": 892,
+          "title": "7 Nov 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Oct/31",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "This Week In Neovim updates\nWoh, a new section?! No, this is just an exceptional section that will spawn from time to time to provide you with some\ninformation about https://this-week-in-neovim.org itself.\nThis TWiN #16 is a special weekly update, so I need to make a small announcement in your feed to ensure people read\nthis right away. I (@phaazon) took the time this week to update the Rust library I use to\nparse the weekly updates (called twin). Next week, for TWiN #17, the contribution process changes a bit, following\nthe changes I introduced in twin-0.2. If you have already contributed to TWiN or plan to, then you will probably want\nto read the following updated section on the\nREADME. If not, jump directly to\nthe next section!\nNeovim Core updates\nUpdates of Neovim itself, which are ava…",
           "link": "https://this-week-in-neovim.org/2022/Oct/31",
           "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 1290,
+          "wordCount": 1293,
           "title": "31 Oct 2022",
           "imageUrl": null
         },
@@ -58,6 +68,36 @@
       "feedUrl": "https://almo7aya.dev/index.xml",
       "siteUrl": "/",
       "articles": [
+        {
+          "id": "/reading/finding-closure-in-rust-huon-on-the-internet/",
+          "author": null,
+          "description": "https://huonw.github.io/blog/2015/05/finding-closure-in-rust/",
+          "link": "https://almo7aya.dev/reading/finding-closure-in-rust-huon-on-the-internet/",
+          "publishedOn": "2022-11-07T21:12:00.000Z",
+          "wordCount": 46,
+          "title": "Finding Closure in Rust | Huon on the internet",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/",
+          "author": null,
+          "description": "https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3",
+          "link": "https://almo7aya.dev/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/",
+          "publishedOn": "2022-11-07T20:15:00.000Z",
+          "wordCount": 52,
+          "title": "(2) Why does Rust not have a standard async runtime? : rust",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/",
+          "author": null,
+          "description": "https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3",
+          "link": "https://almo7aya.dev/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/",
+          "publishedOn": "2022-11-07T20:15:00.000Z",
+          "wordCount": 50,
+          "title": "Why does Rust not have a standard async runtime? : reddit",
+          "imageUrl": null
+        },
         {
           "id": "/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
           "author": null,
@@ -247,7 +287,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2262,
+          "wordCount": 2254,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -257,7 +297,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18061,
+          "wordCount": 18062,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -267,7 +307,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 981,
+          "wordCount": 964,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -278,6 +318,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups",
+          "author": "craighafer",
+          "description": "ActionView::Helpers::FormOptionsHelper#grouped_options_for_select lets you pass in a nested array of strings, and returns a string of option tags wrapped with optgroup tags:\n\nThe first value serves as the optgroup label while the second value must be an array of options.\ngrouped_options = [\r\n  [\"North America\",\r\n    [\"United States\", \"Canada\"]],\r\n  [\"Europe\",\r\n    [\"Denmark\", \"Germany\", \"France\"]]\r\n]\r\n\nNext, simply call it from a form helper in the view, passing in your grouped options.\n<%= f.select :location, grouped_options_for_select(grouped_options) %>\r\n\nVoila! You should now have something like this:",
+          "link": "http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups",
+          "publishedOn": "2022-11-07T15:08:22.000Z",
+          "wordCount": 291,
+          "title": "Select options with option groups - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
           "author": "jackrosa",
