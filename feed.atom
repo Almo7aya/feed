@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-08T00:25:28.840Z</id>
+    <id>urn:2022-11-09T00:26:33.549Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-08T00:25:28.840Z</updated>
+    <updated>2022-11-09T00:26:33.549Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[MUST know Rust database libraries]]></title>
+        <id>https://www.youtube.com/watch?v=FW4oUXHly8c</id>
+        <link href="https://www.youtube.com/watch?v=FW4oUXHly8c"/>
+        <updated>2022-11-08T18:14:37.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run pending migrations from error page in Rails - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/q1jzix9n87-run-pending-migrations-from-error-page-in-rails</id>
+        <link href="http://til.hashrocket.com/posts/q1jzix9n87-run-pending-migrations-from-error-page-in-rails"/>
+        <updated>2022-11-08T16:27:17.000Z</updated>
+        <summary type="html"><![CDATA[ActionableError was added. With ActionableError we now have a hook that gives us the functionality to perform tasks from the Rails’ error page… like running the migration task that we’d normally run from CLI.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quickly find module inclusion in Ruby - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/uabpz5pzl5-quickly-find-module-inclusion-in-ruby</id>
+        <link href="http://til.hashrocket.com/posts/uabpz5pzl5-quickly-find-module-inclusion-in-ruby"/>
+        <updated>2022-11-08T15:06:55.000Z</updated>
+        <summary type="html"><![CDATA[class Location < ActiveEnum::Base
+  include WithLabel
+end
+
+Normally I would check for inclusion of something via a declarative method like:
+Location.ancestors.include?(ActiveEnum::Base)
+=> true
+
+Location.ancestors.include?(String)
+=> false
+
+Location.included_modules.include?(WithLabel)
+=> true
+
+However it never occured to me that < is defined on Class and returns true if is a subclass of the requested module.
+
+So we can do something like this now:
+Location < ActiveEnum::Base
+=> true
+
+Location < String
+=> nil
+
+Location < WithLabel
+=> true
+
+Subtle difference is that the ‘falsey’ case returns nil instead of false.
+
+Also the definition of this method states that it returns true if module is a subclass of other but I’ve found that it returns true for methods that are included as well. Take that as you will.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Finding Closure in Rust | Huon on the internet]]></title>
         <id>/reading/finding-closure-in-rust-huon-on-the-internet/</id>
@@ -2285,40 +2342,6 @@ Read more about it here]]></summary>
         <updated>2022-10-10T15:41:00.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Oct 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Oct/10</id>
-        <link href="https://this-week-in-neovim.org/2022/Oct/10"/>
-        <updated>2022-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#19243 splitkeep merged upstream
-This option should replace the stabilize.nvim plugin.
-A video is
-available to demonstrate that new feature.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Need help
-
-      
-      
-      neotest-haskell is looking for contributors
-    
-  
-@mrcjkb is looking for help for their neotest-haskell project, which is a
-Neotest adapter for Haskell (cabal-v2 or stack) with Hspec.
-Reddit
-GitHub
-Guides, tours, articles, etc.
-
-      …]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>

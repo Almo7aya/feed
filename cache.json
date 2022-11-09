@@ -50,16 +50,6 @@
           "wordCount": 757,
           "title": "17 Oct 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Oct/10",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#19243 splitkeep merged upstream\nThis option should replace the stabilize.nvim plugin.\nA video is\navailable to demonstrate that new feature.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      \n      neotest-haskell is looking for contributors\n    \n  \n@mrcjkb is looking for help for their neotest-haskell project, which is a\nNeotest adapter for Haskell (cabal-v2 or stack) with Hspec.\nReddit\nGitHub\nGuides, tours, articles, etc.\n\n      …",
-          "link": "https://this-week-in-neovim.org/2022/Oct/10",
-          "publishedOn": "2022-10-10T00:00:00.000Z",
-          "wordCount": 809,
-          "title": "10 Oct 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -287,7 +277,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2254,
+          "wordCount": 2253,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -318,6 +308,26 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/q1jzix9n87-run-pending-migrations-from-error-page-in-rails",
+          "author": "mattpolito",
+          "description": "ActionableError was added. With ActionableError we now have a hook that gives us the functionality to perform tasks from the Rails’ error page… like running the migration task that we’d normally run from CLI.",
+          "link": "http://til.hashrocket.com/posts/q1jzix9n87-run-pending-migrations-from-error-page-in-rails",
+          "publishedOn": "2022-11-08T16:27:17.000Z",
+          "wordCount": 279,
+          "title": "Run pending migrations from error page in Rails - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/uabpz5pzl5-quickly-find-module-inclusion-in-ruby",
+          "author": "mattpolito",
+          "description": "class Location < ActiveEnum::Base\r\n  include WithLabel\r\nend\r\n\nNormally I would check for inclusion of something via a declarative method like:\nLocation.ancestors.include?(ActiveEnum::Base)\r\n=> true\r\n\nLocation.ancestors.include?(String)\r\n=> false\r\n\nLocation.included_modules.include?(WithLabel)\r\n=> true\r\n\nHowever it never occured to me that < is defined on Class and returns true if is a subclass of the requested module.\n\nSo we can do something like this now:\nLocation < ActiveEnum::Base\r\n=> true\r\n\nLocation < String\r\n=> nil\r\n\nLocation < WithLabel\r\n=> true\r\n\nSubtle difference is that the ‘falsey’ case returns nil instead of false.\n\nAlso the definition of this method states that it returns true if module is a subclass of other but I’ve found that it returns true for methods that are included as well. Take that as you will.",
+          "link": "http://til.hashrocket.com/posts/uabpz5pzl5-quickly-find-module-inclusion-in-ruby",
+          "publishedOn": "2022-11-08T15:06:55.000Z",
+          "wordCount": 354,
+          "title": "Quickly find module inclusion in Ruby - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups",
           "author": "craighafer",
@@ -2158,6 +2168,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=FW4oUXHly8c",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=FW4oUXHly8c",
+          "publishedOn": "2022-11-08T18:14:37.000Z",
+          "wordCount": null,
+          "title": "MUST know Rust database libraries",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=mNTkTV81tHU",
           "author": null,
