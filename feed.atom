@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-09T00:26:33.549Z</id>
+    <id>urn:2022-11-10T00:26:57.518Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-09T00:26:33.549Z</updated>
+    <updated>2022-11-10T00:26:57.518Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Json default value using jq - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq</id>
+        <link href="http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq"/>
+        <updated>2022-11-09T21:50:14.000Z</updated>
+        <summary type="html"><![CDATA[default value when getting a node in json using jq:
+{
+  "users": [
+    {"name": "John"},
+    {}
+  ]
+}
+cat my.json | jq '[.users[] | .name // "my-default"]'
+# [
+#   "John",
+#   "my-default"
+# ]]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Check a check-box field, from the keyboard. - #workflow]]></title>
+        <id>http://til.hashrocket.com/posts/2emq0gz9xc-check-a-check-box-field-from-the-keyboard</id>
+        <link href="http://til.hashrocket.com/posts/2emq0gz9xc-check-a-check-box-field-from-the-keyboard"/>
+        <updated>2022-11-09T20:17:39.000Z</updated>
+        <summary type="html"><![CDATA[Quick answer:Space Bar
+
+Have you ever found yourself filling out fields in a form, tabbing over to each field as you fill them out, only to come across a dreaded, check-box field that painstakingly makes you reach all the way across your desk to the mouse, just to check this box?  
+
+Well, your suffering is over. Simply press the space bar to toggle the check-box and be on your way.]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is FAANG f**ked?]]></title>
+        <id>https://www.youtube.com/watch?v=2pfcynxODJc</id>
+        <link href="https://www.youtube.com/watch?v=2pfcynxODJc"/>
+        <updated>2022-11-09T17:14:34.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MUST know Rust database libraries]]></title>
         <id>https://www.youtube.com/watch?v=FW4oUXHly8c</id>
@@ -2333,15 +2377,6 @@ strip_tags("Cool Link!")
 Read more about it here]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 Things No Programmer Ever Wants to Hear]]></title>
-        <id>https://www.youtube.com/watch?v=OoQLoKHhohg</id>
-        <link href="https://www.youtube.com/watch?v=OoQLoKHhohg"/>
-        <updated>2022-10-10T15:41:00.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
