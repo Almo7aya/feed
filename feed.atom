@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-10T00:26:57.518Z</id>
+    <id>urn:2022-11-11T00:29:28.723Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-10T00:26:57.518Z</updated>
+    <updated>2022-11-11T00:29:28.723Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Rust Is Boring (Why Rust?) [RUST-13]]]></title>
+        <id>https://www.youtube.com/watch?v=oY0XwMOSzq4</id>
+        <link href="https://www.youtube.com/watch?v=oY0XwMOSzq4"/>
+        <updated>2022-11-10T23:08:22.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Group Json data by a key - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/ifb0agjnvu-group-json-data-by-a-key</id>
+        <link href="http://til.hashrocket.com/posts/ifb0agjnvu-group-json-data-by-a-key"/>
+        <updated>2022-11-10T15:57:18.000Z</updated>
+        <summary type="html"><![CDATA[jq. In ruby that’s very trivial, it’s just about using the group_by method like that:
+[
+  {name: "John", age: 35},
+  {name: "Bob", age: 40},
+  {name: "Wally", age: 35}
+].group_by{|u| u[:age]}
+
+# {
+#   35=>[{:name=>"John", :age=>35}, {:name=>"Wally", :age=>35}],
+#   40=>[{:name=>"Bob", :age=>40}]
+# }
+
+But using jq I had to break it down to a few steps. So let’s say that I have this json:
+[
+  {"name": "John", "age": 35},
+  {"name": "Bob", "age": 40},
+  {"name": "Wally", "age": 35}
+]
+
+The idea is that we’ll call the group_by(.age)[] function to return multiple groups, then I pipe it to create a map with the age as the key. Finally we’ll have these bunch of nodes not surounded by an array yet, so I am pipeing to a new jq command to add with slurp:
+cat data.json |
+  jq 'group_by(.age)[] | {(.[0].age | tostring): [.[] | .]}' |
+  jq -s add;
+
+# {
+#   "35": [{"name": "John", "age": 35},{"name": "Wally", "age": 35}],
+#   "40": [{"name": "Bob", "age": 40}]
+# }]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Find the last occurrence of an array value  - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/tvijtubhlm-find-the-last-occurrence-of-an-array-value-</id>
+        <link href="http://til.hashrocket.com/posts/tvijtubhlm-find-the-last-occurrence-of-an-array-value-"/>
+        <updated>2022-11-10T14:28:13.000Z</updated>
+        <summary type="html"><![CDATA[rindex method on an array to return the last index the value argument is stored at. For Example:
+arr= ['b', 'a', 'a', 'a']
+arr.rindex('a')
+#=> 3
+arr.rindex('b')
+#=> 0]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Json default value using jq - #command-line]]></title>
         <id>http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq</id>
@@ -2331,52 +2392,6 @@ select email from users limit all;]]></summary>
         <summary type="html"><![CDATA[https://mortenvistisen.com/posts/how-to-build-a-simple-blog-using-rust]]></summary>
         <author>
             <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Take a full page screenshot in Google Chrome - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/yojmoofqxu-take-a-full-page-screenshot-in-google-chrome</id>
-        <link href="http://til.hashrocket.com/posts/yojmoofqxu-take-a-full-page-screenshot-in-google-chrome"/>
-        <updated>2022-10-12T02:02:33.000Z</updated>
-        <summary type="html"><![CDATA[Well it turns out this functionality is available in Chrome from the dev tools command palette.
-
-Once the palette is open, start typing screenshot. You’ll be provided with all the options Chrome has. Once of them being “Capture full size screenshot".]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome has a command palette - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/n9tup1vssj-chrome-has-a-command-palette</id>
-        <link href="http://til.hashrocket.com/posts/n9tup1vssj-chrome-has-a-command-palette"/>
-        <updated>2022-10-12T01:58:21.000Z</updated>
-        <summary type="html"><![CDATA[Once your dev tools are open, you can activate through the interface by clicking the ‘more’ icon and then ‘Run command’ like so:
-
-
-or by cmd+shift+p (on a mac). Coincidentally this is the same keyboard shortcut as the command palette in Visual Studio Code
-
-Now you’ll see the palette which gives you direct access to a lot of Chrome’s hidden functionality!]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Strip HTML tags in Rails Views - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/sya7byon1a-strip-html-tags-in-rails-views</id>
-        <link href="http://til.hashrocket.com/posts/sya7byon1a-strip-html-tags-in-rails-views"/>
-        <updated>2022-10-11T18:15:11.000Z</updated>
-        <summary type="html"><![CDATA[strip_tags that removes html tags from a string.
-strip_tags("
-Hello World Paragraph
-")
-#=> Hello World Paragraph
-
-strip_tags("Cool Link!")
-#=> Cool Link!
-
-Read more about it here]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
