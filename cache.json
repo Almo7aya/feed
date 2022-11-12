@@ -237,26 +237,6 @@
           "wordCount": 41,
           "title": "Rust std from 6c4e236b955ba6a2dd8ef8e054f50ff64135a8be · brson-annotated-std-rs@e50c2b1",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/156-demo-vim.schedule-demystified-hopefully-youtube-tj-devries/",
-          "author": null,
-          "description": "https://www.youtube.com/watch?v=GMS0JvS7W1Y",
-          "link": "https://almo7aya.dev/reading/156-demo-vim.schedule-demystified-hopefully-youtube-tj-devries/",
-          "publishedOn": "2022-10-13T07:25:00.000Z",
-          "wordCount": 48,
-          "title": "(156) [Demo] vim.schedule demystified (hopefully) - YouTube - TJ DeVries",
-          "imageUrl": null
-        },
-        {
-          "id": "/reading/how-to-build-a-simple-blog-using-rust-by-morten-vistisen/",
-          "author": null,
-          "description": "https://mortenvistisen.com/posts/how-to-build-a-simple-blog-using-rust",
-          "link": "https://almo7aya.dev/reading/how-to-build-a-simple-blog-using-rust-by-morten-vistisen/",
-          "publishedOn": "2022-10-13T07:25:00.000Z",
-          "wordCount": 52,
-          "title": "How to build a (simple) blog using Rust | by Morten Vistisen",
-          "imageUrl": null
         }
       ]
     },
@@ -277,7 +257,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2254,
+          "wordCount": 2255,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -287,7 +267,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18059,
+          "wordCount": 18063,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -297,7 +277,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 963,
+          "wordCount": 969,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -308,6 +288,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/vmphqn8bnf-phoenix-component-attr-definition",
+          "author": "viniciusnegrisolo",
+          "description": "Phoenix.Componentattr/3 function is awesome. It does compile time validations to all the places that are calling the component and also it comes with nice and useful options. For instance the default option:\nattr :name, :string, default: \"there\"\r\n\ndef greet(assigns) do\r\n  ~H\"\"\"\r\n  \nHey <%= @name %>!\n\r\n  \"\"\"\r\nend\r\n\nThat’s very useful. That would totally replace most usages of assign_new like I used to do:\ndef greet(assigns) do\r\n  assigns = assign_new(assigns, :name, fn -> \"there\" end)\r\n\n  ~H\"\"\"\r\n  \nHey <%= @name %>!\n\r\n  \"\"\"\r\nend\r\n\nThis way we can call:\n<.greet />\r\n\nAnd have this html generated:\n\nHey there!",
+          "link": "http://til.hashrocket.com/posts/vmphqn8bnf-phoenix-component-attr-definition",
+          "publishedOn": "2022-11-11T17:18:43.000Z",
+          "wordCount": 300,
+          "title": "Phoenix component attr definition - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/ifb0agjnvu-group-json-data-by-a-key",
           "author": "viniciusnegrisolo",
@@ -2081,6 +2071,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=DVWu2b7mvFg",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=DVWu2b7mvFg",
+          "publishedOn": "2022-11-11T16:56:04.000Z",
+          "wordCount": null,
+          "title": "a solid start",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=2pfcynxODJc",
           "author": null,

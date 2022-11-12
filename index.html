@@ -22,6 +22,112 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-11 datetime="2022-11-11T17:18:43.000Z">2022-11-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-11 datetime="2022-11-11T17:18:43.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/vmphqn8bnf-phoenix-component-attr-definition"
+                        open
+                      >
+                        <summary class="article-expander__title">Phoenix component attr definition - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/vmphqn8bnf-phoenix-component-attr-definition">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Phoenix.Componentattr/3 function is awesome. It does compile time validations to all the places that are calling the component and also it comes with nice and useful options. For instance the default option:
+attr :name, :string, default: &quot;there&quot;
+
+def greet(assigns) do
+  ~H&quot;&quot;&quot;
+  
+Hey !
+
+  &quot;&quot;&quot;
+end
+
+That’s very useful. That would totally replace most usages of assign_new like I used to do:
+def greet(assigns) do
+  assigns &#x3D; assign_new(assigns, :name, fn -&gt; &quot;there&quot; end)
+
+  ~H&quot;&quot;&quot;
+  
+Hey !
+
+  &quot;&quot;&quot;
+end
+
+This way we can call:
+
+
+And have this html generated:
+
+Hey there!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;DVWu2b7mvFg"
+                        open
+                      >
+                        <summary class="article-expander__title">a solid start</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;DVWu2b7mvFg">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-10 datetime="2022-11-10T23:08:22.000Z">2022-11-10</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-10 datetime="2022-11-10T23:08:22.000Z"></time>
           </button>
@@ -5506,60 +5612,12 @@ select email from users limit all;</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >almo7aya.dev</button>
-                  <a class="source-heading__link" href="/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="/reading/156-demo-vim.schedule-demystified-hopefully-youtube-tj-devries/"
-                        open
-                      >
-                        <summary class="article-expander__title">(156) [Demo] vim.schedule demystified (hopefully) - YouTube - TJ DeVries</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://almo7aya.dev/reading/156-demo-vim.schedule-demystified-hopefully-youtube-tj-devries/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>https://www.youtube.com/watch?v&#x3D;GMS0JvS7W1Y</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="/reading/how-to-build-a-simple-blog-using-rust-by-morten-vistisen/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to build a (simple) blog using Rust | by Morten Vistisen</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://almo7aya.dev/reading/how-to-build-a-simple-blog-using-rust-by-morten-vistisen/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>https://mortenvistisen.com/posts/how-to-build-a-simple-blog-using-rust</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3441506021">
-        <time id="build-timestamp" datetime="2022-11-11T00:29:28.694Z">2022-11-11T00:29:28.694Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3448821151">
+        <time id="build-timestamp" datetime="2022-11-12T00:27:52.204Z">2022-11-12T00:27:52.204Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
