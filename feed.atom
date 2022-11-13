@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-12T00:27:52.250Z</id>
+    <id>urn:2022-11-13T00:24:20.613Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-12T00:27:52.250Z</updated>
+    <updated>2022-11-13T00:24:20.614Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[ActiveStorage direct upload subfolders - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders</id>
+        <link href="http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders"/>
+        <updated>2022-11-12T17:14:01.000Z</updated>
+        <summary type="html"><![CDATA[This is not recommended, but cannot be helped
+
+The only way to store attachments into subfolders is to monkey patch the direct uploads controller:
+# config/initializer/direct_uploads_monkey_path.rb
+Rails.application.config.to_prepare do
+  class ActiveStorage::DirectUploadsController < ActiveStorage::BaseController
+    def create
+      key = "#{sub_dir}/#{user.id}/#{ActiveStorage::Blob.generate_unique_secure_token}"
+      upload_attrs = {key:}.merge(blob_args)
+      blob = ActiveStorage::Blob.create_before_direct_upload!(**upload_attrs)
+      render json: direct_upload_json(blob)
+    end
+
+    private
+
+    def user
+      @user ||= User.enabled.find(session[:current_user_id])
+    end
+
+    def sub_dir
+      if /cool-uploads/.match?(request.referer)
+        "cool-uploads"
+      elsif /company-settings/.match?(request.referer)
+        "companies"
+      else
+        "uploads"
+      end
+    end
+  end
+end]]></summary>
+        <author>
+            <name>dillonhafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Phoenix component attr definition - #elixir]]></title>
         <id>http://til.hashrocket.com/posts/vmphqn8bnf-phoenix-component-attr-definition</id>
@@ -2387,37 +2426,6 @@ zhiyuan.nvim provides a way to send system-wide notifications on linux using lib
         <updated>2022-10-14T15:19:39.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ignoring the limit clause in SQL - #sql]]></title>
-        <id>http://til.hashrocket.com/posts/y23ofu1iry-ignoring-the-limit-clause-in-sql</id>
-        <link href="http://til.hashrocket.com/posts/y23ofu1iry-ignoring-the-limit-clause-in-sql"/>
-        <updated>2022-10-13T20:45:17.000Z</updated>
-        <summary type="html"><![CDATA[null or all to the limit clause effectively ignores the limit clause. 
--- both statements return all user emails
-select email from users limit null;
-select email from users limit all;]]></summary>
-        <author>
-            <name>marylee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop calling Fleet a VS Code Killer]]></title>
-        <id>https://www.youtube.com/watch?v=h55emgImrLk</id>
-        <link href="https://www.youtube.com/watch?v=h55emgImrLk"/>
-        <updated>2022-10-13T17:14:35.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust - The Bad Parts]]></title>
-        <id>https://www.youtube.com/watch?v=FK1RSiKSJ9s</id>
-        <link href="https://www.youtube.com/watch?v=FK1RSiKSJ9s"/>
-        <updated>2022-10-13T13:00:15.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>

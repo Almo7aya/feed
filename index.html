@@ -22,6 +22,83 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-12 datetime="2022-11-12T17:14:01.000Z">2022-11-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-12 datetime="2022-11-12T17:14:01.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders"
+                        open
+                      >
+                        <summary class="article-expander__title">ActiveStorage direct upload subfolders - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This is not recommended, but cannot be helped
+
+The only way to store attachments into subfolders is to monkey patch the direct uploads controller:
+# config/initializer/direct_uploads_monkey_path.rb
+Rails.application.config.to_prepare do
+  class ActiveStorage::DirectUploadsController &lt; ActiveStorage::BaseController
+    def create
+      key &#x3D; &quot;#{sub_dir}/#{user.id}/#{ActiveStorage::Blob.generate_unique_secure_token}&quot;
+      upload_attrs &#x3D; {key:}.merge(blob_args)
+      blob &#x3D; ActiveStorage::Blob.create_before_direct_upload!(**upload_attrs)
+      render json: direct_upload_json(blob)
+    end
+
+    private
+
+    def user
+      @user ||&#x3D; User.enabled.find(session[:current_user_id])
+    end
+
+    def sub_dir
+      if /cool-uploads/.match?(request.referer)
+        &quot;cool-uploads&quot;
+      elsif /company-settings/.match?(request.referer)
+        &quot;companies&quot;
+      else
+        &quot;uploads&quot;
+      end
+    end
+  end
+end</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-11 datetime="2022-11-11T17:18:43.000Z">2022-11-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-11 datetime="2022-11-11T17:18:43.000Z"></time>
           </button>
@@ -5501,123 +5578,10 @@ zhiyuan.nvim provides a way to send system-wide notifications on linux using lib
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-13 datetime="2022-10-13T20:45:17.000Z">2022-10-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-13 datetime="2022-10-13T20:45:17.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/y23ofu1iry-ignoring-the-limit-clause-in-sql"
-                        open
-                      >
-                        <summary class="article-expander__title">Ignoring the limit clause in SQL - #sql</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/y23ofu1iry-ignoring-the-limit-clause-in-sql">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>null or all to the limit clause effectively ignores the limit clause. 
--- both statements return all user emails
-select email from users limit null;
-select email from users limit all;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;h55emgImrLk"
-                        open
-                      >
-                        <summary class="article-expander__title">Stop calling Fleet a VS Code Killer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;h55emgImrLk">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Let&#x27;s Get Rusty</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;FK1RSiKSJ9s"
-                        open
-                      >
-                        <summary class="article-expander__title">Rust - The Bad Parts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;FK1RSiKSJ9s">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3448821151">
-        <time id="build-timestamp" datetime="2022-11-12T00:27:52.204Z">2022-11-12T00:27:52.204Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3453127940">
+        <time id="build-timestamp" datetime="2022-11-13T00:24:20.580Z">2022-11-13T00:24:20.580Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

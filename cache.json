@@ -257,7 +257,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2255,
+          "wordCount": 2254,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -267,7 +267,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18063,
+          "wordCount": 18062,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -277,7 +277,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 969,
+          "wordCount": 982,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -288,6 +288,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders",
+          "author": "dillonhafer",
+          "description": "This is not recommended, but cannot be helped\n\nThe only way to store attachments into subfolders is to monkey patch the direct uploads controller:\n# config/initializer/direct_uploads_monkey_path.rb\r\nRails.application.config.to_prepare do\r\n  class ActiveStorage::DirectUploadsController < ActiveStorage::BaseController\r\n    def create\r\n      key = \"#{sub_dir}/#{user.id}/#{ActiveStorage::Blob.generate_unique_secure_token}\"\r\n      upload_attrs = {key:}.merge(blob_args)\r\n      blob = ActiveStorage::Blob.create_before_direct_upload!(**upload_attrs)\r\n      render json: direct_upload_json(blob)\r\n    end\r\n\n    private\r\n\n    def user\r\n      @user ||= User.enabled.find(session[:current_user_id])\r\n    end\r\n\n    def sub_dir\r\n      if /cool-uploads/.match?(request.referer)\r\n        \"cool-uploads\"\r\n      elsif /company-settings/.match?(request.referer)\r\n        \"companies\"\r\n      else\r\n        \"uploads\"\r\n      end\r\n    end\r\n  end\r\nend",
+          "link": "http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders",
+          "publishedOn": "2022-11-12T17:14:01.000Z",
+          "wordCount": 298,
+          "title": "ActiveStorage direct upload subfolders - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/vmphqn8bnf-phoenix-component-attr-definition",
           "author": "viniciusnegrisolo",
@@ -466,16 +476,6 @@
           "publishedOn": "2022-10-19T13:30:00.000Z",
           "wordCount": 262,
           "title": "Access Exclusive locks block select statements - #sql",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/y23ofu1iry-ignoring-the-limit-clause-in-sql",
-          "author": "marylee",
-          "description": "null or all to the limit clause effectively ignores the limit clause. \n-- both statements return all user emails\r\nselect email from users limit null;\r\nselect email from users limit all;",
-          "link": "http://til.hashrocket.com/posts/y23ofu1iry-ignoring-the-limit-clause-in-sql",
-          "publishedOn": "2022-10-13T20:45:17.000Z",
-          "wordCount": 255,
-          "title": "Ignoring the limit clause in SQL - #sql",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
         }
       ]
@@ -2160,16 +2160,6 @@
           "wordCount": null,
           "title": "Lisp in 100 Seconds",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=h55emgImrLk",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=h55emgImrLk",
-          "publishedOn": "2022-10-13T17:14:35.000Z",
-          "wordCount": null,
-          "title": "Stop calling Fleet a VS Code Killer",
-          "imageUrl": null
         }
       ]
     },
@@ -2196,16 +2186,6 @@
           "publishedOn": "2022-10-27T14:20:51.000Z",
           "wordCount": null,
           "title": "Another JS tool re-written in Rust…",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=FK1RSiKSJ9s",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=FK1RSiKSJ9s",
-          "publishedOn": "2022-10-13T13:00:15.000Z",
-          "wordCount": null,
-          "title": "Rust - The Bad Parts",
           "imageUrl": null
         }
       ]
