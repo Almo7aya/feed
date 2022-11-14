@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-13T00:24:20.613Z</id>
+    <id>urn:2022-11-14T00:24:27.930Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-13T00:24:20.614Z</updated>
+    <updated>2022-11-14T00:24:27.930Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2377,55 +2377,6 @@ zhiyuan.nvim provides a way to send system-wide notifications on linux using lib
         <summary type="html"><![CDATA[How to draw a camera frustum]]></summary>
         <author>
             <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting started - Command Line Applications in Rust]]></title>
-        <id>/reading/getting-started-command-line-applications-in-rust/</id>
-        <link href="https://almo7aya.dev/reading/getting-started-command-line-applications-in-rust/"/>
-        <updated>2022-10-15T07:12:00.000Z</updated>
-        <summary type="html"><![CDATA[https://rust-cli.github.io/book/]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are we async yet?]]></title>
-        <id>/reading/are-we-async-yet/</id>
-        <link href="https://almo7aya.dev/reading/are-we-async-yet/"/>
-        <updated>2022-10-14T23:37:00.000Z</updated>
-        <summary type="html"><![CDATA[https://areweasyncyet.rs/]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are we web yet? Yes, and it's freaking fast!]]></title>
-        <id>/reading/are-we-web-yet-yes-and-its-freaking-fast/</id>
-        <link href="https://almo7aya.dev/reading/are-we-web-yet-yes-and-its-freaking-fast/"/>
-        <updated>2022-10-14T23:37:00.000Z</updated>
-        <summary type="html"><![CDATA[https://www.arewewebyet.org/]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust std from 6c4e236b955ba6a2dd8ef8e054f50ff64135a8be · brson-annotated-std-rs@e50c2b1]]></title>
-        <id>/reading/rust-std-from-6c4e236b955ba6a2dd8ef8e054f50ff64135a8be-brson-annotated-std-rse50c2b1/</id>
-        <link href="https://almo7aya.dev/reading/rust-std-from-6c4e236b955ba6a2dd8ef8e054f50ff64135a8be-brson-annotated-std-rse50c2b1/"/>
-        <updated>2022-10-14T22:18:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/brson/annotated-std-rs/commit/e50c2b16455ceff29488bf1f058b6c10906ef990]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lisp in 100 Seconds]]></title>
-        <id>https://www.youtube.com/watch?v=INUHCQST7CU</id>
-        <link href="https://www.youtube.com/watch?v=INUHCQST7CU"/>
-        <updated>2022-10-14T15:19:39.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>

@@ -197,46 +197,6 @@
           "wordCount": 38,
           "title": "rfcs-0141-lifetime-elision.md at master · rust-lang-rfcs",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/getting-started-command-line-applications-in-rust/",
-          "author": null,
-          "description": "https://rust-cli.github.io/book/",
-          "link": "https://almo7aya.dev/reading/getting-started-command-line-applications-in-rust/",
-          "publishedOn": "2022-10-15T07:12:00.000Z",
-          "wordCount": 44,
-          "title": "Getting started - Command Line Applications in Rust",
-          "imageUrl": null
-        },
-        {
-          "id": "/reading/are-we-async-yet/",
-          "author": null,
-          "description": "https://areweasyncyet.rs/",
-          "link": "https://almo7aya.dev/reading/are-we-async-yet/",
-          "publishedOn": "2022-10-14T23:37:00.000Z",
-          "wordCount": 36,
-          "title": "Are we async yet?",
-          "imageUrl": null
-        },
-        {
-          "id": "/reading/are-we-web-yet-yes-and-its-freaking-fast/",
-          "author": null,
-          "description": "https://www.arewewebyet.org/",
-          "link": "https://almo7aya.dev/reading/are-we-web-yet-yes-and-its-freaking-fast/",
-          "publishedOn": "2022-10-14T23:37:00.000Z",
-          "wordCount": 46,
-          "title": "Are we web yet? Yes, and it's freaking fast!",
-          "imageUrl": null
-        },
-        {
-          "id": "/reading/rust-std-from-6c4e236b955ba6a2dd8ef8e054f50ff64135a8be-brson-annotated-std-rse50c2b1/",
-          "author": null,
-          "description": "https://github.com/brson/annotated-std-rs/commit/e50c2b16455ceff29488bf1f058b6c10906ef990",
-          "link": "https://almo7aya.dev/reading/rust-std-from-6c4e236b955ba6a2dd8ef8e054f50ff64135a8be-brson-annotated-std-rse50c2b1/",
-          "publishedOn": "2022-10-14T22:18:00.000Z",
-          "wordCount": 41,
-          "title": "Rust std from 6c4e236b955ba6a2dd8ef8e054f50ff64135a8be · brson-annotated-std-rs@e50c2b1",
-          "imageUrl": null
         }
       ]
     },
@@ -257,7 +217,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2254,
+          "wordCount": 2252,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -267,7 +227,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18062,
+          "wordCount": 18063,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -277,7 +237,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 982,
+          "wordCount": 969,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -2149,16 +2109,6 @@
           "publishedOn": "2022-10-18T17:08:52.000Z",
           "wordCount": null,
           "title": "how to never write bug",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=INUHCQST7CU",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=INUHCQST7CU",
-          "publishedOn": "2022-10-14T15:19:39.000Z",
-          "wordCount": null,
-          "title": "Lisp in 100 Seconds",
           "imageUrl": null
         }
       ]
