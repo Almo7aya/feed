@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Nov/14",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nGuides, tours, articles, etc.\n\n            \n            Multi-cursor in place renaming with preview\n        \n    \n\nA Youtube video showing how to do a multi-cursor renaming with navigator with preview. It uses the LSP and preview the\nrenaming of the symbol.\nReddit\nYoutube\nNew plugins\n\n            \n            nvim-laurel\n        \n    \n\n\nA plugin written by @aileot that provides syntax sugar macros for Neovim. The macros are\ndeveloped with fennel-language-server, and tested with\nvusted.\nReddit\nGitHub\n\n            \n            nv…",
+          "link": "https://this-week-in-neovim.org/2022/Nov/14",
+          "publishedOn": "2022-11-14T00:00:00.000Z",
+          "wordCount": 587,
+          "title": "14 Nov 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Nov/7",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      legendary.nvim is requesting community feedback\n    \n  \n\n\n🗺️ A legend for your keymaps, commands, and autocmds, with which-key.nvim integration\nlegendary.nvim will be introducing semantic versioning via git tags in order to safely allow for a large refactor/rewrite.\nFeedback is requested to help make decisions during the rewrite.\nIf you are a legendary.nvim user, please provide fee…",
           "link": "https://this-week-in-neovim.org/2022/Nov/7",
           "publishedOn": "2022-11-07T00:00:00.000Z",
-          "wordCount": 892,
+          "wordCount": 895,
           "title": "7 Nov 2022",
           "imageUrl": null
         },
@@ -227,7 +237,7 @@
           "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
           "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
           "publishedOn": "2022-10-20T20:15:00.000Z",
-          "wordCount": 18063,
+          "wordCount": 18060,
           "title": "The HTTP crash course nobody asked for",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -237,7 +247,7 @@
           "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
           "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
           "publishedOn": "2022-10-19T17:00:00.000Z",
-          "wordCount": 969,
+          "wordCount": 1003,
           "title": "How does the detour crate work?",
           "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
         }
@@ -2118,6 +2128,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=iWpsIuinvBo",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=iWpsIuinvBo",
+          "publishedOn": "2022-11-14T16:45:00.000Z",
+          "wordCount": null,
+          "title": "Rust 1.65.0",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=FW4oUXHly8c",
           "author": null,

@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-14T00:24:27.930Z</id>
+    <id>urn:2022-11-15T00:25:39.292Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-14T00:24:27.930Z</updated>
+    <updated>2022-11-15T00:25:39.292Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Rust 1.65.0]]></title>
+        <id>https://www.youtube.com/watch?v=iWpsIuinvBo</id>
+        <link href="https://www.youtube.com/watch?v=iWpsIuinvBo"/>
+        <updated>2022-11-14T16:45:00.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[14 Nov 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Nov/14</id>
+        <link href="https://this-week-in-neovim.org/2022/Nov/14"/>
+        <updated>2022-11-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Guides, tours, articles, etc.
+
+            
+            Multi-cursor in place renaming with preview
+        
+    
+
+A Youtube video showing how to do a multi-cursor renaming with navigator with preview. It uses the LSP and preview the
+renaming of the symbol.
+Reddit
+Youtube
+New plugins
+
+            
+            nvim-laurel
+        
+    
+
+
+A plugin written by @aileot that provides syntax sugar macros for Neovim. The macros are
+developed with fennel-language-server, and tested with
+vusted.
+Reddit
+GitHub
+
+            
+            nv…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ActiveStorage direct upload subfolders - #rails]]></title>
         <id>http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders</id>
