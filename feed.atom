@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-18T00:28:54.448Z</id>
+    <id>urn:2022-11-19T00:25:49.076Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-18T00:28:54.448Z</updated>
+    <updated>2022-11-19T00:25:49.076Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Performant Mental Health]]></title>
+        <id>https://bradfrost.com/blog/link/performant-mental-health/</id>
+        <link href="https://bradfrost.com/blog/link/performant-mental-health/"/>
+        <updated>2022-11-18T15:30:43.000Z</updated>
+        <summary type="html"><![CDATA[I was talking to my friend Cameron Moll, and he discussed a series of articles about mental health that he, his wife, and a mental health nurse practitioner wrote. There&#8217;s some really fantastic information and advice in there, and I [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new operating system written in Rust]]></title>
+        <id>https://www.youtube.com/watch?v=0O_VAEgJEcA</id>
+        <link href="https://www.youtube.com/watch?v=0O_VAEgJEcA"/>
+        <updated>2022-11-18T14:00:01.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Layout &#038; Grid in Design Systems]]></title>
         <id>https://bradfrost.com/blog/post/layout-grid-in-design-systems/</id>
@@ -528,36 +547,6 @@ Also the definition of this method states that it returns true if module is a su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Finding Closure in Rust | Huon on the internet]]></title>
-        <id>/reading/finding-closure-in-rust-huon-on-the-internet/</id>
-        <link href="https://almo7aya.dev/reading/finding-closure-in-rust-huon-on-the-internet/"/>
-        <updated>2022-11-07T21:12:00.000Z</updated>
-        <summary type="html"><![CDATA[https://huonw.github.io/blog/2015/05/finding-closure-in-rust/]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(2) Why does Rust not have a standard async runtime? : rust]]></title>
-        <id>/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/</id>
-        <link href="https://almo7aya.dev/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/"/>
-        <updated>2022-11-07T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why does Rust not have a standard async runtime? : reddit]]></title>
-        <id>/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/</id>
-        <link href="https://almo7aya.dev/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/"/>
-        <updated>2022-11-07T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Select options with option groups - #rails]]></title>
         <id>http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups</id>
         <link href="http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups"/>
@@ -609,16 +598,6 @@ If you are a legendary.nvim user, please provide fee…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[string - Extract filename and extension in Bash - Stack Overflow]]></title>
-        <id>/reading/string-extract-filename-and-extension-in-bash-stack-overflow/</id>
-        <link href="https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/"/>
-        <updated>2022-11-06T01:04:00.000Z</updated>
-        <summary type="html"><![CDATA[https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Becoming fasterthanlime full-time]]></title>
         <id>https://fasterthanli.me/articles/becoming-fasterthanlime-full-time</id>
         <link href="https://fasterthanli.me/articles/becoming-fasterthanlime-full-time"/>
@@ -633,42 +612,12 @@ postcards)</p>]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[B16f00t-whapa: WhatsApp Parser Toolset v1.59]]></title>
-        <id>/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/</id>
-        <link href="https://almo7aya.dev/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/"/>
-        <updated>2022-11-03T22:02:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/B16f00t/whapa]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Nim in 100 Seconds]]></title>
         <id>https://www.youtube.com/watch?v=WHyOHQ_GkNo</id>
         <link href="https://www.youtube.com/watch?v=WHyOHQ_GkNo"/>
         <updated>2022-11-03T14:44:07.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AstroNvim-status.lua at main · AstroNvim-AstroNvim]]></title>
-        <id>/reading/astronvim-status.lua-at-main-astronvim-astronvim/</id>
-        <link href="https://almo7aya.dev/reading/astronvim-status.lua-at-main-astronvim-astronvim/"/>
-        <updated>2022-11-03T11:55:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nvim: fix treesitter highlighting after breaking change]]></title>
-        <id>/reading/nvim-fix-treesitter-highlighting-after-breaking-change/</id>
-        <link href="https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/"/>
-        <updated>2022-11-02T08:47:00.000Z</updated>
-        <summary type="html"><![CDATA[https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
     <entry>
@@ -703,16 +652,6 @@ This can be used to mock some client-side information such as user device metric
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The HTTP crash course nobody asked for]]></title>
-        <id>/reading/the-http-crash-course-nobody-asked-for/</id>
-        <link href="https://almo7aya.dev/reading/the-http-crash-course-nobody-asked-for/"/>
-        <updated>2022-11-01T04:08:00.000Z</updated>
-        <summary type="html"><![CDATA[https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[When your JavaScript framework gets acquired]]></title>
         <id>https://www.youtube.com/watch?v=HleppfVh8jc</id>
         <link href="https://www.youtube.com/watch?v=HleppfVh8jc"/>
@@ -740,16 +679,6 @@ Neovim Core updates
 Updates of Neovim itself, which are ava…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[About]]></title>
-        <id>/about/</id>
-        <link href="https://almo7aya.dev/about/"/>
-        <updated>2022-10-30T00:08:49.000Z</updated>
-        <summary type="html"><![CDATA[Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
     <entry>
@@ -861,16 +790,6 @@ heroku addons:destroy CHANGE_HERE_OLDCOLOR_URL -r heroku-staging]]></summary>
         <summary type="html"><![CDATA[<div type="html"/>]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rust-lang-rustlings: Small exercises to get you used to reading and writing Rust code!]]></title>
-        <id>/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/</id>
-        <link href="https://almo7aya.dev/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/"/>
-        <updated>2022-10-24T01:28:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/rust-lang/rustlings]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
     <entry>
@@ -987,26 +906,6 @@ Delete]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I succumbed to the Cult of vi - Emmanuel Bernard]]></title>
-        <id>/reading/i-succumbed-to-the-cult-of-vi-emmanuel-bernard/</id>
-        <link href="https://almo7aya.dev/reading/i-succumbed-to-the-cult-of-vi-emmanuel-bernard/"/>
-        <updated>2022-10-21T06:47:00.000Z</updated>
-        <summary type="html"><![CDATA[https://emmanuelbernard.com/blog/2012/08/01/i-succumbed-to-the-cult-of-vi/]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Cult of vi]]></title>
-        <id>/reading/the-cult-of-vi/</id>
-        <link href="https://almo7aya.dev/reading/the-cult-of-vi/"/>
-        <updated>2022-10-21T06:47:00.000Z</updated>
-        <summary type="html"><![CDATA[http://www.guckes.net/vi/mirror/vi.html]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The HTTP crash course nobody asked for]]></title>
         <id>https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for</id>
         <link href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for"/>
@@ -1038,47 +937,6 @@ find("input[type=hidden]", visible: false).set("my cool value")]]></summary>
         <summary type="html"><![CDATA[Now here&#8217;s an interesting article: Why We&#8217;re Breaking Up with CSS-in-JS.  I took to Twitter to spew out some thoughts, so I thought I&#8217;d capture them here. I&#8217;m fortunate in that I get to duck my head into a lot [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web-native Rust apps (what will YOU build?) [RUST-12] PART 2]]></title>
-        <id>https://www.youtube.com/watch?v=y10jJX35shE</id>
-        <link href="https://www.youtube.com/watch?v=y10jJX35shE"/>
-        <updated>2022-10-20T11:48:23.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How does the detour crate work?]]></title>
-        <id>https://fasterthanli.me/videos/how-does-the-detour-crate-work</id>
-        <link href="https://fasterthanli.me/videos/how-does-the-detour-crate-work"/>
-        <updated>2022-10-19T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>
-<p>00:00 Where were we<br />
-02:08 Disassembling for fun and profit<br />
-05:47 Double buffering, for some reason<br />
-07:25 Why detouring isn't trivial<br />
-08:56 Control flow in assembly<br />
-10:04 Registers and the AMD64 ABI<br />
-11:18 Functions and how to call them<br />
-13:14 The JMP instruction<br />
-14:01 Simple obfuscation techniques<br />
-15:13 How it all works<br />
-17:53 Homework assignment<br />
-18:12 Outtakes  </p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Access Exclusive locks block select statements - #sql]]></title>
-        <id>http://til.hashrocket.com/posts/8jeeoh5dsa-access-exclusive-locks-block-select-statements</id>
-        <link href="http://til.hashrocket.com/posts/8jeeoh5dsa-access-exclusive-locks-block-select-statements"/>
-        <updated>2022-10-19T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[alter table, vacuum full, reindex, and refresh materialized view statements are a few examples that may take out an ACCESS EXCLUSIVE lock by default. This means that select statements are blocked until one of these statements has finished.]]></summary>
-        <author>
-            <name>dillonhafer</name>
         </author>
     </entry>
 </feed>
