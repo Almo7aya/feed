@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-19T00:25:49.076Z</id>
+    <id>urn:2022-11-20T00:27:07.580Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-19T00:25:49.076Z</updated>
+    <updated>2022-11-20T00:27:07.580Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -901,40 +901,6 @@ Delete]]></summary>
         <link href="https://bradfrost.com/blog/post/lets-talk-about-web-components/"/>
         <updated>2022-10-21T14:18:48.000Z</updated>
         <summary type="html"><![CDATA[Web components! They&#8217;re currently at the vanguard of web development and are a reliable source of hot drama in the community. We&#8217;ve built a number of web component-powered design systems with Fortune 500 companies over the last 4 years, and [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The HTTP crash course nobody asked for]]></title>
-        <id>https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for</id>
-        <link href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for"/>
-        <updated>2022-10-20T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>HTTP does a pretty good job staying out of everyone's way.</p>
-<p>If you're reading this article, there's a solid chance it was delivered to you
-over HTTP. Even if you're reading this from an RSS reader or something. And
-you didn't even have to think about it!</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fill in hidden fields with Capybara - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/fprl4vpd9r-fill-in-hidden-fields-with-capybara</id>
-        <link href="http://til.hashrocket.com/posts/fprl4vpd9r-fill-in-hidden-fields-with-capybara"/>
-        <updated>2022-10-20T17:38:52.000Z</updated>
-        <summary type="html"><![CDATA[#set:
-find("input[type=hidden]", visible: false).set("my cool value")]]></summary>
-        <author>
-            <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why We&#8217;re Breaking Up with CSS-in-JS]]></title>
-        <id>https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/</id>
-        <link href="https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/"/>
-        <updated>2022-10-20T12:52:35.000Z</updated>
-        <summary type="html"><![CDATA[Now here&#8217;s an interesting article: Why We&#8217;re Breaking Up with CSS-in-JS.  I took to Twitter to spew out some thoughts, so I thought I&#8217;d capture them here. I&#8217;m fortunate in that I get to duck my head into a lot [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>
