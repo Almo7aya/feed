@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-21T00:25:55.131Z</id>
+    <id>urn:2022-11-22T00:25:40.730Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-21T00:25:55.131Z</updated>
+    <updated>2022-11-22T00:25:40.730Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[21 Nov 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Nov/21</id>
+        <link href="https://this-week-in-neovim.org/2022/Nov/21"/>
+        <updated>2022-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+#20956 vim.secure.read() and use it for 'exrc'
+Add the vim.secure.read() function in Lua which prompts the user whether the given file is trusted or not. This
+function is used to implement the 'exrc' feature. By explicitly asking the user whether or not a .nvimrc or
+.exrc file is trusted (and only sourcing the file if so), the most trivial security issues with the 'exrc' options
+are resolved and the function can be un-deprecated.
+New plugins
+
+      
+    
+    redostr.nvim
+  
+
+A new plugin providing an API to return the redo stri…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Performant Mental Health]]></title>
         <id>https://bradfrost.com/blog/link/performant-mental-health/</id>
@@ -547,6 +574,36 @@ Also the definition of this method states that it returns true if module is a su
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Finding Closure in Rust | Huon on the internet]]></title>
+        <id>/reading/finding-closure-in-rust-huon-on-the-internet/</id>
+        <link href="https://almo7aya.dev/reading/finding-closure-in-rust-huon-on-the-internet/"/>
+        <updated>2022-11-07T21:12:00.000Z</updated>
+        <summary type="html"><![CDATA[https://huonw.github.io/blog/2015/05/finding-closure-in-rust/]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(2) Why does Rust not have a standard async runtime? : rust]]></title>
+        <id>/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/</id>
+        <link href="https://almo7aya.dev/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/"/>
+        <updated>2022-11-07T20:15:00.000Z</updated>
+        <summary type="html"><![CDATA[https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why does Rust not have a standard async runtime? : reddit]]></title>
+        <id>/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/</id>
+        <link href="https://almo7aya.dev/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/"/>
+        <updated>2022-11-07T20:15:00.000Z</updated>
+        <summary type="html"><![CDATA[https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Select options with option groups - #rails]]></title>
         <id>http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups</id>
         <link href="http://til.hashrocket.com/posts/mqhybglcjw-select-options-with-option-groups"/>
@@ -598,6 +655,16 @@ If you are a legendary.nvim user, please provide fee…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[string - Extract filename and extension in Bash - Stack Overflow]]></title>
+        <id>/reading/string-extract-filename-and-extension-in-bash-stack-overflow/</id>
+        <link href="https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/"/>
+        <updated>2022-11-06T01:04:00.000Z</updated>
+        <summary type="html"><![CDATA[https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Becoming fasterthanlime full-time]]></title>
         <id>https://fasterthanli.me/articles/becoming-fasterthanlime-full-time</id>
         <link href="https://fasterthanli.me/articles/becoming-fasterthanlime-full-time"/>
@@ -612,12 +679,42 @@ postcards)</p>]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[B16f00t-whapa: WhatsApp Parser Toolset v1.59]]></title>
+        <id>/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/</id>
+        <link href="https://almo7aya.dev/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/"/>
+        <updated>2022-11-03T22:02:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/B16f00t/whapa]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Nim in 100 Seconds]]></title>
         <id>https://www.youtube.com/watch?v=WHyOHQ_GkNo</id>
         <link href="https://www.youtube.com/watch?v=WHyOHQ_GkNo"/>
         <updated>2022-11-03T14:44:07.000Z</updated>
         <author>
             <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AstroNvim-status.lua at main · AstroNvim-AstroNvim]]></title>
+        <id>/reading/astronvim-status.lua-at-main-astronvim-astronvim/</id>
+        <link href="https://almo7aya.dev/reading/astronvim-status.lua-at-main-astronvim-astronvim/"/>
+        <updated>2022-11-03T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nvim: fix treesitter highlighting after breaking change]]></title>
+        <id>/reading/nvim-fix-treesitter-highlighting-after-breaking-change/</id>
+        <link href="https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/"/>
+        <updated>2022-11-02T08:47:00.000Z</updated>
+        <summary type="html"><![CDATA[https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
         </author>
     </entry>
     <entry>
@@ -652,6 +749,16 @@ This can be used to mock some client-side information such as user device metric
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The HTTP crash course nobody asked for]]></title>
+        <id>/reading/the-http-crash-course-nobody-asked-for/</id>
+        <link href="https://almo7aya.dev/reading/the-http-crash-course-nobody-asked-for/"/>
+        <updated>2022-11-01T04:08:00.000Z</updated>
+        <summary type="html"><![CDATA[https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[When your JavaScript framework gets acquired]]></title>
         <id>https://www.youtube.com/watch?v=HleppfVh8jc</id>
         <link href="https://www.youtube.com/watch?v=HleppfVh8jc"/>
@@ -679,6 +786,16 @@ Neovim Core updates
 Updates of Neovim itself, which are ava…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About]]></title>
+        <id>/about/</id>
+        <link href="https://almo7aya.dev/about/"/>
+        <updated>2022-10-30T00:08:49.000Z</updated>
+        <summary type="html"><![CDATA[Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
         </author>
     </entry>
     <entry>
@@ -793,6 +910,16 @@ heroku addons:destroy CHANGE_HERE_OLDCOLOR_URL -r heroku-staging]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[rust-lang-rustlings: Small exercises to get you used to reading and writing Rust code!]]></title>
+        <id>/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/</id>
+        <link href="https://almo7aya.dev/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/"/>
+        <updated>2022-10-24T01:28:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/rust-lang/rustlings]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[24 Oct 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Oct/24</id>
         <link href="https://this-week-in-neovim.org/2022/Oct/24"/>
@@ -818,18 +945,6 @@ Need help
 @mive…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Test values of an array - #javascript]]></title>
-        <id>http://til.hashrocket.com/posts/j5wylmdbre-test-values-of-an-array</id>
-        <link href="http://til.hashrocket.com/posts/j5wylmdbre-test-values-of-an-array"/>
-        <updated>2022-10-22T16:14:32.000Z</updated>
-        <summary type="html"><![CDATA[some that can be used to determine if at least one element of an array passes a test:
-console.log(["1", "2", "3"].some(n => n === 1))
-=> false]]></summary>
-        <author>
-            <name>dillonhafer</name>
         </author>
     </entry>
 </feed>

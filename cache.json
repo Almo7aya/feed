@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Nov/21",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#20956 vim.secure.read() and use it for 'exrc'\nAdd the vim.secure.read() function in Lua which prompts the user whether the given file is trusted or not. This\nfunction is used to implement the 'exrc' feature. By explicitly asking the user whether or not a .nvimrc or\n.exrc file is trusted (and only sourcing the file if so), the most trivial security issues with the 'exrc' options\nare resolved and the function can be un-deprecated.\nNew plugins\n\n      \n    \n    redostr.nvim\n  \n\nA new plugin providing an API to return the redo stri…",
+          "link": "https://this-week-in-neovim.org/2022/Nov/21",
+          "publishedOn": "2022-11-21T00:00:00.000Z",
+          "wordCount": 537,
+          "title": "21 Nov 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Nov/14",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nGuides, tours, articles, etc.\n\n            \n            Multi-cursor in place renaming with preview\n        \n    \n\nA Youtube video showing how to do a multi-cursor renaming with navigator with preview. It uses the LSP and preview the\nrenaming of the symbol.\nReddit\nYoutube\nNew plugins\n\n            \n            nvim-laurel\n        \n    \n\n\nA plugin written by @aileot that provides syntax sugar macros for Neovim. The macros are\ndeveloped with fennel-language-server, and tested with\nvusted.\nReddit\nGitHub\n\n            \n            nv…",
           "link": "https://this-week-in-neovim.org/2022/Nov/14",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 587,
+          "wordCount": 590,
           "title": "14 Nov 2022",
           "imageUrl": null
         },
@@ -54,6 +64,113 @@
       ]
     },
     {
+      "title": "almo7aya.dev",
+      "feedUrl": "https://almo7aya.dev/index.xml",
+      "siteUrl": "/",
+      "articles": [
+        {
+          "id": "/reading/finding-closure-in-rust-huon-on-the-internet/",
+          "author": null,
+          "description": "https://huonw.github.io/blog/2015/05/finding-closure-in-rust/",
+          "link": "https://almo7aya.dev/reading/finding-closure-in-rust-huon-on-the-internet/",
+          "publishedOn": "2022-11-07T21:12:00.000Z",
+          "wordCount": 46,
+          "title": "Finding Closure in Rust | Huon on the internet",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/",
+          "author": null,
+          "description": "https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3",
+          "link": "https://almo7aya.dev/reading/2-why-does-rust-not-have-a-standard-async-runtime-rust/",
+          "publishedOn": "2022-11-07T20:15:00.000Z",
+          "wordCount": 52,
+          "title": "(2) Why does Rust not have a standard async runtime? : rust",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/",
+          "author": null,
+          "description": "https://www.reddit.com/r/rust/comments/ui7ayd/comment/i7akj6d/?utm_source=share&utm_medium=web2x&context=3",
+          "link": "https://almo7aya.dev/reading/why-does-rust-not-have-a-standard-async-runtime-reddit/",
+          "publishedOn": "2022-11-07T20:15:00.000Z",
+          "wordCount": 50,
+          "title": "Why does Rust not have a standard async runtime? : reddit",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
+          "author": null,
+          "description": "https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash",
+          "link": "https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
+          "publishedOn": "2022-11-06T01:04:00.000Z",
+          "wordCount": 50,
+          "title": "string - Extract filename and extension in Bash - Stack Overflow",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/",
+          "author": null,
+          "description": "https://github.com/B16f00t/whapa",
+          "link": "https://almo7aya.dev/reading/b16f00t-whapa-whatsapp-parser-toolset-v1.59/",
+          "publishedOn": "2022-11-03T22:02:00.000Z",
+          "wordCount": 38,
+          "title": "B16f00t-whapa: WhatsApp Parser Toolset v1.59",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/astronvim-status.lua-at-main-astronvim-astronvim/",
+          "author": null,
+          "description": "https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459",
+          "link": "https://almo7aya.dev/reading/astronvim-status.lua-at-main-astronvim-astronvim/",
+          "publishedOn": "2022-11-03T11:55:00.000Z",
+          "wordCount": 38,
+          "title": "AstroNvim-status.lua at main · AstroNvim-AstroNvim",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
+          "author": null,
+          "description": "https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6",
+          "link": "https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
+          "publishedOn": "2022-11-02T08:47:00.000Z",
+          "wordCount": 42,
+          "title": "nvim: fix treesitter highlighting after breaking change",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/the-http-crash-course-nobody-asked-for/",
+          "author": null,
+          "description": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
+          "link": "https://almo7aya.dev/reading/the-http-crash-course-nobody-asked-for/",
+          "publishedOn": "2022-11-01T04:08:00.000Z",
+          "wordCount": 42,
+          "title": "The HTTP crash course nobody asked for",
+          "imageUrl": null
+        },
+        {
+          "id": "/about/",
+          "author": null,
+          "description": "Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.",
+          "link": "https://almo7aya.dev/about/",
+          "publishedOn": "2022-10-30T00:08:49.000Z",
+          "wordCount": 195,
+          "title": "About",
+          "imageUrl": null
+        },
+        {
+          "id": "/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/",
+          "author": null,
+          "description": "https://github.com/rust-lang/rustlings",
+          "link": "https://almo7aya.dev/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/",
+          "publishedOn": "2022-10-24T01:28:00.000Z",
+          "wordCount": 54,
+          "title": "rust-lang-rustlings: Small exercises to get you used to reading and writing Rust code!",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "Dan Abramov's Overreacted Blog RSS Feed",
       "feedUrl": "https://overreacted.io/rss.xml",
       "siteUrl": "https://overreacted.io",
@@ -70,7 +187,7 @@
           "description": "<p>This series has to end <em>somewhere</em>, so let's end it here!</p>\n<p>However, here is a list of some things I'd like to come back to:</p>\n\n                        <h2>\n                            <a id=\"bundling-typescript\" class=\"anchor\" href=\"#bundling-typescript\">\n                                Bundling & TypeScript\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8",
           "publishedOn": "2022-11-15T19:30:08.000Z",
-          "wordCount": 1433,
+          "wordCount": 1432,
           "title": "Cut for time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -80,7 +197,7 @@
           "description": "<h2>\n                            <a id=\"async-trait-s-one-weird-type-ascription-trick\" class=\"anchor\" href=\"#async-trait-s-one-weird-type-ascription-trick\">\n                                <code>async_trait</code>'s one weird type ascription trick\n                            </a>\n                        </h2>\n                        \n<p>Now that I got <a href=\"part-6\">the Log in with GitHub feature</a> working, let's explore\nwhat this would've looked like with the <code>async_trait</code> crate.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
           "publishedOn": "2022-11-15T19:30:07.000Z",
-          "wordCount": 3331,
+          "wordCount": 3333,
           "title": "Async fn in trait, for real this time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -100,7 +217,7 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1554,
+          "wordCount": 1552,
           "title": "Trying to use nix",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -120,7 +237,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1698,
+          "wordCount": 1701,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -140,7 +257,7 @@
           "description": "<h2>\n                            <a id=\"the-bleeding-edge-of-rustc-and-clippy\" class=\"anchor\" href=\"#the-bleeding-edge-of-rustc-and-clippy\">\n                                The bleeding edge of rustc and clippy\n                            </a>\n                        </h2>\n                        \n<p>Typically, you'd want a production application to use a stable version of Rust.\nAt the time of this writing, that's Rust 1.65.0, which stabilizes a bunch of\nlong-awaited features (GATs, let-else, MIR inlining, split debug info, etc.).</p>\n<div class=\"tip\">\n<div class=\"tip-header\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\nCool bear's hot tip\n</div>\n\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-1",
           "publishedOn": "2022-11-15T19:30:01.000Z",
-          "wordCount": 3574,
+          "wordCount": 3575,
           "title": "Cleaning up and upgrading third-party crates",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -150,7 +267,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2252,
+          "wordCount": 2251,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         }
@@ -320,16 +437,6 @@
           "wordCount": 214,
           "title": "Close all opened files in vscode - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/j5wylmdbre-test-values-of-an-array",
-          "author": "dillonhafer",
-          "description": "some that can be used to determine if at least one element of an array passes a test:\nconsole.log([\"1\", \"2\", \"3\"].some(n => n === 1))\r\n=> false",
-          "link": "http://til.hashrocket.com/posts/j5wylmdbre-test-values-of-an-array",
-          "publishedOn": "2022-10-22T16:14:32.000Z",
-          "wordCount": 227,
-          "title": "Test values of an array - #javascript",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         }
       ]
     },
