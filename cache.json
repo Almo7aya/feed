@@ -50,16 +50,6 @@
           "wordCount": 1293,
           "title": "31 Oct 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Oct/24",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#20428 removes filetype.vim in favor of the now default filetype.lua.\n(If you install from the repo, make sure to clean out /usr/local/share/nvim/runtime before make install.)\nThe filetype detection logic and tests still align with Vim, so additions or changes still need to be contributed\nthere first and then ported to Neovim.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      \n      import.nvim is looking for feedback\n    \n  \n@mive…",
-          "link": "https://this-week-in-neovim.org/2022/Oct/24",
-          "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 945,
-          "title": "24 Oct 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -157,16 +147,6 @@
           "wordCount": 195,
           "title": "About",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/",
-          "author": null,
-          "description": "https://github.com/rust-lang/rustlings",
-          "link": "https://almo7aya.dev/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/",
-          "publishedOn": "2022-10-24T01:28:00.000Z",
-          "wordCount": 54,
-          "title": "rust-lang-rustlings: Small exercises to get you used to reading and writing Rust code!",
-          "imageUrl": null
         }
       ]
     },
@@ -187,7 +167,7 @@
           "description": "<p>This series has to end <em>somewhere</em>, so let's end it here!</p>\n<p>However, here is a list of some things I'd like to come back to:</p>\n\n                        <h2>\n                            <a id=\"bundling-typescript\" class=\"anchor\" href=\"#bundling-typescript\">\n                                Bundling & TypeScript\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8",
           "publishedOn": "2022-11-15T19:30:08.000Z",
-          "wordCount": 1432,
+          "wordCount": 1429,
           "title": "Cut for time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -197,7 +177,7 @@
           "description": "<h2>\n                            <a id=\"async-trait-s-one-weird-type-ascription-trick\" class=\"anchor\" href=\"#async-trait-s-one-weird-type-ascription-trick\">\n                                <code>async_trait</code>'s one weird type ascription trick\n                            </a>\n                        </h2>\n                        \n<p>Now that I got <a href=\"part-6\">the Log in with GitHub feature</a> working, let's explore\nwhat this would've looked like with the <code>async_trait</code> crate.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
           "publishedOn": "2022-11-15T19:30:07.000Z",
-          "wordCount": 3333,
+          "wordCount": 3334,
           "title": "Async fn in trait, for real this time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -217,7 +197,7 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1552,
+          "wordCount": 1554,
           "title": "Trying to use nix",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -227,7 +207,7 @@
           "description": "<div class=\"disclosure\">\n\t<strong>Disclosure</strong>: \nAlthough I no longer work for the company my website is hosted on, and this\narticle is written in way that mentions neither my previous or current hosting\nprovider: at the time of this writing, I don't pay for hosting.\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
           "publishedOn": "2022-11-15T19:30:04.000Z",
-          "wordCount": 2307,
+          "wordCount": 2308,
           "title": "Deploying at the edge",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -237,7 +217,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1701,
+          "wordCount": 1698,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -247,7 +227,7 @@
           "description": "<h2>\n                            <a id=\"falling-out-of-love-with-warp\" class=\"anchor\" href=\"#falling-out-of-love-with-warp\">\n                                Falling out of love with <code>warp</code>\n                            </a>\n                        </h2>\n                        \n<p>Back when I wrote this codebase, <a href=\"https://lib.rs/crates/warp\">warp</a> was the best\n/ only alternative for something relatively high-level on top of\n<a href=\"https://lib.rs/crates/hyper\">hyper</a>.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
           "publishedOn": "2022-11-15T19:30:02.000Z",
-          "wordCount": 1088,
+          "wordCount": 4036,
           "title": "Migrating from warp to axum",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         },
@@ -267,7 +247,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2251,
+          "wordCount": 2250,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square.png"
         }
@@ -278,6 +258,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch",
+          "author": "jackrosa",
+          "description": "git branch -m ‏‏‎<your-new-branch-name>\n\nGit will create a reflog of the rename too.",
+          "link": "http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch",
+          "publishedOn": "2022-11-22T14:34:15.000Z",
+          "wordCount": 192,
+          "title": "Renaming a Git Branch - #git",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/bmjzem5gvs-destructuring-assignment-in-javascript",
           "author": "jackrosa",
@@ -464,6 +454,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/",
+          "author": null,
+          "description": "This is so badass. The control the band exhibits is absolutely incredible. It feels super organic, groovy, and even jammy, but it&#8217;s all totally locked in. When you feel like they&#8217;re just jamming over a groove, all of a sudden [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/",
+          "publishedOn": "2022-11-22T15:59:40.000Z",
+          "wordCount": 726,
+          "title": "Wah Wah Watson with Herbie Hancock 1976 (live video) &#8211; Hang Up Your Hang Ups",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/performant-mental-health/",
           "author": null,
           "description": "I was talking to my friend Cameron Moll, and he discussed a series of articles about mental health that he, his wife, and a mental health nurse practitioner wrote. There&#8217;s some really fantastic information and advice in there, and I [&#8230;]",
@@ -520,6 +520,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=lkIFF4maKMU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=lkIFF4maKMU",
+          "publishedOn": "2022-11-22T15:04:57.000Z",
+          "wordCount": null,
+          "title": "100+ JavaScript Concepts you Need to Know",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=DVWu2b7mvFg",
           "author": null,

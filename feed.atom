@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-22T00:25:40.730Z</id>
+    <id>urn:2022-11-23T00:21:16.440Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-22T00:25:40.730Z</updated>
+    <updated>2022-11-23T00:21:16.440Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Wah Wah Watson with Herbie Hancock 1976 (live video) &#8211; Hang Up Your Hang Ups]]></title>
+        <id>https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/</id>
+        <link href="https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/"/>
+        <updated>2022-11-22T15:59:40.000Z</updated>
+        <summary type="html"><![CDATA[This is so badass. The control the band exhibits is absolutely incredible. It feels super organic, groovy, and even jammy, but it&#8217;s all totally locked in. When you feel like they&#8217;re just jamming over a groove, all of a sudden [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[100+ JavaScript Concepts you Need to Know]]></title>
+        <id>https://www.youtube.com/watch?v=lkIFF4maKMU</id>
+        <link href="https://www.youtube.com/watch?v=lkIFF4maKMU"/>
+        <updated>2022-11-22T15:04:57.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Renaming a Git Branch - #git]]></title>
+        <id>http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch</id>
+        <link href="http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch"/>
+        <updated>2022-11-22T14:34:15.000Z</updated>
+        <summary type="html"><![CDATA[git branch -m ‏‏‎<your-new-branch-name>
+
+Git will create a reflog of the rename too.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[21 Nov 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Nov/21</id>
@@ -907,44 +938,6 @@ heroku addons:destroy CHANGE_HERE_OLDCOLOR_URL -r heroku-staging]]></summary>
         <summary type="html"><![CDATA[<div type="html"/>]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rust-lang-rustlings: Small exercises to get you used to reading and writing Rust code!]]></title>
-        <id>/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/</id>
-        <link href="https://almo7aya.dev/reading/rust-lang-rustlings-small-exercises-to-get-you-used-to-reading-and-writing-rust-code/"/>
-        <updated>2022-10-24T01:28:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/rust-lang/rustlings]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[24 Oct 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Oct/24</id>
-        <link href="https://this-week-in-neovim.org/2022/Oct/24"/>
-        <updated>2022-10-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#20428 removes filetype.vim in favor of the now default filetype.lua.
-(If you install from the repo, make sure to clean out /usr/local/share/nvim/runtime before make install.)
-The filetype detection logic and tests still align with Vim, so additions or changes still need to be contributed
-there first and then ported to Neovim.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Need help
-
-      
-      
-      import.nvim is looking for feedback
-    
-  
-@mive…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
