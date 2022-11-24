@@ -22,6 +22,122 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-23 datetime="2022-11-23T20:22:27.000Z">2022-11-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-23 datetime="2022-11-23T20:22:27.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;aXOChLn5ZdQ"
+                        open
+                      >
+                        <summary class="article-expander__title">JavaScript for the Haters</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;aXOChLn5ZdQ">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/lgagvwjnev-composite-primary-keys-using-elixir-ecto"
+                        open
+                      >
+                        <summary class="article-expander__title">Composite Primary Keys using Elixir Ecto - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/lgagvwjnev-composite-primary-keys-using-elixir-ecto">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>primary_key: true option for the Ecto.Schema.field/3 instead of dealing with the special module attr @primary_key. Check this out:
+defmodule MyApp.OrderItem do
+  use Ecto.Schema
+
+  @primary_key false
+  schema &quot;order_items&quot; do
+    field :product_id, :integer, primary_key: true
+    field :order_id, :integer, primary_key: true
+    field :quantity, :integer
+  end
+end</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/ihcswk7vhl-how-to-change-password-of-ssh-key"
+                        open
+                      >
+                        <summary class="article-expander__title">How to Change Password of SSH key - #command-line</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/ihcswk7vhl-how-to-change-password-of-ssh-key">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ssh-keygen -p
+
+From the man pages -
+Requests changing the passphrase of a private key file instead of
+creating a new private key.  The program will prompt for the file
+containing the private key, for the old passphrase, and twice for
+the new passphrase.
+https://man.openbsd.org/ssh-keygen.1#p</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-22 datetime="2022-11-22T15:59:40.000Z">2022-11-22</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-22 datetime="2022-11-22T15:59:40.000Z"></time>
           </button>
@@ -498,7 +614,7 @@ This is very useful if you need to find more info about a function but only know
                         <summary class="article-expander__title">Cut for time</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>This series has to end somewhere, so let&#x27;s end it here!
 However, here is a list of some things I&#x27;d like to come back to:
@@ -523,7 +639,7 @@ However, here is a list of some things I&#x27;d like to come back to:
                         <summary class="article-expander__title">Async fn in trait, for real this time</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>async_trait&#x27;s one weird type ascription trick
                             
@@ -547,7 +663,7 @@ what this would&#x27;ve looked like with the async_trait crate.</span>
                         <summary class="article-expander__title">Implementing &quot;Log in with GitHub&quot;</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Because I started accepting donations via GitHub Sponsors, and
 because donating at the &quot;Silver&quot; tier or above gives you advance access to
@@ -570,7 +686,7 @@ API the same way I do the Patreon API.</span>
                         <summary class="article-expander__title">Trying to use nix</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Now that my website is deployed as a container image, I wanted to give 
 nix a try. I&#x27;m still doing it the old-fashioned way right
@@ -599,7 +715,7 @@ thing now).
                         <summary class="article-expander__title">Deploying at the edge</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Disclosure: 
 Although I no longer work for the company my website is hosted on, and this
@@ -622,7 +738,7 @@ provider: at the time of this writing, I don&#x27;t pay for hosting.</span>
                         <summary class="article-expander__title">Async fn in trait... not</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Async fn in trait... not
                             
@@ -646,7 +762,7 @@ context of my website, but it turns out, I can&#x27;t!</span>
                         <summary class="article-expander__title">Migrating from warp to axum</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Falling out of love with warp
                             
@@ -671,7 +787,7 @@ hyper.</span>
                         <summary class="article-expander__title">Cleaning up and upgrading third-party crates</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-1">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The bleeding edge of rustc and clippy
                             
@@ -1613,7 +1729,7 @@ If you are a legendary.nvim user, please provide fee…</span>
                         <summary class="article-expander__title">Becoming fasterthanlime full-time</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/articles/becoming-fasterthanlime-full-time">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>As of today, I am no longer employed by fly.io.
 We&#x27;re both very sad, and we&#x27;ve promised to stay friends and send postcards to
@@ -2272,143 +2388,10 @@ heroku addons:destroy CHANGE_HERE_OLDCOLOR_URL -r heroku-staging</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-24 datetime="2022-10-24T20:57:43.000Z">2022-10-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-24 datetime="2022-10-24T20:57:43.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/xoq0dmkcnk-close-all-opened-files-in-vscode"
-                        open
-                      >
-                        <summary class="article-expander__title">Close all opened files in vscode - #workflow</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/xoq0dmkcnk-close-all-opened-files-in-vscode">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>CMD + K +W to close all of your open files in the vscode editor. If you have unsaved changes you will still be asked if you want to save or discard them so don’t worry about that.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;QKgTZWbwD1U"
-                        open
-                      >
-                        <summary class="article-expander__title">Godot in 100 Seconds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;QKgTZWbwD1U">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Brad Frost</button>
-                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bradfrost.com/blog/link/the-component-gallery/"
-                        open
-                      >
-                        <summary class="article-expander__title">The Component Gallery</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/the-component-gallery/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Component Gallery is a collection of interface components from real-world design systems. I created it to help with some of the problems that I experience every day as a front-end developer: Some interface problems have already been solved: there’s no need […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bradfrost.com/blog/link/atomic-design-and-the-future-of-design-systems-with-brad-frost-podrocket/"
-                        open
-                      >
-                        <summary class="article-expander__title">Atomic design and the future of design systems with Brad Frost – PodRocket</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/atomic-design-and-the-future-of-design-systems-with-brad-frost-podrocket/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3528169101">
-        <time id="build-timestamp" datetime="2022-11-23T00:21:16.416Z">2022-11-23T00:21:16.416Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3536670117">
+        <time id="build-timestamp" datetime="2022-11-24T00:26:00.834Z">2022-11-24T00:26:00.834Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

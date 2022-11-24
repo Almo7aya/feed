@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-23T00:21:16.440Z</id>
+    <id>urn:2022-11-24T00:26:00.858Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-23T00:21:16.440Z</updated>
+    <updated>2022-11-24T00:26:00.858Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[JavaScript for the Haters]]></title>
+        <id>https://www.youtube.com/watch?v=aXOChLn5ZdQ</id>
+        <link href="https://www.youtube.com/watch?v=aXOChLn5ZdQ"/>
+        <updated>2022-11-23T20:22:27.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Composite Primary Keys using Elixir Ecto - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/lgagvwjnev-composite-primary-keys-using-elixir-ecto</id>
+        <link href="http://til.hashrocket.com/posts/lgagvwjnev-composite-primary-keys-using-elixir-ecto"/>
+        <updated>2022-11-23T17:51:07.000Z</updated>
+        <summary type="html"><![CDATA[primary_key: true option for the Ecto.Schema.field/3 instead of dealing with the special module attr @primary_key. Check this out:
+defmodule MyApp.OrderItem do
+  use Ecto.Schema
+
+  @primary_key false
+  schema "order_items" do
+    field :product_id, :integer, primary_key: true
+    field :order_id, :integer, primary_key: true
+    field :quantity, :integer
+  end
+end]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Change Password of SSH key - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/ihcswk7vhl-how-to-change-password-of-ssh-key</id>
+        <link href="http://til.hashrocket.com/posts/ihcswk7vhl-how-to-change-password-of-ssh-key"/>
+        <updated>2022-11-23T15:45:35.000Z</updated>
+        <summary type="html"><![CDATA[ssh-keygen -p
+
+From the man pages -
+Requests changing the passphrase of a private key file instead of
+creating a new private key.  The program will prompt for the file
+containing the private key, for the old passphrase, and twice for
+the new passphrase.
+https://man.openbsd.org/ssh-keygen.1#p]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wah Wah Watson with Herbie Hancock 1976 (live video) &#8211; Hang Up Your Hang Ups]]></title>
         <id>https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/</id>
@@ -899,45 +945,6 @@ heroku addons:destroy CHANGE_HERE_OLDCOLOR_URL -r heroku-staging]]></summary>
         <updated>2022-10-25T18:33:59.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Close all opened files in vscode - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/xoq0dmkcnk-close-all-opened-files-in-vscode</id>
-        <link href="http://til.hashrocket.com/posts/xoq0dmkcnk-close-all-opened-files-in-vscode"/>
-        <updated>2022-10-24T20:57:43.000Z</updated>
-        <summary type="html"><![CDATA[CMD + K +W to close all of your open files in the vscode editor. If you have unsaved changes you will still be asked if you want to save or discard them so don’t worry about that.]]></summary>
-        <author>
-            <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Godot in 100 Seconds]]></title>
-        <id>https://www.youtube.com/watch?v=QKgTZWbwD1U</id>
-        <link href="https://www.youtube.com/watch?v=QKgTZWbwD1U"/>
-        <updated>2022-10-24T16:30:58.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Component Gallery]]></title>
-        <id>https://bradfrost.com/blog/link/the-component-gallery/</id>
-        <link href="https://bradfrost.com/blog/link/the-component-gallery/"/>
-        <updated>2022-10-24T16:29:58.000Z</updated>
-        <summary type="html"><![CDATA[The Component Gallery is a collection of interface components from real-world design systems. I created it to help with some of the problems that I experience every day as a front-end developer: Some interface problems have already been solved: there’s no need [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atomic design and the future of design systems with Brad Frost &#8211; PodRocket]]></title>
-        <id>https://bradfrost.com/blog/link/atomic-design-and-the-future-of-design-systems-with-brad-frost-podrocket/</id>
-        <link href="https://bradfrost.com/blog/link/atomic-design-and-the-future-of-design-systems-with-brad-frost-podrocket/"/>
-        <updated>2022-10-24T15:29:14.000Z</updated>
-        <summary type="html"><![CDATA[<div type="html"/>]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
