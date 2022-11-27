@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-26T00:21:14.533Z</id>
+    <id>urn:2022-11-27T00:25:10.780Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-26T00:21:14.533Z</updated>
+    <updated>2022-11-27T00:25:10.780Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2431,39 +2431,6 @@ Here you can choose from pre-existing locations or even add your own:
 From the chrome dev tools use (⌘ + ⇧ + p) and enter Sensors to get there faster.]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Another JS tool re-written in Rust…]]></title>
-        <id>https://www.youtube.com/watch?v=mNTkTV81tHU</id>
-        <link href="https://www.youtube.com/watch?v=mNTkTV81tHU"/>
-        <updated>2022-10-27T14:20:51.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Upgrade Heroku PostgreSQL - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/kntknuntjg-upgrade-heroku-postgresql</id>
-        <link href="http://til.hashrocket.com/posts/kntknuntjg-upgrade-heroku-postgresql"/>
-        <updated>2022-10-27T13:48:03.000Z</updated>
-        <summary type="html"><![CDATA[PostgreSQL bump in Heroku from 13.8 => 14.5 (the latest Heroku supports at this day). The process was very smooth and kind of quick for a 1GB database. Here’s the script we end up running:
-# Change the following `basic` to the right plan for you
-heroku addons:create heroku-postgresql:basic -r heroku-staging
-heroku pg:wait -r heroku-staging
-heroku pg:info -r heroku-staging
-# Now grab the NEW and OLD URLS to change the following commands:
-
-heroku maintenance:on -r heroku-staging
-# It took less than 2 mins for a 1GB database
-heroku pg:copy DATABASE_URL CHANGE_HERE_NEWCOLOR_URL -r heroku-staging
-# It's usually fast, it depends on how long the app takes to reboot
-heroku pg:promote CHANGE_HERE_NEWCOLOR_URL -r heroku-staging
-heroku maintenance:off -r heroku-staging
-
-heroku addons:destroy CHANGE_HERE_OLDCOLOR_URL -r heroku-staging]]></summary>
-        <author>
-            <name>viniciusnegrisolo</name>
         </author>
     </entry>
 </feed>
