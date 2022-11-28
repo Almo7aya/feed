@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-27T00:25:10.780Z</id>
+    <id>urn:2022-11-28T00:22:00.496Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-27T00:25:10.780Z</updated>
+    <updated>2022-11-28T00:22:00.496Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Rust 2024...the year of everywhere?]]></title>
+        <id>/reading/rust-2024...the-year-of-everywhere/</id>
+        <link href="https://almo7aya.dev/reading/rust-2024...the-year-of-everywhere/"/>
+        <updated>2022-11-27T01:04:00.000Z</updated>
+        <summary type="html"><![CDATA[http://smallcultfollowing.com/babysteps/blog/2022/09/22/rust-2024-the-year-of-everywhere/]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Supabase in 100 Seconds]]></title>
         <id>https://www.youtube.com/watch?v=zBZgdTb-dns</id>
@@ -2410,27 +2420,6 @@ Updates of Neovim itself, which are ava…]]></summary>
         <summary type="html"><![CDATA[Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.]]></summary>
         <author>
             <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Change Chrome's Timezone/Location - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/jh5ohxujw5-how-to-change-chromes-timezonelocation</id>
-        <link href="http://til.hashrocket.com/posts/jh5ohxujw5-how-to-change-chromes-timezonelocation"/>
-        <updated>2022-10-28T20:20:01.000Z</updated>
-        <summary type="html"><![CDATA[Open the chrome developer tools (⌘ + ⇧ + c)  
-
-Click on the settings button that looks like:
-    
-
-Navigate to the more tools section and click on Sensors
-
-Here you can choose from pre-existing locations or even add your own:
-    
-
-
-From the chrome dev tools use (⌘ + ⇧ + p) and enter Sensors to get there faster.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
