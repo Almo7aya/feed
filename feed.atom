@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-28T00:22:00.496Z</id>
+    <id>urn:2022-11-29T00:24:55.133Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-28T00:22:00.496Z</updated>
+    <updated>2022-11-29T00:24:55.133Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[28 Nov 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Nov/28</id>
+        <link href="https://this-week-in-neovim.org/2022/Nov/28"/>
+        <updated>2022-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+tree-sitter-vimdoc#65 Code blocks inside vimdoc (`:h do)
+can now be highlighted with a specific language.
+If you are using nvim-treesitter, then run :TSUpdate help.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Need help
+
+      
+      Neovim built-in options survey needs your contribution
+    
+  
+
+
+Survey to find out how people use Neovim built-in options
+Have you ever wondered, which leader key people use the most? Is it default \, <Space>, ,, or som…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust 2024...the year of everywhere?]]></title>
         <id>/reading/rust-2024...the-year-of-everywhere/</id>
@@ -2410,16 +2439,6 @@ Neovim Core updates
 Updates of Neovim itself, which are ava…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[About]]></title>
-        <id>/about/</id>
-        <link href="https://almo7aya.dev/about/"/>
-        <updated>2022-10-30T00:08:49.000Z</updated>
-        <summary type="html"><![CDATA[Hello there! I’m Ali Almohaya aka almo7aya, I work as a senior web engineer @ anghami.]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
 </feed>
