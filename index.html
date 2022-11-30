@@ -22,6 +22,147 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-29 datetime="2022-11-29T20:34:36.000Z">2022-11-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-29 datetime="2022-11-29T20:34:36.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7"
+                        open
+                      >
+                        <summary class="article-expander__title">Encrypting database columns with Rails 7 - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>bin/rails db:encryption:init, then copy the resulting keys to your app’s credentials.yml. Now in your model, you can tell Active Record to encrypt a column by using the encrypts which takes a db column name as an argument. For example:
+class User &lt; ApplicationRecord
+  encrypts :super_secret_data
+end
+
+Active record will automatically decrypt the data upon retrieval. See more here.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/ra8ufwtq2t-important-property"
+                        open
+                      >
+                        <summary class="article-expander__title">!important property - #html-css</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/ra8ufwtq2t-important-property">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>can add the !important property, to override all other rules.
+
+Here is an example:
+#id {
+  background-color: blue;
+}
+
+.class {
+  background-color: gray;
+}
+
+p {
+  background-color: red !important;
+}
+This is some text in a paragraph.
+
+
+This is some text in a paragraph.
+
+
+This is some text in a paragraph.
+
+
+In this case, all of these 
+ tags will have a red background.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/t4onxiqdum-javascript-private-class-functions"
+                        open
+                      >
+                        <summary class="article-expander__title">Javascript private class functions - #javascript</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/t4onxiqdum-javascript-private-class-functions">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>#.  Check this out:
+class MyClass {
+  myPublicFunc() {
+    console.log(&quot;&#x3D;&gt; hey myPublicFunc&quot;);
+    this.#myPrivateFunc();
+  }
+
+  #myPrivateFunc() {
+    console.log(&quot;&#x3D;&gt; hey myPrivateFunc&quot;);
+  }
+}
+
+const myClass &#x3D; new MyClass();
+
+myClass.myPublicFunc();
+// &#x3D;&gt; hey myPublicFunc
+// &#x3D;&gt; hey myPrivateFunc
+
+myClass.#myPrivateFunc();
+// Uncaught SyntaxError:
+//   Private field &#x27;#myPrivateFunc&#x27; must be declared in an enclosing class
+
+We can also use that trick to make static methods, fields or static fields as well.
+
+Thanks Andrew Vogel for this tip 😁</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-28 datetime="2022-11-28T00:00:00.000Z">2022-11-28</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-28 datetime="2022-11-28T00:00:00.000Z"></time>
           </button>
@@ -3935,7 +4076,7 @@ what this would&#x27;ve looked like with the async_trait crate.</span>
 because donating at the &quot;Silver&quot; tier or above gives you advance access to
 articles and your name in the credits, I need to interface with the GitHub
 API the same way I do the Patreon API.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5319,56 +5460,12 @@ This can be used to mock some client-side information such as user device metric
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2022/Oct/31"
-                        open
-                      >
-                        <summary class="article-expander__title">31 Oct 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2022/Oct/31">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This Week In Neovim updates
-Woh, a new section?! No, this is just an exceptional section that will spawn from time to time to provide you with some
-information about https://this-week-in-neovim.org itself.
-This TWiN #16 is a special weekly update, so I need to make a small announcement in your feed to ensure people read
-this right away. I (@phaazon) took the time this week to update the Rust library I use to
-parse the weekly updates (called twin). Next week, for TWiN #17, the contribution process changes a bit, following
-the changes I introduced in twin-0.2. If you have already contributed to TWiN or plan to, then you will probably want
-to read the following updated section on the
-README. If not, jump directly to
-the next section!
-Neovim Core updates
-Updates of Neovim itself, which are ava…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3569825039">
-        <time id="build-timestamp" datetime="2022-11-29T00:24:55.090Z">2022-11-29T00:24:55.090Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3579161000">
+        <time id="build-timestamp" datetime="2022-11-30T00:24:55.730Z">2022-11-30T00:24:55.730Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

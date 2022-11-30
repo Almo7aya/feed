@@ -1,10 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-29T00:24:55.133Z</id>
+    <id>urn:2022-11-30T00:24:55.758Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-29T00:24:55.133Z</updated>
+    <updated>2022-11-30T00:24:55.758Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Encrypting database columns with Rails 7 - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7</id>
+        <link href="http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7"/>
+        <updated>2022-11-29T20:34:36.000Z</updated>
+        <summary type="html"><![CDATA[bin/rails db:encryption:init, then copy the resulting keys to your app’s credentials.yml. Now in your model, you can tell Active Record to encrypt a column by using the encrypts which takes a db column name as an argument. For example:
+class User < ApplicationRecord
+  encrypts :super_secret_data
+end
+
+Active record will automatically decrypt the data upon retrieval. See more here.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[!important property - #html-css]]></title>
+        <id>http://til.hashrocket.com/posts/ra8ufwtq2t-important-property</id>
+        <link href="http://til.hashrocket.com/posts/ra8ufwtq2t-important-property"/>
+        <updated>2022-11-29T19:47:54.000Z</updated>
+        <summary type="html"><![CDATA[can add the !important property, to override all other rules.
+
+Here is an example:
+#id {
+  background-color: blue;
+}
+
+.class {
+  background-color: gray;
+}
+
+p {
+  background-color: red !important;
+}
+<p>This is some text in a paragraph.</p>
+
+<p class="class">This is some text in a paragraph.</p>
+
+<p id="id">This is some text in a paragraph.</p>
+
+In this case, all of these <p> tags will have a red background.]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascript private class functions - #javascript]]></title>
+        <id>http://til.hashrocket.com/posts/t4onxiqdum-javascript-private-class-functions</id>
+        <link href="http://til.hashrocket.com/posts/t4onxiqdum-javascript-private-class-functions"/>
+        <updated>2022-11-29T18:14:03.000Z</updated>
+        <summary type="html"><![CDATA[#.  Check this out:
+class MyClass {
+  myPublicFunc() {
+    console.log("=> hey myPublicFunc");
+    this.#myPrivateFunc();
+  }
+
+  #myPrivateFunc() {
+    console.log("=> hey myPrivateFunc");
+  }
+}
+
+const myClass = new MyClass();
+
+myClass.myPublicFunc();
+// => hey myPublicFunc
+// => hey myPrivateFunc
+
+myClass.#myPrivateFunc();
+// Uncaught SyntaxError:
+//   Private field '#myPrivateFunc' must be declared in an enclosing class
+
+We can also use that trick to make static methods, fields or static fields as well.
+
+Thanks Andrew Vogel for this tip 😁]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[28 Nov 2022]]></title>
         <id>https://this-week-in-neovim.org/2022/Nov/28</id>
@@ -2418,27 +2497,6 @@ This can be used to mock some client-side information such as user device metric
         <updated>2022-10-31T17:48:50.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[31 Oct 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Oct/31</id>
-        <link href="https://this-week-in-neovim.org/2022/Oct/31"/>
-        <updated>2022-10-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This Week In Neovim updates
-Woh, a new section?! No, this is just an exceptional section that will spawn from time to time to provide you with some
-information about https://this-week-in-neovim.org itself.
-This TWiN #16 is a special weekly update, so I need to make a small announcement in your feed to ensure people read
-this right away. I (@phaazon) took the time this week to update the Rust library I use to
-parse the weekly updates (called twin). Next week, for TWiN #17, the contribution process changes a bit, following
-the changes I introduced in twin-0.2. If you have already contributed to TWiN or plan to, then you will probably want
-to read the following updated section on the
-README. If not, jump directly to
-the next section!
-Neovim Core updates
-Updates of Neovim itself, which are ava…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
