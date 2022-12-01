@@ -137,16 +137,6 @@
           "wordCount": 42,
           "title": "nvim: fix treesitter highlighting after breaking change",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/the-http-crash-course-nobody-asked-for/",
-          "author": null,
-          "description": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
-          "link": "https://almo7aya.dev/reading/the-http-crash-course-nobody-asked-for/",
-          "publishedOn": "2022-11-01T04:08:00.000Z",
-          "wordCount": 42,
-          "title": "The HTTP crash course nobody asked for",
-          "imageUrl": null
         }
       ]
     },
@@ -177,7 +167,7 @@
           "description": "<h2>\n                            <a id=\"async-trait-s-one-weird-type-ascription-trick\" class=\"anchor\" href=\"#async-trait-s-one-weird-type-ascription-trick\">\n                                <code>async_trait</code>'s one weird type ascription trick\n                            </a>\n                        </h2>\n                        \n<p>Now that I got <a href=\"part-6\">the Log in with GitHub feature</a> working, let's explore\nwhat this would've looked like with the <code>async_trait</code> crate.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
           "publishedOn": "2022-11-15T19:30:07.000Z",
-          "wordCount": 3329,
+          "wordCount": 3334,
           "title": "Async fn in trait, for real this time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -187,7 +177,7 @@
           "description": "<p>Because I started accepting donations via <a href=\"/donate\">GitHub Sponsors</a>, and\nbecause donating at the &quot;Silver&quot; tier or above gives you advance access to\narticles <em>and</em> your name in the credits, I need to interface with the GitHub\nAPI the same way I do the Patreon API.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6",
           "publishedOn": "2022-11-15T19:30:06.000Z",
-          "wordCount": 5198,
+          "wordCount": 5199,
           "title": "Implementing \"Log in with GitHub\"",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -197,7 +187,7 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1552,
+          "wordCount": 1554,
           "title": "Trying to use nix",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -207,7 +197,7 @@
           "description": "<div class=\"disclosure\">\n\t<strong>Disclosure</strong>: \nAlthough I no longer work for the company my website is hosted on, and this\narticle is written in way that mentions neither my previous or current hosting\nprovider: at the time of this writing, I don't pay for hosting.\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
           "publishedOn": "2022-11-15T19:30:04.000Z",
-          "wordCount": 2306,
+          "wordCount": 2307,
           "title": "Deploying at the edge",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -217,7 +207,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1698,
+          "wordCount": 1697,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -247,7 +237,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2250,
+          "wordCount": 2249,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -2013,16 +2003,6 @@
           "wordCount": 2208,
           "title": "Layout &#038; Grid in Design Systems",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2022/11/Screen-Shot-2022-11-13-at-11.31.22-AM-1024x579.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/design-system-roi-calculator/",
-          "author": null,
-          "description": "This Design System ROI Calculator by Knapsack is fun. It&#8217;s often tough to quantify the benefits a design system provides, so things like this are helpful even as a conversation starter.",
-          "link": "https://bradfrost.com/blog/link/design-system-roi-calculator/",
-          "publishedOn": "2022-11-01T10:38:35.000Z",
-          "wordCount": 657,
-          "title": "Design System ROI Calculator",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -2089,16 +2069,6 @@
           "publishedOn": "2022-11-03T14:44:07.000Z",
           "wordCount": null,
           "title": "Nim in 100 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=HleppfVh8jc",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=HleppfVh8jc",
-          "publishedOn": "2022-10-31T17:48:50.000Z",
-          "wordCount": null,
-          "title": "When your JavaScript framework gets acquired",
           "imageUrl": null
         }
       ]
