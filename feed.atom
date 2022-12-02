@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-01T00:27:04.182Z</id>
+    <id>urn:2022-12-02T00:22:46.427Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-01T00:27:04.182Z</updated>
+    <updated>2022-12-02T00:22:46.427Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Critical Rust feature finally here!]]></title>
+        <id>https://www.youtube.com/watch?v=LRQP_Xwr0Wc</id>
+        <link href="https://www.youtube.com/watch?v=LRQP_Xwr0Wc"/>
+        <updated>2022-12-01T17:13:28.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Splitting an enumerable into two groups - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/pwqfrid0qm-splitting-an-enumerable-into-two-groups</id>
+        <link href="http://til.hashrocket.com/posts/pwqfrid0qm-splitting-an-enumerable-into-two-groups"/>
+        <updated>2022-12-01T14:49:18.000Z</updated>
+        <summary type="html"><![CDATA[Enumerable#partition is a method that returns two arrays.  
+numbers = [2, 95, 24, 27, 85, 4]
+
+even, odd = numbers.partition { |num| num.even? }
+=> [[2, 24, 4], [95, 27, 85]]
+
+even
+=> [2, 24, 4]
+
+odd
+=> [95, 27, 85]]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Encrypting database columns with Rails 7 - #rails]]></title>
         <id>http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7</id>
@@ -2437,37 +2466,6 @@ postcards)</p>]]></summary>
         <summary type="html"><![CDATA[https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459]]></summary>
         <author>
             <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nvim: fix treesitter highlighting after breaking change]]></title>
-        <id>/reading/nvim-fix-treesitter-highlighting-after-breaking-change/</id>
-        <link href="https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/"/>
-        <updated>2022-11-02T08:47:00.000Z</updated>
-        <summary type="html"><![CDATA[https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Execute CDP from a Capybara test  - #testing]]></title>
-        <id>http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-</id>
-        <link href="http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-"/>
-        <updated>2022-11-01T18:48:46.000Z</updated>
-        <summary type="html"><![CDATA[With capybara you can access the page’s driver by using page.driver. Next you can access the browser methods on the driver withpage.driver.browser, then the .execute_cdpmethod can be used to execute chrome devtools commands on your webdriver browser.  
-
-In a capybara test, it could like: 
-test_browser = page.driver.browser
-
-coordinates = { latitude: 35.689487,
-                longitude: 139.691706,
-                accuracy: 100 }
-
-test_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)
-
-This can be used to mock some client-side information such as user device metrics, geo-location, or even emulate slow CPUs 😳]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>

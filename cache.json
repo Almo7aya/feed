@@ -127,16 +127,6 @@
           "wordCount": 38,
           "title": "AstroNvim-status.lua at main · AstroNvim-AstroNvim",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
-          "author": null,
-          "description": "https://gist.github.com/jdrouhard/dccbb692e901d5e0a00a3a4c126079c6",
-          "link": "https://almo7aya.dev/reading/nvim-fix-treesitter-highlighting-after-breaking-change/",
-          "publishedOn": "2022-11-02T08:47:00.000Z",
-          "wordCount": 42,
-          "title": "nvim: fix treesitter highlighting after breaking change",
-          "imageUrl": null
         }
       ]
     },
@@ -167,7 +157,7 @@
           "description": "<h2>\n                            <a id=\"async-trait-s-one-weird-type-ascription-trick\" class=\"anchor\" href=\"#async-trait-s-one-weird-type-ascription-trick\">\n                                <code>async_trait</code>'s one weird type ascription trick\n                            </a>\n                        </h2>\n                        \n<p>Now that I got <a href=\"part-6\">the Log in with GitHub feature</a> working, let's explore\nwhat this would've looked like with the <code>async_trait</code> crate.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
           "publishedOn": "2022-11-15T19:30:07.000Z",
-          "wordCount": 3334,
+          "wordCount": 3329,
           "title": "Async fn in trait, for real this time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -187,7 +177,7 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1554,
+          "wordCount": 1551,
           "title": "Trying to use nix",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -197,7 +187,7 @@
           "description": "<div class=\"disclosure\">\n\t<strong>Disclosure</strong>: \nAlthough I no longer work for the company my website is hosted on, and this\narticle is written in way that mentions neither my previous or current hosting\nprovider: at the time of this writing, I don't pay for hosting.\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
           "publishedOn": "2022-11-15T19:30:04.000Z",
-          "wordCount": 2307,
+          "wordCount": 2312,
           "title": "Deploying at the edge",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -207,7 +197,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1697,
+          "wordCount": 1698,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -237,7 +227,7 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2249,
+          "wordCount": 2255,
           "title": "Becoming fasterthanlime full-time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -248,6 +238,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/pwqfrid0qm-splitting-an-enumerable-into-two-groups",
+          "author": "craighafer",
+          "description": "Enumerable#partition is a method that returns two arrays.  \nnumbers = [2, 95, 24, 27, 85, 4]\r\n\neven, odd = numbers.partition { |num| num.even? }\r\n=> [[2, 24, 4], [95, 27, 85]]\r\n\neven\r\n=> [2, 24, 4]\r\n\nodd\r\n=> [95, 27, 85]",
+          "link": "http://til.hashrocket.com/posts/pwqfrid0qm-splitting-an-enumerable-into-two-groups",
+          "publishedOn": "2022-12-01T14:49:18.000Z",
+          "wordCount": 285,
+          "title": "Splitting an enumerable into two groups - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7",
           "author": "jackrosa",
@@ -427,16 +427,6 @@
           "wordCount": 291,
           "title": "Select options with option groups - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
-          "author": "jackrosa",
-          "description": "With capybara you can access the page’s driver by using page.driver. Next you can access the browser methods on the driver withpage.driver.browser, then the .execute_cdpmethod can be used to execute chrome devtools commands on your webdriver browser.  \n\nIn a capybara test, it could like: \ntest_browser = page.driver.browser\r\n\ncoordinates = { latitude: 35.689487,\r\n                longitude: 139.691706,\r\n                accuracy: 100 }\r\n\ntest_browser.execute_cdp('Emulation.setGeolocationOverride', **coordinates)\r\n\nThis can be used to mock some client-side information such as user device metrics, geo-location, or even emulate slow CPUs 😳",
-          "link": "http://til.hashrocket.com/posts/wuz98lrv5n-execute-cdp-from-a-capybara-test-",
-          "publishedOn": "2022-11-01T18:48:46.000Z",
-          "wordCount": 251,
-          "title": "Execute CDP from a Capybara test  - #testing",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
         }
       ]
     },
@@ -2078,6 +2068,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=LRQP_Xwr0Wc",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=LRQP_Xwr0Wc",
+          "publishedOn": "2022-12-01T17:13:28.000Z",
+          "wordCount": null,
+          "title": "Critical Rust feature finally here!",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=BgCXrf_SG2E",
           "author": null,
