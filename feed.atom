@@ -1,12 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-02T00:22:46.427Z</id>
+    <id>urn:2022-12-03T00:20:26.000Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-02T00:22:46.427Z</updated>
+    <updated>2022-12-03T00:20:26.000Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Critical Rust feature finally here!]]></title>
+        <title type="html"><![CDATA[Day 2 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-2</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-2"/>
+        <updated>2022-12-02T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2>
+                            <a id="part-1" class="anchor" href="#part-1">
+                                Part 1
+                            </a>
+                        </h2>
+                        
+<p>In the <a href="https://adventofcode.com/2022/day/2">day 2 challenge</a>, we're playing
+Rock Papers Scissors.</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Day 1 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-1</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-1"/>
+        <updated>2022-12-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Two years ago, I did part of <a href="/series/advent-of-code-2020">Advent of Code 2020</a>
+using the <a href="https://www.rust-lang.org/">Rust</a> language. It was a lot of fun,
+so let's try it again!</p>
+
+                        <h2>
+                            <a id="the-problem-statement" class="anchor" href="#the-problem-statement">
+                                The problem statement
+                            </a>
+                        </h2>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Component testing in Storybook]]></title>
+        <id>https://bradfrost.com/blog/link/component-testing-in-storybook/</id>
+        <link href="https://bradfrost.com/blog/link/component-testing-in-storybook/"/>
+        <updated>2022-12-02T15:47:27.000Z</updated>
+        <summary type="html"><![CDATA[&#8220;Writing your component UI tests in Jest can feel a little like stabbing at your components with a blindfold on.&#8221;- Michael Chan This nails it. I used to think my stumbling over testing design system component libraries was a personal [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rust-anthology-master-list.md at master · brson-rust-anthology]]></title>
+        <id>/reading/rust-anthology-master-list.md-at-master-brson-rust-anthology/</id>
+        <link href="https://almo7aya.dev/reading/rust-anthology-master-list.md-at-master-brson-rust-anthology/"/>
+        <updated>2022-12-02T02:37:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/brson/rust-anthology/blob/master/master-list.md]]></summary>
+        <author>
+            <name>almo7aya.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Major Rust feature finally here!]]></title>
         <id>https://www.youtube.com/watch?v=LRQP_Xwr0Wc</id>
         <link href="https://www.youtube.com/watch?v=LRQP_Xwr0Wc"/>
         <updated>2022-12-01T17:13:28.000Z</updated>
@@ -2456,16 +2511,6 @@ postcards)</p>]]></summary>
         <updated>2022-11-03T14:44:07.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AstroNvim-status.lua at main · AstroNvim-AstroNvim]]></title>
-        <id>/reading/astronvim-status.lua-at-main-astronvim-astronvim/</id>
-        <link href="https://almo7aya.dev/reading/astronvim-status.lua-at-main-astronvim-astronvim/"/>
-        <updated>2022-11-03T11:55:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/AstroNvim/AstroNvim/blob/main/lua/core/utils/status.lua#L459]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
 </feed>
