@@ -132,12 +132,22 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
+          "id": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
+          "author": null,
+          "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/4\">day 4 challenge</a>!</p>\n<p>In this one, we get an input like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">2-4,6-8\n2-3,4-5\n5-7,7-9\n2-8,3-7\n6-6,4-6\n2-6,4-8\n</pre></div>",
+          "link": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
+          "publishedOn": "2022-12-04T15:30:00.000Z",
+          "wordCount": 1999,
+          "title": "Day 4 (Advent of Code 2022)",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
           "id": "https://fasterthanli.me/series/advent-of-code-2022/part-3",
           "author": null,
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>I'm not sure where the <a href=\"https://adventofcode.com/2022/day/3\">day 3 challenge</a> is\ngoing, because the problem statement for the first part is kinda convoluted.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-3",
           "publishedOn": "2022-12-03T09:50:00.000Z",
-          "wordCount": 3454,
+          "wordCount": 3816,
           "title": "Day 3 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -147,7 +157,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>In the <a href=\"https://adventofcode.com/2022/day/2\">day 2 challenge</a>, we're playing\nRock Papers Scissors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-2",
           "publishedOn": "2022-12-02T16:10:00.000Z",
-          "wordCount": 3003,
+          "wordCount": 3008,
           "title": "Day 2 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -157,7 +167,7 @@
           "description": "<p>Two years ago, I did part of <a href=\"/series/advent-of-code-2020\">Advent of Code 2020</a>\nusing the <a href=\"https://www.rust-lang.org/\">Rust</a> language. It was a lot of fun,\nso let's try it again!</p>\n\n                        <h2>\n                            <a id=\"the-problem-statement\" class=\"anchor\" href=\"#the-problem-statement\">\n                                The problem statement\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-1",
           "publishedOn": "2022-12-02T16:00:00.000Z",
-          "wordCount": 7575,
+          "wordCount": 8001,
           "title": "Day 1 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -167,7 +177,7 @@
           "description": "<p>This series has to end <em>somewhere</em>, so let's end it here!</p>\n<p>However, here is a list of some things I'd like to come back to:</p>\n\n                        <h2>\n                            <a id=\"bundling-typescript\" class=\"anchor\" href=\"#bundling-typescript\">\n                                Bundling & TypeScript\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8",
           "publishedOn": "2022-11-15T19:30:08.000Z",
-          "wordCount": 1431,
+          "wordCount": 1432,
           "title": "Cut for time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -177,7 +187,7 @@
           "description": "<h2>\n                            <a id=\"async-trait-s-one-weird-type-ascription-trick\" class=\"anchor\" href=\"#async-trait-s-one-weird-type-ascription-trick\">\n                                <code>async_trait</code>'s one weird type ascription trick\n                            </a>\n                        </h2>\n                        \n<p>Now that I got <a href=\"part-6\">the Log in with GitHub feature</a> working, let's explore\nwhat this would've looked like with the <code>async_trait</code> crate.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
           "publishedOn": "2022-11-15T19:30:07.000Z",
-          "wordCount": 3332,
+          "wordCount": 3331,
           "title": "Async fn in trait, for real this time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -187,7 +197,7 @@
           "description": "<p>Because I started accepting donations via <a href=\"/donate\">GitHub Sponsors</a>, and\nbecause donating at the &quot;Silver&quot; tier or above gives you advance access to\narticles <em>and</em> your name in the credits, I need to interface with the GitHub\nAPI the same way I do the Patreon API.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6",
           "publishedOn": "2022-11-15T19:30:06.000Z",
-          "wordCount": 5198,
+          "wordCount": 5200,
           "title": "Implementing \"Log in with GitHub\"",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -197,7 +207,7 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1553,
+          "wordCount": 1552,
           "title": "Trying to use nix",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -217,7 +227,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1699,
+          "wordCount": 1696,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -227,7 +237,7 @@
           "description": "<h2>\n                            <a id=\"falling-out-of-love-with-warp\" class=\"anchor\" href=\"#falling-out-of-love-with-warp\">\n                                Falling out of love with <code>warp</code>\n                            </a>\n                        </h2>\n                        \n<p>Back when I wrote this codebase, <a href=\"https://lib.rs/crates/warp\">warp</a> was the best\n/ only alternative for something relatively high-level on top of\n<a href=\"https://lib.rs/crates/hyper\">hyper</a>.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
           "publishedOn": "2022-11-15T19:30:02.000Z",
-          "wordCount": 4034,
+          "wordCount": 4033,
           "title": "Migrating from warp to axum",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
