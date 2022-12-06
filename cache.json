@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Dec/5",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nGuides, tours, articles, etc.\n\n      \n      \n      Neovim Spaghetti - LSP Servers, Linters, Formatters, and Treesitter\n    \n  \nTo make the most of Neovim it’s useful to understand the technologies it can leverage, how the various plugins that\nmanage these technologies relate to one another, and how they can be installed and configured. In this article we’ll\nattempt to untangle the Neovim plugin spaghetti that turns Neovim into a more featureful modern editor.\nBlog\n\n            \n            Special: appreciation post\n        \n  …",
+          "link": "https://this-week-in-neovim.org/2022/Dec/5",
+          "publishedOn": "2022-12-05T00:00:00.000Z",
+          "wordCount": 819,
+          "title": "5 Dec 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Nov/28",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\ntree-sitter-vimdoc#65 Code blocks inside vimdoc (`:h do)\ncan now be highlighted with a specific language.\nIf you are using nvim-treesitter, then run :TSUpdate help.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      Neovim built-in options survey needs your contribution\n    \n  \n\n\nSurvey to find out how people use Neovim built-in options\nHave you ever wondered, which leader key people use the most? Is it default \\, <Space>, ,, or som…",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\ntree-sitter-vimdoc#65 Code blocks inside vimdoc (:h doc)\ncan now be highlighted with a specific language.\nIf you are using nvim-treesitter, then run :TSUpdate help.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      Neovim built-in options survey needs your contribution\n    \n  \n\n\nSurvey to find out how people use Neovim built-in options\nHave you ever wondered, which leader key people use the most? Is it default \\, <Space>, ,, or som…",
           "link": "https://this-week-in-neovim.org/2022/Nov/28",
           "publishedOn": "2022-11-28T00:00:00.000Z",
-          "wordCount": 746,
+          "wordCount": 749,
           "title": "28 Nov 2022",
           "imageUrl": null
         },
@@ -107,16 +117,6 @@
           "wordCount": 50,
           "title": "Why does Rust not have a standard async runtime? : reddit",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
-          "author": null,
-          "description": "https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash",
-          "link": "https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/",
-          "publishedOn": "2022-11-06T01:04:00.000Z",
-          "wordCount": 50,
-          "title": "string - Extract filename and extension in Bash - Stack Overflow",
-          "imageUrl": null
         }
       ]
     },
@@ -132,12 +132,22 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
+          "id": "https://fasterthanli.me/series/advent-of-code-2022/part-5",
+          "author": null,
+          "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>The <a href=\"https://adventofcode.com/2022/day/5\">day 5 challenge</a> actually looks fun!</p>\n<p>Our input looks like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">    [D]    \n[N] [C]    \n[Z] [M] [P]\n 1   2   3 \n\nmove 1 from 2 to 1\nmove 3 from 1 to 3\nmove 2 from 2 to 1\nmove 1 from 1 to 2\n</pre></div>",
+          "link": "https://fasterthanli.me/series/advent-of-code-2022/part-5",
+          "publishedOn": "2022-12-05T21:29:00.000Z",
+          "wordCount": 5848,
+          "title": "Day 5 (Advent of Code 2022)",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
           "id": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
           "author": null,
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/4\">day 4 challenge</a>!</p>\n<p>In this one, we get an input like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">2-4,6-8\n2-3,4-5\n5-7,7-9\n2-8,3-7\n6-6,4-6\n2-6,4-8\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
           "publishedOn": "2022-12-04T15:30:00.000Z",
-          "wordCount": 1999,
+          "wordCount": 2007,
           "title": "Day 4 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -147,7 +157,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>I'm not sure where the <a href=\"https://adventofcode.com/2022/day/3\">day 3 challenge</a> is\ngoing, because the problem statement for the first part is kinda convoluted.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-3",
           "publishedOn": "2022-12-03T09:50:00.000Z",
-          "wordCount": 3816,
+          "wordCount": 3812,
           "title": "Day 3 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -157,7 +167,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>In the <a href=\"https://adventofcode.com/2022/day/2\">day 2 challenge</a>, we're playing\nRock Papers Scissors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-2",
           "publishedOn": "2022-12-02T16:10:00.000Z",
-          "wordCount": 3008,
+          "wordCount": 3016,
           "title": "Day 2 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -167,7 +177,7 @@
           "description": "<p>Two years ago, I did part of <a href=\"/series/advent-of-code-2020\">Advent of Code 2020</a>\nusing the <a href=\"https://www.rust-lang.org/\">Rust</a> language. It was a lot of fun,\nso let's try it again!</p>\n\n                        <h2>\n                            <a id=\"the-problem-statement\" class=\"anchor\" href=\"#the-problem-statement\">\n                                The problem statement\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-1",
           "publishedOn": "2022-12-02T16:00:00.000Z",
-          "wordCount": 8001,
+          "wordCount": 8009,
           "title": "Day 1 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -177,7 +187,7 @@
           "description": "<p>This series has to end <em>somewhere</em>, so let's end it here!</p>\n<p>However, here is a list of some things I'd like to come back to:</p>\n\n                        <h2>\n                            <a id=\"bundling-typescript\" class=\"anchor\" href=\"#bundling-typescript\">\n                                Bundling & TypeScript\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8",
           "publishedOn": "2022-11-15T19:30:08.000Z",
-          "wordCount": 1432,
+          "wordCount": 1431,
           "title": "Cut for time",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -217,7 +227,7 @@
           "description": "<div class=\"disclosure\">\n\t<strong>Disclosure</strong>: \nAlthough I no longer work for the company my website is hosted on, and this\narticle is written in way that mentions neither my previous or current hosting\nprovider: at the time of this writing, I don't pay for hosting.\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
           "publishedOn": "2022-11-15T19:30:04.000Z",
-          "wordCount": 2307,
+          "wordCount": 2306,
           "title": "Deploying at the edge",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -227,7 +237,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1696,
+          "wordCount": 1699,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -237,7 +247,7 @@
           "description": "<h2>\n                            <a id=\"falling-out-of-love-with-warp\" class=\"anchor\" href=\"#falling-out-of-love-with-warp\">\n                                Falling out of love with <code>warp</code>\n                            </a>\n                        </h2>\n                        \n<p>Back when I wrote this codebase, <a href=\"https://lib.rs/crates/warp\">warp</a> was the best\n/ only alternative for something relatively high-level on top of\n<a href=\"https://lib.rs/crates/hyper\">hyper</a>.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
           "publishedOn": "2022-11-15T19:30:02.000Z",
-          "wordCount": 4033,
+          "wordCount": 4034,
           "title": "Migrating from warp to axum",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -258,6 +268,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/nrvslyniuc-the-outlet-of-rails-stimulus-",
+          "author": "viniciusnegrisolo",
+          "description": "values and targets Rails Stimulus has now outlets. Now we can invoke functions from one controller to the other like that:\n// result_controller.js\r\nexport default class extends Controller {\r\n  markAsSelected(event) {\r\n    // ...\r\n  }\r\n}\r\n// search_controller.js\r\nexport default class extends Controller {\r\n  static outlets = [ \"result\" ]\r\n\n  selectAll(event) {\r\n    this.resultOutlets.forEach(result => result.markAsSelected(event))\r\n  }",
+          "link": "http://til.hashrocket.com/posts/nrvslyniuc-the-outlet-of-rails-stimulus-",
+          "publishedOn": "2022-12-05T21:37:06.000Z",
+          "wordCount": 267,
+          "title": "The Outlet of Rails Stimulus  - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/pwqfrid0qm-splitting-an-enumerable-into-two-groups",
           "author": "craighafer",
@@ -1985,6 +2005,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/building-conscious-design-systems/",
+          "author": null,
+          "description": "Building conscious design systems by Amy Hupe is a very, very good read. You should read it all.",
+          "link": "https://bradfrost.com/blog/link/building-conscious-design-systems/",
+          "publishedOn": "2022-12-05T15:19:02.000Z",
+          "wordCount": 645,
+          "title": "Building conscious design systems",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/component-testing-in-storybook/",
           "author": null,
           "description": "&#8220;Writing your component UI tests in Jest can feel a little like stabbing at your components with a blindfold on.&#8221;- Michael Chan This nails it. I used to think my stumbling over testing design system component libraries was a personal [&#8230;]",
@@ -2152,7 +2182,7 @@
           "link": "https://www.youtube.com/watch?v=9K20e7jlQPA",
           "publishedOn": "2022-11-24T13:44:02.000Z",
           "wordCount": null,
-          "title": "You're Doing Agile Wrong (Agile isn't scrum)",
+          "title": "Agile Isn't Scrum (You're doing agile wrong)",
           "imageUrl": null
         },
         {

@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-05T00:21:57.166Z</id>
+    <id>urn:2022-12-06T00:21:26.825Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-05T00:21:57.166Z</updated>
+    <updated>2022-12-06T00:21:26.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Outlet of Rails Stimulus  - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/nrvslyniuc-the-outlet-of-rails-stimulus-</id>
+        <link href="http://til.hashrocket.com/posts/nrvslyniuc-the-outlet-of-rails-stimulus-"/>
+        <updated>2022-12-05T21:37:06.000Z</updated>
+        <summary type="html"><![CDATA[values and targets Rails Stimulus has now outlets. Now we can invoke functions from one controller to the other like that:
+// result_controller.js
+export default class extends Controller {
+  markAsSelected(event) {
+    // ...
+  }
+}
+// search_controller.js
+export default class extends Controller {
+  static outlets = [ "result" ]
+
+  selectAll(event) {
+    this.resultOutlets.forEach(result => result.markAsSelected(event))
+  }]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Day 5 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-5</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-5"/>
+        <updated>2022-12-05T21:29:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2>
+                            <a id="part-1" class="anchor" href="#part-1">
+                                Part 1
+                            </a>
+                        </h2>
+                        
+<p>The <a href="https://adventofcode.com/2022/day/5">day 5 challenge</a> actually looks fun!</p>
+<p>Our input looks like this:</p>
+<div class="code-block"><pre class="code-block-inner" data-lang="">    [D]    
+[N] [C]    
+[Z] [M] [P]
+ 1   2   3 
+
+move 1 from 2 to 1
+move 3 from 1 to 3
+move 2 from 2 to 1
+move 1 from 1 to 2
+</pre></div>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building conscious design systems]]></title>
+        <id>https://bradfrost.com/blog/link/building-conscious-design-systems/</id>
+        <link href="https://bradfrost.com/blog/link/building-conscious-design-systems/"/>
+        <updated>2022-12-05T15:19:02.000Z</updated>
+        <summary type="html"><![CDATA[Building conscious design systems by Amy Hupe is a very, very good read. You should read it all.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Dec 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Dec/5</id>
+        <link href="https://this-week-in-neovim.org/2022/Dec/5"/>
+        <updated>2022-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Guides, tours, articles, etc.
+
+      
+      
+      Neovim Spaghetti - LSP Servers, Linters, Formatters, and Treesitter
+    
+  
+To make the most of Neovim it’s useful to understand the technologies it can leverage, how the various plugins that
+manage these technologies relate to one another, and how they can be installed and configured. In this article we’ll
+attempt to untangle the Neovim plugin spaghetti that turns Neovim into a more featureful modern editor.
+Blog
+
+            
+            Special: appreciation post
+        
+  …]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Day 4 (Advent of Code 2022)]]></title>
         <id>https://fasterthanli.me/series/advent-of-code-2022/part-4</id>
@@ -219,7 +309,7 @@ Updates of Neovim itself, which are available on Neovim nightly.
 Important: if you are a plugin author, you are strongly advised to follow the
 #14090 breaking changes on master GitHub thread, as it contains
 important breaking changes information.
-tree-sitter-vimdoc#65 Code blocks inside vimdoc (`:h do)
+tree-sitter-vimdoc#65 Code blocks inside vimdoc (:h doc)
 can now be highlighted with a specific language.
 If you are using nvim-treesitter, then run :TSUpdate help.
 Neovim Plugin Community updates
@@ -276,7 +366,7 @@ Have you ever wondered, which leader key people use the most? Is it default \, <
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[You're Doing Agile Wrong (Agile isn't scrum)]]></title>
+        <title type="html"><![CDATA[Agile Isn't Scrum (You're doing agile wrong)]]></title>
         <id>https://www.youtube.com/watch?v=9K20e7jlQPA</id>
         <link href="https://www.youtube.com/watch?v=9K20e7jlQPA"/>
         <updated>2022-11-24T13:44:02.000Z</updated>
@@ -2509,16 +2599,6 @@ Feedback is requested to help make decisions during the rewrite.
 If you are a legendary.nvim user, please provide fee…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[string - Extract filename and extension in Bash - Stack Overflow]]></title>
-        <id>/reading/string-extract-filename-and-extension-in-bash-stack-overflow/</id>
-        <link href="https://almo7aya.dev/reading/string-extract-filename-and-extension-in-bash-stack-overflow/"/>
-        <updated>2022-11-06T01:04:00.000Z</updated>
-        <summary type="html"><![CDATA[https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
 </feed>
