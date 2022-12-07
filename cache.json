@@ -50,16 +50,6 @@
           "wordCount": 590,
           "title": "14 Nov 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2022/Nov/7",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      legendary.nvim is requesting community feedback\n    \n  \n\n\n🗺️ A legend for your keymaps, commands, and autocmds, with which-key.nvim integration\nlegendary.nvim will be introducing semantic versioning via git tags in order to safely allow for a large refactor/rewrite.\nFeedback is requested to help make decisions during the rewrite.\nIf you are a legendary.nvim user, please provide fee…",
-          "link": "https://this-week-in-neovim.org/2022/Nov/7",
-          "publishedOn": "2022-11-07T00:00:00.000Z",
-          "wordCount": 895,
-          "title": "7 Nov 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -132,12 +122,22 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
+          "id": "https://fasterthanli.me/series/advent-of-code-2022/part-6",
+          "author": null,
+          "description": "<p>Today I am joining you from the relative discomfort of my living room (since my\nbetter half has commandeered the home office due to Way Too Many Calls) to\ntackle the <a href=\"https://adventofcode.com/2022/day/6\">day 6 challenge</a>, which I'm\nexcited about: maybe despite, maybe because of, the low-grade fever I'm under.</p>\n\n                        <h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/series/advent-of-code-2022/part-6",
+          "publishedOn": "2022-12-06T17:40:00.000Z",
+          "wordCount": 3084,
+          "title": "Day 6 (Advent of Code 2022)",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
           "id": "https://fasterthanli.me/series/advent-of-code-2022/part-5",
           "author": null,
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>The <a href=\"https://adventofcode.com/2022/day/5\">day 5 challenge</a> actually looks fun!</p>\n<p>Our input looks like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">    [D]    \n[N] [C]    \n[Z] [M] [P]\n 1   2   3 \n\nmove 1 from 2 to 1\nmove 3 from 1 to 3\nmove 2 from 2 to 1\nmove 1 from 1 to 2\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-5",
           "publishedOn": "2022-12-05T21:29:00.000Z",
-          "wordCount": 5848,
+          "wordCount": 6515,
           "title": "Day 5 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -147,7 +147,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/4\">day 4 challenge</a>!</p>\n<p>In this one, we get an input like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">2-4,6-8\n2-3,4-5\n5-7,7-9\n2-8,3-7\n6-6,4-6\n2-6,4-8\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
           "publishedOn": "2022-12-04T15:30:00.000Z",
-          "wordCount": 2007,
+          "wordCount": 2023,
           "title": "Day 4 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -157,7 +157,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>I'm not sure where the <a href=\"https://adventofcode.com/2022/day/3\">day 3 challenge</a> is\ngoing, because the problem statement for the first part is kinda convoluted.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-3",
           "publishedOn": "2022-12-03T09:50:00.000Z",
-          "wordCount": 3812,
+          "wordCount": 3821,
           "title": "Day 3 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -167,7 +167,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>In the <a href=\"https://adventofcode.com/2022/day/2\">day 2 challenge</a>, we're playing\nRock Papers Scissors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-2",
           "publishedOn": "2022-12-02T16:10:00.000Z",
-          "wordCount": 3016,
+          "wordCount": 3033,
           "title": "Day 2 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -177,7 +177,7 @@
           "description": "<p>Two years ago, I did part of <a href=\"/series/advent-of-code-2020\">Advent of Code 2020</a>\nusing the <a href=\"https://www.rust-lang.org/\">Rust</a> language. It was a lot of fun,\nso let's try it again!</p>\n\n                        <h2>\n                            <a id=\"the-problem-statement\" class=\"anchor\" href=\"#the-problem-statement\">\n                                The problem statement\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-1",
           "publishedOn": "2022-12-02T16:00:00.000Z",
-          "wordCount": 8009,
+          "wordCount": 8016,
           "title": "Day 1 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -207,7 +207,7 @@
           "description": "<p>Because I started accepting donations via <a href=\"/donate\">GitHub Sponsors</a>, and\nbecause donating at the &quot;Silver&quot; tier or above gives you advance access to\narticles <em>and</em> your name in the credits, I need to interface with the GitHub\nAPI the same way I do the Patreon API.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6",
           "publishedOn": "2022-11-15T19:30:06.000Z",
-          "wordCount": 5200,
+          "wordCount": 5203,
           "title": "Implementing \"Log in with GitHub\"",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -217,7 +217,7 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1552,
+          "wordCount": 1553,
           "title": "Trying to use nix",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -227,7 +227,7 @@
           "description": "<div class=\"disclosure\">\n\t<strong>Disclosure</strong>: \nAlthough I no longer work for the company my website is hosted on, and this\narticle is written in way that mentions neither my previous or current hosting\nprovider: at the time of this writing, I don't pay for hosting.\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
           "publishedOn": "2022-11-15T19:30:04.000Z",
-          "wordCount": 2306,
+          "wordCount": 2307,
           "title": "Deploying at the edge",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -237,7 +237,7 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1699,
+          "wordCount": 1698,
           "title": "Async fn in trait... not",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -247,7 +247,7 @@
           "description": "<h2>\n                            <a id=\"falling-out-of-love-with-warp\" class=\"anchor\" href=\"#falling-out-of-love-with-warp\">\n                                Falling out of love with <code>warp</code>\n                            </a>\n                        </h2>\n                        \n<p>Back when I wrote this codebase, <a href=\"https://lib.rs/crates/warp\">warp</a> was the best\n/ only alternative for something relatively high-level on top of\n<a href=\"https://lib.rs/crates/hyper\">hyper</a>.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
           "publishedOn": "2022-11-15T19:30:02.000Z",
-          "wordCount": 4034,
+          "wordCount": 4035,
           "title": "Migrating from warp to axum",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -257,7 +257,7 @@
           "description": "<h2>\n                            <a id=\"the-bleeding-edge-of-rustc-and-clippy\" class=\"anchor\" href=\"#the-bleeding-edge-of-rustc-and-clippy\">\n                                The bleeding edge of rustc and clippy\n                            </a>\n                        </h2>\n                        \n<p>Typically, you'd want a production application to use a stable version of Rust.\nAt the time of this writing, that's Rust 1.65.0, which stabilizes a bunch of\nlong-awaited features (GATs, let-else, MIR inlining, split debug info, etc.).</p>\n<div class=\"tip\">\n<div class=\"tip-header\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\nCool bear's hot tip\n</div>\n\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-1",
           "publishedOn": "2022-11-15T19:30:01.000Z",
-          "wordCount": 3574,
+          "wordCount": 3577,
           "title": "Cleaning up and upgrading third-party crates",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -268,6 +268,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/aoulxej8zd-ruby-memoization-with-nil-values",
+          "author": "marylee",
+          "description": "||= operator.\n\nHowever, if our lookups return a nil or falsey value, our memo will actually keep executing the lookup:\ndef ticket\r\n  @ticket ||= Ticket.find_by(id:, owner:)\r\nend\r\n\nThis code essentially boils down to:\ndef ticket\r\n  @ticket = @ticket || Ticket.find_by(id:, owner:)\r\nend\r\n\nIf our find_by in the example above returns nil, the code will continue to run the find_by every time we call the ticket method.\n\nTo avoid this, we can shift our pattern a bit, and look to see if we have already set our instance variable or not:\ndef ticket\r\n  return @ticket if defined?(@ticket)\r\n  @ticket = Ticket.find_by(id:, owner:)\r\nend",
+          "link": "http://til.hashrocket.com/posts/aoulxej8zd-ruby-memoization-with-nil-values",
+          "publishedOn": "2022-12-06T21:28:44.000Z",
+          "wordCount": 352,
+          "title": "Ruby memoization with nil values - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/nrvslyniuc-the-outlet-of-rails-stimulus-",
           "author": "viniciusnegrisolo",
@@ -2062,6 +2072,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=1v_TEnpqHXE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=1v_TEnpqHXE",
+          "publishedOn": "2022-12-06T16:53:01.000Z",
+          "wordCount": null,
+          "title": "Things are gonna get weird in 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=zBZgdTb-dns",
           "author": null,
           "description": "",
@@ -2125,7 +2145,7 @@
           "link": "https://www.youtube.com/watch?v=LRQP_Xwr0Wc",
           "publishedOn": "2022-12-01T17:13:28.000Z",
           "wordCount": null,
-          "title": "Major Rust feature finally here!",
+          "title": "Async functions in traits finally here!",
           "imageUrl": null
         },
         {
