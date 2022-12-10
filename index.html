@@ -22,6 +22,183 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-09 datetime="2022-12-09T22:35:14.000Z">2022-12-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-09 datetime="2022-12-09T22:35:14.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml"
+                        open
+                      >
+                        <summary class="article-expander__title">Explicit new line at end of string in YAML - #workflow</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>|+ after your key definition:
+---
+multiline_text: |+
+  Let me tell you a story...
+  
+  About my multi-line string.
+
+This would output a string like so:
+Let me tell you a story...\nAbout my multi-line string.\n</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml"
+                        open
+                      >
+                        <summary class="article-expander__title">Multi-line string heredoc in YAML - #workflow</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>To preserve new lines, use a | after your key definition:
+---
+multiline_text: |
+  Let me tell you a story...
+  
+  About my multi-line string.
+
+This would output a string like so:
+Let me tell you a story...\nAbout my multi-line string.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def"
+                        open
+                      >
+                        <summary class="article-expander__title">Pattern Match Keyword List in Function Def - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Sometimes you’ll receive the last argument as an empty keyword list; in this case, we’re calling it opts. You can pattern match key-values by defining the shape in a function.
+  defmodule Example do
+    def hello(opts \\ [])
+
+   # match only on a specific keyword 
+   # will match when message is the only keyword included in opts
+    def hello([message: message]) do
+      IO.puts(&quot;Hello #{message}&quot;)
+    end
+
+    # match on a specific keyword and when there&#x27;s others
+    # will match when message and other keys are included in opts
+    def hello([{:message, message} | _rest] &#x3D; opts) do
+      IO.puts(&quot;Hello #{message}&quot;)
+    end
+  end
+
+Example.hello(message: &quot;World&quot;)
+&gt; Hello World
+&gt; :ok
+
+# could also call in the more verbose way
+Example.hello([message: &quot;World&quot;])
+&gt; Hello World
+&gt; :ok
+
+# with other args
+Example.hello(message: &quot;World&quot;, something_else: &quot;hi&quot;)
+&gt; Hello World
+&gt; :ok
+https://elixir-lang.org/getting-started/keywords-and-maps.html</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >fasterthanli.me</button>
+                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-8"
+                        open
+                      >
+                        <summary class="article-expander__title">Day 8 (Advent of Code 2022)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-8">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In the day 8 problem, our input is a 
+height map:
+30373
+25512
+65332
+33549
+35390
+
+This is a 5x5 grid, and every number denotes the height of a tree. For part 1,
+we must find out how many trees are visible from the outside of the grid.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-08 datetime="2022-12-08T17:09:04.000Z">2022-12-08</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-08 datetime="2022-12-08T17:09:04.000Z"></time>
           </button>
@@ -4916,11 +5093,14 @@ The only issue is that there’s no option to change from BY DEFAULT to ALWAYS �
                         <summary class="article-expander__title">Find a function OID in Postgres - #sql</summary>
                         <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/jwtkinrziy-find-a-function-oid-in-postgres">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>pg_proc table:
 select oid from pg_proc where proname &#x3D;&#x27;my_function_name&#x27;;
 
 This is very useful if you need to find more info about a function but only know the function name.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -5583,124 +5763,10 @@ arr.rindex(&#x27;b&#x27;)
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-09 datetime="2022-11-09T21:50:14.000Z">2022-11-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-09 datetime="2022-11-09T21:50:14.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq"
-                        open
-                      >
-                        <summary class="article-expander__title">Json default value using jq - #command-line</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>default value when getting a node in json using jq:
-{
-  &quot;users&quot;: [
-    {&quot;name&quot;: &quot;John&quot;},
-    {}
-  ]
-}
-cat my.json | jq &#x27;[.users[] | .name // &quot;my-default&quot;]&#x27;
-# [
-#   &quot;John&quot;,
-#   &quot;my-default&quot;
-# ]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/2emq0gz9xc-check-a-check-box-field-from-the-keyboard"
-                        open
-                      >
-                        <summary class="article-expander__title">Check a check-box field, from the keyboard. - #workflow</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/2emq0gz9xc-check-a-check-box-field-from-the-keyboard">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Quick answer:Space Bar
-
-Have you ever found yourself filling out fields in a form, tabbing over to each field as you fill them out, only to come across a dreaded, check-box field that painstakingly makes you reach all the way across your desk to the mouse, just to check this box?  
-
-Well, your suffering is over. Simply press the space bar to toggle the check-box and be on your way.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;2pfcynxODJc"
-                        open
-                      >
-                        <summary class="article-expander__title">Is FAANG f**ked?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;2pfcynxODJc">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3653269827">
-        <time id="build-timestamp" datetime="2022-12-09T00:23:59.233Z">2022-12-09T00:23:59.233Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3661739071">
+        <time id="build-timestamp" datetime="2022-12-10T00:20:13.180Z">2022-12-10T00:20:13.180Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -1,10 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-09T00:23:59.267Z</id>
+    <id>urn:2022-12-10T00:20:13.208Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-09T00:23:59.267Z</updated>
+    <updated>2022-12-10T00:20:13.208Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Explicit new line at end of string in YAML - #workflow]]></title>
+        <id>http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml</id>
+        <link href="http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml"/>
+        <updated>2022-12-09T22:35:14.000Z</updated>
+        <summary type="html"><![CDATA[|+ after your key definition:
+---
+multiline_text: |+
+  Let me tell you a story...
+  
+  About my multi-line string.
+
+This would output a string like so:
+Let me tell you a story...\nAbout my multi-line string.\n]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multi-line string heredoc in YAML - #workflow]]></title>
+        <id>http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml</id>
+        <link href="http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml"/>
+        <updated>2022-12-09T16:38:49.000Z</updated>
+        <summary type="html"><![CDATA[To preserve new lines, use a | after your key definition:
+---
+multiline_text: |
+  Let me tell you a story...
+  
+  About my multi-line string.
+
+This would output a string like so:
+Let me tell you a story...\nAbout my multi-line string.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pattern Match Keyword List in Function Def - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def</id>
+        <link href="http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def"/>
+        <updated>2022-12-09T15:07:44.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes you’ll receive the last argument as an empty keyword list; in this case, we’re calling it opts. You can pattern match key-values by defining the shape in a function.
+  defmodule Example do
+    def hello(opts \\ [])
+
+   # match only on a specific keyword 
+   # will match when message is the only keyword included in opts
+    def hello([message: message]) do
+      IO.puts("Hello #{message}")
+    end
+
+    # match on a specific keyword and when there's others
+    # will match when message and other keys are included in opts
+    def hello([{:message, message} | _rest] = opts) do
+      IO.puts("Hello #{message}")
+    end
+  end
+
+Example.hello(message: "World")
+> Hello World
+> :ok
+
+# could also call in the more verbose way
+Example.hello([message: "World"])
+> Hello World
+> :ok
+
+# with other args
+Example.hello(message: "World", something_else: "hi")
+> Hello World
+> :ok
+https://elixir-lang.org/getting-started/keywords-and-maps.html]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Day 8 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-8</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-8"/>
+        <updated>2022-12-09T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In the <a href="https://adventofcode.com/2022/day/8">day 8 problem</a>, our input is a 
+height map:</p>
+<div class="code-block"><pre class="code-block-inner" data-lang="">30373
+25512
+65332
+33549
+35390
+</pre></div>
+<p>This is a 5x5 grid, and every number denotes the height of a tree. For part 1,
+we must find out how many trees are visible from the outside of the grid.</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust Is Easy (The COMPILER teaches you!)]]></title>
         <id>https://www.youtube.com/watch?v=CJtvnepMVAU</id>
@@ -2571,50 +2666,6 @@ arr.rindex('b')
 #=> 0]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Json default value using jq - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq</id>
-        <link href="http://til.hashrocket.com/posts/qnlrkpadlt-json-default-value-using-jq"/>
-        <updated>2022-11-09T21:50:14.000Z</updated>
-        <summary type="html"><![CDATA[default value when getting a node in json using jq:
-{
-  "users": [
-    {"name": "John"},
-    {}
-  ]
-}
-cat my.json | jq '[.users[] | .name // "my-default"]'
-# [
-#   "John",
-#   "my-default"
-# ]]]></summary>
-        <author>
-            <name>viniciusnegrisolo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Check a check-box field, from the keyboard. - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/2emq0gz9xc-check-a-check-box-field-from-the-keyboard</id>
-        <link href="http://til.hashrocket.com/posts/2emq0gz9xc-check-a-check-box-field-from-the-keyboard"/>
-        <updated>2022-11-09T20:17:39.000Z</updated>
-        <summary type="html"><![CDATA[Quick answer:Space Bar
-
-Have you ever found yourself filling out fields in a form, tabbing over to each field as you fill them out, only to come across a dreaded, check-box field that painstakingly makes you reach all the way across your desk to the mouse, just to check this box?  
-
-Well, your suffering is over. Simply press the space bar to toggle the check-box and be on your way.]]></summary>
-        <author>
-            <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is FAANG f**ked?]]></title>
-        <id>https://www.youtube.com/watch?v=2pfcynxODJc</id>
-        <link href="https://www.youtube.com/watch?v=2pfcynxODJc"/>
-        <updated>2022-11-09T17:14:34.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
