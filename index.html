@@ -222,7 +222,7 @@ we must find out how many trees are visible from the outside of the grid.</span>
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;CJtvnepMVAU"
                         open
                       >
-                        <summary class="article-expander__title">Rust Is Easy (The COMPILER teaches you!)</summary>
+                        <summary class="article-expander__title">Rust Is Easy (The COMPILER teaches you!) [RUST-14]</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;CJtvnepMVAU">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -5632,141 +5632,10 @@ Hey there!</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-10 datetime="2022-11-10T23:08:22.000Z">2022-11-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-10 datetime="2022-11-10T23:08:22.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >No Boilerplate</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;oY0XwMOSzq4"
-                        open
-                      >
-                        <summary class="article-expander__title">Rust Is Boring (Why Rust?) [RUST-13]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;oY0XwMOSzq4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/ifb0agjnvu-group-json-data-by-a-key"
-                        open
-                      >
-                        <summary class="article-expander__title">Group Json data by a key - #command-line</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/ifb0agjnvu-group-json-data-by-a-key">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>jq. In ruby that’s very trivial, it’s just about using the group_by method like that:
-[
-  {name: &quot;John&quot;, age: 35},
-  {name: &quot;Bob&quot;, age: 40},
-  {name: &quot;Wally&quot;, age: 35}
-].group_by{|u| u[:age]}
-
-# {
-#   35&#x3D;&gt;[{:name&#x3D;&gt;&quot;John&quot;, :age&#x3D;&gt;35}, {:name&#x3D;&gt;&quot;Wally&quot;, :age&#x3D;&gt;35}],
-#   40&#x3D;&gt;[{:name&#x3D;&gt;&quot;Bob&quot;, :age&#x3D;&gt;40}]
-# }
-
-But using jq I had to break it down to a few steps. So let’s say that I have this json:
-[
-  {&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 35},
-  {&quot;name&quot;: &quot;Bob&quot;, &quot;age&quot;: 40},
-  {&quot;name&quot;: &quot;Wally&quot;, &quot;age&quot;: 35}
-]
-
-The idea is that we’ll call the group_by(.age)[] function to return multiple groups, then I pipe it to create a map with the age as the key. Finally we’ll have these bunch of nodes not surounded by an array yet, so I am pipeing to a new jq command to add with slurp:
-cat data.json |
-  jq &#x27;group_by(.age)[] | {(.[0].age | tostring): [.[] | .]}&#x27; |
-  jq -s add;
-
-# {
-#   &quot;35&quot;: [{&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 35},{&quot;name&quot;: &quot;Wally&quot;, &quot;age&quot;: 35}],
-#   &quot;40&quot;: [{&quot;name&quot;: &quot;Bob&quot;, &quot;age&quot;: 40}]
-# }</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/tvijtubhlm-find-the-last-occurrence-of-an-array-value-"
-                        open
-                      >
-                        <summary class="article-expander__title">Find the last occurrence of an array value  - #ruby</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/tvijtubhlm-find-the-last-occurrence-of-an-array-value-">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>rindex method on an array to return the last index the value argument is stored at. For Example:
-arr&#x3D; [&#x27;b&#x27;, &#x27;a&#x27;, &#x27;a&#x27;, &#x27;a&#x27;]
-arr.rindex(&#x27;a&#x27;)
-#&#x3D;&gt; 3
-arr.rindex(&#x27;b&#x27;)
-#&#x3D;&gt; 0</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3661739071">
-        <time id="build-timestamp" datetime="2022-12-10T00:20:13.180Z">2022-12-10T00:20:13.180Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3666588581">
+        <time id="build-timestamp" datetime="2022-12-11T00:24:57.481Z">2022-12-11T00:24:57.481Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
