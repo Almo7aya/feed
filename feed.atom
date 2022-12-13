@@ -1,10 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-12T00:24:06.992Z</id>
+    <id>urn:2022-12-13T00:24:16.652Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-12T00:24:06.992Z</updated>
+    <updated>2022-12-13T00:24:16.652Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Day 11 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-11</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-11"/>
+        <updated>2022-12-12T18:10:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>It's a new day, it's a <a href="https://adventofcode.com/2022/day/11">new advent of code
+puzzle</a>.</p>
+<p>In that one, we have to apparently cosplay as an IBM mainframe and just.. crunch
+them numbers. This doesn't look fun, and I can't think of a clever twist to make
+it fun, so let's try to make it short and sweet.</p>
+
+                        <h2>
+                            <a id="parsing" class="anchor" href="#parsing">
+                                Parsing
+                            </a>
+                        </h2>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arduino in 100 Seconds]]></title>
+        <id>https://www.youtube.com/watch?v=1ENiVwk8idM</id>
+        <link href="https://www.youtube.com/watch?v=1ENiVwk8idM"/>
+        <updated>2022-12-12T14:45:50.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12 Dec 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Dec/12</id>
+        <link href="https://this-week-in-neovim.org/2022/Dec/12"/>
+        <updated>2022-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Guides, tours, articles, etc.
+
+            
+            LunarVim
+        
+    
+
+
+A tutorial about how to deal with your LunarVim configuration in check.
+Reddit
+
+            
+            aoc-day-05
+        
+    
+
+
+Have you heard about Advent of Code? If you’re into programming and puzzles, it’s a must do
+during December! Here’s a video about someone taking up the game to a visual representation within their favorite editor
+directly! Written in VimL.
+Reddit
+VimL source code
+
+            
+            NeovimConf 2022
+        
+    
+…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Day 10 (Advent of Code 2022)]]></title>
         <id>https://fasterthanli.me/series/advent-of-code-2022/part-10</id>
@@ -2560,45 +2631,6 @@ GitHub
             nv…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ActiveStorage direct upload subfolders - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders</id>
-        <link href="http://til.hashrocket.com/posts/gorrgmnkdo-activestorage-direct-upload-subfolders"/>
-        <updated>2022-11-12T17:14:01.000Z</updated>
-        <summary type="html"><![CDATA[This is not recommended, but cannot be helped
-
-The only way to store attachments into subfolders is to monkey patch the direct uploads controller:
-# config/initializer/direct_uploads_monkey_path.rb
-Rails.application.config.to_prepare do
-  class ActiveStorage::DirectUploadsController < ActiveStorage::BaseController
-    def create
-      key = "#{sub_dir}/#{user.id}/#{ActiveStorage::Blob.generate_unique_secure_token}"
-      upload_attrs = {key:}.merge(blob_args)
-      blob = ActiveStorage::Blob.create_before_direct_upload!(**upload_attrs)
-      render json: direct_upload_json(blob)
-    end
-
-    private
-
-    def user
-      @user ||= User.enabled.find(session[:current_user_id])
-    end
-
-    def sub_dir
-      if /cool-uploads/.match?(request.referer)
-        "cool-uploads"
-      elsif /company-settings/.match?(request.referer)
-        "companies"
-      else
-        "uploads"
-      end
-    end
-  end
-end]]></summary>
-        <author>
-            <name>dillonhafer</name>
         </author>
     </entry>
 </feed>
