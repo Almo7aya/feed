@@ -22,6 +22,146 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-15 datetime="2022-12-15T20:03:14.000Z">2022-12-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-15 datetime="2022-12-15T20:03:14.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/biargsvzux-direct-many-to-many-activerecord-associations"
+                        open
+                      >
+                        <summary class="article-expander__title">Direct many-to-many ActiveRecord associations - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/biargsvzux-direct-many-to-many-activerecord-associations">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>has_and_belongs_to_many you can directly relate models with a many-to-many-association. For example, if you have a model Film and a model Producer, a film can have multiple :producers, and a Producer can have multiple :films; in this case, each of models could have a has_and_belongs_to_many association with the other.
+#film.rb
+class Film &lt; ApplicationRecord
+  has_and_belongs_to_many :producers
+end
+
+#producer.rb
+class Producer &lt; ApplicationRecord
+  has_and_belongs_to_many :films
+end
+#Now associative records can be stored and retrieved
+film &#x3D; Film.where(title: &quot;The Irishman&quot;)
+producer &#x3D; Producer.where(name: &quot;Martin Scorcese&quot;)
+film.producers &lt;&lt; producer
+film.save
+
+producer.films
+#&#x3D;&gt; This should return a collection including The Irishman
+films.producers
+#&#x3D;&gt; This should return a collection including Martin Scorcese</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >fasterthanli.me</button>
+                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-14"
+                        open
+                      >
+                        <summary class="article-expander__title">Day 14 (Advent of Code 2022)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-14">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I like how the day 14 puzzle sounds,
+because I think it&#x27;ll give me an opportunity to show off yet another way to
+have Rust embedded in a web page.
+But first...
+
+
+
+
+Let me guess: parsing?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;uEJ-Rnm2yOE"
+                        open
+                      >
+                        <summary class="article-expander__title">SvelteKit is my mistress</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;uEJ-Rnm2yOE">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-14 datetime="2022-12-14T22:36:21.000Z">2022-12-14</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-14 datetime="2022-12-14T22:36:21.000Z"></time>
           </button>
@@ -5689,239 +5829,10 @@ This is very useful if you need to find more info about a function but only know
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-15 datetime="2022-11-15T19:30:08.000Z">2022-11-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-15 datetime="2022-11-15T19:30:08.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8"
-                        open
-                      >
-                        <summary class="article-expander__title">Cut for time</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This series has to end somewhere, so let&#x27;s end it here!
-However, here is a list of some things I&#x27;d like to come back to:
-
-                        
-                            
-                                Bundling &amp; TypeScript</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7"
-                        open
-                      >
-                        <summary class="article-expander__title">Async fn in trait, for real this time</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>async_trait&#x27;s one weird type ascription trick
-                            
-                        
-Now that I got the Log in with GitHub feature working, let&#x27;s explore
-what this would&#x27;ve looked like with the async_trait crate.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6"
-                        open
-                      >
-                        <summary class="article-expander__title">Implementing &quot;Log in with GitHub&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Because I started accepting donations via GitHub Sponsors, and
-because donating at the &quot;Silver&quot; tier or above gives you advance access to
-articles and your name in the credits, I need to interface with the GitHub
-API the same way I do the Patreon API.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5"
-                        open
-                      >
-                        <summary class="article-expander__title">Trying to use nix</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Now that my website is deployed as a container image, I wanted to give 
-nix a try. I&#x27;m still doing it the old-fashioned way right
-now: with a Dockerfile, running cargo in a &quot;builder&quot; image, copying stuff
-out of there into a slimmer image (that still has an Ubuntu base, even though
-distroless images are a
-thing now).
-
-                        
-                            
-                                But why?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4"
-                        open
-                      >
-                        <summary class="article-expander__title">Deploying at the edge</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Disclosure: 
-Although I no longer work for the company my website is hosted on, and this
-article is written in way that mentions neither my previous or current hosting
-provider: at the time of this writing, I don&#x27;t pay for hosting.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3"
-                        open
-                      >
-                        <summary class="article-expander__title">Async fn in trait... not</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Async fn in trait... not
-                            
-                        
-I was planning on showing the in-progress async_fn_in_trait feature in the
-context of my website, but it turns out, I can&#x27;t!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2"
-                        open
-                      >
-                        <summary class="article-expander__title">Migrating from warp to axum</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Falling out of love with warp
-                            
-                        
-Back when I wrote this codebase, warp was the best
-/ only alternative for something relatively high-level on top of
-hyper.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-1"
-                        open
-                      >
-                        <summary class="article-expander__title">Cleaning up and upgrading third-party crates</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-1">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The bleeding edge of rustc and clippy
-                            
-                        
-Typically, you&#x27;d want a production application to use a stable version of Rust.
-At the time of this writing, that&#x27;s Rust 1.65.0, which stabilizes a bunch of
-long-awaited features (GATs, let-else, MIR inlining, split debug info, etc.).
-
-
-Cool bear&#x27;s hot tip</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3699888601">
-        <time id="build-timestamp" datetime="2022-12-15T00:23:35.219Z">2022-12-15T00:23:35.219Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3709082850">
+        <time id="build-timestamp" datetime="2022-12-16T00:22:12.346Z">2022-12-16T00:22:12.346Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
