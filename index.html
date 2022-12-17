@@ -22,6 +22,129 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-16 datetime="2022-12-16T18:08:20.000Z">2022-12-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-16 datetime="2022-12-16T18:08:20.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;8B20fRB78nA"
+                        open
+                      >
+                        <summary class="article-expander__title">7 killer website features</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;8B20fRB78nA">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/xw6vzeitvn-find-unused-cucumber-step-definitions"
+                        open
+                      >
+                        <summary class="article-expander__title">Find Unused Cucumber Step Definitions - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/xw6vzeitvn-find-unused-cucumber-step-definitions">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>-f / --format flag to get feedback on unused step_definitions and their locations: 
+bundle exec cucumber --dry-run --format&#x3D;stepdefs
+
+If your step definition is unused, it will be annotated with a line under that says NOT MATCHED BY ANY STEPS. See the example - 
+/^I submit the proposal request form$/     # features/step_definitions/contact_steps.rb:39
+  NOT MATCHED BY ANY STEPS</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/jtduzpyfko-parsing-nested-string-json"
+                        open
+                      >
+                        <summary class="article-expander__title">Parsing nested string json - #command-line</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/jtduzpyfko-parsing-nested-string-json">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>jq, but the nested json is a string. It’s just easier to show an example so here we are:
+{
+  &quot;a&quot;: &quot;{\&quot;b\&quot;: \&quot;c\&quot;}&quot;
+}
+
+This is not a common situation but I found that out today on a codebase and my first thought was to call jq get the content of the node a and then pipe it into another jq command. It would look like this:
+echo &#x27;{&quot;a&quot;: &quot;{\\&quot;b\\&quot;: \\&quot;c\\&quot;}&quot;}&#x27; | jq &#x27;.a&#x27; | jq
+# &#x3D;&gt; &quot;{\&quot;b\&quot;: \&quot;c\&quot;}&quot;
+
+As we can see the result is not a json, but a string so we cannot access inner nodes just yet.
+
+And the solution to this problem is to use the -r flag on the first jq call to output the result in a raw format, so the &quot; surounding double quotes will disappear. And with that in place we can easily parse the nested/nasty json:
+echo &#x27;{&quot;a&quot;: &quot;{\\&quot;b\\&quot;: \\&quot;c\\&quot;}&quot;}&#x27; | jq -r &#x27;.a&#x27; | jq
+# &#x3D;&gt; {
+# &#x3D;&gt;   &quot;b&quot;: &quot;c&quot;
+# &#x3D;&gt; }
+
+Then finally:
+echo &#x27;{&quot;a&quot;: &quot;{\\&quot;b\\&quot;: \\&quot;c\\&quot;}&quot;}&#x27; | jq -r &#x27;.a&#x27; | jq &#x27;.b&#x27;
+# &#x3D;&gt; &quot;c&quot;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-15 datetime="2022-12-15T20:03:14.000Z">2022-12-15</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-15 datetime="2022-12-15T20:03:14.000Z"></time>
           </button>
@@ -855,7 +978,7 @@ Example.hello(message: &quot;World&quot;, something_else: &quot;hi&quot;)
 &gt; Hello World
 &gt; :ok
 https://elixir-lang.org/getting-started/keywords-and-maps.html</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4269,7 +4392,7 @@ def ticket
   return @ticket if defined?(@ticket)
   @ticket &#x3D; Ticket.find_by(owner:)
 end</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5733,106 +5856,10 @@ Read more here</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-16 datetime="2022-11-16T19:12:02.000Z">2022-11-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-16 datetime="2022-11-16T19:12:02.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/gii7p8xmxr-identity-primary-keys-on-ecto"
-                        open
-                      >
-                        <summary class="article-expander__title">Identity Primary Keys on Ecto - #elixir</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/gii7p8xmxr-identity-primary-keys-on-ecto">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>:identity to be used since 3.5 which is cool:
-create table(:user, primary_key: false) do
-  add :id, :identity, primary_key: true
-  add :name, :string, null: false
-
-  timestamps()
-end
-
-That generates this SQL:
-CREATE TABLE public.users (
-    id bigint NOT NULL,
-    name character varying(255) NOT NULL,
-    inserted_at timestamp(0) without time zone NOT NULL,
-    updated_at timestamp(0) without time zone NOT NULL
-);
-
-ALTER TABLE public.users ALTER COLUMN id ADD GENERATED BY DEFAULT AS IDENTITY (
-    SEQUENCE NAME public.users_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1
-);
-
-The only issue is that there’s no option to change from BY DEFAULT to ALWAYS 😕</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/jwtkinrziy-find-a-function-oid-in-postgres"
-                        open
-                      >
-                        <summary class="article-expander__title">Find a function OID in Postgres - #sql</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/jwtkinrziy-find-a-function-oid-in-postgres">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>pg_proc table:
-select oid from pg_proc where proname &#x3D;&#x27;my_function_name&#x27;;
-
-This is very useful if you need to find more info about a function but only know the function name.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3709082850">
-        <time id="build-timestamp" datetime="2022-12-16T00:22:12.346Z">2022-12-16T00:22:12.346Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3717519777">
+        <time id="build-timestamp" datetime="2022-12-17T00:20:27.890Z">2022-12-17T00:20:27.890Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

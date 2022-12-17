@@ -107,7 +107,7 @@
           "description": "<p>I like how the <a href=\"https://adventofcode.com/2022/day/14\">day 14 puzzle</a> sounds,\nbecause I think it'll give me an opportunity to show off yet <em>another way</em> to\nhave Rust embedded in a web page.</p>\n<p>But first...</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>Let me guess: parsing?</p>\n</div>\n</div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-14",
           "publishedOn": "2022-12-15T19:00:00.000Z",
-          "wordCount": 4437,
+          "wordCount": 4438,
           "title": "Day 14 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -117,7 +117,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/13\">day 13 puzzle</a> needs a speech\ntherapist.</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>???</p>\n</div>\n</div>\n<p>...because it has an awful lisp!! Ahhhahahahhhh</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>Are you ok? What is.. what is going on with you?</p>\n</div>\n</div>\n<p>No but seriously we have what are ostensibly S-expressions, except they use\nJSON-adjacent notation:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">[1,1,3,1,1]\n[1,1,5,1,1]\n\n[[1],[2,3,4]]\n[[1],4]\n\n[9]\n[[8,7,6]]\n\n[[4,4],4,4]\n[[4,4],4,4,4]\n\n[7,7,7,7]\n[7,7,7]\n\n[]\n[3]\n\n[[[]]]\n[[]]\n\n[1,[2,[3,[4,[5,6,7]]]],8,9]\n[1,[2,[3,[4,[5,6,0]]]],8,9]\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-13",
           "publishedOn": "2022-12-14T20:30:00.000Z",
-          "wordCount": 1571,
+          "wordCount": 1573,
           "title": "Day 13 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -127,7 +127,7 @@
           "description": "<p>Alright! The <a href=\"https://adventofcode.com/2022/day/12\">day 12 puzzle</a> involves path\nfinding, and it seems like a good time to lean more heavily on the WASM embeds\nI've set up for the previous parts.</p>\n<p>Let's start by setting up the types we'll want!</p>\n\n                        <h2>\n                            <a id=\"types-and-parsing\" class=\"anchor\" href=\"#types-and-parsing\">\n                                Types and parsing\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-12",
           "publishedOn": "2022-12-13T18:00:00.000Z",
-          "wordCount": 3887,
+          "wordCount": 3895,
           "title": "Day 12 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -137,7 +137,7 @@
           "description": "<p>It's a new day, it's a <a href=\"https://adventofcode.com/2022/day/11\">new advent of code\npuzzle</a>.</p>\n<p>In that one, we have to apparently cosplay as an IBM mainframe and just.. crunch\nthem numbers. This doesn't look fun, and I can't think of a clever twist to make\nit fun, so let's try to make it short and sweet.</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-11",
           "publishedOn": "2022-12-12T18:10:00.000Z",
-          "wordCount": 3572,
+          "wordCount": 3571,
           "title": "Day 11 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -147,7 +147,7 @@
           "description": "<p>Onwards! To the <a href=\"https://adventofcode.com/2022/day/10\">day 10 puzzle</a>.</p>\n<p>I don't see a way to make part 1 especially fun, so let's just get to it.</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-10",
           "publishedOn": "2022-12-11T17:30:00.000Z",
-          "wordCount": 3419,
+          "wordCount": 3423,
           "title": "Day 10 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -157,7 +157,7 @@
           "description": "<p>The Advent of Code is not a sprint: it's a marathon: sometimes you've got to\nstop and smell the roses.</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>I... what? That's not.. have you done a marathon before?</p>\n</div>\n</div>\n<p>No, and I haven't taken any creative writing classes either, I think you can\ntell. Anyway: Day 8 was a bit aggravating for me. In 2020 I gave up AoC after\nDay 14 I think, and then I skipped a year. It doesn't help that it overlaps some\nholidays and stuff, but!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-9",
           "publishedOn": "2022-12-10T23:00:00.000Z",
-          "wordCount": 5026,
+          "wordCount": 5035,
           "title": "Day 9 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -167,7 +167,7 @@
           "description": "<p>In the <a href=\"https://adventofcode.com/2022/day/8\">day 8 problem</a>, our input is a \nheight map:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">30373\n25512\n65332\n33549\n35390\n</pre></div>\n<p>This is a 5x5 grid, and every number denotes the height of a tree. For part 1,\nwe must find out how many trees are visible from the outside of the grid.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-8",
           "publishedOn": "2022-12-09T14:00:00.000Z",
-          "wordCount": 3390,
+          "wordCount": 3391,
           "title": "Day 8 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -177,7 +177,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/7\">day 7 challenge</a> talks about\ntrees! File trees that is.</p>\n<p>The temptation to solve it before starting to write this article so I don't look\nsilly is high, but I'm explicitly not doing so, so that we can bang our\ncollective heads against any walls at the same time, and see how we can get\nout of it! Trees are serious business!</p>\n\n                        <h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-7",
           "publishedOn": "2022-12-07T10:50:00.000Z",
-          "wordCount": 6558,
+          "wordCount": 6560,
           "title": "Day 7 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -197,7 +197,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>The <a href=\"https://adventofcode.com/2022/day/5\">day 5 challenge</a> actually looks fun!</p>\n<p>Our input looks like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">    [D]    \n[N] [C]    \n[Z] [M] [P]\n 1   2   3 \n\nmove 1 from 2 to 1\nmove 3 from 1 to 3\nmove 2 from 2 to 1\nmove 1 from 1 to 2\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-5",
           "publishedOn": "2022-12-05T21:29:00.000Z",
-          "wordCount": 6571,
+          "wordCount": 6573,
           "title": "Day 5 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -207,7 +207,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/4\">day 4 challenge</a>!</p>\n<p>In this one, we get an input like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">2-4,6-8\n2-3,4-5\n5-7,7-9\n2-8,3-7\n6-6,4-6\n2-6,4-8\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
           "publishedOn": "2022-12-04T15:30:00.000Z",
-          "wordCount": 2069,
+          "wordCount": 2070,
           "title": "Day 4 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -217,7 +217,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>I'm not sure where the <a href=\"https://adventofcode.com/2022/day/3\">day 3 challenge</a> is\ngoing, because the problem statement for the first part is kinda convoluted.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-3",
           "publishedOn": "2022-12-03T09:50:00.000Z",
-          "wordCount": 3876,
+          "wordCount": 3873,
           "title": "Day 3 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -237,7 +237,7 @@
           "description": "<p>Two years ago, I did part of <a href=\"/series/advent-of-code-2020\">Advent of Code 2020</a>\nusing the <a href=\"https://www.rust-lang.org/\">Rust</a> language. It was a lot of fun,\nso let's try it again!</p>\n\n                        <h2>\n                            <a id=\"the-problem-statement\" class=\"anchor\" href=\"#the-problem-statement\">\n                                The problem statement\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-1",
           "publishedOn": "2022-12-02T16:00:00.000Z",
-          "wordCount": 8069,
+          "wordCount": 8072,
           "title": "Day 1 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -249,12 +249,32 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/xw6vzeitvn-find-unused-cucumber-step-definitions",
+          "author": "andrewvogel",
+          "description": "-f / --format flag to get feedback on unused step_definitions and their locations: \nbundle exec cucumber --dry-run --format=stepdefs\r\n\nIf your step definition is unused, it will be annotated with a line under that says NOT MATCHED BY ANY STEPS. See the example - \n/^I submit the proposal request form$/     # features/step_definitions/contact_steps.rb:39\r\n  NOT MATCHED BY ANY STEPS",
+          "link": "http://til.hashrocket.com/posts/xw6vzeitvn-find-unused-cucumber-step-definitions",
+          "publishedOn": "2022-12-16T17:30:56.000Z",
+          "wordCount": 417,
+          "title": "Find Unused Cucumber Step Definitions - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/jtduzpyfko-parsing-nested-string-json",
+          "author": "viniciusnegrisolo",
+          "description": "jq, but the nested json is a string. It’s just easier to show an example so here we are:\n{\r\n  \"a\": \"{\\\"b\\\": \\\"c\\\"}\"\r\n}\r\n\nThis is not a common situation but I found that out today on a codebase and my first thought was to call jq get the content of the node a and then pipe it into another jq command. It would look like this:\necho '{\"a\": \"{\\\\\"b\\\\\": \\\\\"c\\\\\"}\"}' | jq '.a' | jq\r\n# => \"{\\\"b\\\": \\\"c\\\"}\"\r\n\nAs we can see the result is not a json, but a string so we cannot access inner nodes just yet.\n\nAnd the solution to this problem is to use the -r flag on the first jq call to output the result in a raw format, so the \" surounding double quotes will disappear. And with that in place we can easily parse the nested/nasty json:\necho '{\"a\": \"{\\\\\"b\\\\\": \\\\\"c\\\\\"}\"}' | jq -r '.a' | jq\r\n# => {\r\n# =>   \"b\": \"c\"\r\n# => }\r\n\nThen finally:\necho '{\"a\": \"{\\\\\"b\\\\\": \\\\\"c\\\\\"}\"}' | jq -r '.a' | jq '.b'\r\n# => \"c\"",
+          "link": "http://til.hashrocket.com/posts/jtduzpyfko-parsing-nested-string-json",
+          "publishedOn": "2022-12-16T17:13:23.000Z",
+          "wordCount": 544,
+          "title": "Parsing nested string json - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/biargsvzux-direct-many-to-many-activerecord-associations",
           "author": "jackrosa",
           "description": "has_and_belongs_to_many you can directly relate models with a many-to-many-association. For example, if you have a model Film and a model Producer, a film can have multiple :producers, and a Producer can have multiple :films; in this case, each of models could have a has_and_belongs_to_many association with the other.\n#film.rb\r\nclass Film < ApplicationRecord\r\n  has_and_belongs_to_many :producers\r\nend\r\n\n#producer.rb\r\nclass Producer < ApplicationRecord\r\n  has_and_belongs_to_many :films\r\nend\r\n#Now associative records can be stored and retrieved\r\nfilm = Film.where(title: \"The Irishman\")\r\nproducer = Producer.where(name: \"Martin Scorcese\")\r\nfilm.producers << producer\r\nfilm.save\r\n\nproducer.films\r\n#=> This should return a collection including The Irishman\r\nfilms.producers\r\n#=> This should return a collection including Martin Scorcese",
           "link": "http://til.hashrocket.com/posts/biargsvzux-direct-many-to-many-activerecord-associations",
           "publishedOn": "2022-12-15T20:03:14.000Z",
-          "wordCount": 321,
+          "wordCount": 423,
           "title": "Direct many-to-many ActiveRecord associations - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -264,7 +284,7 @@
           "description": "Previously on rails:\n<%= link_to \"Go away\", \"/go-away\", data: {confirm: \"Are you sure?\"} %>\r\n\nUse data-turbo-confirm for correct functionality:\n<%= link_to \"Go away\", \"/go-away\", data: {turbo_confirm: \"Are you sure?\"} %>",
           "link": "http://til.hashrocket.com/posts/rggiipbwlv-confirmation-alert-using-turbo-in-rails",
           "publishedOn": "2022-12-14T22:36:21.000Z",
-          "wordCount": 276,
+          "wordCount": 343,
           "title": "Confirmation alert using Turbo in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -274,7 +294,7 @@
           "description": "data-turbo-stream attribute to your link will force it to make a vnd.turbo-stream.html request instead of text/html.\n<a href=\"/some-url\" data-turbo-stream>Some URL\r\n\nUsing a Rails link_to would look like this:\n<%= link_to \"Some URL\", \"/some-url\", data: {turbo_stream: \"\"} %>",
           "link": "http://til.hashrocket.com/posts/wnw8cfjhdx-force-link-to-make-a-turbostream-request-in-rails",
           "publishedOn": "2022-12-14T21:32:26.000Z",
-          "wordCount": 261,
+          "wordCount": 311,
           "title": "Force link to make a turbo_stream request in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -284,7 +304,7 @@
           "description": "|- after your key definition:\n---\r\nmultiline_text: |-\r\n  Let me tell you a story...\r\n  \r\n  About my multi-line string.\r\n  \r\nother_key: \"I'm another key\"\r\n\nThis would output a string like so for multiline_text:\nLet me tell you a story...\\nAbout my multi-line string.",
           "link": "http://til.hashrocket.com/posts/mpndv3zx6w-remove-new-line-from-multi-line-string-in-yaml",
           "publishedOn": "2022-12-14T15:55:41.000Z",
-          "wordCount": 229,
+          "wordCount": 293,
           "title": "Remove new line from multi-line string in YAML - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         },
@@ -294,7 +314,7 @@
           "description": "|+ after your key definition:\n---\r\nmultiline_text: |+\r\n  Let me tell you a story...\r\n  \r\n  About my multi-line string.\r\n\nThis would output a string like so:\nLet me tell you a story...\\nAbout my multi-line string.\\n",
           "link": "http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml",
           "publishedOn": "2022-12-09T22:35:14.000Z",
-          "wordCount": 225,
+          "wordCount": 284,
           "title": "Explicit new line at end of string in YAML - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         },
@@ -304,7 +324,7 @@
           "description": "To preserve new lines, use a | after your key definition:\n---\r\nmultiline_text: |\r\n  Let me tell you a story...\r\n  \r\n  About my multi-line string.\r\n\nThis would output a string like so:\nLet me tell you a story...\\nAbout my multi-line string.",
           "link": "http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml",
           "publishedOn": "2022-12-09T16:38:49.000Z",
-          "wordCount": 231,
+          "wordCount": 299,
           "title": "Multi-line string heredoc in YAML - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         },
@@ -314,7 +334,7 @@
           "description": "Sometimes you’ll receive the last argument as an empty keyword list; in this case, we’re calling it opts. You can pattern match key-values by defining the shape in a function.\n  defmodule Example do\r\n    def hello(opts \\\\ [])\r\n\n   # match only on a specific keyword \r\n   # will match when message is the only keyword included in opts\r\n    def hello([message: message]) do\r\n      IO.puts(\"Hello #{message}\")\r\n    end\r\n\n    # match on a specific keyword and when there's others\r\n    # will match when message and other keys are included in opts\r\n    def hello([{:message, message} | _rest] = opts) do\r\n      IO.puts(\"Hello #{message}\")\r\n    end\r\n  end\r\n\nExample.hello(message: \"World\")\r\n> Hello World\r\n> :ok\r\n\n# could also call in the more verbose way\r\nExample.hello([message: \"World\"])\r\n> Hello World\r\n> :ok\r\n\n# with other args\r\nExample.hello(message: \"World\", something_else: \"hi\")\r\n> Hello World\r\n> :ok\r\nhttps://elixir-lang.org/getting-started/keywords-and-maps.html",
           "link": "http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def",
           "publishedOn": "2022-12-09T15:07:44.000Z",
-          "wordCount": 364,
+          "wordCount": 511,
           "title": "Pattern Match Keyword List in Function Def - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         },
@@ -324,7 +344,7 @@
           "description": "type Vehicle = {\r\n    make: string, \r\n    model: string, \r\n    capacity: number, \r\n}\r\n\n//now we can use the vehicle type in a definition\r\nconst corolla: Vehicle = {\r\n    make: \"Toyota\",\r\n    model: \"Corolla\", \r\n    capacity: 5,\r\n}\r\n\nIf you define a vehicle without any of the required types, TypeScript will provide an error stating which property is missing from the object. For example:\nconst corolla: Vehicle = {\r\n    make: \"Subaru\",\r\n    model: \"Outback\", \r\n}\r\n\nThis definition will provide an error Property 'capacity' is missing in type '{ make: string; model: string; }' but required in type 'Vehicle'., because the capacity property is missing.",
           "link": "http://til.hashrocket.com/posts/v1d2sily32-creating-custom-typescript-types",
           "publishedOn": "2022-12-08T15:35:43.000Z",
-          "wordCount": 317,
+          "wordCount": 445,
           "title": "Creating Custom Typescript Types - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         },
@@ -334,7 +354,7 @@
           "description": "||= operator.\n\nHowever, if our lookups return a nil or falsey value, our memo will actually keep executing the lookup:\ndef ticket\r\n  @ticket ||= Ticket.find_by(owner:)\r\nend\r\n\nThis code essentially boils down to:\ndef ticket\r\n  @ticket = @ticket || Ticket.find_by(owner:)\r\nend\r\n\nIf our find_by in the example above returns nil, the code will continue to run the find_by every time we call the ticket method.\n\nTo avoid this, we can shift our pattern a bit, and look to see if we have already set our instance variable or not:\ndef ticket\r\n  return @ticket if defined?(@ticket)\r\n  @ticket = Ticket.find_by(owner:)\r\nend",
           "link": "http://til.hashrocket.com/posts/aoulxej8zd-ruby-memoization-with-nil-values",
           "publishedOn": "2022-12-06T21:28:44.000Z",
-          "wordCount": 353,
+          "wordCount": 481,
           "title": "Ruby memoization with nil values - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         },
@@ -344,7 +364,7 @@
           "description": "values and targets Rails Stimulus has now outlets. Now we can invoke functions from one controller to the other like that:\n// result_controller.js\r\nexport default class extends Controller {\r\n  markAsSelected(event) {\r\n    // ...\r\n  }\r\n}\r\n// search_controller.js\r\nexport default class extends Controller {\r\n  static outlets = [ \"result\" ]\r\n\n  selectAll(event) {\r\n    this.resultOutlets.forEach(result => result.markAsSelected(event))\r\n  }",
           "link": "http://til.hashrocket.com/posts/nrvslyniuc-the-outlet-of-rails-stimulus-",
           "publishedOn": "2022-12-05T21:37:06.000Z",
-          "wordCount": 271,
+          "wordCount": 333,
           "title": "The Outlet of Rails Stimulus  - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -354,7 +374,7 @@
           "description": "Enumerable#partition is a method that returns two arrays.  \nnumbers = [2, 95, 24, 27, 85, 4]\r\n\neven, odd = numbers.partition { |num| num.even? }\r\n=> [[2, 24, 4], [95, 27, 85]]\r\n\neven\r\n=> [2, 24, 4]\r\n\nodd\r\n=> [95, 27, 85]",
           "link": "http://til.hashrocket.com/posts/pwqfrid0qm-splitting-an-enumerable-into-two-groups",
           "publishedOn": "2022-12-01T14:49:18.000Z",
-          "wordCount": 289,
+          "wordCount": 353,
           "title": "Splitting an enumerable into two groups - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         },
@@ -364,7 +384,7 @@
           "description": "bin/rails db:encryption:init, then copy the resulting keys to your app’s credentials.yml. Now in your model, you can tell Active Record to encrypt a column by using the encrypts which takes a db column name as an argument. For example:\nclass User < ApplicationRecord\r\n  encrypts :super_secret_data\r\nend\r\n\nActive record will automatically decrypt the data upon retrieval. See more here.",
           "link": "http://til.hashrocket.com/posts/dbgjtybi0o-encrypting-database-columns-with-rails-7",
           "publishedOn": "2022-11-29T20:34:36.000Z",
-          "wordCount": 290,
+          "wordCount": 372,
           "title": "Encrypting database columns with Rails 7 - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -374,7 +394,7 @@
           "description": "can add the !important property, to override all other rules.\n\nHere is an example:\n#id {\r\n  background-color: blue;\r\n}\r\n\n.class {\r\n  background-color: gray;\r\n}\r\n\np {\r\n  background-color: red !important;\r\n}\r\n<p>This is some text in a paragraph.</p>\r\n\n<p class=\"class\">This is some text in a paragraph.</p>\r\n\n<p id=\"id\">This is some text in a paragraph.</p>\r\n\nIn this case, all of these <p> tags will have a red background.",
           "link": "http://til.hashrocket.com/posts/ra8ufwtq2t-important-property",
           "publishedOn": "2022-11-29T19:47:54.000Z",
-          "wordCount": 254,
+          "wordCount": 344,
           "title": "!important property - #html-css",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         },
@@ -384,7 +404,7 @@
           "description": "#.  Check this out:\nclass MyClass {\r\n  myPublicFunc() {\r\n    console.log(\"=> hey myPublicFunc\");\r\n    this.#myPrivateFunc();\r\n  }\r\n\n  #myPrivateFunc() {\r\n    console.log(\"=> hey myPrivateFunc\");\r\n  }\r\n}\r\n\nconst myClass = new MyClass();\r\n\nmyClass.myPublicFunc();\r\n// => hey myPublicFunc\r\n// => hey myPrivateFunc\r\n\nmyClass.#myPrivateFunc();\r\n// Uncaught SyntaxError:\r\n//   Private field '#myPrivateFunc' must be declared in an enclosing class\r\n\nWe can also use that trick to make static methods, fields or static fields as well.\n\nThanks Andrew Vogel for this tip 😁",
           "link": "http://til.hashrocket.com/posts/t4onxiqdum-javascript-private-class-functions",
           "publishedOn": "2022-11-29T18:14:03.000Z",
-          "wordCount": 287,
+          "wordCount": 376,
           "title": "Javascript private class functions - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         },
@@ -394,7 +414,7 @@
           "description": "primary_key: true option for the Ecto.Schema.field/3 instead of dealing with the special module attr @primary_key. Check this out:\ndefmodule MyApp.OrderItem do\r\n  use Ecto.Schema\r\n\n  @primary_key false\r\n  schema \"order_items\" do\r\n    field :product_id, :integer, primary_key: true\r\n    field :order_id, :integer, primary_key: true\r\n    field :quantity, :integer\r\n  end\r\nend",
           "link": "http://til.hashrocket.com/posts/lgagvwjnev-composite-primary-keys-using-elixir-ecto",
           "publishedOn": "2022-11-23T17:51:07.000Z",
-          "wordCount": 280,
+          "wordCount": 355,
           "title": "Composite Primary Keys using Elixir Ecto - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         },
@@ -404,7 +424,7 @@
           "description": "ssh-keygen -p\r\n\nFrom the man pages -\nRequests changing the passphrase of a private key file instead of\r\ncreating a new private key.  The program will prompt for the file\r\ncontaining the private key, for the old passphrase, and twice for\r\nthe new passphrase.\r\nhttps://man.openbsd.org/ssh-keygen.1#p",
           "link": "http://til.hashrocket.com/posts/ihcswk7vhl-how-to-change-password-of-ssh-key",
           "publishedOn": "2022-11-23T15:45:35.000Z",
-          "wordCount": 248,
+          "wordCount": 328,
           "title": "How to Change Password of SSH key - #command-line",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
         },
@@ -414,7 +434,7 @@
           "description": "git branch -m ‏‏‎<your-new-branch-name>\n\nGit will create a reflog of the rename too.",
           "link": "http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch",
           "publishedOn": "2022-11-22T14:34:15.000Z",
-          "wordCount": 196,
+          "wordCount": 233,
           "title": "Renaming a Git Branch - #git",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png"
         },
@@ -424,29 +444,9 @@
           "description": "// First we need an object to refer to\r\nconst pizza =  {\r\n    crust: \"thin\", \r\n    topping: \"pepperoni\", \r\n    deliveryDriver: \"Jack\"\r\n}\r\n\n//Then we can use a destructuring assignment\r\nconst {crust} = pizza\r\n\nconsole.log(crust)\r\n// expected output: thin\r\n\nVery handy\nRead more here",
           "link": "http://til.hashrocket.com/posts/bmjzem5gvs-destructuring-assignment-in-javascript",
           "publishedOn": "2022-11-17T15:42:21.000Z",
-          "wordCount": 251,
+          "wordCount": 311,
           "title": "Destructuring Assignment in Javascript - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/gii7p8xmxr-identity-primary-keys-on-ecto",
-          "author": "viniciusnegrisolo",
-          "description": ":identity to be used since 3.5 which is cool:\ncreate table(:user, primary_key: false) do\r\n  add :id, :identity, primary_key: true\r\n  add :name, :string, null: false\r\n\n  timestamps()\r\nend\r\n\nThat generates this SQL:\nCREATE TABLE public.users (\r\n    id bigint NOT NULL,\r\n    name character varying(255) NOT NULL,\r\n    inserted_at timestamp(0) without time zone NOT NULL,\r\n    updated_at timestamp(0) without time zone NOT NULL\r\n);\r\n\nALTER TABLE public.users ALTER COLUMN id ADD GENERATED BY DEFAULT AS IDENTITY (\r\n    SEQUENCE NAME public.users_id_seq\r\n    START WITH 1\r\n    INCREMENT BY 1\r\n    NO MINVALUE\r\n    NO MAXVALUE\r\n    CACHE 1\r\n);\r\n\nThe only issue is that there’s no option to change from BY DEFAULT to ALWAYS 😕",
-          "link": "http://til.hashrocket.com/posts/gii7p8xmxr-identity-primary-keys-on-ecto",
-          "publishedOn": "2022-11-16T19:12:02.000Z",
-          "wordCount": 318,
-          "title": "Identity Primary Keys on Ecto - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/jwtkinrziy-find-a-function-oid-in-postgres",
-          "author": "marylee",
-          "description": "pg_proc table:\nselect oid from pg_proc where proname ='my_function_name';\r\n\nThis is very useful if you need to find more info about a function but only know the function name.",
-          "link": "http://til.hashrocket.com/posts/jwtkinrziy-find-a-function-oid-in-postgres",
-          "publishedOn": "2022-11-16T15:13:41.000Z",
-          "wordCount": 266,
-          "title": "Find a function OID in Postgres - #sql",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
         }
       ]
     },
@@ -2081,6 +2081,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=8B20fRB78nA",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=8B20fRB78nA",
+          "publishedOn": "2022-12-16T18:08:20.000Z",
+          "wordCount": null,
+          "title": "7 killer website features",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=uEJ-Rnm2yOE",
           "author": null,
