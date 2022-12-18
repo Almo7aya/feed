@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-17T00:20:27.929Z</id>
+    <id>urn:2022-12-18T00:21:40.032Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-17T00:20:27.929Z</updated>
+    <updated>2022-12-18T00:21:40.032Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2618,40 +2618,6 @@ A new plugin providing an API to return the redo stri…]]></summary>
         <updated>2022-11-18T14:00:01.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Layout &#038; Grid in Design Systems]]></title>
-        <id>https://bradfrost.com/blog/post/layout-grid-in-design-systems/</id>
-        <link href="https://bradfrost.com/blog/post/layout-grid-in-design-systems/"/>
-        <updated>2022-11-17T17:07:49.000Z</updated>
-        <summary type="html"><![CDATA[Simply saying the word &#8220;grid&#8221; conjures up strong and confusing feelings. Kinda like puberty! With so much history and so many different (and sometimes competing) paradigms, it&#8217;s no wonder conversations around layout and grid are so fraught, confusing, and contentious. [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Destructuring Assignment in Javascript - #javascript]]></title>
-        <id>http://til.hashrocket.com/posts/bmjzem5gvs-destructuring-assignment-in-javascript</id>
-        <link href="http://til.hashrocket.com/posts/bmjzem5gvs-destructuring-assignment-in-javascript"/>
-        <updated>2022-11-17T15:42:21.000Z</updated>
-        <summary type="html"><![CDATA[// First we need an object to refer to
-const pizza =  {
-    crust: "thin", 
-    topping: "pepperoni", 
-    deliveryDriver: "Jack"
-}
-
-//Then we can use a destructuring assignment
-const {crust} = pizza
-
-console.log(crust)
-// expected output: thin
-
-Very handy
-Read more here]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
