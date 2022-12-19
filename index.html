@@ -22,6 +22,67 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-18 datetime="2022-12-18T20:29:06.000Z">2022-12-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-18 datetime="2022-12-18T20:29:06.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions"
+                        open
+                      >
+                        <summary class="article-expander__title">Remove Padding from Postgres Formatting Functions - #sql</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>When using postgres formatting functions, like to_char, some of the formatting options include padding in the result. For example, the day format string will be blank padded to 9 chars. 
+select to_char(current_date, &#x27;day&#x27;);
+
+  to_char
+-----------
+ sunday
+
+You can use the “fill mode&quot; (FM) option to remove any leading zeros or blank padding characters by prepending it to your format option: 
+select to_char(current_date, &#x27;FMday&#x27;)
+
+ to_char
+---------
+ sunday
+https://www.postgresql.org/docs/current/functions-formatting.html</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-16 datetime="2022-12-16T18:08:20.000Z">2022-12-16</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-16 datetime="2022-12-16T18:08:20.000Z"></time>
           </button>
@@ -5681,89 +5742,10 @@ A new plugin providing an API to return the redo stri…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-18 datetime="2022-11-18T15:30:43.000Z">2022-11-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-18 datetime="2022-11-18T15:30:43.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Brad Frost</button>
-                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bradfrost.com/blog/link/performant-mental-health/"
-                        open
-                      >
-                        <summary class="article-expander__title">Performant Mental Health</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/performant-mental-health/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I was talking to my friend Cameron Moll, and he discussed a series of articles about mental health that he, his wife, and a mental health nurse practitioner wrote. There’s some really fantastic information and advice in there, and I […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Let&#x27;s Get Rusty</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;0O_VAEgJEcA"
-                        open
-                      >
-                        <summary class="article-expander__title">A new operating system written in Rust</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;0O_VAEgJEcA">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3722423661">
-        <time id="build-timestamp" datetime="2022-12-18T00:21:39.993Z">2022-12-18T00:21:39.993Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3727271556">
+        <time id="build-timestamp" datetime="2022-12-19T00:20:04.646Z">2022-12-19T00:20:04.646Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

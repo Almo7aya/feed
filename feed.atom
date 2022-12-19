@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-18T00:21:40.032Z</id>
+    <id>urn:2022-12-19T00:20:04.675Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-18T00:21:40.032Z</updated>
+    <updated>2022-12-19T00:20:04.675Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Remove Padding from Postgres Formatting Functions - #sql]]></title>
+        <id>http://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions</id>
+        <link href="http://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions"/>
+        <updated>2022-12-18T20:29:06.000Z</updated>
+        <summary type="html"><![CDATA[When using postgres formatting functions, like to_char, some of the formatting options include padding in the result. For example, the day format string will be blank padded to 9 chars. 
+select to_char(current_date, 'day');
+
+  to_char
+-----------
+ sunday
+
+You can use the “fill mode" (FM) option to remove any leading zeros or blank padding characters by prepending it to your format option: 
+select to_char(current_date, 'FMday')
+
+ to_char
+---------
+ sunday
+https://www.postgresql.org/docs/current/functions-formatting.html]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[7 killer website features]]></title>
         <id>https://www.youtube.com/watch?v=8B20fRB78nA</id>
@@ -2599,25 +2622,6 @@ New plugins
 A new plugin providing an API to return the redo stri…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Performant Mental Health]]></title>
-        <id>https://bradfrost.com/blog/link/performant-mental-health/</id>
-        <link href="https://bradfrost.com/blog/link/performant-mental-health/"/>
-        <updated>2022-11-18T15:30:43.000Z</updated>
-        <summary type="html"><![CDATA[I was talking to my friend Cameron Moll, and he discussed a series of articles about mental health that he, his wife, and a mental health nurse practitioner wrote. There&#8217;s some really fantastic information and advice in there, and I [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new operating system written in Rust]]></title>
-        <id>https://www.youtube.com/watch?v=0O_VAEgJEcA</id>
-        <link href="https://www.youtube.com/watch?v=0O_VAEgJEcA"/>
-        <updated>2022-11-18T14:00:01.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>
