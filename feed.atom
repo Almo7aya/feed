@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-20T00:22:22.409Z</id>
+    <id>urn:2022-12-21T00:20:38.772Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-20T00:22:22.409Z</updated>
+    <updated>2022-12-21T00:20:38.772Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Database Sharting Explained]]></title>
+        <id>https://www.youtube.com/watch?v=K7iRfOs-aUw</id>
+        <link href="https://www.youtube.com/watch?v=K7iRfOs-aUw"/>
+        <updated>2022-12-20T17:17:15.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Find git branches that contain a commit sha - #git]]></title>
         <id>http://til.hashrocket.com/posts/wyvvvdhwym-find-git-branches-that-contain-a-commit-sha</id>
@@ -2649,33 +2658,6 @@ https://man.openbsd.org/ssh-keygen.1#p]]></summary>
 Git will create a reflog of the rename too.]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21 Nov 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Nov/21</id>
-        <link href="https://this-week-in-neovim.org/2022/Nov/21"/>
-        <updated>2022-11-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#20956 vim.secure.read() and use it for 'exrc'
-Add the vim.secure.read() function in Lua which prompts the user whether the given file is trusted or not. This
-function is used to implement the 'exrc' feature. By explicitly asking the user whether or not a .nvimrc or
-.exrc file is trusted (and only sourcing the file if so), the most trivial security issues with the 'exrc' options
-are resolved and the function can be un-deprecated.
-New plugins
-
-      
-    
-    redostr.nvim
-  
-
-A new plugin providing an API to return the redo stri…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
