@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-21T00:20:38.772Z</id>
+    <id>urn:2022-12-22T00:21:58.465Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-21T00:20:38.772Z</updated>
+    <updated>2022-12-22T00:21:58.465Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Gap CSS rows and columns - #html-css]]></title>
+        <id>http://til.hashrocket.com/posts/1txovzr0bh-gap-css-rows-and-columns</id>
+        <link href="http://til.hashrocket.com/posts/1txovzr0bh-gap-css-rows-and-columns"/>
+        <updated>2022-12-21T21:13:35.000Z</updated>
+        <summary type="html"><![CDATA[gap is a shorthand combination of the row-gap and column-gap properties. You can use this to set the amount of space between flex items. 
+.gap-example-container {
+  display: flex;
+  gap: 2em;
+}]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Database Sharting Explained]]></title>
         <id>https://www.youtube.com/watch?v=K7iRfOs-aUw</id>
