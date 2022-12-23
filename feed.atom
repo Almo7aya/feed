@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-22T00:21:58.465Z</id>
+    <id>urn:2022-12-23T00:21:47.463Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-22T00:21:58.465Z</updated>
+    <updated>2022-12-23T00:21:47.464Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Why my chat app broke… a cautionary tale]]></title>
+        <id>https://www.youtube.com/watch?v=M93w3TjzVUE</id>
+        <link href="https://www.youtube.com/watch?v=M93w3TjzVUE"/>
+        <updated>2022-12-22T15:38:23.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gap CSS rows and columns - #html-css]]></title>
         <id>http://til.hashrocket.com/posts/1txovzr0bh-gap-css-rows-and-columns</id>
@@ -574,7 +583,7 @@ we must find out how many trees are visible from the outside of the grid.</p>]]>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rust Is Easy (The COMPILER teaches you!) [RUST-14]]]></title>
+        <title type="html"><![CDATA[The COMPILER teaches you! (Rust Is Easy) [RUST-14]]]></title>
         <id>https://www.youtube.com/watch?v=CJtvnepMVAU</id>
         <link href="https://www.youtube.com/watch?v=CJtvnepMVAU"/>
         <updated>2022-12-08T17:09:04.000Z</updated>
@@ -2598,7 +2607,7 @@ Have you ever wondered, which leader key people use the most? Is it default \, <
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Agile Isn't Scrum (You're doing agile wrong)]]></title>
+        <title type="html"><![CDATA[You're doing agile wrong (Agile Isn't Scrum)]]></title>
         <id>https://www.youtube.com/watch?v=9K20e7jlQPA</id>
         <link href="https://www.youtube.com/watch?v=9K20e7jlQPA"/>
         <updated>2022-11-24T13:44:02.000Z</updated>
@@ -2641,37 +2650,6 @@ the new passphrase.
 https://man.openbsd.org/ssh-keygen.1#p]]></summary>
         <author>
             <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wah Wah Watson with Herbie Hancock 1976 (live video) &#8211; Hang Up Your Hang Ups]]></title>
-        <id>https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/</id>
-        <link href="https://bradfrost.com/blog/link/wah-wah-watson-with-herbie-hancock-1976-live-video-hang-up-your-hang-ups/"/>
-        <updated>2022-11-22T15:59:40.000Z</updated>
-        <summary type="html"><![CDATA[This is so badass. The control the band exhibits is absolutely incredible. It feels super organic, groovy, and even jammy, but it&#8217;s all totally locked in. When you feel like they&#8217;re just jamming over a groove, all of a sudden [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100+ JavaScript Concepts you Need to Know]]></title>
-        <id>https://www.youtube.com/watch?v=lkIFF4maKMU</id>
-        <link href="https://www.youtube.com/watch?v=lkIFF4maKMU"/>
-        <updated>2022-11-22T15:04:57.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Renaming a Git Branch - #git]]></title>
-        <id>http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch</id>
-        <link href="http://til.hashrocket.com/posts/q3n1lwnfrz-renaming-a-git-branch"/>
-        <updated>2022-11-22T14:34:15.000Z</updated>
-        <summary type="html"><![CDATA[git branch -m ‏‏‎<your-new-branch-name>
-
-Git will create a reflog of the rename too.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
