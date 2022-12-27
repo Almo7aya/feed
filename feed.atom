@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-26T00:22:31.067Z</id>
+    <id>urn:2022-12-27T00:22:42.131Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-26T00:22:31.067Z</updated>
+    <updated>2022-12-27T00:22:42.131Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[26 Dec 2022]]></title>
+        <id>https://this-week-in-neovim.org/2022/Dec/26</id>
+        <link href="https://this-week-in-neovim.org/2022/Dec/26"/>
+        <updated>2022-12-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Guides, tours, articles, etc.
+
+            
+            mind.nvim Part 1 and 2
+        
+    
+
+
+This is the first video of a series of 5 about mind.nvim, introducing the
+plugin, its main ideas and how to use its most basics features.  The second video is also available and introduces the
+concept of data and link nodes, as well as the first basic fuzzy searching operations.
+More videos will be uploaded along…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Day 15 (Advent of Code 2022)]]></title>
         <id>https://fasterthanli.me/series/advent-of-code-2022/part-15</id>
@@ -2588,16 +2616,6 @@ Survey to find out how people use Neovim built-in options
 Have you ever wondered, which leader key people use the most? Is it default \, <Space>, ,, or som…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust 2024...the year of everywhere?]]></title>
-        <id>/reading/rust-2024...the-year-of-everywhere/</id>
-        <link href="https://almo7aya.dev/reading/rust-2024...the-year-of-everywhere/"/>
-        <updated>2022-11-27T01:04:00.000Z</updated>
-        <summary type="html"><![CDATA[http://smallcultfollowing.com/babysteps/blog/2022/09/22/rust-2024-the-year-of-everywhere/]]></summary>
-        <author>
-            <name>almo7aya.dev</name>
         </author>
     </entry>
 </feed>

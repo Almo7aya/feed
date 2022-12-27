@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2022/Dec/26",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n            \n            mind.nvim Part 1 and 2\n        \n    \n\n\nThis is the first video of a series of 5 about mind.nvim, introducing the\nplugin, its main ideas and how to use its most basics features.  The second video is also available and introduces the\nconcept of data and link nodes, as well as the first basic fuzzy searching operations.\nMore videos will be uploaded along…",
+          "link": "https://this-week-in-neovim.org/2022/Dec/26",
+          "publishedOn": "2022-12-26T00:00:00.000Z",
+          "wordCount": 864,
+          "title": "26 Dec 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2022/Dec/19",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nvim.inspect_pos(), vim.show_pos(), :Inspect and :Inspect! allow a user to get or show items at a given buffer\nposition.\n\nCurrently this includes treesitter captures, semantic tokens, syntax groups and extmarks. More\nhere.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n            \n            autocompletion-snippet\n        \n    \n\n\nA 5 minutes video show you how to add snippets and use auto-completion.\nYoutube\nNew plugins\n…",
           "link": "https://this-week-in-neovim.org/2022/Dec/19",
           "publishedOn": "2022-12-19T00:00:00.000Z",
-          "wordCount": 571,
+          "wordCount": 574,
           "title": "19 Dec 2022",
           "imageUrl": null
         },
@@ -77,16 +87,6 @@
           "wordCount": 38,
           "title": "rust-anthology-master-list.md at master · brson-rust-anthology",
           "imageUrl": null
-        },
-        {
-          "id": "/reading/rust-2024...the-year-of-everywhere/",
-          "author": null,
-          "description": "http://smallcultfollowing.com/babysteps/blog/2022/09/22/rust-2024-the-year-of-everywhere/",
-          "link": "https://almo7aya.dev/reading/rust-2024...the-year-of-everywhere/",
-          "publishedOn": "2022-11-27T01:04:00.000Z",
-          "wordCount": 38,
-          "title": "Rust 2024...the year of everywhere?",
-          "imageUrl": null
         }
       ]
     },
@@ -107,7 +107,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/15\">day 15 puzzle</a> falls into the &quot;math\npuzzle&quot; territory more than &quot;let's learn something new about Rust&quot;, but since\nseveral folks asked if I was going to continue... let's continue.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-15",
           "publishedOn": "2022-12-25T17:00:00.000Z",
-          "wordCount": 2951,
+          "wordCount": 2955,
           "title": "Day 15 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -117,7 +117,7 @@
           "description": "<p>I like how the <a href=\"https://adventofcode.com/2022/day/14\">day 14 puzzle</a> sounds,\nbecause I think it'll give me an opportunity to show off yet <em>another way</em> to\nhave Rust embedded in a web page.</p>\n<p>But first...</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>Let me guess: parsing?</p>\n</div>\n</div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-14",
           "publishedOn": "2022-12-15T19:00:00.000Z",
-          "wordCount": 4445,
+          "wordCount": 4454,
           "title": "Day 14 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -127,7 +127,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/13\">day 13 puzzle</a> needs a speech\ntherapist.</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>???</p>\n</div>\n</div>\n<p>...because it has an awful lisp!! Ahhhahahahhhh</p>\n<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>Are you ok? What is.. what is going on with you?</p>\n</div>\n</div>\n<p>No but seriously we have what are ostensibly S-expressions, except they use\nJSON-adjacent notation:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">[1,1,3,1,1]\n[1,1,5,1,1]\n\n[[1],[2,3,4]]\n[[1],4]\n\n[9]\n[[8,7,6]]\n\n[[4,4],4,4]\n[[4,4],4,4,4]\n\n[7,7,7,7]\n[7,7,7]\n\n[]\n[3]\n\n[[[]]]\n[[]]\n\n[1,[2,[3,[4,[5,6,7]]]],8,9]\n[1,[2,[3,[4,[5,6,0]]]],8,9]\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-13",
           "publishedOn": "2022-12-14T20:30:00.000Z",
-          "wordCount": 1581,
+          "wordCount": 1578,
           "title": "Day 13 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -147,7 +147,7 @@
           "description": "<p>It's a new day, it's a <a href=\"https://adventofcode.com/2022/day/11\">new advent of code\npuzzle</a>.</p>\n<p>In that one, we have to apparently cosplay as an IBM mainframe and just.. crunch\nthem numbers. This doesn't look fun, and I can't think of a clever twist to make\nit fun, so let's try to make it short and sweet.</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-11",
           "publishedOn": "2022-12-12T18:10:00.000Z",
-          "wordCount": 3577,
+          "wordCount": 3579,
           "title": "Day 11 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -157,7 +157,7 @@
           "description": "<p>Onwards! To the <a href=\"https://adventofcode.com/2022/day/10\">day 10 puzzle</a>.</p>\n<p>I don't see a way to make part 1 especially fun, so let's just get to it.</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-10",
           "publishedOn": "2022-12-11T17:30:00.000Z",
-          "wordCount": 3429,
+          "wordCount": 3428,
           "title": "Day 10 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -177,7 +177,7 @@
           "description": "<p>In the <a href=\"https://adventofcode.com/2022/day/8\">day 8 problem</a>, our input is a \nheight map:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">30373\n25512\n65332\n33549\n35390\n</pre></div>\n<p>This is a 5x5 grid, and every number denotes the height of a tree. For part 1,\nwe must find out how many trees are visible from the outside of the grid.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-8",
           "publishedOn": "2022-12-09T14:00:00.000Z",
-          "wordCount": 3397,
+          "wordCount": 3398,
           "title": "Day 8 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -187,7 +187,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/7\">day 7 challenge</a> talks about\ntrees! File trees that is.</p>\n<p>The temptation to solve it before starting to write this article so I don't look\nsilly is high, but I'm explicitly not doing so, so that we can bang our\ncollective heads against any walls at the same time, and see how we can get\nout of it! Trees are serious business!</p>\n\n                        <h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-7",
           "publishedOn": "2022-12-07T10:50:00.000Z",
-          "wordCount": 6565,
+          "wordCount": 6564,
           "title": "Day 7 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -197,7 +197,7 @@
           "description": "<p>Today I am joining you from the relative discomfort of my living room (since my\nbetter half has commandeered the home office due to Way Too Many Calls) to\ntackle the <a href=\"https://adventofcode.com/2022/day/6\">day 6 challenge</a>, which I'm\nexcited about: maybe despite, maybe because of, the low-grade fever I'm under.</p>\n\n                        <h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-6",
           "publishedOn": "2022-12-06T17:40:00.000Z",
-          "wordCount": 3297,
+          "wordCount": 3291,
           "title": "Day 6 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -217,7 +217,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/4\">day 4 challenge</a>!</p>\n<p>In this one, we get an input like this:</p>\n<div class=\"code-block\"><pre class=\"code-block-inner\" data-lang=\"\">2-4,6-8\n2-3,4-5\n5-7,7-9\n2-8,3-7\n6-6,4-6\n2-6,4-8\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-4",
           "publishedOn": "2022-12-04T15:30:00.000Z",
-          "wordCount": 2074,
+          "wordCount": 2075,
           "title": "Day 4 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -227,7 +227,7 @@
           "description": "<h2>\n                            <a id=\"part-1\" class=\"anchor\" href=\"#part-1\">\n                                Part 1\n                            </a>\n                        </h2>\n                        \n<p>I'm not sure where the <a href=\"https://adventofcode.com/2022/day/3\">day 3 challenge</a> is\ngoing, because the problem statement for the first part is kinda convoluted.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-3",
           "publishedOn": "2022-12-03T09:50:00.000Z",
-          "wordCount": 3883,
+          "wordCount": 3887,
           "title": "Day 3 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
