@@ -22,6 +22,60 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-03 datetime="2023-01-03T21:20:10.000Z">2023-01-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-03 datetime="2023-01-03T21:20:10.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby"
+                        open
+                      >
+                        <summary class="article-expander__title">The difference between %w and %W in Ruby - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>%w(my cool word array)
+#&#x3D;&gt; [&quot;my&quot;, &quot;cool&quot;, &quot;word&quot;, &quot;array&quot;]
+
+%W works similarly, however it offers ways to interpolate with variables and escape special characters in the assignment, while %w does not. 
+street_name &#x3D; &#x27;Sesame Street&#x27;
+%W(I live on #{street_name})
+#&#x3D;&gt; [&quot;I&quot;, &quot;live&quot;, &quot;on&quot;, &quot;Sesame Street&quot;]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-02 datetime="2023-01-02T00:00:00.000Z">2023-01-02</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-02 datetime="2023-01-02T00:00:00.000Z"></time>
           </button>
@@ -3300,7 +3354,7 @@ could be improved!
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI"
                         open
                       >
-                        <summary class="article-expander__title">🏗️ Rust Tests Itself (Kind of! 📚) [RUST-15]</summary>
+                        <summary class="article-expander__title">🏗️ If Rust Compiles, It WORKS (Testing not needed 📚) [RUST-15]</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -5567,123 +5621,12 @@ move 1 from 1 to 2</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2022/Dec/5"
-                        open
-                      >
-                        <summary class="article-expander__title">5 Dec 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2022/Dec/5">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Guides, tours, articles, etc.
-
-      
-      
-      Neovim Spaghetti - LSP Servers, Linters, Formatters, and Treesitter
-    
-  
-To make the most of Neovim it’s useful to understand the technologies it can leverage, how the various plugins that
-manage these technologies relate to one another, and how they can be installed and configured. In this article we’ll
-attempt to untangle the Neovim plugin spaghetti that turns Neovim into a more featureful modern editor.
-Blog
-
-            
-            Special: appreciation post
-        
-  …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-04 datetime="2022-12-04T15:30:00.000Z">2022-12-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-04 datetime="2022-12-04T15:30:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-4"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 4 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-4">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Part 1
-                            
-                        
-Let&#x27;s tackle the day 4 challenge!
-In this one, we get an input like this:
-2-4,6-8
-2-3,4-5
-5-7,7-9
-2-8,3-7
-6-6,4-6
-2-6,4-8</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3825896818">
-        <time id="build-timestamp" datetime="2023-01-03T00:21:44.702Z">2023-01-03T00:21:44.702Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3834060770">
+        <time id="build-timestamp" datetime="2023-01-04T00:22:04.920Z">2023-01-04T00:22:04.920Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
