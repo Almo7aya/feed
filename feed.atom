@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-05T00:22:30.664Z</id>
+    <id>urn:2023-01-06T00:23:02.509Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-05T00:22:30.664Z</updated>
+    <updated>2023-01-06T00:23:02.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[get a grip on grep]]></title>
+        <id>https://www.youtube.com/watch?v=5_t_I_4OuwQ</id>
+        <link href="https://www.youtube.com/watch?v=5_t_I_4OuwQ"/>
+        <updated>2023-01-05T19:34:24.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to ACTUALLY learn to code... 7 Roadmaps for 2023]]></title>
         <id>https://www.youtube.com/watch?v=66tfvFeALBQ</id>
@@ -2407,83 +2416,6 @@ This definition will provide an error Property 'capacity' is missing in type '{ 
         <summary type="html"><![CDATA[https://faultlore.com/blah/linear-rust/]]></summary>
         <author>
             <name>almo7aya.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 7 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-7</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-7"/>
-        <updated>2022-12-07T10:50:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>The <a href="https://adventofcode.com/2022/day/7">day 7 challenge</a> talks about
-trees! File trees that is.</p>
-<p>The temptation to solve it before starting to write this article so I don't look
-silly is high, but I'm explicitly not doing so, so that we can bang our
-collective heads against any walls at the same time, and see how we can get
-out of it! Trees are serious business!</p>
-
-                        <h2>
-                            <a id="part-1" class="anchor" href="#part-1">
-                                Part 1
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ruby memoization with nil values - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/aoulxej8zd-ruby-memoization-with-nil-values</id>
-        <link href="http://til.hashrocket.com/posts/aoulxej8zd-ruby-memoization-with-nil-values"/>
-        <updated>2022-12-06T21:28:44.000Z</updated>
-        <summary type="html"><![CDATA[||= operator.
-
-However, if our lookups return a nil or falsey value, our memo will actually keep executing the lookup:
-def ticket
-  @ticket ||= Ticket.find_by(owner:)
-end
-
-This code essentially boils down to:
-def ticket
-  @ticket = @ticket || Ticket.find_by(owner:)
-end
-
-If our find_by in the example above returns nil, the code will continue to run the find_by every time we call the ticket method.
-
-To avoid this, we can shift our pattern a bit, and look to see if we have already set our instance variable or not:
-def ticket
-  return @ticket if defined?(@ticket)
-  @ticket = Ticket.find_by(owner:)
-end]]></summary>
-        <author>
-            <name>marylee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 6 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-6</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-6"/>
-        <updated>2022-12-06T17:40:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Today I am joining you from the relative discomfort of my living room (since my
-better half has commandeered the home office due to Way Too Many Calls) to
-tackle the <a href="https://adventofcode.com/2022/day/6">day 6 challenge</a>, which I'm
-excited about: maybe despite, maybe because of, the low-grade fever I'm under.</p>
-
-                        <h2>
-                            <a id="part-1" class="anchor" href="#part-1">
-                                Part 1
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Things are gonna get weird in 2023]]></title>
-        <id>https://www.youtube.com/watch?v=1v_TEnpqHXE</id>
-        <link href="https://www.youtube.com/watch?v=1v_TEnpqHXE"/>
-        <updated>2022-12-06T16:53:01.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
