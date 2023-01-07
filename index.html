@@ -22,6 +22,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-06 datetime="2023-01-06T17:02:34.000Z">2023-01-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-06 datetime="2023-01-06T17:02:34.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;NGXW4xhlYa4"
+                        open
+                      >
+                        <summary class="article-expander__title">Reverse Engineering Logan Paul&#x27;s Scam</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;NGXW4xhlYa4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-05 datetime="2023-01-05T19:34:24.000Z">2023-01-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-05 datetime="2023-01-05T19:34:24.000Z"></time>
           </button>
@@ -5079,33 +5124,36 @@ Let me tell you a story...\nAbout my multi-line string.</span>
                               <span>Sometimes you’ll receive the last argument as an empty keyword list; in this case, we’re calling it opts. You can pattern match key-values by defining the shape in a function.
   defmodule Example do
     def hello(opts \\ [])
-
-   # match only on a specific keyword 
+ 
    # will match when message is the only keyword included in opts
     def hello([message: message]) do
       IO.puts(&quot;Hello #{message}&quot;)
     end
 
-    # match on a specific keyword and when there&#x27;s others
-    # will match when message and other keys are included in opts
+    # will match when there are multiple keywords but message is the first
     def hello([{:message, message} | _rest] &#x3D; opts) do
       IO.puts(&quot;Hello #{message}&quot;)
     end
   end
 
-Example.hello(message: &quot;World&quot;)
-&gt; Hello World
-&gt; :ok
+&gt; Example.hello(message: &quot;World&quot;)
+Hello World
+:ok
 
 # could also call in the more verbose way
-Example.hello([message: &quot;World&quot;])
-&gt; Hello World
-&gt; :ok
+&gt; Example.hello([message: &quot;World&quot;])
+Hello World
+:ok
 
-# with other args
-Example.hello(message: &quot;World&quot;, something_else: &quot;hi&quot;)
-&gt; Hello World
-&gt; :ok
+# :message but with other args after
+&gt; Example.hello(message: &quot;World&quot;, something_else: &quot;hi&quot;)
+Hello World
+:ok
+Note: As a TIL reader pointed out, pattern matching Keywords will make your function args order dependent. The following would not work: 
+&gt; Example.hello(foo: &quot;bar&quot;, message: &quot;World&quot;)
+** (FunctionClauseError) no function clause matching in Example.hello/1 
+
+If you need  them to be order independent, use a map or just match on single argument, then check for each option appropriately with the Keyword module.
 https://elixir-lang.org/getting-started/keywords-and-maps.html</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
@@ -5345,55 +5393,10 @@ This definition will provide an error Property &#x27;capacity&#x27; is missing i
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-07 datetime="2022-12-07T20:53:00.000Z">2022-12-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-07 datetime="2022-12-07T20:53:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >almo7aya.dev</button>
-                  <a class="source-heading__link" href="/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="/reading/the-pain-of-linear-types-in-rust-faultlore/"
-                        open
-                      >
-                        <summary class="article-expander__title">The Pain Of Linear Types In Rust - Faultlore</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://almo7aya.dev/reading/the-pain-of-linear-types-in-rust-faultlore/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>https://faultlore.com/blah/linear-rust/</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3851465803">
-        <time id="build-timestamp" datetime="2023-01-06T00:23:02.474Z">2023-01-06T00:23:02.474Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3859510774">
+        <time id="build-timestamp" datetime="2023-01-07T00:22:05.348Z">2023-01-07T00:22:05.348Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
