@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-08T00:24:31.238Z</id>
+    <id>urn:2023-01-09T00:22:49.162Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-08T00:24:31.238Z</updated>
+    <updated>2023-01-09T00:22:49.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[my code will never stop never stopping]]></title>
+        <id>https://www.youtube.com/watch?v=1CDfTpD8dxo</id>
+        <link href="https://www.youtube.com/watch?v=1CDfTpD8dxo"/>
+        <updated>2023-01-08T16:25:47.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reverse Engineering Logan Paul's Scam]]></title>
         <id>https://www.youtube.com/watch?v=NGXW4xhlYa4</id>
@@ -2251,104 +2260,6 @@ stop and smell the roses.</p>
 tell. Anyway: Day 8 was a bit aggravating for me. In 2020 I gave up AoC after
 Day 14 I think, and then I skipped a year. It doesn't help that it overlaps some
 holidays and stuff, but!</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Explicit new line at end of string in YAML - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml</id>
-        <link href="http://til.hashrocket.com/posts/kb6rvnm7qr-explicit-new-line-at-end-of-string-in-yaml"/>
-        <updated>2022-12-09T22:35:14.000Z</updated>
-        <summary type="html"><![CDATA[|+ after your key definition:
----
-multiline_text: |+
-  Let me tell you a story...
-  
-  About my multi-line string.
-
-This would output a string like so:
-Let me tell you a story...\nAbout my multi-line string.\n]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multi-line string heredoc in YAML - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml</id>
-        <link href="http://til.hashrocket.com/posts/os97utk2t8-multi-line-string-heredoc-in-yaml"/>
-        <updated>2022-12-09T16:38:49.000Z</updated>
-        <summary type="html"><![CDATA[To preserve new lines, use a | after your key definition:
----
-multiline_text: |
-  Let me tell you a story...
-  
-  About my multi-line string.
-
-This would output a string like so:
-Let me tell you a story...\nAbout my multi-line string.]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pattern Match Keyword List in Function Def - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def</id>
-        <link href="http://til.hashrocket.com/posts/roy9fsxnez-pattern-match-keyword-list-in-function-def"/>
-        <updated>2022-12-09T15:07:44.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes you’ll receive the last argument as an empty keyword list; in this case, we’re calling it opts. You can pattern match key-values by defining the shape in a function.
-  defmodule Example do
-    def hello(opts \\ [])
- 
-   # will match when message is the only keyword included in opts
-    def hello([message: message]) do
-      IO.puts("Hello #{message}")
-    end
-
-    # will match when there are multiple keywords but message is the first
-    def hello([{:message, message} | _rest] = opts) do
-      IO.puts("Hello #{message}")
-    end
-  end
-
-> Example.hello(message: "World")
-Hello World
-:ok
-
-# could also call in the more verbose way
-> Example.hello([message: "World"])
-Hello World
-:ok
-
-# :message but with other args after
-> Example.hello(message: "World", something_else: "hi")
-Hello World
-:ok
-Note: As a TIL reader pointed out, pattern matching Keywords will make your function args order dependent. The following would not work: 
-> Example.hello(foo: "bar", message: "World")
-** (FunctionClauseError) no function clause matching in Example.hello/1 
-
-If you need  them to be order independent, use a map or just match on single argument, then check for each option appropriately with the Keyword module.
-https://elixir-lang.org/getting-started/keywords-and-maps.html]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 8 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-8</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-8"/>
-        <updated>2022-12-09T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>In the <a href="https://adventofcode.com/2022/day/8">day 8 problem</a>, our input is a 
-height map:</p>
-<div class="code-block" translate="no"><pre class="code-block-inner" data-lang="">30373
-25512
-65332
-33549
-35390
-</pre></div>
-<p>This is a 5x5 grid, and every number denotes the height of a tree. For part 1,
-we must find out how many trees are visible from the outside of the grid.</p>]]></summary>
         <author>
             <name>fasterthanli.me</name>
         </author>
