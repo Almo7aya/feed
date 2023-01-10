@@ -22,6 +22,83 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-09 datetime="2023-01-09T00:00:00.000Z">2023-01-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-09 datetime="2023-01-09T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >This Week In Neovim</button>
+                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/9"
+                        open
+                      >
+                        <summary class="article-expander__title">9 Jan 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/9">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+#21472: :hardcopy is now removed.
+Commands removed:
+
+:hardcopy
+Options removed:
+printdevice
+printencoding
+printexpr
+printfont
+printheader
+printmbcharset
+#18706 nvim -l now invokes Lua scripts instead of setting the lisp
+option. To set the ‘lisp’ option as -l formerly did, just set it like any other option:
+nvim -c &quot;set lisp&quot;
+
+New plugins
+
+      
+    
+    import-cost.nvim
+  
+
+
+View bundle size of Javascript imports inside of your editor. The VSCode
+import-cost plugin
+has finally been ported to Neovim! A plugin made by @barret-ru…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-08 datetime="2023-01-08T16:25:47.000Z">2023-01-08</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-08 datetime="2023-01-08T16:25:47.000Z"></time>
           </button>
@@ -3534,7 +3611,7 @@ could be improved!
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI"
                         open
                       >
-                        <summary class="article-expander__title">🏗️ If Rust Compiles, It WORKS (Testing strategies 📚) [RUST-15]</summary>
+                        <summary class="article-expander__title">🏗️ If Rust Compiles, It WORKS (To test or not to test? 📚) [RUST-15]</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -5017,68 +5094,10 @@ I don&#x27;t see a way to make part 1 especially fun, so let&#x27;s just get to 
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-10 datetime="2022-12-10T23:00:00.000Z">2022-12-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-10 datetime="2022-12-10T23:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-9"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 9 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-9">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Advent of Code is not a sprint: it&#x27;s a marathon: sometimes you&#x27;ve got to
-stop and smell the roses.
-
-
-
-
-I... what? That&#x27;s not.. have you done a marathon before?
-No, and I haven&#x27;t taken any creative writing classes either, I think you can
-tell. Anyway: Day 8 was a bit aggravating for me. In 2020 I gave up AoC after
-Day 14 I think, and then I skipped a year. It doesn&#x27;t help that it overlaps some
-holidays and stuff, but!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3869650999">
-        <time id="build-timestamp" datetime="2023-01-09T00:22:49.135Z">2023-01-09T00:22:49.135Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3878961746">
+        <time id="build-timestamp" datetime="2023-01-10T00:24:16.223Z">2023-01-10T00:24:16.223Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
