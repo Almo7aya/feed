@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-10T00:24:16.260Z</id>
+    <id>urn:2023-01-11T00:23:14.495Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-10T00:24:16.260Z</updated>
+    <updated>2023-01-11T00:23:14.495Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kafka in 100 Seconds]]></title>
+        <id>https://www.youtube.com/watch?v=uvb00oaa3k8</id>
+        <link href="https://www.youtube.com/watch?v=uvb00oaa3k8"/>
+        <updated>2023-01-10T18:37:37.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[9 Jan 2023]]></title>
         <id>https://this-week-in-neovim.org/2023/Jan/9</id>
@@ -2220,65 +2229,6 @@ it fun, so let's try to make it short and sweet.</p>
         <updated>2022-12-12T14:45:50.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[12 Dec 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Dec/12</id>
-        <link href="https://this-week-in-neovim.org/2022/Dec/12"/>
-        <updated>2022-12-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Guides, tours, articles, etc.
-
-            
-            LunarVim
-        
-    
-
-
-A tutorial about how to deal with your LunarVim configuration in check.
-Reddit
-
-            
-            aoc-day-05
-        
-    
-
-
-Have you heard about Advent of Code? If you’re into programming and puzzles, it’s a must do
-during December! Here’s a video about someone taking up the game to a visual representation within their favorite editor
-directly! Written in VimL.
-Reddit
-VimL source code
-
-            
-            NeovimConf 2022
-        
-    
-…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 10 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-10</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-10"/>
-        <updated>2022-12-11T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Onwards! To the <a href="https://adventofcode.com/2022/day/10">day 10 puzzle</a>.</p>
-<p>I don't see a way to make part 1 especially fun, so let's just get to it.</p>
-
-                        <h2>
-                            <a id="parsing" class="anchor" href="#parsing">
-                                Parsing
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>
