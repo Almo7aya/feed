@@ -22,6 +22,57 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-11 datetime="2023-01-11T15:00:00.000Z">2023-01-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-11 datetime="2023-01-11T15:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >fasterthanli.me</button>
+                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-17"
+                        open
+                      >
+                        <summary class="article-expander__title">Day 17 (Advent of Code 2022)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-17">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Advent of Code gets harder and harder, and I&#x27;m not getting any smarter. Or any
+more free time. So, in order to close out this series anyway, I&#x27;m going to try
+and port other people&#x27;s solutions from &quot;language X&quot; to Rust. That way, they
+already figured out the hard stuff, and we can just focus on the Rust bits!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-10 datetime="2023-01-10T18:37:37.000Z">2023-01-10</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-10 datetime="2023-01-10T18:37:37.000Z"></time>
           </button>
@@ -3656,7 +3707,7 @@ could be improved!
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI"
                         open
                       >
-                        <summary class="article-expander__title">🏗️ If Rust Compiles, It WORKS (To test or not to test? 📚) [RUST-15]</summary>
+                        <summary class="article-expander__title">🏗️ If Rust Compiles, It WORKS (To test or not to test? 📚)</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -4934,97 +4985,10 @@ Let&#x27;s start by setting up the types we&#x27;ll want!
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-12 datetime="2022-12-12T18:10:00.000Z">2022-12-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-12 datetime="2022-12-12T18:10:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-11"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 11 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-11">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It&#x27;s a new day, it&#x27;s a new advent of code
-puzzle.
-In that one, we have to apparently cosplay as an IBM mainframe and just.. crunch
-them numbers. This doesn&#x27;t look fun, and I can&#x27;t think of a clever twist to make
-it fun, so let&#x27;s try to make it short and sweet.
-
-                        
-                            
-                                Parsing</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;1ENiVwk8idM"
-                        open
-                      >
-                        <summary class="article-expander__title">Arduino in 100 Seconds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;1ENiVwk8idM">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3888444386">
-        <time id="build-timestamp" datetime="2023-01-11T00:23:14.454Z">2023-01-11T00:23:14.454Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3897915106">
+        <time id="build-timestamp" datetime="2023-01-12T00:23:15.487Z">2023-01-12T00:23:15.487Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
