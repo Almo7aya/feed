@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-12T00:23:15.517Z</id>
+    <id>urn:2023-01-13T00:23:42.518Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-12T00:23:15.517Z</updated>
+    <updated>2023-01-13T00:23:42.518Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[5 impressive command line tricks]]></title>
+        <id>https://www.youtube.com/watch?v=wYN3KC9lLS0</id>
+        <link href="https://www.youtube.com/watch?v=wYN3KC9lLS0"/>
+        <updated>2023-01-12T23:46:32.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Day 18 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-18</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-18"/>
+        <updated>2023-01-12T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>This time around, we're porting a solution from C++ to Rust and seeing how it
+feels, how it performs, and what we can learn about both languages by doing that.</p>
+<p>See <a href="part-17">Day 17</a> for the rationale re: porting solutions rather than
+writing my own from scratch. TL;DR is: it's better than nothing, and we can
+still focus about learning Rust rather than spending entire days fighting
+off-by-one errors.</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitch fell behind]]></title>
+        <id>https://fasterthanli.me/articles/twitch-fell-behind</id>
+        <link href="https://fasterthanli.me/articles/twitch-fell-behind"/>
+        <updated>2023-01-12T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>
+
+                        <h2>
+                            <a id="let-s-talk-numbers" class="anchor" href="#let-s-talk-numbers">
+                                Let's talk numbers
+                            </a>
+                        </h2>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Day 17 (Advent of Code 2022)]]></title>
         <id>https://fasterthanli.me/series/advent-of-code-2022/part-17</id>
@@ -1716,7 +1756,7 @@ could be improved!</p>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🏗️ If Rust Compiles, It WORKS (To test or not to test? 📚)]]></title>
+        <title type="html"><![CDATA[🏗️ If Rust Compiles, It WORKS (Types move errors from runtime to compiletime 📚)]]></title>
         <id>https://www.youtube.com/watch?v=JIvKgSyvtxI</id>
         <link href="https://www.youtube.com/watch?v=JIvKgSyvtxI"/>
         <updated>2022-12-30T13:00:53.000Z</updated>
@@ -2185,34 +2225,6 @@ This would output a string like so for multiline_text:
 Let me tell you a story...\nAbout my multi-line string.]]></summary>
         <author>
             <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 12 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-12</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-12"/>
-        <updated>2022-12-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Alright! The <a href="https://adventofcode.com/2022/day/12">day 12 puzzle</a> involves path
-finding, and it seems like a good time to lean more heavily on the WASM embeds
-I've set up for the previous parts.</p>
-<p>Let's start by setting up the types we'll want!</p>
-
-                        <h2>
-                            <a id="types-and-parsing" class="anchor" href="#types-and-parsing">
-                                Types and parsing
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust enables Arch Linux on Apple Silicon]]></title>
-        <id>https://www.youtube.com/watch?v=BDkeiYiaU90</id>
-        <link href="https://www.youtube.com/watch?v=BDkeiYiaU90"/>
-        <updated>2022-12-13T13:00:04.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>
