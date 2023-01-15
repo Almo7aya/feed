@@ -22,6 +22,85 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-14 datetime="2023-01-14T16:07:54.000Z">2023-01-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-14 datetime="2023-01-14T16:07:54.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive"
+                        open
+                      >
+                        <summary class="article-expander__title">Rails&#x27; .insert_all method is too naive - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>.insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table’s primary key, this won’t work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.
+
+More advanced method:
+class ApplicationRecord
+  def self.bulk_insert(array_of_hashes, conflict_targets &#x3D; Array(primary_key))
+    columns &#x3D; array_of_hashes.first.keys
+    values &#x3D; array_of_hashes.flat_map(&amp;:values)
+    rows &#x3D; array_of_hashes.map do |f|
+      &quot;(#{columns.size.times.map { &quot;?&quot; }.join(&quot;, &quot;)})&quot;
+    end.join(&quot;, &quot;)
+
+    sql &#x3D; sanitize_sql_array([&lt;&lt;~SQL, *values])
+      INSERT INTO &quot;#{table_name}&quot;
+      (#{columns.map { |c| &quot;\&quot;#{c}\&quot;&quot; }.join(&quot;,&quot;)})
+      VALUES #{rows}
+      ON CONFLICT (#{conflict_targets.map { |c| &quot;\&quot;#{c}\&quot;&quot; }.join(&quot;, &quot;)}) DO NOTHING
+    SQL
+
+    connection.execute(sql.squish)
+  end
+end
+
+SQL it produces:
+User.bulk_insert([{email: &quot;a@example.com&quot;}, {email: &quot;b@example.com&quot;}])
+INSERT INTO &quot;users&quot; (&quot;email&quot;) VALUES (&#x27;a@example.com&#x27;), (&#x27;b@example.com&#x27;) ON CONFLICT (&quot;id&quot;) DO NOTHING
+
+This would then allow you to reference any conflict you like:
+alter table users add unique (email);
+User.bulk_insert(
+  [{email: &quot;a@example.com&quot;}, {email: &quot;b@example.com&quot;}],
+  %i[email]
+)</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-13 datetime="2023-01-13T14:43:58.000Z">2023-01-13</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-13 datetime="2023-01-13T14:43:58.000Z"></time>
           </button>
@@ -105,7 +184,7 @@
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM"
                         open
                       >
-                        <summary class="article-expander__title">🧑‍🎓 1,000 interns for everyone (GPT: The Second Renaissance 🤖)</summary>
+                        <summary class="article-expander__title">🧑‍🎓 1,000 AI interns for everyone (GPT: The Second Renaissance 🤖)</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -4743,150 +4822,10 @@ echo &#x27;{&quot;a&quot;: &quot;{\\&quot;b\\&quot;: \\&quot;c\\&quot;}&quot;}&#
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-15 datetime="2022-12-15T20:03:14.000Z">2022-12-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-15 datetime="2022-12-15T20:03:14.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/biargsvzux-direct-many-to-many-activerecord-associations"
-                        open
-                      >
-                        <summary class="article-expander__title">Direct many-to-many ActiveRecord associations - #rails</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/biargsvzux-direct-many-to-many-activerecord-associations">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>has_and_belongs_to_many you can directly relate models with a many-to-many-association. For example, if you have a model Film and a model Producer, a film can have multiple :producers, and a Producer can have multiple :films; in this case, each of models could have a has_and_belongs_to_many association with the other.
-#film.rb
-class Film &lt; ApplicationRecord
-  has_and_belongs_to_many :producers
-end
-
-#producer.rb
-class Producer &lt; ApplicationRecord
-  has_and_belongs_to_many :films
-end
-#Now associative records can be stored and retrieved
-film &#x3D; Film.where(title: &quot;The Irishman&quot;)
-producer &#x3D; Producer.where(name: &quot;Martin Scorcese&quot;)
-film.producers &lt;&lt; producer
-film.save
-
-producer.films
-#&#x3D;&gt; This should return a collection including The Irishman
-films.producers
-#&#x3D;&gt; This should return a collection including Martin Scorcese</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-14"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 14 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-14">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I like how the day 14 puzzle sounds,
-because I think it&#x27;ll give me an opportunity to show off yet another way to
-have Rust embedded in a web page.
-But first...
-
-
-
-
-Let me guess: parsing?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;uEJ-Rnm2yOE"
-                        open
-                      >
-                        <summary class="article-expander__title">SvelteKit is my mistress</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;uEJ-Rnm2yOE">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3915939848">
-        <time id="build-timestamp" datetime="2023-01-14T00:21:39.168Z">2023-01-14T00:21:39.168Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3920947251">
+        <time id="build-timestamp" datetime="2023-01-15T00:24:48.039Z">2023-01-15T00:24:48.039Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
