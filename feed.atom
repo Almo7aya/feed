@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-15T00:24:48.082Z</id>
+    <id>urn:2023-01-16T00:23:12.354Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-15T00:24:48.082Z</updated>
+    <updated>2023-01-16T00:23:12.354Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Official JavaScript Tier List is Here]]></title>
+        <id>https://www.youtube.com/watch?v=vdiYtiKD8eI</id>
+        <link href="https://www.youtube.com/watch?v=vdiYtiKD8eI"/>
+        <updated>2023-01-15T17:18:35.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rails' .insert_all method is too naive - #rails]]></title>
         <id>http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive</id>
@@ -2077,59 +2086,6 @@ select to_char(current_date, 'FMday')
 https://www.postgresql.org/docs/current/functions-formatting.html]]></summary>
         <author>
             <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 killer website features]]></title>
-        <id>https://www.youtube.com/watch?v=8B20fRB78nA</id>
-        <link href="https://www.youtube.com/watch?v=8B20fRB78nA"/>
-        <updated>2022-12-16T18:08:20.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find Unused Cucumber Step Definitions - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/xw6vzeitvn-find-unused-cucumber-step-definitions</id>
-        <link href="http://til.hashrocket.com/posts/xw6vzeitvn-find-unused-cucumber-step-definitions"/>
-        <updated>2022-12-16T17:30:56.000Z</updated>
-        <summary type="html"><![CDATA[-f / --format flag to get feedback on unused step_definitions and their locations: 
-bundle exec cucumber --dry-run --format=stepdefs
-
-If your step definition is unused, it will be annotated with a line under that says NOT MATCHED BY ANY STEPS. See the example - 
-/^I submit the proposal request form$/     # features/step_definitions/contact_steps.rb:39
-  NOT MATCHED BY ANY STEPS]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parsing nested string json - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/jtduzpyfko-parsing-nested-string-json</id>
-        <link href="http://til.hashrocket.com/posts/jtduzpyfko-parsing-nested-string-json"/>
-        <updated>2022-12-16T17:13:23.000Z</updated>
-        <summary type="html"><![CDATA[jq, but the nested json is a string. It’s just easier to show an example so here we are:
-{
-  "a": "{\"b\": \"c\"}"
-}
-
-This is not a common situation but I found that out today on a codebase and my first thought was to call jq get the content of the node a and then pipe it into another jq command. It would look like this:
-echo '{"a": "{\\"b\\": \\"c\\"}"}' | jq '.a' | jq
-# => "{\"b\": \"c\"}"
-
-As we can see the result is not a json, but a string so we cannot access inner nodes just yet.
-
-And the solution to this problem is to use the -r flag on the first jq call to output the result in a raw format, so the " surounding double quotes will disappear. And with that in place we can easily parse the nested/nasty json:
-echo '{"a": "{\\"b\\": \\"c\\"}"}' | jq -r '.a' | jq
-# => {
-# =>   "b": "c"
-# => }
-
-Then finally:
-echo '{"a": "{\\"b\\": \\"c\\"}"}' | jq -r '.a' | jq '.b'
-# => "c"]]></summary>
-        <author>
-            <name>viniciusnegrisolo</name>
         </author>
     </entry>
 </feed>
