@@ -22,881 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-15 datetime="2023-01-15T17:18:35.000Z">2023-01-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-15 datetime="2023-01-15T17:18:35.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;vdiYtiKD8eI"
-                        open
-                      >
-                        <summary class="article-expander__title">The Official JavaScript Tier List is Here</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;vdiYtiKD8eI">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-14 datetime="2023-01-14T16:07:54.000Z">2023-01-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-14 datetime="2023-01-14T16:07:54.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive"
-                        open
-                      >
-                        <summary class="article-expander__title">Rails&#x27; .insert_all method is too naive - #rails</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>.insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table’s primary key, this won’t work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.
-
-More advanced method:
-class ApplicationRecord
-  def self.bulk_insert(array_of_hashes, conflict_targets &#x3D; Array(primary_key))
-    columns &#x3D; array_of_hashes.first.keys
-    values &#x3D; array_of_hashes.flat_map(&amp;:values)
-    rows &#x3D; array_of_hashes.map do |f|
-      &quot;(#{columns.size.times.map { &quot;?&quot; }.join(&quot;, &quot;)})&quot;
-    end.join(&quot;, &quot;)
-
-    sql &#x3D; sanitize_sql_array([&lt;&lt;~SQL, *values])
-      INSERT INTO &quot;#{table_name}&quot;
-      (#{columns.map { |c| &quot;\&quot;#{c}\&quot;&quot; }.join(&quot;,&quot;)})
-      VALUES #{rows}
-      ON CONFLICT (#{conflict_targets.map { |c| &quot;\&quot;#{c}\&quot;&quot; }.join(&quot;, &quot;)}) DO NOTHING
-    SQL
-
-    connection.execute(sql.squish)
-  end
-end
-
-SQL it produces:
-User.bulk_insert([{email: &quot;a@example.com&quot;}, {email: &quot;b@example.com&quot;}])
-INSERT INTO &quot;users&quot; (&quot;email&quot;) VALUES (&#x27;a@example.com&#x27;), (&#x27;b@example.com&#x27;) ON CONFLICT (&quot;id&quot;) DO NOTHING
-
-This would then allow you to reference any conflict you like:
-alter table users add unique (email);
-User.bulk_insert(
-  [{email: &quot;a@example.com&quot;}, {email: &quot;b@example.com&quot;}],
-  %i[email]
-)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-13 datetime="2023-01-13T14:43:58.000Z">2023-01-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-13 datetime="2023-01-13T14:43:58.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid"
-                        open
-                      >
-                        <summary class="article-expander__title">Check if a form is valid - #javascript</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>checkValidity function:
-
- 
-   Email
-   
- 
-
- 
-   Password
-   
- 
-
- 
-   
-   
-    validate
-   
- 
-
-
-
-  const button &#x3D; document.querySelector(&quot;#validate&quot;)
-  if (button) {
-    button.addEventListener(&quot;click&quot;, function() {
-      alert(document.forms.login.checkValidity() ? &quot;Form is valid&quot; : &quot;INVALID&quot;);
-    });
-  }</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >No Boilerplate</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM"
-                        open
-                      >
-                        <summary class="article-expander__title">🧑‍🎓 1,000 AI interns for everyone (GPT: The Second Renaissance 🤖)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-12 datetime="2023-01-12T23:46:32.000Z">2023-01-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-12 datetime="2023-01-12T23:46:32.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;wYN3KC9lLS0"
-                        open
-                      >
-                        <summary class="article-expander__title">5 impressive command line tricks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;wYN3KC9lLS0">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-18"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 18 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-18">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This time around, we&#x27;re porting a solution from C++ to Rust and seeing how it
-feels, how it performs, and what we can learn about both languages by doing that.
-See Day 17 for the rationale re: porting solutions rather than
-writing my own from scratch. TL;DR is: it&#x27;s better than nothing, and we can
-still focus about learning Rust rather than spending entire days fighting
-off-by-one errors.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/articles/twitch-fell-behind"
-                        open
-                      >
-                        <summary class="article-expander__title">Twitch fell behind</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/articles/twitch-fell-behind">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>So you want to do live streams. Are you sure? Okay. Let&#x27;s talk about it.
-
-                        
-                            
-                                Let&#x27;s talk numbers</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-11 datetime="2023-01-11T15:00:00.000Z">2023-01-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-11 datetime="2023-01-11T15:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-17"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 17 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-17">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Advent of Code gets harder and harder, and I&#x27;m not getting any smarter. Or any
-more free time. So, in order to close out this series anyway, I&#x27;m going to try
-and port other people&#x27;s solutions from &quot;language X&quot; to Rust. That way, they
-already figured out the hard stuff, and we can just focus on the Rust bits!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-10 datetime="2023-01-10T18:37:37.000Z">2023-01-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-10 datetime="2023-01-10T18:37:37.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;uvb00oaa3k8"
-                        open
-                      >
-                        <summary class="article-expander__title">Kafka in 100 Seconds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;uvb00oaa3k8">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-09 datetime="2023-01-09T00:00:00.000Z">2023-01-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-09 datetime="2023-01-09T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/9"
-                        open
-                      >
-                        <summary class="article-expander__title">9 Jan 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/9">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#21472: :hardcopy is now removed.
-Commands removed:
-
-:hardcopy
-Options removed:
-printdevice
-printencoding
-printexpr
-printfont
-printheader
-printmbcharset
-#18706 nvim -l now invokes Lua scripts instead of setting the lisp
-option. To set the ‘lisp’ option as -l formerly did, just set it like any other option:
-nvim -c &quot;set lisp&quot;
-
-New plugins
-
-      
-    
-    import-cost.nvim
-  
-
-
-View bundle size of Javascript imports inside of your editor. The VSCode
-import-cost plugin
-has finally been ported to Neovim! A plugin made by @barret-ru…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-08 datetime="2023-01-08T16:25:47.000Z">2023-01-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-08 datetime="2023-01-08T16:25:47.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;1CDfTpD8dxo"
-                        open
-                      >
-                        <summary class="article-expander__title">my code will never stop never stopping</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;1CDfTpD8dxo">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-06 datetime="2023-01-06T17:02:34.000Z">2023-01-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-06 datetime="2023-01-06T17:02:34.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;NGXW4xhlYa4"
-                        open
-                      >
-                        <summary class="article-expander__title">Reverse Engineering Logan Paul&#x27;s Scam</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;NGXW4xhlYa4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-05 datetime="2023-01-05T19:34:24.000Z">2023-01-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-05 datetime="2023-01-05T19:34:24.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;5_t_I_4OuwQ"
-                        open
-                      >
-                        <summary class="article-expander__title">get a grip on grep</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;5_t_I_4OuwQ">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-04 datetime="2023-01-04T16:41:22.000Z">2023-01-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-04 datetime="2023-01-04T16:41:22.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;66tfvFeALBQ"
-                        open
-                      >
-                        <summary class="article-expander__title">How to ACTUALLY learn to code... 7 Roadmaps for 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;66tfvFeALBQ">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-03 datetime="2023-01-03T21:20:10.000Z">2023-01-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-03 datetime="2023-01-03T21:20:10.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby"
-                        open
-                      >
-                        <summary class="article-expander__title">The difference between %w and %W in Ruby - #ruby</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>%w(my cool word array)
-#&#x3D;&gt; [&quot;my&quot;, &quot;cool&quot;, &quot;word&quot;, &quot;array&quot;]
-
-%W works similarly, however it offers ways to interpolate with variables and escape special characters in the assignment, while %w does not. 
-street_name &#x3D; &#x27;Sesame Street&#x27;
-%W(I live on #{street_name})
-#&#x3D;&gt; [&quot;I&quot;, &quot;live&quot;, &quot;on&quot;, &quot;Sesame Street&quot;]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-02 datetime="2023-01-02T00:00:00.000Z">2023-01-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-02 datetime="2023-01-02T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/2"
-                        open
-                      >
-                        <summary class="article-expander__title">2 Jan 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/2">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Neovim v0.8.2 was released!
-This release is focusing mainly on robustness and bug fixes, many of which by regular core developer Zeertzjq.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    search-replace.nvim
-  
-
-
-A Neovim search and replace plugin that builds on the native search and replace experience.
-GitHub
-
-      
-    
-    olddirs.nvim
-  
-
-olddirs.nvim is like :oldfiles, but for directories. It provides autocommands which…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-01 datetime="2023-01-01T02:14:01.000Z">2023-01-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-01 datetime="2023-01-01T02:14:01.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/paq81wlo5c-sort-array-of-numbers"
-                        open
-                      >
-                        <summary class="article-expander__title">Sort array of numbers - #javascript</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/paq81wlo5c-sort-array-of-numbers">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>[1080, 720, 480].sort()
-&#x3D;&gt; [1080, 480, 720]
-
-So you need have to write your own sort function (don’t mess it up!)
-[1080, 720, 480].sort((a, b) &#x3D;&gt; Number(a) - Number(b))
-&#x3D;&gt; [480, 720, 1080]
-
-
-
-🐉</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-31 datetime="2022-12-31T17:00:08.000Z">2022-12-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-31 datetime="2022-12-31T17:00:08.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-16 datetime="2023-01-16T22:08:08.000Z">2023-01-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-16 datetime="2023-01-16T22:08:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -3941,6 +3068,978 @@ So you need have to write your own sort function (don’t mess it up!)
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;lHZwlzOUOZ4"
+                        open
+                      >
+                        <summary class="article-expander__title">Tailwind CSS is the worst…</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;lHZwlzOUOZ4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >This Week In Neovim</button>
+                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/16"
+                        open
+                      >
+                        <summary class="article-expander__title">16 Jan 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/16">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Guides, tours, articles, etc.
+
+      
+      
+      How to migrate from Packer.nvim to Lazy.nvim
+    
+  
+
+r/nvim member and YouTuber /u/elijah_manor has made an informative and 
+user friendly guide for migrating from Packer.nvim to Lazy.nvim. Great 
+for those of us who’ve been meaning to lazy load their plugins but were too… lazy to figure out how. The conversion is 
+very simple, so if you don’t want to com…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-15 datetime="2023-01-15T17:18:35.000Z">2023-01-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-15 datetime="2023-01-15T17:18:35.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;vdiYtiKD8eI"
+                        open
+                      >
+                        <summary class="article-expander__title">The Official JavaScript Tier List is Here</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;vdiYtiKD8eI">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-14 datetime="2023-01-14T16:07:54.000Z">2023-01-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-14 datetime="2023-01-14T16:07:54.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive"
+                        open
+                      >
+                        <summary class="article-expander__title">Rails&#x27; .insert_all method is too naive - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>.insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table’s primary key, this won’t work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.
+
+More advanced method:
+class ApplicationRecord
+  def self.bulk_insert(array_of_hashes, conflict_targets &#x3D; Array(primary_key))
+    columns &#x3D; array_of_hashes.first.keys
+    values &#x3D; array_of_hashes.flat_map(&amp;:values)
+    rows &#x3D; array_of_hashes.map do |f|
+      &quot;(#{columns.size.times.map { &quot;?&quot; }.join(&quot;, &quot;)})&quot;
+    end.join(&quot;, &quot;)
+
+    sql &#x3D; sanitize_sql_array([&lt;&lt;~SQL, *values])
+      INSERT INTO &quot;#{table_name}&quot;
+      (#{columns.map { |c| &quot;\&quot;#{c}\&quot;&quot; }.join(&quot;,&quot;)})
+      VALUES #{rows}
+      ON CONFLICT (#{conflict_targets.map { |c| &quot;\&quot;#{c}\&quot;&quot; }.join(&quot;, &quot;)}) DO NOTHING
+    SQL
+
+    connection.execute(sql.squish)
+  end
+end
+
+SQL it produces:
+User.bulk_insert([{email: &quot;a@example.com&quot;}, {email: &quot;b@example.com&quot;}])
+INSERT INTO &quot;users&quot; (&quot;email&quot;) VALUES (&#x27;a@example.com&#x27;), (&#x27;b@example.com&#x27;) ON CONFLICT (&quot;id&quot;) DO NOTHING
+
+This would then allow you to reference any conflict you like:
+alter table users add unique (email);
+User.bulk_insert(
+  [{email: &quot;a@example.com&quot;}, {email: &quot;b@example.com&quot;}],
+  %i[email]
+)</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-13 datetime="2023-01-13T14:43:58.000Z">2023-01-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-13 datetime="2023-01-13T14:43:58.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid"
+                        open
+                      >
+                        <summary class="article-expander__title">Check if a form is valid - #javascript</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>checkValidity function:
+
+ 
+   Email
+   
+ 
+
+ 
+   Password
+   
+ 
+
+ 
+   
+   
+    validate
+   
+ 
+
+
+
+  const button &#x3D; document.querySelector(&quot;#validate&quot;)
+  if (button) {
+    button.addEventListener(&quot;click&quot;, function() {
+      alert(document.forms.login.checkValidity() ? &quot;Form is valid&quot; : &quot;INVALID&quot;);
+    });
+  }</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >No Boilerplate</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM"
+                        open
+                      >
+                        <summary class="article-expander__title">1,000 AI interns for everyone</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-12 datetime="2023-01-12T14:00:00.000Z">2023-01-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-12 datetime="2023-01-12T14:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >fasterthanli.me</button>
+                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-18"
+                        open
+                      >
+                        <summary class="article-expander__title">Day 18 (Advent of Code 2022)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-18">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This time around, we&#x27;re porting a solution from C++ to Rust and seeing how it
+feels, how it performs, and what we can learn about both languages by doing that.
+See Day 17 for the rationale re: porting solutions rather than
+writing my own from scratch. TL;DR is: it&#x27;s better than nothing, and we can
+still focus about learning Rust rather than spending entire days fighting
+off-by-one errors.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/articles/twitch-fell-behind"
+                        open
+                      >
+                        <summary class="article-expander__title">Twitch fell behind</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/articles/twitch-fell-behind">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>So you want to do live streams. Are you sure? Okay. Let&#x27;s talk about it.
+
+                        
+                            
+                                Let&#x27;s talk numbers</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-11 datetime="2023-01-11T15:00:00.000Z">2023-01-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-11 datetime="2023-01-11T15:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >fasterthanli.me</button>
+                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-17"
+                        open
+                      >
+                        <summary class="article-expander__title">Day 17 (Advent of Code 2022)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-17">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Advent of Code gets harder and harder, and I&#x27;m not getting any smarter. Or any
+more free time. So, in order to close out this series anyway, I&#x27;m going to try
+and port other people&#x27;s solutions from &quot;language X&quot; to Rust. That way, they
+already figured out the hard stuff, and we can just focus on the Rust bits!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-10 datetime="2023-01-10T18:37:37.000Z">2023-01-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-10 datetime="2023-01-10T18:37:37.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;uvb00oaa3k8"
+                        open
+                      >
+                        <summary class="article-expander__title">Kafka in 100 Seconds</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;uvb00oaa3k8">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-09 datetime="2023-01-09T00:00:00.000Z">2023-01-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-09 datetime="2023-01-09T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >This Week In Neovim</button>
+                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/9"
+                        open
+                      >
+                        <summary class="article-expander__title">9 Jan 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/9">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+#21472: :hardcopy is now removed.
+Commands removed:
+
+:hardcopy
+Options removed:
+printdevice
+printencoding
+printexpr
+printfont
+printheader
+printmbcharset
+#18706 nvim -l now invokes Lua scripts instead of setting the lisp
+option. To set the ‘lisp’ option as -l formerly did, just set it like any other option:
+nvim -c &quot;set lisp&quot;
+
+New plugins
+
+      
+    
+    import-cost.nvim
+  
+
+
+View bundle size of Javascript imports inside of your editor. The VSCode
+import-cost plugin
+has finally been ported to Neovim! A plugin made by @barret-ru…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-08 datetime="2023-01-08T16:25:47.000Z">2023-01-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-08 datetime="2023-01-08T16:25:47.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;1CDfTpD8dxo"
+                        open
+                      >
+                        <summary class="article-expander__title">my code will never stop never stopping</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;1CDfTpD8dxo">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-06 datetime="2023-01-06T17:02:34.000Z">2023-01-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-06 datetime="2023-01-06T17:02:34.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;NGXW4xhlYa4"
+                        open
+                      >
+                        <summary class="article-expander__title">Reverse Engineering Logan Paul&#x27;s Scam</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;NGXW4xhlYa4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Brad Frost</button>
+                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://bradfrost.com/blog/post/2022/"
+                        open
+                      >
+                        <summary class="article-expander__title">2022</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/post/2022/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bradfrost.com/wp-content/uploads/2022/12/PXL_20220315_154734969.PORTRAIT-scaled.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A pattern is emerging: even years are nightmare years. 2018 was a nightmare year. 2020 was a real fucking nightmare year. And now 2022 was a nightmare year. 2022 was a year of death, organizing chaos, once again putting our […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-05 datetime="2023-01-05T19:34:24.000Z">2023-01-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-05 datetime="2023-01-05T19:34:24.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;5_t_I_4OuwQ"
+                        open
+                      >
+                        <summary class="article-expander__title">get a grip on grep</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;5_t_I_4OuwQ">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-04 datetime="2023-01-04T16:41:22.000Z">2023-01-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-04 datetime="2023-01-04T16:41:22.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;66tfvFeALBQ"
+                        open
+                      >
+                        <summary class="article-expander__title">How to ACTUALLY learn to code... 7 Roadmaps for 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;66tfvFeALBQ">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-03 datetime="2023-01-03T21:20:10.000Z">2023-01-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-03 datetime="2023-01-03T21:20:10.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby"
+                        open
+                      >
+                        <summary class="article-expander__title">The difference between %w and %W in Ruby - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>%w(my cool word array)
+#&#x3D;&gt; [&quot;my&quot;, &quot;cool&quot;, &quot;word&quot;, &quot;array&quot;]
+
+%W works similarly, however it offers ways to interpolate with variables and escape special characters in the assignment, while %w does not. 
+street_name &#x3D; &#x27;Sesame Street&#x27;
+%W(I live on #{street_name})
+#&#x3D;&gt; [&quot;I&quot;, &quot;live&quot;, &quot;on&quot;, &quot;Sesame Street&quot;]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-02 datetime="2023-01-02T00:00:00.000Z">2023-01-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-02 datetime="2023-01-02T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >This Week In Neovim</button>
+                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/2"
+                        open
+                      >
+                        <summary class="article-expander__title">2 Jan 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/2">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim v0.8.2 was released!
+This release is focusing mainly on robustness and bug fixes, many of which by regular core developer Zeertzjq.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    search-replace.nvim
+  
+
+
+A Neovim search and replace plugin that builds on the native search and replace experience.
+GitHub
+
+      
+    
+    olddirs.nvim
+  
+
+olddirs.nvim is like :oldfiles, but for directories. It provides autocommands which…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-01 datetime="2023-01-01T02:14:01.000Z">2023-01-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-01 datetime="2023-01-01T02:14:01.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/paq81wlo5c-sort-array-of-numbers"
+                        open
+                      >
+                        <summary class="article-expander__title">Sort array of numbers - #javascript</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/paq81wlo5c-sort-array-of-numbers">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>[1080, 720, 480].sort()
+&#x3D;&gt; [1080, 480, 720]
+
+So you need have to write your own sort function (don’t mess it up!)
+[1080, 720, 480].sort((a, b) &#x3D;&gt; Number(a) - Number(b))
+&#x3D;&gt; [480, 720, 1080]
+
+
+
+🐉</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-31 datetime="2022-12-31T10:00:00.000Z">2022-12-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-31 datetime="2022-12-31T10:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >fasterthanli.me</button>
                   <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
                 </h3>
@@ -4044,7 +4143,7 @@ could be improved!
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI"
                         open
                       >
-                        <summary class="article-expander__title">🏗️ If Rust Compiles, It WORKS (Types move errors from runtime to compiletime 📚)</summary>
+                        <summary class="article-expander__title">If Rust Compiles, It WORKS</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;JIvKgSyvtxI">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -4746,8 +4845,8 @@ https://www.postgresql.org/docs/current/functions-formatting.html</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3926007246">
-        <time id="build-timestamp" datetime="2023-01-16T00:23:12.327Z">2023-01-16T00:23:12.327Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3934918651">
+        <time id="build-timestamp" datetime="2023-01-17T00:23:25.594Z">2023-01-17T00:23:25.594Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
