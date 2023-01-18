@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-17T00:23:25.622Z</id>
+    <id>urn:2023-01-18T00:23:33.887Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-17T00:23:25.622Z</updated>
+    <updated>2023-01-18T00:23:33.887Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[C++ vs Rust: which is faster?]]></title>
+        <id>https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster</id>
+        <link href="https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster"/>
+        <updated>2023-01-17T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the
+opportunity to compare performance. When I couldn't explain why they performed
+differently, I had no choice but to disassemble both and look at what the
+codegen was like!</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
         <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
@@ -2068,62 +2081,6 @@ Shout out to Andrew for showing me this.]]></summary>
         <updated>2022-12-19T15:54:43.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19 Dec 2022]]></title>
-        <id>https://this-week-in-neovim.org/2022/Dec/19</id>
-        <link href="https://this-week-in-neovim.org/2022/Dec/19"/>
-        <updated>2022-12-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-vim.inspect_pos(), vim.show_pos(), :Inspect and :Inspect! allow a user to get or show items at a given buffer
-position.
-
-Currently this includes treesitter captures, semantic tokens, syntax groups and extmarks. More
-here.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Guides, tours, articles, etc.
-
-            
-            autocompletion-snippet
-        
-    
-
-
-A 5 minutes video show you how to add snippets and use auto-completion.
-Youtube
-New plugins
-…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remove Padding from Postgres Formatting Functions - #sql]]></title>
-        <id>http://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions</id>
-        <link href="http://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions"/>
-        <updated>2022-12-18T20:29:06.000Z</updated>
-        <summary type="html"><![CDATA[When using postgres formatting functions, like to_char, some of the formatting options include padding in the result. For example, the day format string will be blank padded to 9 chars. 
-select to_char(current_date, 'day');
-
-  to_char
------------
- sunday
-
-You can use the “fill mode" (FM) option to remove any leading zeros or blank padding characters by prepending it to your format option: 
-select to_char(current_date, 'FMday')
-
- to_char
----------
- sunday
-https://www.postgresql.org/docs/current/functions-formatting.html]]></summary>
-        <author>
-            <name>andrewvogel</name>
         </author>
     </entry>
 </feed>
