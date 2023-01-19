@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-18T00:23:33.887Z</id>
+    <id>urn:2023-01-19T00:23:50.552Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-18T00:23:33.887Z</updated>
+    <updated>2023-01-19T00:23:50.552Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Install Specific Package Version with yarn - #javascript]]></title>
+        <id>http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn</id>
+        <link href="http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn"/>
+        <updated>2023-01-18T15:47:30.000Z</updated>
+        <summary type="html"><![CDATA[yarn add. To add enzyme at version 1.2.3 you can: 
+$ yarn add enzyme@1.2.3
+
+You can also specify a git repository (including branch):
+$ yarn add enzyme@enzymejs/enzyme#branch-name
+docs]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C++ vs Rust: which is faster?]]></title>
         <id>https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster</id>
@@ -1918,10 +1933,10 @@ could be improved!</p>
         <summary type="html"><![CDATA[view test coverage when it runs. 
 
 But even if I only run tests for a specified file or files, the --coverage output will include all files. 
-jest src/directoryToTest --coverage
+$ jest src/directoryToTest --coverage
 
 If your app is large, this can generate a lot of output and be difficult to parse. If I only care about the coverage for files in directoryToTest, I can filter the output of --coverage  with --collectCoverageFrom=:
-jest src/directoryToTest --coverage --collectCoverageFrom="src/directoryToTest/**"
+$ jest src/directoryToTest --coverage --collectCoverageFrom="src/directoryToTest/**"
 docs]]></summary>
         <author>
             <name>tonyyunker</name>
@@ -2058,27 +2073,6 @@ several folks asked if I was going to continue... let's continue.</p>]]></summar
         <id>https://www.youtube.com/watch?v=K7iRfOs-aUw</id>
         <link href="https://www.youtube.com/watch?v=K7iRfOs-aUw"/>
         <updated>2022-12-20T17:17:15.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find git branches that contain a commit sha - #git]]></title>
-        <id>http://til.hashrocket.com/posts/wyvvvdhwym-find-git-branches-that-contain-a-commit-sha</id>
-        <link href="http://til.hashrocket.com/posts/wyvvvdhwym-find-git-branches-that-contain-a-commit-sha"/>
-        <updated>2022-12-19T18:29:48.000Z</updated>
-        <summary type="html"><![CDATA[git branch --contains <commit-sha>
-
-Shout out to Andrew for showing me this.]]></summary>
-        <author>
-            <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I built a $5 chat app with Pocketbase & Svelte. Will it scale?]]></title>
-        <id>https://www.youtube.com/watch?v=gUYBFDPZ5qk</id>
-        <link href="https://www.youtube.com/watch?v=gUYBFDPZ5qk"/>
-        <updated>2022-12-19T15:54:43.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>
