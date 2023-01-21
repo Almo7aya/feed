@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-20T00:24:06.343Z</id>
+    <id>urn:2023-01-21T00:22:37.588Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-20T00:24:06.343Z</updated>
+    <updated>2023-01-21T00:22:37.588Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Execute a prepared statement in Rails - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails</id>
+        <link href="http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails"/>
+        <updated>2023-01-20T14:53:51.000Z</updated>
+        <summary type="html"><![CDATA[PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:
+User.connection.exec_query(
+  "select * from users where email = $1",
+  nil,
+  ["a@example.com"],
+  prepare: true
+)
+
+Will issue:
+select * from users where email = $1  [[nil, "a@example.com"]]]]></summary>
+        <author>
+            <name>dillonhafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Run ansible script without an inventory file - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/nubu3kxdy7-run-ansible-script-without-an-inventory-file</id>
@@ -2072,20 +2091,6 @@ several folks asked if I was going to continue... let's continue.</p>]]></summar
         <updated>2022-12-22T15:38:23.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gap CSS rows and columns - #html-css]]></title>
-        <id>http://til.hashrocket.com/posts/1txovzr0bh-gap-css-rows-and-columns</id>
-        <link href="http://til.hashrocket.com/posts/1txovzr0bh-gap-css-rows-and-columns"/>
-        <updated>2022-12-21T21:13:35.000Z</updated>
-        <summary type="html"><![CDATA[gap is a shorthand combination of the row-gap and column-gap properties. You can use this to set the amount of space between flex items. 
-.gap-example-container {
-  display: flex;
-  gap: 2em;
-}]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
