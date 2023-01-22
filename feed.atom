@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-21T00:22:37.588Z</id>
+    <id>urn:2023-01-22T00:25:19.537Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-21T00:22:37.588Z</updated>
+    <updated>2023-01-22T00:25:19.537Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[5 ideas for your own AI grift with ChatGPT]]></title>
+        <id>https://www.youtube.com/watch?v=Aa83vRghue4</id>
+        <link href="https://www.youtube.com/watch?v=Aa83vRghue4"/>
+        <updated>2023-01-21T16:27:30.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Execute a prepared statement in Rails - #rails]]></title>
         <id>http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails</id>
@@ -2082,15 +2091,6 @@ several folks asked if I was going to continue... let's continue.</p>]]></summar
         <updated>2022-12-23T19:18:07.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why my chat app broke… a cautionary tale]]></title>
-        <id>https://www.youtube.com/watch?v=M93w3TjzVUE</id>
-        <link href="https://www.youtube.com/watch?v=M93w3TjzVUE"/>
-        <updated>2022-12-22T15:38:23.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
