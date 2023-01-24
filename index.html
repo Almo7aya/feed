@@ -22,6 +22,153 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-23 datetime="2023-01-23T22:11:18.000Z">2023-01-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-23 datetime="2023-01-23T22:11:18.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;Z8omJ59hNfY"
+                        open
+                      >
+                        <summary class="article-expander__title">real eyes realize AI eyes</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;Z8omJ59hNfY">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions"
+                        open
+                      >
+                        <summary class="article-expander__title">Shorthand Elixir Anonymous Functions - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span># The &#x27;&amp;&#x27; operator is used to define the function and its arguments
+putter &#x3D; &amp;(IO.puts &amp;1)
+putter.(&quot;Today I learned&quot;)
+#...&gt; Today I learned
+#...&gt; :ok
+&amp;1 refers to the functions first argument; in this example, we used “Today I learned&quot;. You can use more arguments with &amp;2,  &amp;3, etc… For example:
+combiner &#x3D; &amp;(&amp;1  &amp;2)
+combiner.(&quot;Foo&quot;, &quot;Bar&quot;)
+#...&gt; &quot;FooBar&quot;
+
+Also notice that we are not calling either of these functions like function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence “anonymous&quot; functions.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >This Week In Neovim</button>
+                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://this-week-in-neovim.org/2023/Jan/23"
+                        open
+                      >
+                        <summary class="article-expander__title">23 Jan 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jan/23">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Guides, tours, articles, etc.
+
+      
+      
+      Neovim as IDE guide in Russian
+    
+  
+
+
+English may be the lingua franca of programming, but we’re an international community! /u/ryadik has made a 
+video guide on how to set up Neovim like an IDE in Russian. It has auto-generated 
+English subtitles, but ryadik has requested help to check their quality.
+Reddit
+Youtube
+New plugins
+
+      
+    
+    hex.nvim…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-21 datetime="2023-01-21T16:27:30.000Z">2023-01-21</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-21 datetime="2023-01-21T16:27:30.000Z"></time>
           </button>
@@ -4724,8 +4871,8 @@ several folks asked if I was going to continue... let&#x27;s continue.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3982263387">
-        <time id="build-timestamp" datetime="2023-01-23T00:22:07.522Z">2023-01-23T00:22:07.522Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/3991791722">
+        <time id="build-timestamp" datetime="2023-01-24T00:23:47.286Z">2023-01-24T00:23:47.286Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

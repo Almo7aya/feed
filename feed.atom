@@ -1,10 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-23T00:22:07.557Z</id>
+    <id>urn:2023-01-24T00:23:47.321Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-23T00:22:07.557Z</updated>
+    <updated>2023-01-24T00:23:47.321Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[real eyes realize AI eyes]]></title>
+        <id>https://www.youtube.com/watch?v=Z8omJ59hNfY</id>
+        <link href="https://www.youtube.com/watch?v=Z8omJ59hNfY"/>
+        <updated>2023-01-23T22:11:18.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shorthand Elixir Anonymous Functions - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions</id>
+        <link href="http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions"/>
+        <updated>2023-01-23T17:29:04.000Z</updated>
+        <summary type="html"><![CDATA[# The '&' operator is used to define the function and its arguments
+putter = &(IO.puts &1)
+putter.("Today I learned")
+#...> Today I learned
+#...> :ok
+&1 refers to the functions first argument; in this example, we used “Today I learned". You can use more arguments with &2,  &3, etc… For example:
+combiner = &(&1 <> &2)
+combiner.("Foo", "Bar")
+#...> "FooBar"
+
+Also notice that we are not calling either of these functions like function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence “anonymous" functions.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[23 Jan 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Jan/23</id>
+        <link href="https://this-week-in-neovim.org/2023/Jan/23"/>
+        <updated>2023-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Guides, tours, articles, etc.
+
+      
+      
+      Neovim as IDE guide in Russian
+    
+  
+
+
+English may be the lingua franca of programming, but we’re an international community! /u/ryadik has made a 
+video guide on how to set up Neovim like an IDE in Russian. It has auto-generated 
+English subtitles, but ryadik has requested help to check their quality.
+Reddit
+Youtube
+New plugins
+
+      
+    
+    hex.nvim…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5 ideas for your own AI grift with ChatGPT]]></title>
         <id>https://www.youtube.com/watch?v=Aa83vRghue4</id>
