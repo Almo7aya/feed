@@ -76,7 +76,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1041,
+          "wordCount": 1018,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -96,7 +96,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3325,
+          "wordCount": 3315,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -116,7 +116,7 @@
           "description": "<p>Let's talk about big TV and movie studios. About the life and death of\nCollegeHumor, about what makes Dropout interesting, and how their video platform\ncould be improved!</p>\n<p>00:00 Big TV and movie studios<br />\n01:38 Internet and the attention economy<br />\n02:32 The life and death of CollegeHumor<br />\n03:55 Pivot to video they said<br />\n04:39 The second life of CollegeHumor\n05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />\n06:42 Um, Actually, with Mike Trapp<br />\n07:38 Game Changer, with Sam Reich<br />\n08:41 The good parts of the Dropout platform<br />\n09:21 Ten details Dropout can fix<br />\n12:35 Thanks and announcements</p>",
           "link": "https://fasterthanli.me/videos/we-need-to-talk-about-dropout",
           "publishedOn": "2022-12-31T10:00:00.000Z",
-          "wordCount": 990,
+          "wordCount": 1007,
           "title": "We need to talk about Dropout",
           "imageUrl": "https://tube.fasterthanli.me/covers/dropout/cover.jpg"
         },
@@ -126,7 +126,7 @@
           "description": "<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/16\">day 16 puzzle</a>!</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>\n                        \n<p>The input looks like this:</p>\n<div class=\"code-block\" translate=\"no\"><pre class=\"code-block-inner\" data-lang=\"\">Valve AA has flow rate=0; tunnels lead to valves DD, II, BB\nValve BB has flow rate=13; tunnels lead to valves CC, AA\nValve CC has flow rate=2; tunnels lead to valves DD, BB\nValve DD has flow rate=20; tunnels lead to valves CC, AA, EE\nValve EE has flow rate=3; tunnels lead to valves FF, DD\nValve FF has flow rate=0; tunnels lead to valves EE, GG\nValve GG has flow rate=0; tunnels lead to valves FF, HH\nValve HH has flow rate=22; tunnel leads to valve GG\nValve II has flow rate=0; tunnels lead to valves AA, JJ\nValve JJ has flow rate=21; tunnel leads to valve II\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
           "publishedOn": "2022-12-29T15:00:00.000Z",
-          "wordCount": 6301,
+          "wordCount": 6299,
           "title": "Day 16 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
