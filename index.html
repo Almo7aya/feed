@@ -22,6 +22,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-28 datetime="2023-01-28T12:00:29.000Z">2023-01-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-28 datetime="2023-01-28T12:00:29.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Let&#x27;s Get Rusty</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;zlT_2WYU5XI"
+                        open
+                      >
+                        <summary class="article-expander__title">Rust 1.67.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;zlT_2WYU5XI">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-27 datetime="2023-01-27T16:54:43.000Z">2023-01-27</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-27 datetime="2023-01-27T16:54:43.000Z"></time>
           </button>
@@ -3925,7 +3970,7 @@ User.bulk_insert(
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM"
                         open
                       >
-                        <summary class="article-expander__title">1,000 AI interns for everyone</summary>
+                        <summary class="article-expander__title">GPT won&#x27;t take your job</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;glpR1MD1UoM">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -4724,141 +4769,10 @@ could be improved!
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-29 datetime="2022-12-29T16:30:04.000Z">2022-12-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-29 datetime="2022-12-29T16:30:04.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/qxkqyldklx-limit-jest-test-coverage-to-specific-files"
-                        open
-                      >
-                        <summary class="article-expander__title">Limit Jest Test Coverage to Specific Files - #javascript</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/qxkqyldklx-limit-jest-test-coverage-to-specific-files">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>view test coverage when it runs. 
-
-But even if I only run tests for a specified file or files, the --coverage output will include all files. 
-$ jest src/directoryToTest --coverage
-
-If your app is large, this can generate a lot of output and be difficult to parse. If I only care about the coverage for files in directoryToTest, I can filter the output of --coverage  with --collectCoverageFrom&#x3D;:
-$ jest src/directoryToTest --coverage --collectCoverageFrom&#x3D;&quot;src/directoryToTest/**&quot;
-docs</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/advent-of-code-2022/part-16"
-                        open
-                      >
-                        <summary class="article-expander__title">Day 16 (Advent of Code 2022)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/advent-of-code-2022/part-16">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Let&#x27;s tackle the day 16 puzzle!
-The input looks like this:
-Valve AA has flow rate&#x3D;0; tunnels lead to valves DD, II, BB
-Valve BB has flow rate&#x3D;13; tunnels lead to valves CC, AA
-Valve CC has flow rate&#x3D;2; tunnels lead to valves DD, BB
-Valve DD has flow rate&#x3D;20; tunnels lead to valves CC, AA, EE
-Valve EE has flow rate&#x3D;3; tunnels lead to valves FF, DD
-Valve FF has flow rate&#x3D;0; tunnels lead to valves EE, GG
-Valve GG has flow rate&#x3D;0; tunnels lead to valves FF, HH
-Valve HH has flow rate&#x3D;22; tunnel leads to valve GG
-Valve II has flow rate&#x3D;0; tunnels lead to valves AA, JJ
-Valve JJ has flow rate&#x3D;21; tunnel leads to valve II</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Let&#x27;s Get Rusty</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;BHMAF8XnWr8"
-                        open
-                      >
-                        <summary class="article-expander__title">Rust just got a lot easier...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;BHMAF8XnWr8">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4029223648">
-        <time id="build-timestamp" datetime="2023-01-28T00:22:14.241Z">2023-01-28T00:22:14.241Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4034257874">
+        <time id="build-timestamp" datetime="2023-01-29T00:25:19.972Z">2023-01-29T00:25:19.972Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

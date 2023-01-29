@@ -76,7 +76,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1005,
+          "wordCount": 1018,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -96,7 +96,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3314,
+          "wordCount": 3316,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -106,7 +106,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5801,
+          "wordCount": 5800,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -119,16 +119,6 @@
           "wordCount": 993,
           "title": "We need to talk about Dropout",
           "imageUrl": "https://tube.fasterthanli.me/covers/dropout/cover.jpg"
-        },
-        {
-          "id": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
-          "author": null,
-          "description": "<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/16\">day 16 puzzle</a>!</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>\n                        \n<p>The input looks like this:</p>\n<div class=\"code-block\" translate=\"no\"><pre class=\"code-block-inner\" data-lang=\"\">Valve AA has flow rate=0; tunnels lead to valves DD, II, BB\nValve BB has flow rate=13; tunnels lead to valves CC, AA\nValve CC has flow rate=2; tunnels lead to valves DD, BB\nValve DD has flow rate=20; tunnels lead to valves CC, AA, EE\nValve EE has flow rate=3; tunnels lead to valves FF, DD\nValve FF has flow rate=0; tunnels lead to valves EE, GG\nValve GG has flow rate=0; tunnels lead to valves FF, HH\nValve HH has flow rate=22; tunnel leads to valve GG\nValve II has flow rate=0; tunnels lead to valves AA, JJ\nValve JJ has flow rate=21; tunnel leads to valve II\n</pre></div>",
-          "link": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
-          "publishedOn": "2022-12-29T15:00:00.000Z",
-          "wordCount": 6301,
-          "title": "Day 16 (Advent of Code 2022)",
-          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
     },
@@ -215,16 +205,6 @@
           "publishedOn": "2023-01-01T02:14:01.000Z",
           "wordCount": 267,
           "title": "Sort array of numbers - #javascript",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/qxkqyldklx-limit-jest-test-coverage-to-specific-files",
-          "author": "tonyyunker",
-          "description": "view test coverage when it runs. \n\nBut even if I only run tests for a specified file or files, the --coverage output will include all files. \n$ jest src/directoryToTest --coverage\r\n\nIf your app is large, this can generate a lot of output and be difficult to parse. If I only care about the coverage for files in directoryToTest, I can filter the output of --coverage  with --collectCoverageFrom=:\n$ jest src/directoryToTest --coverage --collectCoverageFrom=\"src/directoryToTest/**\"\r\ndocs",
-          "link": "http://til.hashrocket.com/posts/qxkqyldklx-limit-jest-test-coverage-to-specific-files",
-          "publishedOn": "2022-12-29T16:30:04.000Z",
-          "wordCount": 292,
-          "title": "Limit Jest Test Coverage to Specific Files - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         }
       ]
@@ -1908,6 +1888,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=zlT_2WYU5XI",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=zlT_2WYU5XI",
+          "publishedOn": "2023-01-28T12:00:29.000Z",
+          "wordCount": null,
+          "title": "Rust 1.67.0",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=PbR4ECFIckg",
           "author": null,
           "description": "",
@@ -1915,16 +1905,6 @@
           "publishedOn": "2023-01-24T12:00:13.000Z",
           "wordCount": null,
           "title": "8 deadly mistakes beginner Rust developers make",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=BHMAF8XnWr8",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=BHMAF8XnWr8",
-          "publishedOn": "2022-12-29T14:56:42.000Z",
-          "wordCount": null,
-          "title": "Rust just got a lot easier...",
           "imageUrl": null
         }
       ]
@@ -1951,7 +1931,7 @@
           "link": "https://www.youtube.com/watch?v=glpR1MD1UoM",
           "publishedOn": "2023-01-13T14:01:57.000Z",
           "wordCount": null,
-          "title": "1,000 AI interns for everyone",
+          "title": "GPT won't take your job",
           "imageUrl": null
         },
         {
