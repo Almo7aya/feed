@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-29T00:25:20.000Z</id>
+    <id>urn:2023-01-30T00:20:05.162Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-29T00:25:20.000Z</updated>
+    <updated>2023-01-30T00:20:05.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2040,47 +2040,6 @@ So you need have to write your own sort function (don’t mess it up!)
 🐉]]></summary>
         <author>
             <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We need to talk about Dropout]]></title>
-        <id>https://fasterthanli.me/videos/we-need-to-talk-about-dropout</id>
-        <link href="https://fasterthanli.me/videos/we-need-to-talk-about-dropout"/>
-        <updated>2022-12-31T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Let's talk about big TV and movie studios. About the life and death of
-CollegeHumor, about what makes Dropout interesting, and how their video platform
-could be improved!</p>
-<p>00:00 Big TV and movie studios<br />
-01:38 Internet and the attention economy<br />
-02:32 The life and death of CollegeHumor<br />
-03:55 Pivot to video they said<br />
-04:39 The second life of CollegeHumor
-05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />
-06:42 Um, Actually, with Mike Trapp<br />
-07:38 Game Changer, with Sam Reich<br />
-08:41 The good parts of the Dropout platform<br />
-09:21 Ten details Dropout can fix<br />
-12:35 Thanks and announcements</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JPG vs PNG vs WEBP vs GIF vs SVG]]></title>
-        <id>https://www.youtube.com/watch?v=U_QNznf2FZA</id>
-        <link href="https://www.youtube.com/watch?v=U_QNznf2FZA"/>
-        <updated>2022-12-30T20:53:05.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If Rust Compiles, It WORKS]]></title>
-        <id>https://www.youtube.com/watch?v=JIvKgSyvtxI</id>
-        <link href="https://www.youtube.com/watch?v=JIvKgSyvtxI"/>
-        <updated>2022-12-30T13:00:53.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
