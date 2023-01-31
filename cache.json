@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Jan/30",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#21832: libiconv is now a required build dependency.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      neo-tree.nvim is looking for developers / maintainers\n    \n  \n\n\nNeovim plugin to manage the file system and other tree like structures. \n\nThe project could really use some awesome developers that have some free time and love that they can dedicate to \nmaintaining the project. Up until recently, the author has been the primary pers…",
+          "link": "https://this-week-in-neovim.org/2023/Jan/30",
+          "publishedOn": "2023-01-30T00:00:00.000Z",
+          "wordCount": 1197,
+          "title": "30 Jan 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Jan/23",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      \n      Neovim as IDE guide in Russian\n    \n  \n\n\nEnglish may be the lingua franca of programming, but we’re an international community! /u/ryadik has made a \nvideo guide on how to set up Neovim like an IDE in Russian. It has auto-generated \nEnglish subtitles, but ryadik has requested help to check their quality.\nReddit\nYoutube\nNew plugins\n\n      \n    \n    hex.nvim…",
           "link": "https://this-week-in-neovim.org/2023/Jan/23",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 635,
+          "wordCount": 638,
           "title": "23 Jan 2023",
           "imageUrl": null
         },
@@ -86,7 +96,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4730,
+          "wordCount": 4727,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -96,7 +106,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3316,
+          "wordCount": 3315,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -106,7 +116,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5801,
+          "wordCount": 5802,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -186,16 +196,6 @@
           "wordCount": 301,
           "title": "The difference between %w and %W in Ruby - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/paq81wlo5c-sort-array-of-numbers",
-          "author": "dillonhafer",
-          "description": "[1080, 720, 480].sort()\r\n=> [1080, 480, 720]\r\n\nSo you need have to write your own sort function (don’t mess it up!)\n[1080, 720, 480].sort((a, b) => Number(a) - Number(b))\r\n=> [480, 720, 1080]\r\n\n\n\n🐉",
-          "link": "http://til.hashrocket.com/posts/paq81wlo5c-sort-array-of-numbers",
-          "publishedOn": "2023-01-01T02:14:01.000Z",
-          "wordCount": 267,
-          "title": "Sort array of numbers - #javascript",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         }
       ]
     },
@@ -1760,6 +1760,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=DXDe-2BC4cE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=DXDe-2BC4cE",
+          "publishedOn": "2023-01-30T17:00:44.000Z",
+          "wordCount": null,
+          "title": "Unreal in 100 Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=T6L9EoBy8Zk",
           "author": null,
