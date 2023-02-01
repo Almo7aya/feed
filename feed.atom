@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-31T00:24:40.137Z</id>
+    <id>urn:2023-02-01T00:26:27.776Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-31T00:24:40.137Z</updated>
+    <updated>2023-02-01T00:26:27.776Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The weird future of music]]></title>
+        <id>https://www.youtube.com/watch?v=1LV1K69885E</id>
+        <link href="https://www.youtube.com/watch?v=1LV1K69885E"/>
+        <updated>2023-01-31T17:06:47.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unreal in 100 Seconds]]></title>
         <id>https://www.youtube.com/watch?v=DXDe-2BC4cE</id>
@@ -2024,41 +2033,6 @@ street_name = 'Sesame Street'
 #=> ["I", "live", "on", "Sesame Street"]]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2 Jan 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Jan/2</id>
-        <link href="https://this-week-in-neovim.org/2023/Jan/2"/>
-        <updated>2023-01-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Neovim v0.8.2 was released!
-This release is focusing mainly on robustness and bug fixes, many of which by regular core developer Zeertzjq.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    search-replace.nvim
-  
-
-
-A Neovim search and replace plugin that builds on the native search and replace experience.
-GitHub
-
-      
-    
-    olddirs.nvim
-  
-
-olddirs.nvim is like :oldfiles, but for directories. It provides autocommands which…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
