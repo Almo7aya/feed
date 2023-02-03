@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-02T00:24:10.342Z</id>
+    <id>urn:2023-02-03T00:24:33.500Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-02T00:24:10.342Z</updated>
+    <updated>2023-02-03T00:24:33.500Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Chrome finally embraces Rust]]></title>
+        <id>https://www.youtube.com/watch?v=w-baalUhAxk</id>
+        <link href="https://www.youtube.com/watch?v=w-baalUhAxk"/>
+        <updated>2023-02-02T12:00:39.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Modern Health, frameworks, performance, and harm – Eric Bailey]]></title>
         <id>https://bradfrost.com/blog/link/modern-health-frameworks-performance-and-harm-eric-bailey/</id>
@@ -2027,22 +2036,6 @@ has finally been ported to Neovim! A plugin made by @barret-ru…]]></summary>
         <updated>2023-01-04T16:41:22.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The difference between %w and %W in Ruby - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby</id>
-        <link href="http://til.hashrocket.com/posts/aqkz0yqdky-the-difference-between-w-and-w-in-ruby"/>
-        <updated>2023-01-03T21:20:10.000Z</updated>
-        <summary type="html"><![CDATA[%w(my cool word array)
-#=> ["my", "cool", "word", "array"]
-
-%W works similarly, however it offers ways to interpolate with variables and escape special characters in the assignment, while %w does not. 
-street_name = 'Sesame Street'
-%W(I live on #{street_name})
-#=> ["I", "live", "on", "Sesame Street"]]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
