@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-03T00:24:33.500Z</id>
+    <id>urn:2023-02-04T00:22:28.330Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-03T00:24:33.500Z</updated>
+    <updated>2023-02-04T00:22:28.330Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Pattern Matching Args with Exact Values - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values</id>
+        <link href="http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values"/>
+        <updated>2023-02-03T19:33:26.000Z</updated>
+        <summary type="html"><![CDATA[head_match that takes two arguments, a string and a list, that checks if the string argument is the same as the head of the list. We could use pattern matching like this:
+def head_match(head, [head, _tail]) do
+  IO.puts("Thats the head of the List!")
+end
+#this will match if we called it like head_match("first_word", ["first_word", "second_word"])
+head and used that same name as the list head? This means that the function will only match if those two values are the exact same rather than just matching the structure of the arguments.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 better ways to create a React app]]></title>
+        <id>https://www.youtube.com/watch?v=2OTq15A5s0Y</id>
+        <link href="https://www.youtube.com/watch?v=2OTq15A5s0Y"/>
+        <updated>2023-02-03T16:34:18.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome finally embraces Rust]]></title>
         <id>https://www.youtube.com/watch?v=w-baalUhAxk</id>
@@ -136,12 +160,11 @@ putter = &(IO.puts &1)
 putter.("Today I learned")
 #...> Today I learned
 #...> :ok
-&1 refers to the functions first argument; in this example, we used “Today I learned". You can use more arguments with &2,  &3, etc… For example:
+&1 refers to the functions first argument; in this example, we used "Today I learned". You can use more arguments with &2,  &3, etc... For example:
 combiner = &(&1 <> &2)
 combiner.("Foo", "Bar")
 #...> "FooBar"
-
-Also notice that we are not calling either of these functions like function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence “anonymous" functions.]]></summary>
+function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence "anonymous" functions.]]></summary>
         <author>
             <name>jackrosa</name>
         </author>
@@ -202,8 +225,6 @@ User.connection.exec_query(
   ["a@example.com"],
   prepare: true
 )
-
-Will issue:
 select * from users where email = $1  [[nil, "a@example.com"]]]]></summary>
         <author>
             <name>dillonhafer</name>
@@ -236,8 +257,6 @@ select * from users where email = $1  [[nil, "a@example.com"]]]]></summary>
         <updated>2023-01-18T15:47:30.000Z</updated>
         <summary type="html"><![CDATA[yarn add. To add enzyme at version 1.2.3 you can: 
 $ yarn add enzyme@1.2.3
-
-You can also specify a git repository (including branch):
 $ yarn add enzyme@enzymejs/enzyme#branch-name
 docs]]></summary>
         <author>
@@ -1818,9 +1837,7 @@ very simple, so if you don’t want to com…]]></summary>
         <id>http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive</id>
         <link href="http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive"/>
         <updated>2023-01-14T16:07:54.000Z</updated>
-        <summary type="html"><![CDATA[.insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table’s primary key, this won’t work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.
-
-More advanced method:
+        <summary type="html"><![CDATA[.insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table's primary key, this won't work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.
 class ApplicationRecord
   def self.bulk_insert(array_of_hashes, conflict_targets = Array(primary_key))
     columns = array_of_hashes.first.keys
@@ -1839,12 +1856,8 @@ class ApplicationRecord
     connection.execute(sql.squish)
   end
 end
-
-SQL it produces:
 User.bulk_insert([{email: "a@example.com"}, {email: "b@example.com"}])
 INSERT INTO "users" ("email") VALUES ('a@example.com'), ('b@example.com') ON CONFLICT ("id") DO NOTHING
-
-This would then allow you to reference any conflict you like:
 alter table users add unique (email);
 User.bulk_insert(
   [{email: "a@example.com"}, {email: "b@example.com"}],
@@ -1860,32 +1873,33 @@ User.bulk_insert(
         <link href="http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid"/>
         <updated>2023-01-13T14:43:58.000Z</updated>
         <summary type="html"><![CDATA[checkValidity function:
+<form name="login">
+ <fieldset>
+   <legend>Email</legend>
+   <input type="email" name="email" required />
+ </fieldset>
 
- 
-   Email
-   
- 
+ <fieldset>
+   <legend>Password</legend>
+   <input type="password" name="password" required />
+ </fieldset>
 
- 
-   Password
-   
- 
-
- 
-   
-   
+ <div style="margin-top: 1rem">
+   <input type="submit" value="login" />
+   <button type="button" id="validate">
     validate
-   
- 
+   </button>
+ </div>
+</form>
 
-
-
+<script>
   const button = document.querySelector("#validate")
   if (button) {
     button.addEventListener("click", function() {
       alert(document.forms.login.checkValidity() ? "Form is valid" : "INVALID");
     });
-  }]]></summary>
+  }
+</script>]]></summary>
         <author>
             <name>dillonhafer</name>
         </author>
@@ -2025,15 +2039,6 @@ has finally been ported to Neovim! A plugin made by @barret-ru…]]></summary>
         <id>https://www.youtube.com/watch?v=5_t_I_4OuwQ</id>
         <link href="https://www.youtube.com/watch?v=5_t_I_4OuwQ"/>
         <updated>2023-01-05T19:34:24.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to ACTUALLY learn to code... 7 Roadmaps for 2023]]></title>
-        <id>https://www.youtube.com/watch?v=66tfvFeALBQ</id>
-        <link href="https://www.youtube.com/watch?v=66tfvFeALBQ"/>
-        <updated>2023-01-04T16:41:22.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>

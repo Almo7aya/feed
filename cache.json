@@ -86,7 +86,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4725,
+          "wordCount": 4727,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -96,7 +96,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3318,
+          "wordCount": 3316,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -106,7 +106,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5804,
+          "wordCount": 5802,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -118,22 +118,32 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values",
+          "author": "jackrosa",
+          "description": "head_match that takes two arguments, a string and a list, that checks if the string argument is the same as the head of the list. We could use pattern matching like this:\ndef head_match(head, [head, _tail]) do\r\n  IO.puts(\"Thats the head of the List!\")\r\nend\r\n#this will match if we called it like head_match(\"first_word\", [\"first_word\", \"second_word\"])\r\nhead and used that same name as the list head? This means that the function will only match if those two values are the exact same rather than just matching the structure of the arguments.",
+          "link": "http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values",
+          "publishedOn": "2023-02-03T19:33:26.000Z",
+          "wordCount": 343,
+          "title": "Pattern Matching Args with Exact Values - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions",
           "author": "jackrosa",
-          "description": "# The '&' operator is used to define the function and its arguments\r\nputter = &(IO.puts &1)\r\nputter.(\"Today I learned\")\r\n#...> Today I learned\r\n#...> :ok\r\n&1 refers to the functions first argument; in this example, we used “Today I learned\". You can use more arguments with &2,  &3, etc… For example:\ncombiner = &(&1 <> &2)\r\ncombiner.(\"Foo\", \"Bar\")\r\n#...> \"FooBar\"\r\n\nAlso notice that we are not calling either of these functions like function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence “anonymous\" functions.",
+          "description": "# The '&' operator is used to define the function and its arguments\r\nputter = &(IO.puts &1)\r\nputter.(\"Today I learned\")\r\n#...> Today I learned\r\n#...> :ok\r\n&1 refers to the functions first argument; in this example, we used \"Today I learned\". You can use more arguments with &2,  &3, etc... For example:\ncombiner = &(&1 <> &2)\r\ncombiner.(\"Foo\", \"Bar\")\r\n#...> \"FooBar\"\r\nfunction(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence \"anonymous\" functions.",
           "link": "http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions",
           "publishedOn": "2023-01-23T17:29:04.000Z",
-          "wordCount": 341,
+          "wordCount": 343,
           "title": "Shorthand Elixir Anonymous Functions - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         },
         {
           "id": "http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails",
           "author": "dillonhafer",
-          "description": "PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:\nUser.connection.exec_query(\r\n  \"select * from users where email = $1\",\r\n  nil,\r\n  [\"a@example.com\"],\r\n  prepare: true\r\n)\r\n\nWill issue:\nselect * from users where email = $1  [[nil, \"a@example.com\"]]",
+          "description": "PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:\nUser.connection.exec_query(\r\n  \"select * from users where email = $1\",\r\n  nil,\r\n  [\"a@example.com\"],\r\n  prepare: true\r\n)\r\nselect * from users where email = $1  [[nil, \"a@example.com\"]]",
           "link": "http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails",
           "publishedOn": "2023-01-20T14:53:51.000Z",
-          "wordCount": 273,
+          "wordCount": 275,
           "title": "Execute a prepared statement in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -143,37 +153,37 @@
           "description": "ansible-playbook -i 172.20.221.131, pg.yml\r\n# pg.yml\r\n---\r\n- hosts: all\r\n  remote_user: dillon\r\n  gather_facts: no\r\n  vars:\r\n    postgres_user: dillon\r\n    postgres_db: rails_app_development\r\n    pg_version: 15\r\n    ...",
           "link": "http://til.hashrocket.com/posts/nubu3kxdy7-run-ansible-script-without-an-inventory-file",
           "publishedOn": "2023-01-19T20:30:39.000Z",
-          "wordCount": 226,
+          "wordCount": 227,
           "title": "Run ansible script without an inventory file - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         },
         {
           "id": "http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn",
           "author": "tonyyunker",
-          "description": "yarn add. To add enzyme at version 1.2.3 you can: \n$ yarn add enzyme@1.2.3\r\n\nYou can also specify a git repository (including branch):\n$ yarn add enzyme@enzymejs/enzyme#branch-name\r\ndocs",
+          "description": "yarn add. To add enzyme at version 1.2.3 you can: \n$ yarn add enzyme@1.2.3\r\n$ yarn add enzyme@enzymejs/enzyme#branch-name\r\ndocs",
           "link": "http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn",
           "publishedOn": "2023-01-18T15:47:30.000Z",
-          "wordCount": 250,
+          "wordCount": 251,
           "title": "Install Specific Package Version with yarn - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         },
         {
           "id": "http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive",
           "author": "dillonhafer",
-          "description": ".insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table’s primary key, this won’t work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.\n\nMore advanced method:\nclass ApplicationRecord\r\n  def self.bulk_insert(array_of_hashes, conflict_targets = Array(primary_key))\r\n    columns = array_of_hashes.first.keys\r\n    values = array_of_hashes.flat_map(&:values)\r\n    rows = array_of_hashes.map do |f|\r\n      \"(#{columns.size.times.map { \"?\" }.join(\", \")})\"\r\n    end.join(\", \")\r\n\n    sql = sanitize_sql_array([<<~SQL, *values])\r\n      INSERT INTO \"#{table_name}\"\r\n      (#{columns.map { |c| \"\\\"#{c}\\\"\" }.join(\",\")})\r\n      VALUES #{rows}\r\n      ON CONFLICT (#{conflict_targets.map { |c| \"\\\"#{c}\\\"\" }.join(\", \")}) DO NOTHING\r\n    SQL\r\n\n    connection.execute(sql.squish)\r\n  end\r\nend\r\n\nSQL it produces:\nUser.bulk_insert([{email: \"a@example.com\"}, {email: \"b@example.com\"}])\r\nINSERT INTO \"users\" (\"email\") VALUES ('a@example.com'), ('b@example.com') ON CONFLICT (\"id\") DO NOTHING\r\n\nThis would then allow you to reference any conflict you like:\nalter table users add unique (email);\r\nUser.bulk_insert(\r\n  [{email: \"a@example.com\"}, {email: \"b@example.com\"}],\r\n  %i[email]\r\n)",
+          "description": ".insert_all methods. This requirement can make this method very brittle and unusable. If your conflict target is the table's primary key, this won't work unless you create a redundant index on the table for this method to match against. This creates an amazing amount of waste not only of storage space, but also performance. This method would allow so many more use cases if it simply let you describe the conflict you want to match against.\nclass ApplicationRecord\r\n  def self.bulk_insert(array_of_hashes, conflict_targets = Array(primary_key))\r\n    columns = array_of_hashes.first.keys\r\n    values = array_of_hashes.flat_map(&:values)\r\n    rows = array_of_hashes.map do |f|\r\n      \"(#{columns.size.times.map { \"?\" }.join(\", \")})\"\r\n    end.join(\", \")\r\n\n    sql = sanitize_sql_array([<<~SQL, *values])\r\n      INSERT INTO \"#{table_name}\"\r\n      (#{columns.map { |c| \"\\\"#{c}\\\"\" }.join(\",\")})\r\n      VALUES #{rows}\r\n      ON CONFLICT (#{conflict_targets.map { |c| \"\\\"#{c}\\\"\" }.join(\", \")}) DO NOTHING\r\n    SQL\r\n\n    connection.execute(sql.squish)\r\n  end\r\nend\r\nUser.bulk_insert([{email: \"a@example.com\"}, {email: \"b@example.com\"}])\r\nINSERT INTO \"users\" (\"email\") VALUES ('a@example.com'), ('b@example.com') ON CONFLICT (\"id\") DO NOTHING\r\nalter table users add unique (email);\r\nUser.bulk_insert(\r\n  [{email: \"a@example.com\"}, {email: \"b@example.com\"}],\r\n  %i[email]\r\n)",
           "link": "http://til.hashrocket.com/posts/epvdruykgg-rails-insertall-method-is-too-naive",
           "publishedOn": "2023-01-14T16:07:54.000Z",
-          "wordCount": 412,
+          "wordCount": 415,
           "title": "Rails' .insert_all method is too naive - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
         {
           "id": "http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid",
           "author": "dillonhafer",
-          "description": "checkValidity function:\n\n \r\n   Email\r\n   \r\n \r\n\n \r\n   Password\r\n   \r\n \r\n\n \r\n   \r\n   \r\n    validate\r\n   \r\n \r\n\n\n\n  const button = document.querySelector(\"#validate\")\r\n  if (button) {\r\n    button.addEventListener(\"click\", function() {\r\n      alert(document.forms.login.checkValidity() ? \"Form is valid\" : \"INVALID\");\r\n    });\r\n  }",
+          "description": "checkValidity function:\n<form name=\"login\">\r\n <fieldset>\r\n   <legend>Email</legend>\r\n   <input type=\"email\" name=\"email\" required />\r\n </fieldset>\r\n\n <fieldset>\r\n   <legend>Password</legend>\r\n   <input type=\"password\" name=\"password\" required />\r\n </fieldset>\r\n\n <div style=\"margin-top: 1rem\">\r\n   <input type=\"submit\" value=\"login\" />\r\n   <button type=\"button\" id=\"validate\">\r\n    validate\r\n   </button>\r\n </div>\r\n</form>\r\n\n<script>\r\n  const button = document.querySelector(\"#validate\")\r\n  if (button) {\r\n    button.addEventListener(\"click\", function() {\r\n      alert(document.forms.login.checkValidity() ? \"Form is valid\" : \"INVALID\");\r\n    });\r\n  }\r\n</script>",
           "link": "http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid",
           "publishedOn": "2023-01-13T14:43:58.000Z",
-          "wordCount": 250,
+          "wordCount": 281,
           "title": "Check if a form is valid - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         }
@@ -1751,6 +1761,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=2OTq15A5s0Y",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=2OTq15A5s0Y",
+          "publishedOn": "2023-02-03T16:34:18.000Z",
+          "wordCount": null,
+          "title": "7 better ways to create a React app",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=1LV1K69885E",
           "author": null,
           "description": "",
@@ -1858,16 +1878,6 @@
           "publishedOn": "2023-01-05T19:34:24.000Z",
           "wordCount": null,
           "title": "get a grip on grep",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=66tfvFeALBQ",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=66tfvFeALBQ",
-          "publishedOn": "2023-01-04T16:41:22.000Z",
-          "wordCount": null,
-          "title": "How to ACTUALLY learn to code... 7 Roadmaps for 2023",
           "imageUrl": null
         }
       ]
