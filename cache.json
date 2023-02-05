@@ -76,7 +76,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1000,
+          "wordCount": 1015,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -86,7 +86,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4727,
+          "wordCount": 4726,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -96,7 +96,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3316,
+          "wordCount": 3314,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -117,6 +117,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/uh52qi1goi-important-classes-in-tailwind",
+          "author": "craighafer",
+          "description": "!important to one of your Tailwind classes, you simply need to add ! before the class name. \ncrude example:\n<div class=\"bg-red-500 bg-blue-500\">\r\n  <!-- Insert content here -->\r\n</div>\r\n<div class=\"!bg-red-500 bg-blue-500\">\r\n  <!-- Insert content here -->\r\n</div>\r\nWhen using this with responsive breakpoints, place it after the variant modifier. \n<div class=\"md:!bg-red-500\">\r\n  <!-- Insert conent here -->\r\n</div>\r\n<div class=\"!md:bg-red-500\">\r\n  <!-- Insert content here -->\r\n</div>",
+          "link": "http://til.hashrocket.com/posts/uh52qi1goi-important-classes-in-tailwind",
+          "publishedOn": "2023-02-04T21:35:40.000Z",
+          "wordCount": 262,
+          "title": "!important classes in tailwind - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values",
           "author": "jackrosa",
@@ -1868,16 +1878,6 @@
           "publishedOn": "2023-01-06T17:02:34.000Z",
           "wordCount": null,
           "title": "Reverse Engineering Logan Paul's Scam",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=5_t_I_4OuwQ",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=5_t_I_4OuwQ",
-          "publishedOn": "2023-01-05T19:34:24.000Z",
-          "wordCount": null,
-          "title": "get a grip on grep",
           "imageUrl": null
         }
       ]
