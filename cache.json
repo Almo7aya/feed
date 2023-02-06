@@ -76,7 +76,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1015,
+          "wordCount": 1041,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -86,7 +86,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4726,
+          "wordCount": 4736,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -96,7 +96,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3314,
+          "wordCount": 3316,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -1739,7 +1739,7 @@
           "description": "This is a great read from Eric Bailey, reminding us that the technology decisions we make truly can make the difference between people getting the healthcare they need or not. In some cases, it can even be a matter of [&#8230;]",
           "link": "https://bradfrost.com/blog/link/modern-health-frameworks-performance-and-harm-eric-bailey/",
           "publishedOn": "2023-02-01T17:38:54.000Z",
-          "wordCount": 806,
+          "wordCount": 803,
           "title": "Modern Health, frameworks, performance, and harm – Eric Bailey",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         },
@@ -1749,19 +1749,9 @@
           "description": "You can&#8217;t learn the whole stack. Nobody can. Maybe it was possible in 1990, the day after the web was invented, but I&#8217;m not even sure about that. The stack grows and shifts and evolves every day. Very much agree [&#8230;]",
           "link": "https://bradfrost.com/blog/link/you-will-never-be-a-full-stack-developer-seldo-com/",
           "publishedOn": "2023-01-27T16:54:43.000Z",
-          "wordCount": 767,
+          "wordCount": 764,
           "title": "You Will Never Be A Full Stack Developer &#124; Seldo.com",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/2022/",
-          "author": null,
-          "description": "A pattern is emerging: even years are nightmare years. 2018 was a nightmare year. 2020 was a real fucking nightmare year. And now 2022 was a nightmare year. 2022 was a year of death, organizing chaos, once again putting our [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/2022/",
-          "publishedOn": "2023-01-06T14:05:06.000Z",
-          "wordCount": 2693,
-          "title": "2022",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2022/12/PXL_20220315_154734969.PORTRAIT-scaled.jpg"
         }
       ]
     },
@@ -1868,16 +1858,6 @@
           "publishedOn": "2023-01-08T16:25:47.000Z",
           "wordCount": null,
           "title": "my code will never stop never stopping",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=NGXW4xhlYa4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=NGXW4xhlYa4",
-          "publishedOn": "2023-01-06T17:02:34.000Z",
-          "wordCount": null,
-          "title": "Reverse Engineering Logan Paul's Scam",
           "imageUrl": null
         }
       ]

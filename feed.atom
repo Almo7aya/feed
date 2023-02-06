@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-05T00:26:31.335Z</id>
+    <id>urn:2023-02-06T00:21:57.986Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-05T00:26:31.335Z</updated>
+    <updated>2023-02-06T00:21:57.986Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2037,25 +2037,6 @@ has finally been ported to Neovim! A plugin made by @barret-ru…]]></summary>
         <updated>2023-01-08T16:25:47.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse Engineering Logan Paul's Scam]]></title>
-        <id>https://www.youtube.com/watch?v=NGXW4xhlYa4</id>
-        <link href="https://www.youtube.com/watch?v=NGXW4xhlYa4"/>
-        <updated>2023-01-06T17:02:34.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022]]></title>
-        <id>https://bradfrost.com/blog/post/2022/</id>
-        <link href="https://bradfrost.com/blog/post/2022/"/>
-        <updated>2023-01-06T14:05:06.000Z</updated>
-        <summary type="html"><![CDATA[A pattern is emerging: even years are nightmare years. 2018 was a nightmare year. 2020 was a real fucking nightmare year. And now 2022 was a nightmare year. 2022 was a year of death, organizing chaos, once again putting our [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
