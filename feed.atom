@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-06T00:21:57.986Z</id>
+    <id>urn:2023-02-07T00:24:11.223Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-06T00:21:57.986Z</updated>
+    <updated>2023-02-07T00:24:11.223Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Add a new line from any spot in Visual Studio Code - #workflow]]></title>
+        <id>http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code</id>
+        <link href="http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code"/>
+        <updated>2023-02-06T20:34:56.000Z</updated>
+        <summary type="html"><![CDATA[⌘ + ↵ anywhere in the line to insert a new line below.
+o in Vim's Normal mode)]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inserting HTML into your rails view - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/mrtvpmz8dq-inserting-html-into-your-rails-view</id>
+        <link href="http://til.hashrocket.com/posts/mrtvpmz8dq-inserting-html-into-your-rails-view"/>
+        <updated>2023-02-06T01:19:44.000Z</updated>
+        <summary type="html"><![CDATA[<%= @webpage.content.html_safe %>
+
+<%= raw @webpage.content %>
+=
+<%== @webpage.content %>
+<%== %> is equivalent to raw, and raw calls html_safe on whatever it is passed.
+Matt Polito]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Feb 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Feb/6</id>
+        <link href="https://this-week-in-neovim.org/2023/Feb/6"/>
+        <updated>2023-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+NVIM 0.8.3 (bugfix/maintenance release)
+
+Bug Fixes
+
+clipboard: Show provider warning when not during batch changes.
+diff: Avoid restoring invalid ‘foldcolumn’ value.
+filetype: Don’t pass empty string to detect.
+messages: Reset msg_grid_scroll_discount when redrawing.
+rbuffer: Handle edge case where write_ptr has wrapped around.
+rpc: Don’t parse msgpack if buflen is 0.
+treesitter: Properly restore 'syntax' (#21358).
+treesitter: Validate language name.
+Build System
+
+deps: Bump libvterm to v0.3.1.
+deps: Bump tree-sitter-vimdoc to …]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[!important classes in tailwind - #html-css]]></title>
         <id>http://til.hashrocket.com/posts/uh52qi1goi-important-classes-in-tailwind</id>
