@@ -50,16 +50,6 @@
           "wordCount": 992,
           "title": "16 Jan 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Jan/9",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#21472: :hardcopy is now removed.\nCommands removed:\n\n:hardcopy\nOptions removed:\nprintdevice\nprintencoding\nprintexpr\nprintfont\nprintheader\nprintmbcharset\n#18706 nvim -l now invokes Lua scripts instead of setting the lisp\noption. To set the ‘lisp’ option as -l formerly did, just set it like any other option:\nnvim -c \"set lisp\"\n\nNew plugins\n\n      \n    \n    import-cost.nvim\n  \n\n\nView bundle size of Javascript imports inside of your editor. The VSCode\nimport-cost plugin\nhas finally been ported to Neovim! A plugin made by @barret-ru…",
-          "link": "https://this-week-in-neovim.org/2023/Jan/9",
-          "publishedOn": "2023-01-09T00:00:00.000Z",
-          "wordCount": 980,
-          "title": "9 Jan 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -96,7 +86,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4729,
+          "wordCount": 4726,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -106,7 +96,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3316,
+          "wordCount": 3317,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -116,7 +106,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5800,
+          "wordCount": 5799,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1878,16 +1868,6 @@
           "publishedOn": "2023-01-10T18:37:37.000Z",
           "wordCount": null,
           "title": "Kafka in 100 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=1CDfTpD8dxo",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=1CDfTpD8dxo",
-          "publishedOn": "2023-01-08T16:25:47.000Z",
-          "wordCount": null,
-          "title": "my code will never stop never stopping",
           "imageUrl": null
         }
       ]
