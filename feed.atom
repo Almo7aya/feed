@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-08T00:22:31.448Z</id>
+    <id>urn:2023-02-09T00:22:53.056Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-08T00:22:31.448Z</updated>
+    <updated>2023-02-09T00:22:53.056Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[15 futuristic databases you’ve never heard of]]></title>
+        <id>https://www.youtube.com/watch?v=jb2AvF8XzII</id>
+        <link href="https://www.youtube.com/watch?v=jb2AvF8XzII"/>
+        <updated>2023-02-08T16:25:49.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Control printable backgrounds in CSS - #html-css]]></title>
+        <id>http://til.hashrocket.com/posts/ijszyngyas-control-printable-backgrounds-in-css</id>
+        <link href="http://til.hashrocket.com/posts/ijszyngyas-control-printable-backgrounds-in-css"/>
+        <updated>2023-02-08T15:15:29.000Z</updated>
+        <summary type="html"><![CDATA[cornflowerblue background but when printing that we lose the look of the stamp due to the background being missing.
+.stamp {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+print-color-adjust css directive can be set so that your styles will do your printable bidding.
+print-color-adjust is set to economy. I like to think of this as if we're saving money in unused ink.
+.stamp {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  padding: 10px;
+  print-color-adjust: exact;
+}
+
+We now get our stamp style that looks great in our browser to look great on a printed page as well.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Add a new line from any spot in Visual Studio Code - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code</id>
