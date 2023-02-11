@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-10T00:25:05.963Z</id>
+    <id>urn:2023-02-11T00:19:56.431Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-10T00:25:05.963Z</updated>
+    <updated>2023-02-11T00:19:56.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Formatting numbers with commas in javascript - #javascript]]></title>
+        <id>http://til.hashrocket.com/posts/faxfylf2sq-formatting-numbers-with-commas-in-javascript</id>
+        <link href="http://til.hashrocket.com/posts/faxfylf2sq-formatting-numbers-with-commas-in-javascript"/>
+        <updated>2023-02-10T21:19:55.000Z</updated>
+        <summary type="html"><![CDATA[Number.toLocaleString() function to format the number correctly with commas. All you need is the BCP 47 language code to specify how to format the number (some countries/languages use periods instead of commas). It works like this:
+number = 100000
+number.toLocaleString('en-US');
+// => "100,000"]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to sound GREAT]]></title>
+        <id>https://www.youtube.com/watch?v=fzNk_1xLIKI</id>
+        <link href="https://www.youtube.com/watch?v=fzNk_1xLIKI"/>
+        <updated>2023-02-10T17:09:16.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[how big is a yottabyte?]]></title>
+        <id>https://www.youtube.com/watch?v=6V-eRPPLSy0</id>
+        <link href="https://www.youtube.com/watch?v=6V-eRPPLSy0"/>
+        <updated>2023-02-10T17:00:04.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT is a perfectly balanced AI with no exploits]]></title>
         <id>https://www.youtube.com/watch?v=y3iLOxBTuy4</id>
@@ -15,7 +46,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[State of Rust in 2023]]></title>
+        <title type="html"><![CDATA[Should you learn Rust in 2023?]]></title>
         <id>https://www.youtube.com/watch?v=6CbLuNqGpz0</id>
         <link href="https://www.youtube.com/watch?v=6CbLuNqGpz0"/>
         <updated>2023-02-09T12:00:05.000Z</updated>
@@ -2073,19 +2104,6 @@ off-by-one errors.</p>]]></summary>
                                 Let's talk numbers
                             </a>
                         </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 17 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-17</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-17"/>
-        <updated>2023-01-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any
-more free time. So, in order to close out this series anyway, I'm going to try
-and port other people's solutions from &quot;language X&quot; to Rust. That way, they
-already figured out the hard stuff, and we can just focus on the Rust bits!</p>]]></summary>
         <author>
             <name>fasterthanli.me</name>
         </author>
