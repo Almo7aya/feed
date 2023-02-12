@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-11T00:19:56.431Z</id>
+    <id>urn:2023-02-12T00:25:27.086Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-11T00:19:56.431Z</updated>
+    <updated>2023-02-12T00:25:27.086Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2075,37 +2075,6 @@ User.bulk_insert(
         <updated>2023-01-13T14:01:57.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 18 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-18</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-18"/>
-        <updated>2023-01-12T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>This time around, we're porting a solution from C++ to Rust and seeing how it
-feels, how it performs, and what we can learn about both languages by doing that.</p>
-<p>See <a href="part-17">Day 17</a> for the rationale re: porting solutions rather than
-writing my own from scratch. TL;DR is: it's better than nothing, and we can
-still focus about learning Rust rather than spending entire days fighting
-off-by-one errors.</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitch fell behind]]></title>
-        <id>https://fasterthanli.me/articles/twitch-fell-behind</id>
-        <link href="https://fasterthanli.me/articles/twitch-fell-behind"/>
-        <updated>2023-01-12T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>
-
-                        <h2>
-                            <a id="let-s-talk-numbers" class="anchor" href="#let-s-talk-numbers">
-                                Let's talk numbers
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>
