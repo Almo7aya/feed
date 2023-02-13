@@ -76,7 +76,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1018,
+          "wordCount": 1015,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         }
@@ -196,16 +196,6 @@
           "wordCount": 415,
           "title": "Rails' .insert_all method is too naive - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid",
-          "author": "dillonhafer",
-          "description": "checkValidity function:\n<form name=\"login\">\r\n <fieldset>\r\n   <legend>Email</legend>\r\n   <input type=\"email\" name=\"email\" required />\r\n </fieldset>\r\n\n <fieldset>\r\n   <legend>Password</legend>\r\n   <input type=\"password\" name=\"password\" required />\r\n </fieldset>\r\n\n <div style=\"margin-top: 1rem\">\r\n   <input type=\"submit\" value=\"login\" />\r\n   <button type=\"button\" id=\"validate\">\r\n    validate\r\n   </button>\r\n </div>\r\n</form>\r\n\n<script>\r\n  const button = document.querySelector(\"#validate\")\r\n  if (button) {\r\n    button.addEventListener(\"click\", function() {\r\n      alert(document.forms.login.checkValidity() ? \"Form is valid\" : \"INVALID\");\r\n    });\r\n  }\r\n</script>",
-          "link": "http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid",
-          "publishedOn": "2023-01-13T14:43:58.000Z",
-          "wordCount": 281,
-          "title": "Check if a form is valid - #javascript",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         }
       ]
     },
@@ -1952,16 +1942,6 @@
           "publishedOn": "2023-01-27T15:32:43.000Z",
           "wordCount": null,
           "title": "Rust's Witchcraft",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=glpR1MD1UoM",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=glpR1MD1UoM",
-          "publishedOn": "2023-01-13T14:01:57.000Z",
-          "wordCount": null,
-          "title": "GPT won't take your job",
           "imageUrl": null
         }
       ]

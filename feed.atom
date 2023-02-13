@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-12T00:25:27.086Z</id>
+    <id>urn:2023-02-13T00:25:23.286Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-12T00:25:27.086Z</updated>
+    <updated>2023-02-13T00:25:23.286Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2029,52 +2029,6 @@ User.bulk_insert(
 )]]></summary>
         <author>
             <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Check if a form is valid - #javascript]]></title>
-        <id>http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid</id>
-        <link href="http://til.hashrocket.com/posts/9tdrlwdhgz-check-if-a-form-is-valid"/>
-        <updated>2023-01-13T14:43:58.000Z</updated>
-        <summary type="html"><![CDATA[checkValidity function:
-<form name="login">
- <fieldset>
-   <legend>Email</legend>
-   <input type="email" name="email" required />
- </fieldset>
-
- <fieldset>
-   <legend>Password</legend>
-   <input type="password" name="password" required />
- </fieldset>
-
- <div style="margin-top: 1rem">
-   <input type="submit" value="login" />
-   <button type="button" id="validate">
-    validate
-   </button>
- </div>
-</form>
-
-<script>
-  const button = document.querySelector("#validate")
-  if (button) {
-    button.addEventListener("click", function() {
-      alert(document.forms.login.checkValidity() ? "Form is valid" : "INVALID");
-    });
-  }
-</script>]]></summary>
-        <author>
-            <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT won't take your job]]></title>
-        <id>https://www.youtube.com/watch?v=glpR1MD1UoM</id>
-        <link href="https://www.youtube.com/watch?v=glpR1MD1UoM"/>
-        <updated>2023-01-13T14:01:57.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
