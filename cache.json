@@ -76,19 +76,9 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9953,
+          "wordCount": 9956,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
-        },
-        {
-          "id": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
-          "author": null,
-          "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
-          "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
-          "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1000,
-          "title": "C++ vs Rust: which is faster?",
-          "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         }
       ]
     },
@@ -1754,6 +1744,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/testing-components-in-storybook-in-2023/",
+          "author": null,
+          "description": "Testing design system component libraries is critically important, but has historically been a pain in the butt to implement. That&#8217;s why I&#8217;m thrilled my brilliant colleague wrote Testing Components in Storybook in 2023, which details how to lean into Storybook&#8217;s testing [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/testing-components-in-storybook-in-2023/",
+          "publishedOn": "2023-02-15T16:30:11.000Z",
+          "wordCount": 621,
+          "title": "Testing Components in Storybook in 2023",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/the-extremely-loud-minority-andy-bell/",
           "author": null,
           "description": "Here&#8217;s Andy Bell with a post called the (extremely) loud minority.  Always remember that although a subset of the JavaScript community can be very loud, they represent a paltry portion of the web as a whole. This means that when they say something like “Best practices [&#8230;]",
@@ -1800,6 +1800,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=c4OyfL5o7DU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=c4OyfL5o7DU",
+          "publishedOn": "2023-02-15T18:15:32.000Z",
+          "wordCount": null,
+          "title": "Neovim in 100 Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=6V-eRPPLSy0",
           "author": null,
@@ -1888,16 +1898,6 @@
           "publishedOn": "2023-01-21T16:27:30.000Z",
           "wordCount": null,
           "title": "5 ideas for your own AI grift with ChatGPT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=lHZwlzOUOZ4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=lHZwlzOUOZ4",
-          "publishedOn": "2023-01-16T18:34:07.000Z",
-          "wordCount": null,
-          "title": "Tailwind CSS is the worst…",
           "imageUrl": null
         }
       ]
