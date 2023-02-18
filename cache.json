@@ -88,6 +88,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript",
+          "author": "jackrosa",
+          "description": ".setSelectionRange(). This function takes two zero-based index arguments: a starting position and end position and makes makes a text-selection based on those start and end points. With this understanding, we can pass in the same index for both the start and end point to manually move the cursors position without making a selection. For example:\n// move the cursor to the end of an input\r\ninputElement.setSelectionRange(inputElement.value.length, inputElement.value.length)\r\n\n//or move the cursor to a specific index\r\ninputElement.setSelectionRange(3, 3)\r\n\n//or make a selection with a different start/end\r\ninputElement.setSelectionRange(3, 6)",
+          "link": "http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript",
+          "publishedOn": "2023-02-17T19:52:29.000Z",
+          "wordCount": 315,
+          "title": "Set an input's cursor position with Javascript - #javascript",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/y95i6fpc6l-disable-strong-parameters-in-rails",
           "author": "dillonhafer",
           "description": "⚠️ Don't do thisYou should never do this. This was used for a non-public internal active admin application that needed to be updated. This app was not intended for public use. Please don't do this.\n# config/environments/development.rb\r\nrequire \"active_support/core_ext/integer/time\"\r\n\nRails.application.configure do\r\n  config.action_controller.permit_all_parameters = true\r\nend",
@@ -200,10 +210,10 @@
         {
           "id": "http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails",
           "author": "dillonhafer",
-          "description": "PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:\nUser.connection.exec_query(\r\n  \"select * from users where email = $1\",\r\n  nil,\r\n  [\"a@example.com\"],\r\n  prepare: true\r\n)\r\nselect * from users where email = $1  [[nil, \"a@example.com\"]]",
+          "description": "p0wned\n\nThe PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:\nUser.connection.exec_query(\r\n  \"select * from users where email = $1\",\r\n  nil,\r\n  [\"a@example.com\"],\r\n  prepare: true\r\n)\r\nselect * from users where email = $1  [[nil, \"a@example.com\"]]",
           "link": "http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails",
           "publishedOn": "2023-01-20T14:53:51.000Z",
-          "wordCount": 275,
+          "wordCount": 276,
           "title": "Execute a prepared statement in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         },
@@ -216,16 +226,6 @@
           "wordCount": 227,
           "title": "Run ansible script without an inventory file - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn",
-          "author": "tonyyunker",
-          "description": "yarn add. To add enzyme at version 1.2.3 you can: \n$ yarn add enzyme@1.2.3\r\n$ yarn add enzyme@enzymejs/enzyme#branch-name\r\ndocs",
-          "link": "http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn",
-          "publishedOn": "2023-01-18T15:47:30.000Z",
-          "wordCount": 251,
-          "title": "Install Specific Package Version with yarn - #javascript",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
         }
       ]
     },
@@ -1763,6 +1763,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/post/thanks-an-event-apart/",
+          "author": null,
+          "description": "Late last year, our friends at An Event Apart brought down the curtain of running conferences after an impressive 17-year run. It&#8217;s difficult to articulate exactly how An Event Apart changed the trajectory of my life, but it did in [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/thanks-an-event-apart/",
+          "publishedOn": "2023-02-17T17:49:11.000Z",
+          "wordCount": 1037,
+          "title": "Thanks, An Event Apart",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-17-at-12.12.25-PM.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/the-case-for-flex-applications-daverupert-com/",
           "author": null,

@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-17T00:25:30.440Z</id>
+    <id>urn:2023-02-18T00:25:04.175Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-17T00:25:30.440Z</updated>
+    <updated>2023-02-18T00:25:04.175Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Set an input's cursor position with Javascript - #javascript]]></title>
+        <id>http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript</id>
+        <link href="http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript"/>
+        <updated>2023-02-17T19:52:29.000Z</updated>
+        <summary type="html"><![CDATA[.setSelectionRange(). This function takes two zero-based index arguments: a starting position and end position and makes makes a text-selection based on those start and end points. With this understanding, we can pass in the same index for both the start and end point to manually move the cursors position without making a selection. For example:
+// move the cursor to the end of an input
+inputElement.setSelectionRange(inputElement.value.length, inputElement.value.length)
+
+//or move the cursor to a specific index
+inputElement.setSelectionRange(3, 3)
+
+//or make a selection with a different start/end
+inputElement.setSelectionRange(3, 6)]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thanks, An Event Apart]]></title>
+        <id>https://bradfrost.com/blog/post/thanks-an-event-apart/</id>
+        <link href="https://bradfrost.com/blog/post/thanks-an-event-apart/"/>
+        <updated>2023-02-17T17:49:11.000Z</updated>
+        <summary type="html"><![CDATA[Late last year, our friends at An Event Apart brought down the curtain of running conferences after an impressive 17-year run. It&#8217;s difficult to articulate exactly how An Event Apart changed the trajectory of my life, but it did in [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Disable strong parameters in rails - #rails]]></title>
         <id>http://til.hashrocket.com/posts/y95i6fpc6l-disable-strong-parameters-in-rails</id>
@@ -2062,7 +2090,9 @@ New plugins
         <id>http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails</id>
         <link href="http://til.hashrocket.com/posts/kvffo5odgx-execute-a-prepared-statement-in-rails"/>
         <updated>2023-01-20T14:53:51.000Z</updated>
-        <summary type="html"><![CDATA[PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:
+        <summary type="html"><![CDATA[p0wned
+
+The PostgreSQLAdapter in rails has a method called #exec_query that allows you to use prepared statements with bind variables:
 User.connection.exec_query(
   "select * from users where email = $1",
   nil,
@@ -2092,19 +2122,6 @@ select * from users where email = $1  [[nil, "a@example.com"]]]]></summary>
     ...]]></summary>
         <author>
             <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install Specific Package Version with yarn - #javascript]]></title>
-        <id>http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn</id>
-        <link href="http://til.hashrocket.com/posts/i49r9pmrjg-install-specific-package-version-with-yarn"/>
-        <updated>2023-01-18T15:47:30.000Z</updated>
-        <summary type="html"><![CDATA[yarn add. To add enzyme at version 1.2.3 you can: 
-$ yarn add enzyme@1.2.3
-$ yarn add enzyme@enzymejs/enzyme#branch-name
-docs]]></summary>
-        <author>
-            <name>tonyyunker</name>
         </author>
     </entry>
 </feed>
