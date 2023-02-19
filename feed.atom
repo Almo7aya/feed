@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-18T00:25:04.175Z</id>
+    <id>urn:2023-02-19T00:24:07.677Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T00:25:04.175Z</updated>
+    <updated>2023-02-19T00:24:07.677Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Use a custom rackup port - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/w7vr8otafi-use-a-custom-rackup-port</id>
+        <link href="http://til.hashrocket.com/posts/w7vr8otafi-use-a-custom-rackup-port"/>
+        <updated>2023-02-18T19:29:38.000Z</updated>
+        <summary type="html"><![CDATA[--port flag
+rackup --port 4000
+[2023-02-18 14:28:17] INFO  WEBrick 1.8.1
+[2023-02-18 14:28:17] INFO  ruby 3.1.2 (2022-04-12) [x86_64-linux]
+[2023-02-18 14:28:17] INFO  WEBrick::HTTPServer#start: pid=62732 port=4000]]></summary>
+        <author>
+            <name>dillonhafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Set an input's cursor position with Javascript - #javascript]]></title>
         <id>http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript</id>
@@ -2100,26 +2114,6 @@ User.connection.exec_query(
   prepare: true
 )
 select * from users where email = $1  [[nil, "a@example.com"]]]]></summary>
-        <author>
-            <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run ansible script without an inventory file - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/nubu3kxdy7-run-ansible-script-without-an-inventory-file</id>
-        <link href="http://til.hashrocket.com/posts/nubu3kxdy7-run-ansible-script-without-an-inventory-file"/>
-        <updated>2023-01-19T20:30:39.000Z</updated>
-        <summary type="html"><![CDATA[ansible-playbook -i 172.20.221.131, pg.yml
-# pg.yml
----
-- hosts: all
-  remote_user: dillon
-  gather_facts: no
-  vars:
-    postgres_user: dillon
-    postgres_db: rails_app_development
-    pg_version: 15
-    ...]]></summary>
         <author>
             <name>dillonhafer</name>
         </author>

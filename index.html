@@ -22,6 +22,58 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-18 datetime="2023-02-18T19:29:38.000Z">2023-02-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-18 datetime="2023-02-18T19:29:38.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/w7vr8otafi-use-a-custom-rackup-port"
+                        open
+                      >
+                        <summary class="article-expander__title">Use a custom rackup port - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/w7vr8otafi-use-a-custom-rackup-port">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>--port flag
+rackup --port 4000
+[2023-02-18 14:28:17] INFO  WEBrick 1.8.1
+[2023-02-18 14:28:17] INFO  ruby 3.1.2 (2022-04-12) [x86_64-linux]
+[2023-02-18 14:28:17] INFO  WEBrick::HTTPServer#start: pid&#x3D;62732 port&#x3D;4000</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-17 datetime="2023-02-17T19:52:29.000Z">2023-02-17</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-17 datetime="2023-02-17T19:52:29.000Z"></time>
           </button>
@@ -4849,68 +4901,10 @@ select * from users where email &#x3D; $1  [[nil, &quot;a@example.com&quot;]]</s
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-19 datetime="2023-01-19T20:30:39.000Z">2023-01-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-19 datetime="2023-01-19T20:30:39.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/nubu3kxdy7-run-ansible-script-without-an-inventory-file"
-                        open
-                      >
-                        <summary class="article-expander__title">Run ansible script without an inventory file - #workflow</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/nubu3kxdy7-run-ansible-script-without-an-inventory-file">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ansible-playbook -i 172.20.221.131, pg.yml
-# pg.yml
----
-- hosts: all
-  remote_user: dillon
-  gather_facts: no
-  vars:
-    postgres_user: dillon
-    postgres_db: rails_app_development
-    pg_version: 15
-    ...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4208657340">
-        <time id="build-timestamp" datetime="2023-02-18T00:25:04.147Z">2023-02-18T00:25:04.147Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4213698418">
+        <time id="build-timestamp" datetime="2023-02-19T00:24:07.649Z">2023-02-19T00:24:07.649Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
