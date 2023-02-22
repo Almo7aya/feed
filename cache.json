@@ -50,16 +50,6 @@
           "wordCount": 1200,
           "title": "30 Jan 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Jan/23",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      \n      Neovim as IDE guide in Russian\n    \n  \n\n\nEnglish may be the lingua franca of programming, but we’re an international community! /u/ryadik has made a \nvideo guide on how to set up Neovim like an IDE in Russian. It has auto-generated \nEnglish subtitles, but ryadik has requested help to check their quality.\nReddit\nYoutube\nNew plugins\n\n      \n    \n    hex.nvim…",
-          "link": "https://this-week-in-neovim.org/2023/Jan/23",
-          "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 638,
-          "title": "23 Jan 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -1773,6 +1763,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/post/design-systems-in-the-time-of-ai/",
+          "author": null,
+          "description": "It&#8217;s been absolutely wild to witness the rise of the new crop of AI tools. This moment feels equally exciting and terrifying, but given humans&#8217; track record of driving promising technologies off the rails, I&#8217;m erring on the side of [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/design-systems-in-the-time-of-ai/",
+          "publishedOn": "2023-02-21T15:43:02.000Z",
+          "wordCount": 1973,
+          "title": "Design systems in the time of AI",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-21-at-10.04.51-AM.png"
+        },
         {
           "id": "https://bradfrost.com/blog/post/thanks-an-event-apart/",
           "author": null,

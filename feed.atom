@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-21T00:25:20.435Z</id>
+    <id>urn:2023-02-22T00:21:37.925Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T00:25:20.435Z</updated>
+    <updated>2023-02-22T00:21:37.925Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Design systems in the time of AI]]></title>
+        <id>https://bradfrost.com/blog/post/design-systems-in-the-time-of-ai/</id>
+        <link href="https://bradfrost.com/blog/post/design-systems-in-the-time-of-ai/"/>
+        <updated>2023-02-21T15:43:02.000Z</updated>
+        <summary type="html"><![CDATA[It&#8217;s been absolutely wild to witness the rise of the new crop of AI tools. This moment feels equally exciting and terrifying, but given humans&#8217; track record of driving promising technologies off the rails, I&#8217;m erring on the side of [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
         <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
@@ -2115,41 +2125,6 @@ combiner.("Foo", "Bar")
 function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence "anonymous" functions.]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23 Jan 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Jan/23</id>
-        <link href="https://this-week-in-neovim.org/2023/Jan/23"/>
-        <updated>2023-01-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Guides, tours, articles, etc.
-
-      
-      
-      Neovim as IDE guide in Russian
-    
-  
-
-
-English may be the lingua franca of programming, but we’re an international community! /u/ryadik has made a 
-video guide on how to set up Neovim like an IDE in Russian. It has auto-generated 
-English subtitles, but ryadik has requested help to check their quality.
-Reddit
-Youtube
-New plugins
-
-      
-    
-    hex.nvim…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
