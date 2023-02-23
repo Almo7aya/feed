@@ -76,7 +76,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9981,
+          "wordCount": 9978,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -87,6 +87,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy",
+          "author": "tonyyunker",
+          "description": "fzy, an interactive fuzzy text selector. \nMatt Polito",
+          "link": "http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy",
+          "publishedOn": "2023-02-22T21:39:55.000Z",
+          "wordCount": 218,
+          "title": "Fuzzy Text Search in the Command Line with fzy - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday",
           "author": "andrewvogel",
@@ -215,16 +225,6 @@
           "publishedOn": "2023-02-03T19:33:26.000Z",
           "wordCount": 343,
           "title": "Pattern Matching Args with Exact Values - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions",
-          "author": "jackrosa",
-          "description": "# The '&' operator is used to define the function and its arguments\r\nputter = &(IO.puts &1)\r\nputter.(\"Today I learned\")\r\n#...> Today I learned\r\n#...> :ok\r\n&1 refers to the functions first argument; in this example, we used \"Today I learned\". You can use more arguments with &2,  &3, etc... For example:\ncombiner = &(&1 <> &2)\r\ncombiner.(\"Foo\", \"Bar\")\r\n#...> \"FooBar\"\r\nfunction(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence \"anonymous\" functions.",
-          "link": "http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions",
-          "publishedOn": "2023-01-23T17:29:04.000Z",
-          "wordCount": 343,
-          "title": "Shorthand Elixir Anonymous Functions - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
@@ -1929,16 +1929,6 @@
           "wordCount": null,
           "title": "Neo4j in 100 Seconds",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=Z8omJ59hNfY",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=Z8omJ59hNfY",
-          "publishedOn": "2023-01-23T22:11:18.000Z",
-          "wordCount": null,
-          "title": "real eyes realize AI lies",
-          "imageUrl": null
         }
       ]
     },
@@ -1985,16 +1975,6 @@
           "publishedOn": "2023-01-28T12:00:29.000Z",
           "wordCount": null,
           "title": "Rust 1.67.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=PbR4ECFIckg",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=PbR4ECFIckg",
-          "publishedOn": "2023-01-24T12:00:13.000Z",
-          "wordCount": null,
-          "title": "8 deadly mistakes beginner Rust developers make",
           "imageUrl": null
         }
       ]

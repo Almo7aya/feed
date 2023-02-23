@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-22T00:21:37.925Z</id>
+    <id>urn:2023-02-23T00:23:07.079Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-22T00:21:37.925Z</updated>
+    <updated>2023-02-23T00:23:07.079Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Fuzzy Text Search in the Command Line with fzy - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy</id>
+        <link href="http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy"/>
+        <updated>2023-02-22T21:39:55.000Z</updated>
+        <summary type="html"><![CDATA[fzy, an interactive fuzzy text selector. 
+Matt Polito]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Design systems in the time of AI]]></title>
         <id>https://bradfrost.com/blog/post/design-systems-in-the-time-of-ai/</id>
@@ -2088,43 +2099,6 @@ maintaining the project. Up until recently, the author has been the primary pers
         <updated>2023-01-24T15:13:16.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 deadly mistakes beginner Rust developers make]]></title>
-        <id>https://www.youtube.com/watch?v=PbR4ECFIckg</id>
-        <link href="https://www.youtube.com/watch?v=PbR4ECFIckg"/>
-        <updated>2023-01-24T12:00:13.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[real eyes realize AI lies]]></title>
-        <id>https://www.youtube.com/watch?v=Z8omJ59hNfY</id>
-        <link href="https://www.youtube.com/watch?v=Z8omJ59hNfY"/>
-        <updated>2023-01-23T22:11:18.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shorthand Elixir Anonymous Functions - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions</id>
-        <link href="http://til.hashrocket.com/posts/ogfnwe4feu-shorthand-elixir-anonymous-functions"/>
-        <updated>2023-01-23T17:29:04.000Z</updated>
-        <summary type="html"><![CDATA[# The '&' operator is used to define the function and its arguments
-putter = &(IO.puts &1)
-putter.("Today I learned")
-#...> Today I learned
-#...> :ok
-&1 refers to the functions first argument; in this example, we used "Today I learned". You can use more arguments with &2,  &3, etc... For example:
-combiner = &(&1 <> &2)
-combiner.("Foo", "Bar")
-#...> "FooBar"
-function(arg1, arg2), instead we are calling them like function.(arg1, arg2). We have to use . because we are not actually naming these functions, we are only assigning them a reference, hence "anonymous" functions.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
