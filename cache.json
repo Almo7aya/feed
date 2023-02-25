@@ -76,7 +76,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9981,
+          "wordCount": 9983,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -2004,6 +2004,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=dFkGNe4oaKk",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=dFkGNe4oaKk",
+          "publishedOn": "2023-02-24T14:56:23.000Z",
+          "wordCount": null,
+          "title": "Oxidise Your Life",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=JCP4zRk_q7c",
           "author": null,
