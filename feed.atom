@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-26T00:27:04.638Z</id>
+    <id>urn:2023-02-27T00:24:55.791Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-26T00:27:04.638Z</updated>
+    <updated>2023-02-27T00:24:55.791Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2128,34 +2128,6 @@ The project could really use some awesome developers that have some free time an
 maintaining the project. Up until recently, the author has been the primary pers…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust 1.67.0]]></title>
-        <id>https://www.youtube.com/watch?v=zlT_2WYU5XI</id>
-        <link href="https://www.youtube.com/watch?v=zlT_2WYU5XI"/>
-        <updated>2023-01-28T12:00:29.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You Will Never Be A Full Stack Developer &#124; Seldo.com]]></title>
-        <id>https://bradfrost.com/blog/link/you-will-never-be-a-full-stack-developer-seldo-com/</id>
-        <link href="https://bradfrost.com/blog/link/you-will-never-be-a-full-stack-developer-seldo-com/"/>
-        <updated>2023-01-27T16:54:43.000Z</updated>
-        <summary type="html"><![CDATA[You can&#8217;t learn the whole stack. Nobody can. Maybe it was possible in 1990, the day after the web was invented, but I&#8217;m not even sure about that. The stack grows and shifts and evolves every day. Very much agree [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust's Witchcraft]]></title>
-        <id>https://www.youtube.com/watch?v=MWRPYBoCEaY</id>
-        <link href="https://www.youtube.com/watch?v=MWRPYBoCEaY"/>
-        <updated>2023-01-27T15:32:43.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>

@@ -76,7 +76,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9981,
+          "wordCount": 9982,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1852,16 +1852,6 @@
           "wordCount": 682,
           "title": "Modern Health, frameworks, performance, and harm – Eric Bailey",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/you-will-never-be-a-full-stack-developer-seldo-com/",
-          "author": null,
-          "description": "You can&#8217;t learn the whole stack. Nobody can. Maybe it was possible in 1990, the day after the web was invented, but I&#8217;m not even sure about that. The stack grows and shifts and evolves every day. Very much agree [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/you-will-never-be-a-full-stack-developer-seldo-com/",
-          "publishedOn": "2023-01-27T16:54:43.000Z",
-          "wordCount": 643,
-          "title": "You Will Never Be A Full Stack Developer &#124; Seldo.com",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1986,16 +1976,6 @@
           "wordCount": null,
           "title": "Chrome finally embraces Rust",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=zlT_2WYU5XI",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=zlT_2WYU5XI",
-          "publishedOn": "2023-01-28T12:00:29.000Z",
-          "wordCount": null,
-          "title": "Rust 1.67.0",
-          "imageUrl": null
         }
       ]
     },
@@ -2032,16 +2012,6 @@
           "publishedOn": "2023-02-10T17:09:16.000Z",
           "wordCount": null,
           "title": "How to sound GREAT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=MWRPYBoCEaY",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=MWRPYBoCEaY",
-          "publishedOn": "2023-01-27T15:32:43.000Z",
-          "wordCount": null,
-          "title": "Rust's Witchcraft",
           "imageUrl": null
         }
       ]
