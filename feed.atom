@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-27T00:24:55.791Z</id>
+    <id>urn:2023-02-28T00:24:15.641Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-27T00:24:55.791Z</updated>
+    <updated>2023-02-28T00:24:15.641Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Scribble Diffusion]]></title>
+        <id>https://bradfrost.com/blog/link/scribble-diffusion/</id>
+        <link href="https://bradfrost.com/blog/link/scribble-diffusion/"/>
+        <updated>2023-02-27T17:14:39.000Z</updated>
+        <summary type="html"><![CDATA[Scribble Diffusion is wild. Out of curiosity, I asked it to design a webpage: Wild.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[27 Feb 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Feb/27</id>
+        <link href="https://this-week-in-neovim.org/2023/Feb/27"/>
+        <updated>2023-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    mini.bracketed
+  
+
+
+  
+
+A mini.bracketed module of mini.nvim implements functionality and mappings
+to go forward/backward with square brackets. This is a Lua evolution of
+tpope/vim-unimpaired with much more targets:
+
+TargetMappings
+
+Buffer[B [b ]b ]B
+Comment block[C [c ]c ]C
+Conflict marker[X [x ]x ]X
+Diagnostic[D [d ]d ]D
+File on disk[F [f ]f ]F
+Indent change[I [i ]i ]I
+Jump f…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oxidise Your Life]]></title>
         <id>https://www.youtube.com/watch?v=dFkGNe4oaKk</id>

@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Feb/27",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    mini.bracketed\n  \n\n\n  \n\nA mini.bracketed module of mini.nvim implements functionality and mappings\nto go forward/backward with square brackets. This is a Lua evolution of\ntpope/vim-unimpaired with much more targets:\n\nTargetMappings\n\nBuffer[B [b ]b ]B\nComment block[C [c ]c ]C\nConflict marker[X [x ]x ]X\nDiagnostic[D [d ]d ]D\nFile on disk[F [f ]f ]F\nIndent change[I [i ]i ]I\nJump f…",
+          "link": "https://this-week-in-neovim.org/2023/Feb/27",
+          "publishedOn": "2023-02-27T00:00:00.000Z",
+          "wordCount": 898,
+          "title": "27 Feb 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Feb/20",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#22257 removed the (undocumented) vim.g.ts_highlight_lua variable \nthat enabled treesitter highlighting for Lua files. \nThis variable was only meant for easier testing during the last development cycle.\nTo enable treesitter highlighting for Lua files (or any of the file types with a bundled parser), either put \nvim.treesitter.start() in a .config/nvim/ftplugin/lua.lua (and/or help.lua, c.lua, vim.lua) or in an \nautocommand like:\nvim.api.nvim_create_autocmd('FileType', {\n  pattern = 'lua', -- or { 'lua', 'help' },\n  callback = f…",
           "link": "https://this-week-in-neovim.org/2023/Feb/20",
           "publishedOn": "2023-02-20T00:00:00.000Z",
-          "wordCount": 1111,
+          "wordCount": 1114,
           "title": "20 Feb 2023",
           "imageUrl": null
         },
@@ -76,7 +86,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9982,
+          "wordCount": 9981,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1773,6 +1783,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/link/scribble-diffusion/",
+          "author": null,
+          "description": "Scribble Diffusion is wild. Out of curiosity, I asked it to design a webpage: Wild.",
+          "link": "https://bradfrost.com/blog/link/scribble-diffusion/",
+          "publishedOn": "2023-02-27T17:14:39.000Z",
+          "wordCount": 523,
+          "title": "Scribble Diffusion",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-27-at-12.12.47-PM-1024x711-1.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/amateur-lasse-gjertsen/",
           "author": null,
