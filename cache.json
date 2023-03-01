@@ -50,16 +50,6 @@
           "wordCount": 767,
           "title": "6 Feb 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Jan/30",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#21832: libiconv is now a required build dependency.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      neo-tree.nvim is looking for developers / maintainers\n    \n  \n\n\nNeovim plugin to manage the file system and other tree like structures. \n\nThe project could really use some awesome developers that have some free time and love that they can dedicate to \nmaintaining the project. Up until recently, the author has been the primary pers…",
-          "link": "https://this-week-in-neovim.org/2023/Jan/30",
-          "publishedOn": "2023-01-30T00:00:00.000Z",
-          "wordCount": 1200,
-          "title": "30 Jan 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -86,7 +76,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9981,
+          "wordCount": 9982,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1783,6 +1773,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/post/bullet-points-about-mental-health/",
+          "author": null,
+          "description": "The mental health and vision analogy Stigma The mind/body connection Support Therapy Meditation and mindfulness Medication Psychedelics The big picture Resources Note: I am not a mental health professional, so take all of this with a grain of salt. Please [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/bullet-points-about-mental-health/",
+          "publishedOn": "2023-02-28T15:15:36.000Z",
+          "wordCount": 1685,
+          "title": "Bullet points about mental health",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/scribble-diffusion/",
           "author": null,

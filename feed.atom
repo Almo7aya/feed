@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-28T00:24:15.641Z</id>
+    <id>urn:2023-03-01T00:27:49.624Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-28T00:24:15.641Z</updated>
+    <updated>2023-03-01T00:27:49.625Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Bullet points about mental health]]></title>
+        <id>https://bradfrost.com/blog/post/bullet-points-about-mental-health/</id>
+        <link href="https://bradfrost.com/blog/post/bullet-points-about-mental-health/"/>
+        <updated>2023-02-28T15:15:36.000Z</updated>
+        <summary type="html"><![CDATA[The mental health and vision analogy Stigma The mind/body connection Support Therapy Meditation and mindfulness Medication Psychedelics The big picture Resources Note: I am not a mental health professional, so take all of this with a grain of salt. Please [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scribble Diffusion]]></title>
         <id>https://bradfrost.com/blog/link/scribble-diffusion/</id>
@@ -2148,35 +2158,6 @@ head and used that same name as the list head? This means that the function will
         <updated>2023-01-30T17:00:44.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[30 Jan 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Jan/30</id>
-        <link href="https://this-week-in-neovim.org/2023/Jan/30"/>
-        <updated>2023-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#21832: libiconv is now a required build dependency.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Need help
-
-      
-      neo-tree.nvim is looking for developers / maintainers
-    
-  
-
-
-Neovim plugin to manage the file system and other tree like structures. 
-
-The project could really use some awesome developers that have some free time and love that they can dedicate to 
-maintaining the project. Up until recently, the author has been the primary pers…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
