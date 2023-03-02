@@ -76,7 +76,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9982,
+          "wordCount": 9981,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -87,6 +87,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/kfys8edbgn-pretty-print-json-in-ruby",
+          "author": "mattpolito",
+          "description": "Kernal#j & Kernal#jj\nKernal#j method:\nfoo = {name: \"Matt\", company: \"Hashrocket\"}\r\n\n=> j foo\r\n{\"name\": \"Matt\", \"company\": \"Hashrocket\"}\r\nKernal#jj method:\nfoo = {name: \"Matt\", company: \"Hashrocket\"}\r\n\n=> jj foo\r\n{\r\n  \"name\": \"Matt\",\r\n  \"company\": \"Hashrocket\"\r\n}",
+          "link": "http://til.hashrocket.com/posts/kfys8edbgn-pretty-print-json-in-ruby",
+          "publishedOn": "2023-03-01T19:49:16.000Z",
+          "wordCount": 309,
+          "title": "Pretty-print JSON in Ruby - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/9ds3qtqtdc-phoenix-liveview-slot-attributes",
           "author": "viniciusnegrisolo",
@@ -1938,16 +1948,6 @@
           "publishedOn": "2023-01-31T17:06:47.000Z",
           "wordCount": null,
           "title": "The weird future of music",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=DXDe-2BC4cE",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=DXDe-2BC4cE",
-          "publishedOn": "2023-01-30T17:00:44.000Z",
-          "wordCount": null,
-          "title": "Unreal in 100 Seconds",
           "imageUrl": null
         }
       ]
