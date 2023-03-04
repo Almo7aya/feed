@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-03T02:02:15.285Z</id>
+    <id>urn:2023-03-04T00:23:10.883Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-03T02:02:15.285Z</updated>
+    <updated>2023-03-04T00:23:10.883Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Convert Changeset Into Schema With `apply_changes` - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges</id>
+        <link href="http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges"/>
+        <updated>2023-03-03T19:26:17.000Z</updated>
+        <summary type="html"><![CDATA[apply_changes/1 function to apply that changeset and receive schema with which you can perform operations. It's worth noting that the data is not validated when changes are applied, so care needs to be taken to ensure validity before an attempt to save that record.
+iex> lead_schema = Lead.changeset(%{name: "Andrew", email: "Andrew.Vogel@hashrocket.com"})
+                   |> apply_changes() 
+%Lead{name: "Andrew", email: "Andrew.Vogel@hashrocket.com"}
+
+iex> lead_schema |> downcase_email() |> do_some_other_processing()
+https://hexdocs.pm/ecto/Ecto.Changeset.html#apply_changes/1]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build your entire tech stack in Rust]]></title>
+        <id>https://www.youtube.com/watch?v=luOgEhLE2sg</id>
+        <link href="https://www.youtube.com/watch?v=luOgEhLE2sg"/>
+        <updated>2023-03-03T13:32:13.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The design system mindset]]></title>
         <id>https://bradfrost.com/blog/post/the-design-system-mindset/</id>
@@ -2154,25 +2179,6 @@ head and used that same name as the list head? This means that the function will
         <updated>2023-02-03T16:34:18.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome finally embraces Rust]]></title>
-        <id>https://www.youtube.com/watch?v=w-baalUhAxk</id>
-        <link href="https://www.youtube.com/watch?v=w-baalUhAxk"/>
-        <updated>2023-02-02T12:00:39.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modern Health, frameworks, performance, and harm – Eric Bailey]]></title>
-        <id>https://bradfrost.com/blog/link/modern-health-frameworks-performance-and-harm-eric-bailey/</id>
-        <link href="https://bradfrost.com/blog/link/modern-health-frameworks-performance-and-harm-eric-bailey/"/>
-        <updated>2023-02-01T17:38:54.000Z</updated>
-        <summary type="html"><![CDATA[This is a great read from Eric Bailey, reminding us that the technology decisions we make truly can make the difference between people getting the healthcare they need or not. In some cases, it can even be a matter of [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>

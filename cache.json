@@ -76,7 +76,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9982,
+          "wordCount": 9979,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -87,6 +87,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges",
+          "author": "andrewvogel",
+          "description": "apply_changes/1 function to apply that changeset and receive schema with which you can perform operations. It's worth noting that the data is not validated when changes are applied, so care needs to be taken to ensure validity before an attempt to save that record.\niex> lead_schema = Lead.changeset(%{name: \"Andrew\", email: \"Andrew.Vogel@hashrocket.com\"})\r\n                   |> apply_changes() \r\n%Lead{name: \"Andrew\", email: \"Andrew.Vogel@hashrocket.com\"}\r\n\niex> lead_schema |> downcase_email() |> do_some_other_processing()\r\nhttps://hexdocs.pm/ecto/Ecto.Changeset.html#apply_changes/1",
+          "link": "http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges",
+          "publishedOn": "2023-03-03T19:26:17.000Z",
+          "wordCount": 340,
+          "title": "Convert Changeset Into Schema With `apply_changes` - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/kfys8edbgn-pretty-print-json-in-ruby",
           "author": "mattpolito",
@@ -1882,16 +1892,6 @@
           "wordCount": 557,
           "title": "You kinda want an orange favicon. &#8211; Chris Coyier",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/modern-health-frameworks-performance-and-harm-eric-bailey/",
-          "author": null,
-          "description": "This is a great read from Eric Bailey, reminding us that the technology decisions we make truly can make the difference between people getting the healthcare they need or not. In some cases, it can even be a matter of [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/modern-health-frameworks-performance-and-harm-eric-bailey/",
-          "publishedOn": "2023-02-01T17:38:54.000Z",
-          "wordCount": 682,
-          "title": "Modern Health, frameworks, performance, and harm – Eric Bailey",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1958,6 +1958,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=luOgEhLE2sg",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=luOgEhLE2sg",
+          "publishedOn": "2023-03-03T13:32:13.000Z",
+          "wordCount": null,
+          "title": "Build your entire tech stack in Rust",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=_ccDqRTx-JU",
           "author": null,
           "description": "",
@@ -1985,16 +1995,6 @@
           "publishedOn": "2023-02-09T12:00:05.000Z",
           "wordCount": null,
           "title": "Should you learn Rust in 2023?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=w-baalUhAxk",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=w-baalUhAxk",
-          "publishedOn": "2023-02-02T12:00:39.000Z",
-          "wordCount": null,
-          "title": "Chrome finally embraces Rust",
           "imageUrl": null
         }
       ]
