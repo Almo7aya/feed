@@ -71,12 +71,132 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-12",
+          "author": null,
+          "description": "<p>We've achieved our goals already with this series: we have a web service written\nin Rust, built into a Docker image with nix, with a nice dev shell, that we can\ndeploy to <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>But there's always room for improvement, and so I wanted to talk about a few\nthings we didn't bother doing in the previous chapters.</p>\n\n                        <h2>\n                            <a id=\"making-clash-geoip-available-in-the-dev-shell\" class=\"anchor\" href=\"#making-clash-geoip-available-in-the-dev-shell\">\n                                Making <code>clash-geoip</code> available in the dev shell\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-12",
+          "publishedOn": "2023-03-05T07:30:12.000Z",
+          "wordCount": 1147,
+          "title": "Extra credit",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-11",
+          "author": null,
+          "description": "<p>There it is. The final instalment.</p>\n<p>Over the course of this series, we've built a <em>very useful</em> Rust web service\nthat shows us colored ASCII art cats, and we've packaged it with docker, and\ndeployed it to <a href=\"https://fly.io\">https://fly.io</a>.</p>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-11",
+          "publishedOn": "2023-03-05T07:30:11.000Z",
+          "wordCount": 1132,
+          "title": "Generating a docker image with nix",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-10",
+          "author": null,
+          "description": "<p>In the previous chapter, we've made a nix &quot;dev shell&quot; that contained the fly.io\ncommand-line utility, &quot;flyctl&quot;.</p>\n<p>That said, that's not how I want us to define a dev shell.</p>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-10",
+          "publishedOn": "2023-03-05T07:30:10.000Z",
+          "wordCount": 1125,
+          "title": "Making a dev shell with nix flakes",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-9",
+          "author": null,
+          "description": "<p>Remember the snapshot we made allll the way back in <a href=\"part-1\">Part 1</a>? Now's the time to use it.</p>\n<p>Well, make sure you've committed and pushed all your changes, but when you're\nready, let's go back in time to before we installed anything catscii-specific in\nour VM.</p>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-9",
+          "publishedOn": "2023-03-05T07:30:09.000Z",
+          "wordCount": 1138,
+          "title": "Learning Nix from the bottom up",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-8",
+          "author": null,
+          "description": "<p>I sold you on some additional functionality for <code>catscii</code> last chapter, and we\ngot caught up in private registry / docker shenanigans, so, now, let's resume\nweb development as promised.</p>\n\n                        <h2>\n                            <a id=\"adding-geolocation\" class=\"anchor\" href=\"#adding-geolocation\">\n                                Adding geolocation\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-8",
+          "publishedOn": "2023-03-05T07:30:08.000Z",
+          "wordCount": 1127,
+          "title": "Doing geo-location and keeping analytics",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-7",
+          "author": null,
+          "description": "<div class=\"dialog bear\">\n<div class=\"dialog-head\" title=\"Cool bear says:\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z\"/><path d=\"M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z\"/><path d=\"M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z\"/></svg>\n</div>\n<div class=\"dialog-text\">\n<p>Wait wait wait, so we're not talking about nix yet?</p>\n</div>\n</div>\n<p>Well, no! The service we have is pretty simple, and I want to complicate things\na bit, to show how things would work in both the Dockerfile and the nix\nscenario.</p>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-7",
+          "publishedOn": "2023-03-05T07:30:07.000Z",
+          "wordCount": 1143,
+          "title": "Using the Shipyard private crate registry with Docker",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-6",
+          "author": null,
+          "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nBecause I used to work for fly.io, I still benefit from an employee discount\nat the time of this writing: I don't have to pay for anything deployed there\nfor now.</p>\n<p>fly.io is still <a href=\"/donate\">sponsoring me</a> for developing\n<a href=\"https://github.com/hapsoc/hring\">hring</a>, but this isn't a sponsored post. It's\njust a good fit for what we're doing here, with a generous free tier.</p>\n</div>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-6",
+          "publishedOn": "2023-03-05T07:30:06.000Z",
+          "wordCount": 1151,
+          "title": "Deploying catscii to fly.io",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-5",
+          "author": null,
+          "description": "<p>Now that our service is production-ready, it's time to deploy it somewhere.</p>\n<p>There's a lot of ways to approach this: what we are going to do, though, is\nbuild a docker image. Or, I should say, an <a href=\"https://github.com/opencontainers/image-spec\">OCI\nimage</a>.</p>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-5",
+          "publishedOn": "2023-03-05T07:30:05.000Z",
+          "wordCount": 1130,
+          "title": "Writing a Dockerfile for catscii",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
+          "author": null,
+          "description": "<p>Our <code>catscii</code> program does everything we want it to do, except that it's a\ncommand-line application rather than a web server. Let's fix that.</p>\n\n                        <h2>\n                            <a id=\"enter-axum\" class=\"anchor\" href=\"#enter-axum\">\n                                Enter <code>axum</code>\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
+          "publishedOn": "2023-03-05T07:30:04.000Z",
+          "wordCount": 1121,
+          "title": "Serving ASCII cats over HTTP",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
+          "author": null,
+          "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
+          "publishedOn": "2023-03-05T07:30:03.000Z",
+          "wordCount": 1111,
+          "title": "Printing ASCII cats to the terminal",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
+          "author": null,
+          "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
+          "publishedOn": "2023-03-05T07:30:02.000Z",
+          "wordCount": 1106,
+          "title": "Developing over SSH",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
+          "id": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
+          "author": null,
+          "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
+          "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
+          "publishedOn": "2023-03-05T07:30:01.000Z",
+          "wordCount": 2557,
+          "title": "Setting up a local Ubuntu Server VM",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        },
+        {
           "id": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "author": null,
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9979,
+          "wordCount": 9919,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -246,24 +366,8 @@
           "wordCount": 262,
           "title": "!important classes in tailwind - #html-css",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values",
-          "author": "jackrosa",
-          "description": "head_match that takes two arguments, a string and a list, that checks if the string argument is the same as the head of the list. We could use pattern matching like this:\ndef head_match(head, [head, _tail]) do\r\n  IO.puts(\"Thats the head of the List!\")\r\nend\r\n#this will match if we called it like head_match(\"first_word\", [\"first_word\", \"second_word\"])\r\nhead and used that same name as the list head? This means that the function will only match if those two values are the exact same rather than just matching the structure of the arguments.",
-          "link": "http://til.hashrocket.com/posts/ajzmlm6wwy-pattern-matching-args-with-exact-values",
-          "publishedOn": "2023-02-03T19:33:26.000Z",
-          "wordCount": 343,
-          "title": "Pattern Matching Args with Exact Values - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
-    },
-    {
-      "title": "Laura Kalbag",
-      "feedUrl": "https://laurakalbag.com/posts/index.xml",
-      "siteUrl": "https://laurakalbag.com/posts/",
-      "articles": []
     },
     {
       "title": "Chris Morgan’s blog",
@@ -1938,16 +2042,6 @@
           "publishedOn": "2023-02-08T16:25:49.000Z",
           "wordCount": null,
           "title": "15 futuristic databases you’ve never heard of",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=2OTq15A5s0Y",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=2OTq15A5s0Y",
-          "publishedOn": "2023-02-03T16:34:18.000Z",
-          "wordCount": null,
-          "title": "7 better ways to create a React app",
           "imageUrl": null
         }
       ]
