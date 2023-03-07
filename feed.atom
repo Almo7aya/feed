@@ -1,10 +1,1594 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-06T00:28:49.077Z</id>
+    <id>urn:2023-03-07T00:25:31.455Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-06T00:28:49.077Z</updated>
+    <updated>2023-03-07T00:25:31.455Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use 2 or more textures in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Implementing DrawImage]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-drawimage.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-drawimage.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement canvas 2d's drawImage function in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 2D Matrices]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-matrices.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-matrices.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How matrix math works explained in simple easy to follow directions.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Implementing A Matrix Stack]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-matrix-stack.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-matrix-stack.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement canvas 2d's translate/rotate/scale functions in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 2D Rotation]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-rotation.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-rotation.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to rotate in 2D]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 2D Scale]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-scale.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-scale.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to scale in 2D]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 2D Translation]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-translation.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-translation.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to translate in 2D]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Rasterization vs 3D libraries]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Why WebGL is not a 3D library and why it matters.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D - Cameras]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-camera.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-camera.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How cameras work in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D Geometry - Lathe]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-geometry-lathe.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-geometry-lathe.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to lathe a bezier curve.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D - Directional Lighting]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement directional lighting in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D - Normal Mapping]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-normal-mapping.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-normal-mapping.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement normal maps]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D - Point Lighting]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-point.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-point.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement point lighting in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D - Spot Lighting]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-spot.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-spot.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement spot lights in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Orthographic 3D]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-orthographic.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-orthographic.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to do 3D in WebGL starting with an orthographic projection.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D Perspective Correct Texture Mapping]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective-correct-texturemapping.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective-correct-texturemapping.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What's special about W]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D Perspective]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to display perspective in 3D in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Textures]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-textures.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-textures.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How textures work in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL and Alpha]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How alpha in WebGL is different than alpha in OpenGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Animation]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-animation.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-animation.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to do animation in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Anti-Patterns]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What not to do in WebGL, why not to do it, and what to do instead]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Attributes]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-attributes.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-attributes.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What are attributes in WebGL?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Boilerplate]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-boilerplate.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-boilerplate.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Some of the code you need for all WebGL programs]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Cross Origin Images]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-cors-permission.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-cors-permission.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Using images across domains]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Cross Platform Issues]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-cross-platform-issues.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-cross-platform-issues.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Things to be aware of when trying to make your WebGL app work everywhere.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Cubemaps]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-cube-maps.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-cube-maps.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use cubemaps in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 3D - Data Textures]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-data-textures.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-data-textures.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Supplying data to a texture.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Drawing Multiple Things]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-drawing-multiple-things.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-drawing-multiple-things.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to draw multiple different kinds of things in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Drawing Without Data]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-drawing-without-data.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-drawing-without-data.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Creative Coding - Drawing Without Data]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Environment Maps (reflections)]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-environment-maps.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-environment-maps.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement environment maps.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Fog]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-fog.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-fog.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement fog]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Framebuffers]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-framebuffers.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-framebuffers.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What are framebuffers in WebGL?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Fundamentals]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Your first WebGL lesson starting with the fundamentals]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL GPGPU]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-gpgpu.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-gpgpu.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to do general computing with WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL How It Works]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What WebGL is really doing under the hood]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Image Processing Continued]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-image-processing-continued.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-image-processing-continued.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to apply multiple image processing techniques to images in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Image Processing]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to image process in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Indexed Vertices]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-indexed-vertices.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-indexed-vertices.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use gl.drawElements]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Optimization - Instanced Drawing]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-instanced-drawing.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-instanced-drawing.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing Multiple Instances of the same Object]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Less Code, More Fun]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-less-code-more-fun.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-less-code-more-fun.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Ways to make programming WebGL less verbose]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Load Obj with Mtl]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to parse an .MTL file]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Load Obj]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-load-obj.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-load-obj.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to parse and display an .OBJ file]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Matrices vs Math Matrices]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-matrix-vs-math.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-matrix-vs-math.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[The difference between WebGL conventions and Math conventions.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Multiple Views, Multiple Canvases]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-multiple-views.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-multiple-views.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing multiple views]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Picking]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-picking.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-picking.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to pick things in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Planar and Perspective Projection Mapping]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-planar-projection-mapping.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-planar-projection-mapping.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Projecting a texture as a plane]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Points, Lines, and Triangles]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-points-lines-triangles.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-points-lines-triangles.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Details on drawing Points, Lines, and Triangles]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Post Processing]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-post-processing.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-post-processing.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Post Processing]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Precision Issues]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-precision-issues.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-precision-issues.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Precision Issues in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Pulling Vertices]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-pulling-vertices.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-pulling-vertices.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Using independent indices]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple way to show the load on the GPU's vertex and fragment processing?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-a-simple-way-to-show-the-load-on-the-gpu-s-vertex-and-fragment-processing-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-a-simple-way-to-show-the-load-on-the-gpu-s-vertex-and-fragment-processing-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[A simple way to show the load on the GPU's vertex and fragment processing?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessing textures by pixel coordinate in WebGL2]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-accessing-textures-by-pixel-coordinate-in-webgl2.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-accessing-textures-by-pixel-coordinate-in-webgl2.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Accessing textures by pixel coordinate in WebGL2]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apply a displacement map and specular map]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-apply-a-displacement-map-and-specular-map.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-apply-a-displacement-map-and-specular-map.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Apply a displacement map and specular map]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can anyone explain what this GLSL fragment shader is doing?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-can-anyone-explain-what-this-glsl-fragment-shader-is-doing-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-can-anyone-explain-what-this-glsl-fragment-shader-is-doing-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Can anyone explain what this GLSL fragment shader is doing?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can I mute the warning about vertex attrib 0 being disabled?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-can-i-mute-the-warning-about-vertex-attrib-0-being-disabled-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-can-i-mute-the-warning-about-vertex-attrib-0-being-disabled-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Can I mute the warning about vertex attrib 0 being disabled?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create image warping effect in WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-create-image-warping-effect-in-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-create-image-warping-effect-in-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Create image warping effect in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating a smudge/liquify effect]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-creating-a-smudge-liquify-effect.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-creating-a-smudge-liquify-effect.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Creating a smudge/liquify effect]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to draw Depth Sprites]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-depth-sprites.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-depth-sprites.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing sprites that sort pixels by depth]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Determine min/max values for the entire image]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-determine-min-max-values-for-the-entire-image.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-determine-min-max-values-for-the-entire-image.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Determine min/max values for the entire image]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't blend a polygon that crosses itself]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-don-t-blend-a-polygon-that-crosses-itself.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-don-t-blend-a-polygon-that-crosses-itself.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Don't blend a polygon that crosses itself]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drawing 2D image with depth map to achieve pseudo-3D effect]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-2d-image-with-depth-map-to-achieve-pseudo-3d-effect.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-2d-image-with-depth-map-to-achieve-pseudo-3d-effect.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing 2D image with depth map to achieve pseudo-3D effect]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drawing a heightmap]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-a-heightmap.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-a-heightmap.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing a heightmap]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drawing layers with different points]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-layers-with-different-points.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-layers-with-different-points.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing layers with different points]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drawing Many different models in a single draw call]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-many-different-models-in-a-single-draw-call.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-many-different-models-in-a-single-draw-call.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing Many different models in a single draw call]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drawing textured sprites with instanced drawing]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-textured-sprites-with-instanced-drawing.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-textured-sprites-with-instanced-drawing.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Drawing textured sprites with instanced drawing]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Efficient particle system in javascript? (WebGL)]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-efficient-particle-system-in-javascript---webgl-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-efficient-particle-system-in-javascript---webgl-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Efficient particle system in javascript? (WebGL)]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emulating palette based graphics in WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-emulating-palette-based-graphics-in-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-emulating-palette-based-graphics-in-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Emulating palette based graphics in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FPS-like camera movement with basic matrix transformations]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-fps-like-camera-movement-with-basic-matrix-transformations.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-fps-like-camera-movement-with-basic-matrix-transformations.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[FPS-like camera movement with basic matrix transformations]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get the size of a point for collision checking]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-get-the-size-of-a-point-for-collision-checking.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-get-the-size-of-a-point-for-collision-checking.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Get the size of a point for collision checking]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLSL shader to support coloring and texturing]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-glsl-shader-to-support-coloring-and-texturing.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-glsl-shader-to-support-coloring-and-texturing.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[GLSL shader to support coloring and texturing]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How can I compute for 500 points which of 1000 line segments is nearest to each point?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-compute-for-500-points-which-of-1000-line-segments-is-nearest-to-each-point-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-compute-for-500-points-which-of-1000-line-segments-is-nearest-to-each-point-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How can I compute for 500 points which of 1000 line segments is nearest to each point?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How can I create a 16bit historgram of 16bit data]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-create-a-16bit-historgram-of-16bit-data.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-create-a-16bit-historgram-of-16bit-data.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How can I create a 16bit historgram of 16bit data]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How can I get all the uniforms and uniformBlocks]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-get-all-the-uniforms-and-uniformblocks.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-get-all-the-uniforms-and-uniformblocks.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How can I get all the uniforms and uniformBlocks]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How can I move the perspective vanishing point from the center of the canvas?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-move-the-perspective-vanishing-point-from-the-center-of-the-canvas-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-move-the-perspective-vanishing-point-from-the-center-of-the-canvas-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How can I move the perspective vanishing point from the center of the canvas?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Achieve Moving Line with Trail Effects]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-achieve-moving-line-with-trail-effects.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-achieve-moving-line-with-trail-effects.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to Achieve Moving Line with Trail Effects]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to bind an array of textures to a WebGL shader uniform?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to bind an array of textures to a WebGL shader uniform?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to blend colors across 2 triangles]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-blend-colors-across-2-triangles.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-blend-colors-across-2-triangles.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to blend colors across 2 triangles]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to combine more text drawing into fewer draw calls]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-combine-more-text-drawing-into-fewer-draw-calls.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-combine-more-text-drawing-into-fewer-draw-calls.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to combine more text drawing into fewer draw calls]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to control the color between vertices]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-control-the-color-between-vertices.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-control-the-color-between-vertices.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to control the color between vertices]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to create a torus]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-create-a-torus.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-create-a-torus.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to create a torus]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to detect clipped triangles in the framgment shader]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-detect-clipped-triangles-in-the-framgment-shader.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-detect-clipped-triangles-in-the-framgment-shader.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to detect clipped triangles in the framgment shader]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to determine the average brightness in a scene?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-determine-the-average-brightness-in-a-scene-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-determine-the-average-brightness-in-a-scene-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to determine the average brightness in a scene?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to draw correctly textured trapezoid polygons]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-draw-correctly-textured-trapezoid-polygons.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-draw-correctly-textured-trapezoid-polygons.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to draw correctly textured trapezoid polygons]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to fade the drawing buffer]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-fade-the-drawing-buffer.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-fade-the-drawing-buffer.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to fade the drawing buffer]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to figure out how much GPU work to do without crashing WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-figure-out-how-much-gpu-work-to-do-without-crashing-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-figure-out-how-much-gpu-work-to-do-without-crashing-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to figure out how much GPU work to do without crashing WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get audio data into a shader]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-audio-data-into-a-shader.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-audio-data-into-a-shader.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to get audio data into a shader]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get code completion for WebGL in Visual Studio Code]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-code-completion-for-webgl-in-visual-studio-code.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-code-completion-for-webgl-in-visual-studio-code.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to get code completion for WebGL in Visual Studio Code]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get pixelize effect in webgl?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-pixelize-effect-in-webgl-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-pixelize-effect-in-webgl-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to get pixelize effect in webgl?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get the 3d coordinates of a mouse click]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-the-3d-coordinates-of-a-mouse-click.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-the-3d-coordinates-of-a-mouse-click.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to get the 3d coordinates of a mouse click]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to implement zoom from mouse in 2D WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-implement-zoom-from-mouse-in-2d-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-implement-zoom-from-mouse-in-2d-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to implement zoom from mouse in 2D WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to import a heightmap in WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-import-a-heightmap-in-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-import-a-heightmap-in-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to import a heightmap in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to load images in the background with no jank]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-load-images-in-the-background-with-no-jank.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-load-images-in-the-background-with-no-jank.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to load images in the background with no jank]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make a smudge brush tool]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-a-smudge-brush-tool.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-a-smudge-brush-tool.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to make a smudge brush tool]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make WebGL canvas transparent]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-webgl-canvas-transparent.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-webgl-canvas-transparent.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to make WebGL canvas transparent]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to optimize rendering a UI]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-optimize-rendering-a-ui.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-optimize-rendering-a-ui.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to optimize rendering a UI]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to prevent texture bleeding with a texture atlas]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-prevent-texture-bleeding-with-a-texture-atlas.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-prevent-texture-bleeding-with-a-texture-atlas.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to prevent texture bleeding with a texture atlas]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to process particle positions]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-process-particle-positions.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-process-particle-positions.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to process particle positions]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to read a single component with readPixels]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-read-a-single-component-with-readpixels.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-read-a-single-component-with-readpixels.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to read a single component with readPixels]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to render large scale images like 32000x32000]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-render-large-scale-images-like-32000x32000.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-render-large-scale-images-like-32000x32000.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to render large scale images like 32000x32000]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to simulate a 3D texture in WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-simulate-a-3d-texture-in-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-simulate-a-3d-texture-in-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to simulate a 3D texture in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to support both WebGL and WebGL2]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-support-both-webgl-and-webgl2.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-support-both-webgl-and-webgl2.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to support both WebGL and WebGL2]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to tell if an image has an alpha channel]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-tell-if-an-image-has-an-alpha-channel.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-tell-if-an-image-has-an-alpha-channel.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to tell if an image has an alpha channel]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use a 2d sprite's transparency as a mask]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-a-2d-sprite-s-transparency-as-a-mask.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-a-2d-sprite-s-transparency-as-a-mask.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use a 2d sprite's transparency as a mask]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use texture, and color also in WebGL?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-texture--and-color-also-in-webgl-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-texture--and-color-also-in-webgl-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use texture, and color also in WebGL?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use textures as data]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-textures-as-data.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-textures-as-data.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use textures as data]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use the stencil buffer]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-the-stencil-buffer.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-the-stencil-buffer.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use the stencil buffer]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to write a web-based music visualizer]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-write-a-web-based-music-visualizer.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-write-a-web-based-music-visualizer.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to write a web-based music visualizer]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I get invalid type error when calling readPixels]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-i-get-invalid-type-error-when-calling-readpixels.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-i-get-invalid-type-error-when-calling-readpixels.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[I get invalid type error when calling readPixels]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is it possible to measure rendering time in webgl using gl.finish()?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-is-it-possible-to-measure-rendering-time-in-webgl-using-gl-finish---.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-is-it-possible-to-measure-rendering-time-in-webgl-using-gl-finish---.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Is it possible to measure rendering time in webgl using gl.finish()?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is there the notion of a generalized vertex and fragment shader?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-is-there-the-notion-of-a-generalized-vertex-and-fragment-shader-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-is-there-the-notion-of-a-generalized-vertex-and-fragment-shader-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Is there the notion of a generalized vertex and fragment shader?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimize drawing lots of large images]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-optimize-drawing-lots-of-large-images.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-optimize-drawing-lots-of-large-images.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Optimize drawing lots of large images]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Passing in per sprite alpha values when batching]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-passing-in-per-sprite-alpha-values-when-batching.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-passing-in-per-sprite-alpha-values-when-batching.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Passing in per sprite alpha values when batching]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pure WebGL Dashed Line]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-pure-webgl-dashed-line.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-pure-webgl-dashed-line.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Pure WebGL Dashed Line]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recording FPS in WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-recording-fps-in-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-recording-fps-in-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Recording FPS in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rendering slowly over time]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-rendering-slowly-over-time.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-rendering-slowly-over-time.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Rendering slowly over time]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Setting the values of a struct array from JS to GLSL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-setting-the-values-of-a-struct-array-from-js-to-glsl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-setting-the-values-of-a-struct-array-from-js-to-glsl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Setting the values of a struct array from JS to GLSL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show a night view vs a day view on a 3D Earth sphere]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-show-a-night-view-vs-a-day-view-on-a-3d-earth-sphere.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-show-a-night-view-vs-a-day-view-on-a-3d-earth-sphere.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Show a night view vs a day view on a 3D Earth sphere]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sorting and optimizing instanced rendering]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-sorting-and-optimizing-instanced-rendering.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-sorting-and-optimizing-instanced-rendering.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Sorting and optimizing instanced rendering]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tex image TEXTURE_2D level 0 is incurring lazy initialization]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-tex-image-texture_2d-level-0-is-incurring-lazy-initialization.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-tex-image-texture_2d-level-0-is-incurring-lazy-initialization.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Tex image TEXTURE_2D level 0 is incurring lazy initialization]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The fastest way to draw many circles]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-the-fastest-way-to-draw-many-circles.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-the-fastest-way-to-draw-many-circles.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[The fastest way to draw many circles]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL 2D tilemaps]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-2d-tilemaps.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-2d-tilemaps.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[WebGL 2D tilemaps]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Droste effect]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-droste-effect.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-droste-effect.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[WebGL Droste effect]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the local origin of a 3D model?]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-what-is-the-local-origin-of-a-3d-model-.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-what-is-the-local-origin-of-a-3d-model-.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What is the local origin of a 3D model?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When to choose highp, mediump, lowp in shaders]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-when-to-choose-highp--mediump--lowp-in-shaders.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-when-to-choose-highp--mediump--lowp-in-shaders.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[When to choose highp, mediump, lowp in shaders]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why does WebGL take more memory than Canvas 2D]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-why-does-webgl-take-more-memory-than-canvas-2d.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-why-does-webgl-take-more-memory-than-canvas-2d.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Why does WebGL take more memory than Canvas 2D]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Working around gl_PointSize limitations webGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-working-around-gl_pointsize-limitations-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-working-around-gl_pointsize-limitations-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Working around gl_PointSize limitations webGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zooming to and stopping at object in a scene in WebGL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-zooming-to-and-stopping-at-object-in-a-scene-in-webgl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-zooming-to-and-stopping-at-object-in-a-scene-in-webgl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Zooming to and stopping at object in a scene in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Questions and Answers]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Random Questions and Answers]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Ramp Textures]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-ramp-textures.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-ramp-textures.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Using ramp textures]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL readPixels]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-readpixels.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-readpixels.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Details on readPixels]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[References]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-references.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-references.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Other References]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Rendering to a Texture]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-render-to-texture.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-render-to-texture.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to render to a texture.]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Resizing the Canvas.]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to resize a WebGL canvas and the issues involved]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL - Scene Graph]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What a scene graph is want what it's used for]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Setup and Installation]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-setup-and-installation.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-setup-and-installation.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to do WebGL development]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Shaders and GLSL]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What's a shader and what's GLSL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Shadertoy]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-shadertoy.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shadertoy.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Shadertoy shaders]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Shadows Continued]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-shadows-continued.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shadows-continued.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to compute shadows continued]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Shadows]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-shadows.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shadows.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to compute shadows]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Skinning]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-skinning.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-skinning.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to skin a mesh in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL SkyBox]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-skybox.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-skybox.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Show the sky with a skybox!]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Smallest Programs]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-smallest-programs.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-smallest-programs.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Smallest Code for Testing]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Sprites]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-sprites.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-sprites.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to do sprites in WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL State Diagram]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-state-diagram.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-state-diagram.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[WebGL State Diagram]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Text - Canvas 2D]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to display text using a 2D canvas that is in sync with WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Text - Using a Glyph Texture]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-glyphs.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-glyphs.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to display text using a texture full of glyphs]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Text - HTML]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-html.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-html.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to use HTML to display text that is positioned to match WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Text - Textures]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-texture.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-texture.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Display Text in WebGL using Textures]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Texture Units]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-texture-units.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-texture-units.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[What are texture units in WebGL?]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Tips]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-tips.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-tips.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Small issues that might trip you up with WebGL]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebGL Visualizing the Camera]]></title>
+        <id>https://webglfundamentals.org/webgl/lessons/webgl-visualizing-the-camera.html</id>
+        <link href="https://webglfundamentals.org/webgl/lessons/webgl-visualizing-the-camera.html"/>
+        <updated>2023-03-06T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[How to draw a camera frustum]]></summary>
+        <author>
+            <name>WebGL Fundamentals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clever Code Considered Harmful]]></title>
+        <id>https://bradfrost.com/blog/link/clever-code-considered-harmful/</id>
+        <link href="https://bradfrost.com/blog/link/clever-code-considered-harmful/"/>
+        <updated>2023-03-06T03:03:17.000Z</updated>
+        <summary type="html"><![CDATA[Clever Code Considered Harmful is a great read. When it comes to day-to-day production code, here&#8217;s the barometer I like to use: will a junior developer, someone at the very start of their career, struggle to understand this code? In [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom Flash Messages in Rails - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails</id>
+        <link href="http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails"/>
+        <updated>2023-03-06T01:11:44.000Z</updated>
+        <summary type="html"><![CDATA[alert and notice; you can use them like this in your controller: 
+redirect_to users_path, notice: "User created successfully"
+# - or -
+render :new, alert: "An error prevented the user from being saved"
+flash[:success] = "User created successfully"
+redirect_to users_path
+add_flash_type. You can use this an a controller (re: ApplicationController) to enable new flash message types. This will allow you to do the one liners in render and redirect calls: 
+class ApplicationController < ActionController::Base
+  add_flash_type :my_flash_type
+end
+
+# ...
+
+redirect_to users_path, my_flash_type: "User created successfully"
+# - or -
+render :new, my_flash_type: "An error prevented the user from being saved"
+<%= my_flash_type %>
+https://api.rubyonrails.org/classes/ActionController/Flash/ClassMethods.html]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Mar 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Mar/6</id>
+        <link href="https://this-week-in-neovim.org/2023/Mar/6"/>
+        <updated>2023-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Guides, tours, articles, etc.
+
+      
+      Minimal preconfiguration for LaTeX
+    
+  
+
+This preconfiguration might be helpful, if you don’t want to commit too much time to configuring Neovim but still want 
+to use it for editing your papers.
+Reddit
+GitHub
+New plugins
+
+      
+    
+    nvim-ts-rainbow2
+  
+
+
+A hard fork of the original (now abandoned) nvim-ts-rainbow. The goal was to 
+create a hackable rainb…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Extra credit]]></title>
         <id>https://fasterthanli.me/series/building-a-rust-service-with-nix/part-12</id>
@@ -230,1516 +1814,6 @@ https://hexdocs.pm/ecto/Ecto.Changeset.html#apply_changes/1]]></summary>
         <summary type="html"><![CDATA[There&#8217;s so much truth to this tweet by Masato: At face value, design system jobs look quite similar to other design/development jobs; designers use design tools to design stuff and developers use front-end code to build stuff. Design systems work [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use 2 or more textures in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Implementing DrawImage]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-drawimage.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-drawimage.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement canvas 2d's drawImage function in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 2D Matrices]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-matrices.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-matrices.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How matrix math works explained in simple easy to follow directions.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Implementing A Matrix Stack]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-matrix-stack.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-matrix-stack.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement canvas 2d's translate/rotate/scale functions in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 2D Rotation]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-rotation.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-rotation.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to rotate in 2D]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 2D Scale]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-scale.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-scale.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to scale in 2D]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 2D Translation]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-translation.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-translation.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to translate in 2D]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Rasterization vs 3D libraries]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Why WebGL is not a 3D library and why it matters.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D - Cameras]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-camera.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-camera.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How cameras work in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D Geometry - Lathe]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-geometry-lathe.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-geometry-lathe.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to lathe a bezier curve.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D - Directional Lighting]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement directional lighting in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D - Normal Mapping]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-normal-mapping.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-normal-mapping.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement normal maps]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D - Point Lighting]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-point.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-point.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement point lighting in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D - Spot Lighting]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-spot.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-spot.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement spot lights in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Orthographic 3D]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-orthographic.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-orthographic.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to do 3D in WebGL starting with an orthographic projection.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D Perspective Correct Texture Mapping]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective-correct-texturemapping.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective-correct-texturemapping.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What's special about W]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D Perspective]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to display perspective in 3D in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Textures]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-3d-textures.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-3d-textures.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How textures work in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL and Alpha]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How alpha in WebGL is different than alpha in OpenGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Animation]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-animation.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-animation.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to do animation in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Anti-Patterns]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What not to do in WebGL, why not to do it, and what to do instead]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Attributes]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-attributes.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-attributes.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What are attributes in WebGL?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Boilerplate]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-boilerplate.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-boilerplate.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Some of the code you need for all WebGL programs]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Cross Origin Images]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-cors-permission.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-cors-permission.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Using images across domains]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Cross Platform Issues]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-cross-platform-issues.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-cross-platform-issues.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Things to be aware of when trying to make your WebGL app work everywhere.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Cubemaps]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-cube-maps.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-cube-maps.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use cubemaps in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 3D - Data Textures]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-data-textures.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-data-textures.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Supplying data to a texture.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Drawing Multiple Things]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-drawing-multiple-things.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-drawing-multiple-things.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to draw multiple different kinds of things in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Drawing Without Data]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-drawing-without-data.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-drawing-without-data.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Creative Coding - Drawing Without Data]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Environment Maps (reflections)]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-environment-maps.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-environment-maps.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement environment maps.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Fog]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-fog.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-fog.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement fog]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Framebuffers]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-framebuffers.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-framebuffers.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What are framebuffers in WebGL?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Fundamentals]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Your first WebGL lesson starting with the fundamentals]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL GPGPU]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-gpgpu.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-gpgpu.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to do general computing with WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL How It Works]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What WebGL is really doing under the hood]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Image Processing Continued]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-image-processing-continued.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-image-processing-continued.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to apply multiple image processing techniques to images in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Image Processing]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to image process in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Indexed Vertices]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-indexed-vertices.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-indexed-vertices.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use gl.drawElements]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Optimization - Instanced Drawing]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-instanced-drawing.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-instanced-drawing.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing Multiple Instances of the same Object]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Less Code, More Fun]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-less-code-more-fun.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-less-code-more-fun.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Ways to make programming WebGL less verbose]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Load Obj with Mtl]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to parse an .MTL file]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Load Obj]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-load-obj.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-load-obj.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to parse and display an .OBJ file]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Matrices vs Math Matrices]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-matrix-vs-math.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-matrix-vs-math.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[The difference between WebGL conventions and Math conventions.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Multiple Views, Multiple Canvases]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-multiple-views.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-multiple-views.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing multiple views]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Picking]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-picking.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-picking.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to pick things in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Planar and Perspective Projection Mapping]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-planar-projection-mapping.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-planar-projection-mapping.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Projecting a texture as a plane]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Points, Lines, and Triangles]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-points-lines-triangles.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-points-lines-triangles.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Details on drawing Points, Lines, and Triangles]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Post Processing]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-post-processing.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-post-processing.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Post Processing]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Precision Issues]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-precision-issues.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-precision-issues.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Precision Issues in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Pulling Vertices]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-pulling-vertices.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-pulling-vertices.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Using independent indices]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A simple way to show the load on the GPU's vertex and fragment processing?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-a-simple-way-to-show-the-load-on-the-gpu-s-vertex-and-fragment-processing-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-a-simple-way-to-show-the-load-on-the-gpu-s-vertex-and-fragment-processing-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[A simple way to show the load on the GPU's vertex and fragment processing?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessing textures by pixel coordinate in WebGL2]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-accessing-textures-by-pixel-coordinate-in-webgl2.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-accessing-textures-by-pixel-coordinate-in-webgl2.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Accessing textures by pixel coordinate in WebGL2]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apply a displacement map and specular map]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-apply-a-displacement-map-and-specular-map.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-apply-a-displacement-map-and-specular-map.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Apply a displacement map and specular map]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can anyone explain what this GLSL fragment shader is doing?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-can-anyone-explain-what-this-glsl-fragment-shader-is-doing-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-can-anyone-explain-what-this-glsl-fragment-shader-is-doing-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Can anyone explain what this GLSL fragment shader is doing?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can I mute the warning about vertex attrib 0 being disabled?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-can-i-mute-the-warning-about-vertex-attrib-0-being-disabled-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-can-i-mute-the-warning-about-vertex-attrib-0-being-disabled-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Can I mute the warning about vertex attrib 0 being disabled?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Create image warping effect in WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-create-image-warping-effect-in-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-create-image-warping-effect-in-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Create image warping effect in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating a smudge/liquify effect]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-creating-a-smudge-liquify-effect.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-creating-a-smudge-liquify-effect.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Creating a smudge/liquify effect]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to draw Depth Sprites]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-depth-sprites.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-depth-sprites.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing sprites that sort pixels by depth]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Determine min/max values for the entire image]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-determine-min-max-values-for-the-entire-image.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-determine-min-max-values-for-the-entire-image.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Determine min/max values for the entire image]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't blend a polygon that crosses itself]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-don-t-blend-a-polygon-that-crosses-itself.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-don-t-blend-a-polygon-that-crosses-itself.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Don't blend a polygon that crosses itself]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drawing 2D image with depth map to achieve pseudo-3D effect]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-2d-image-with-depth-map-to-achieve-pseudo-3d-effect.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-2d-image-with-depth-map-to-achieve-pseudo-3d-effect.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing 2D image with depth map to achieve pseudo-3D effect]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drawing a heightmap]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-a-heightmap.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-a-heightmap.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing a heightmap]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drawing layers with different points]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-layers-with-different-points.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-layers-with-different-points.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing layers with different points]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drawing Many different models in a single draw call]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-many-different-models-in-a-single-draw-call.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-many-different-models-in-a-single-draw-call.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing Many different models in a single draw call]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drawing textured sprites with instanced drawing]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-textured-sprites-with-instanced-drawing.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-textured-sprites-with-instanced-drawing.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Drawing textured sprites with instanced drawing]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Efficient particle system in javascript? (WebGL)]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-efficient-particle-system-in-javascript---webgl-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-efficient-particle-system-in-javascript---webgl-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Efficient particle system in javascript? (WebGL)]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emulating palette based graphics in WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-emulating-palette-based-graphics-in-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-emulating-palette-based-graphics-in-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Emulating palette based graphics in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FPS-like camera movement with basic matrix transformations]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-fps-like-camera-movement-with-basic-matrix-transformations.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-fps-like-camera-movement-with-basic-matrix-transformations.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[FPS-like camera movement with basic matrix transformations]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get the size of a point for collision checking]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-get-the-size-of-a-point-for-collision-checking.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-get-the-size-of-a-point-for-collision-checking.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Get the size of a point for collision checking]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLSL shader to support coloring and texturing]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-glsl-shader-to-support-coloring-and-texturing.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-glsl-shader-to-support-coloring-and-texturing.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[GLSL shader to support coloring and texturing]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How can I compute for 500 points which of 1000 line segments is nearest to each point?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-compute-for-500-points-which-of-1000-line-segments-is-nearest-to-each-point-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-compute-for-500-points-which-of-1000-line-segments-is-nearest-to-each-point-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How can I compute for 500 points which of 1000 line segments is nearest to each point?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How can I create a 16bit historgram of 16bit data]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-create-a-16bit-historgram-of-16bit-data.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-create-a-16bit-historgram-of-16bit-data.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How can I create a 16bit historgram of 16bit data]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How can I get all the uniforms and uniformBlocks]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-get-all-the-uniforms-and-uniformblocks.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-get-all-the-uniforms-and-uniformblocks.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How can I get all the uniforms and uniformBlocks]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How can I move the perspective vanishing point from the center of the canvas?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-move-the-perspective-vanishing-point-from-the-center-of-the-canvas-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-move-the-perspective-vanishing-point-from-the-center-of-the-canvas-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How can I move the perspective vanishing point from the center of the canvas?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Achieve Moving Line with Trail Effects]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-achieve-moving-line-with-trail-effects.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-achieve-moving-line-with-trail-effects.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to Achieve Moving Line with Trail Effects]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to bind an array of textures to a WebGL shader uniform?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to bind an array of textures to a WebGL shader uniform?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to blend colors across 2 triangles]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-blend-colors-across-2-triangles.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-blend-colors-across-2-triangles.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to blend colors across 2 triangles]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to combine more text drawing into fewer draw calls]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-combine-more-text-drawing-into-fewer-draw-calls.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-combine-more-text-drawing-into-fewer-draw-calls.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to combine more text drawing into fewer draw calls]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to control the color between vertices]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-control-the-color-between-vertices.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-control-the-color-between-vertices.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to control the color between vertices]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to create a torus]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-create-a-torus.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-create-a-torus.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to create a torus]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to detect clipped triangles in the framgment shader]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-detect-clipped-triangles-in-the-framgment-shader.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-detect-clipped-triangles-in-the-framgment-shader.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to detect clipped triangles in the framgment shader]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to determine the average brightness in a scene?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-determine-the-average-brightness-in-a-scene-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-determine-the-average-brightness-in-a-scene-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to determine the average brightness in a scene?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to draw correctly textured trapezoid polygons]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-draw-correctly-textured-trapezoid-polygons.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-draw-correctly-textured-trapezoid-polygons.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to draw correctly textured trapezoid polygons]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to fade the drawing buffer]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-fade-the-drawing-buffer.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-fade-the-drawing-buffer.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to fade the drawing buffer]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to figure out how much GPU work to do without crashing WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-figure-out-how-much-gpu-work-to-do-without-crashing-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-figure-out-how-much-gpu-work-to-do-without-crashing-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to figure out how much GPU work to do without crashing WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to get audio data into a shader]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-audio-data-into-a-shader.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-audio-data-into-a-shader.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to get audio data into a shader]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to get code completion for WebGL in Visual Studio Code]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-code-completion-for-webgl-in-visual-studio-code.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-code-completion-for-webgl-in-visual-studio-code.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to get code completion for WebGL in Visual Studio Code]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to get pixelize effect in webgl?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-pixelize-effect-in-webgl-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-pixelize-effect-in-webgl-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to get pixelize effect in webgl?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to get the 3d coordinates of a mouse click]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-the-3d-coordinates-of-a-mouse-click.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-the-3d-coordinates-of-a-mouse-click.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to get the 3d coordinates of a mouse click]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to implement zoom from mouse in 2D WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-implement-zoom-from-mouse-in-2d-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-implement-zoom-from-mouse-in-2d-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to implement zoom from mouse in 2D WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to import a heightmap in WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-import-a-heightmap-in-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-import-a-heightmap-in-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to import a heightmap in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to load images in the background with no jank]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-load-images-in-the-background-with-no-jank.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-load-images-in-the-background-with-no-jank.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to load images in the background with no jank]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to make a smudge brush tool]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-a-smudge-brush-tool.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-a-smudge-brush-tool.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to make a smudge brush tool]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to make WebGL canvas transparent]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-webgl-canvas-transparent.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-webgl-canvas-transparent.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to make WebGL canvas transparent]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to optimize rendering a UI]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-optimize-rendering-a-ui.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-optimize-rendering-a-ui.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to optimize rendering a UI]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to prevent texture bleeding with a texture atlas]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-prevent-texture-bleeding-with-a-texture-atlas.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-prevent-texture-bleeding-with-a-texture-atlas.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to prevent texture bleeding with a texture atlas]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to process particle positions]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-process-particle-positions.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-process-particle-positions.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to process particle positions]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to read a single component with readPixels]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-read-a-single-component-with-readpixels.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-read-a-single-component-with-readpixels.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to read a single component with readPixels]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to render large scale images like 32000x32000]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-render-large-scale-images-like-32000x32000.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-render-large-scale-images-like-32000x32000.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to render large scale images like 32000x32000]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to simulate a 3D texture in WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-simulate-a-3d-texture-in-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-simulate-a-3d-texture-in-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to simulate a 3D texture in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to support both WebGL and WebGL2]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-support-both-webgl-and-webgl2.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-support-both-webgl-and-webgl2.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to support both WebGL and WebGL2]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to tell if an image has an alpha channel]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-tell-if-an-image-has-an-alpha-channel.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-tell-if-an-image-has-an-alpha-channel.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to tell if an image has an alpha channel]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use a 2d sprite's transparency as a mask]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-a-2d-sprite-s-transparency-as-a-mask.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-a-2d-sprite-s-transparency-as-a-mask.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use a 2d sprite's transparency as a mask]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use texture, and color also in WebGL?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-texture--and-color-also-in-webgl-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-texture--and-color-also-in-webgl-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use texture, and color also in WebGL?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use textures as data]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-textures-as-data.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-textures-as-data.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use textures as data]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use the stencil buffer]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-the-stencil-buffer.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-the-stencil-buffer.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use the stencil buffer]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to write a web-based music visualizer]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-write-a-web-based-music-visualizer.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-write-a-web-based-music-visualizer.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to write a web-based music visualizer]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I get invalid type error when calling readPixels]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-i-get-invalid-type-error-when-calling-readpixels.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-i-get-invalid-type-error-when-calling-readpixels.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[I get invalid type error when calling readPixels]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is it possible to measure rendering time in webgl using gl.finish()?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-is-it-possible-to-measure-rendering-time-in-webgl-using-gl-finish---.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-is-it-possible-to-measure-rendering-time-in-webgl-using-gl-finish---.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Is it possible to measure rendering time in webgl using gl.finish()?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is there the notion of a generalized vertex and fragment shader?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-is-there-the-notion-of-a-generalized-vertex-and-fragment-shader-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-is-there-the-notion-of-a-generalized-vertex-and-fragment-shader-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Is there the notion of a generalized vertex and fragment shader?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimize drawing lots of large images]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-optimize-drawing-lots-of-large-images.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-optimize-drawing-lots-of-large-images.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Optimize drawing lots of large images]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Passing in per sprite alpha values when batching]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-passing-in-per-sprite-alpha-values-when-batching.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-passing-in-per-sprite-alpha-values-when-batching.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Passing in per sprite alpha values when batching]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pure WebGL Dashed Line]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-pure-webgl-dashed-line.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-pure-webgl-dashed-line.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Pure WebGL Dashed Line]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recording FPS in WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-recording-fps-in-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-recording-fps-in-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Recording FPS in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rendering slowly over time]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-rendering-slowly-over-time.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-rendering-slowly-over-time.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Rendering slowly over time]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Setting the values of a struct array from JS to GLSL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-setting-the-values-of-a-struct-array-from-js-to-glsl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-setting-the-values-of-a-struct-array-from-js-to-glsl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Setting the values of a struct array from JS to GLSL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show a night view vs a day view on a 3D Earth sphere]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-show-a-night-view-vs-a-day-view-on-a-3d-earth-sphere.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-show-a-night-view-vs-a-day-view-on-a-3d-earth-sphere.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Show a night view vs a day view on a 3D Earth sphere]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sorting and optimizing instanced rendering]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-sorting-and-optimizing-instanced-rendering.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-sorting-and-optimizing-instanced-rendering.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Sorting and optimizing instanced rendering]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tex image TEXTURE_2D level 0 is incurring lazy initialization]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-tex-image-texture_2d-level-0-is-incurring-lazy-initialization.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-tex-image-texture_2d-level-0-is-incurring-lazy-initialization.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Tex image TEXTURE_2D level 0 is incurring lazy initialization]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The fastest way to draw many circles]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-the-fastest-way-to-draw-many-circles.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-the-fastest-way-to-draw-many-circles.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[The fastest way to draw many circles]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL 2D tilemaps]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-2d-tilemaps.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-2d-tilemaps.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[WebGL 2D tilemaps]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Droste effect]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-droste-effect.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-droste-effect.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[WebGL Droste effect]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is the local origin of a 3D model?]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-what-is-the-local-origin-of-a-3d-model-.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-what-is-the-local-origin-of-a-3d-model-.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What is the local origin of a 3D model?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When to choose highp, mediump, lowp in shaders]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-when-to-choose-highp--mediump--lowp-in-shaders.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-when-to-choose-highp--mediump--lowp-in-shaders.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[When to choose highp, mediump, lowp in shaders]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why does WebGL take more memory than Canvas 2D]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-why-does-webgl-take-more-memory-than-canvas-2d.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-why-does-webgl-take-more-memory-than-canvas-2d.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Why does WebGL take more memory than Canvas 2D]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Working around gl_PointSize limitations webGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-working-around-gl_pointsize-limitations-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-working-around-gl_pointsize-limitations-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Working around gl_PointSize limitations webGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zooming to and stopping at object in a scene in WebGL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna-zooming-to-and-stopping-at-object-in-a-scene-in-webgl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna-zooming-to-and-stopping-at-object-in-a-scene-in-webgl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Zooming to and stopping at object in a scene in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Questions and Answers]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-qna.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-qna.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Random Questions and Answers]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Ramp Textures]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-ramp-textures.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-ramp-textures.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Using ramp textures]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL readPixels]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-readpixels.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-readpixels.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Details on readPixels]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[References]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-references.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-references.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Other References]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Rendering to a Texture]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-render-to-texture.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-render-to-texture.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to render to a texture.]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Resizing the Canvas.]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to resize a WebGL canvas and the issues involved]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL - Scene Graph]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What a scene graph is want what it's used for]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Setup and Installation]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-setup-and-installation.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-setup-and-installation.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to do WebGL development]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Shaders and GLSL]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What's a shader and what's GLSL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Shadertoy]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-shadertoy.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shadertoy.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Shadertoy shaders]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Shadows Continued]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-shadows-continued.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shadows-continued.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to compute shadows continued]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Shadows]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-shadows.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-shadows.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to compute shadows]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Skinning]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-skinning.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-skinning.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to skin a mesh in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL SkyBox]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-skybox.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-skybox.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Show the sky with a skybox!]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Smallest Programs]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-smallest-programs.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-smallest-programs.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Smallest Code for Testing]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Sprites]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-sprites.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-sprites.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to do sprites in WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL State Diagram]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-state-diagram.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-state-diagram.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[WebGL State Diagram]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Text - Canvas 2D]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to display text using a 2D canvas that is in sync with WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Text - Using a Glyph Texture]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-glyphs.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-glyphs.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to display text using a texture full of glyphs]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Text - HTML]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-html.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-html.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to use HTML to display text that is positioned to match WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Text - Textures]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-text-texture.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-text-texture.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Display Text in WebGL using Textures]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Texture Units]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-texture-units.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-texture-units.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[What are texture units in WebGL?]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Tips]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-tips.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-tips.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Small issues that might trip you up with WebGL]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGL Visualizing the Camera]]></title>
-        <id>https://webglfundamentals.org/webgl/lessons/webgl-visualizing-the-camera.html</id>
-        <link href="https://webglfundamentals.org/webgl/lessons/webgl-visualizing-the-camera.html"/>
-        <updated>2023-03-02T08:40:12.000Z</updated>
-        <summary type="html"><![CDATA[How to draw a camera frustum]]></summary>
-        <author>
-            <name>WebGL Fundamentals</name>
         </author>
     </entry>
     <entry>
@@ -2323,30 +2397,6 @@ deps: Bump libvterm to v0.3.1.
 deps: Bump tree-sitter-vimdoc to …]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[!important classes in tailwind - #html-css]]></title>
-        <id>http://til.hashrocket.com/posts/uh52qi1goi-important-classes-in-tailwind</id>
-        <link href="http://til.hashrocket.com/posts/uh52qi1goi-important-classes-in-tailwind"/>
-        <updated>2023-02-04T21:35:40.000Z</updated>
-        <summary type="html"><![CDATA[!important to one of your Tailwind classes, you simply need to add ! before the class name. 
-crude example:
-<div class="bg-red-500 bg-blue-500">
-  <!-- Insert content here -->
-</div>
-<div class="!bg-red-500 bg-blue-500">
-  <!-- Insert content here -->
-</div>
-When using this with responsive breakpoints, place it after the variant modifier. 
-<div class="md:!bg-red-500">
-  <!-- Insert conent here -->
-</div>
-<div class="!md:bg-red-500">
-  <!-- Insert content here -->
-</div>]]></summary>
-        <author>
-            <name>craighafer</name>
         </author>
     </entry>
 </feed>
