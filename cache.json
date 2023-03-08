@@ -50,16 +50,6 @@
           "wordCount": 762,
           "title": "13 Feb 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Feb/6",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNVIM 0.8.3 (bugfix/maintenance release)\n\nBug Fixes\n\nclipboard: Show provider warning when not during batch changes.\ndiff: Avoid restoring invalid ‘foldcolumn’ value.\nfiletype: Don’t pass empty string to detect.\nmessages: Reset msg_grid_scroll_discount when redrawing.\nrbuffer: Handle edge case where write_ptr has wrapped around.\nrpc: Don’t parse msgpack if buflen is 0.\ntreesitter: Properly restore 'syntax' (#21358).\ntreesitter: Validate language name.\nBuild System\n\ndeps: Bump libvterm to v0.3.1.\ndeps: Bump tree-sitter-vimdoc to …",
-          "link": "https://this-week-in-neovim.org/2023/Feb/6",
-          "publishedOn": "2023-02-06T00:00:00.000Z",
-          "wordCount": 767,
-          "title": "6 Feb 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -196,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2556,
+          "wordCount": 2558,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -206,7 +196,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9919,
+          "wordCount": 9917,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -366,16 +356,6 @@
           "wordCount": 230,
           "title": "Add a new line from any spot in Visual Studio Code - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/mrtvpmz8dq-inserting-html-into-your-rails-view",
-          "author": "craighafer",
-          "description": "<%= @webpage.content.html_safe %>\r\n\n<%= raw @webpage.content %>\r\n=\n<%== @webpage.content %>\r\n<%== %> is equivalent to raw, and raw calls html_safe on whatever it is passed.\nMatt Polito",
-          "link": "http://til.hashrocket.com/posts/mrtvpmz8dq-inserting-html-into-your-rails-view",
-          "publishedOn": "2023-02-06T01:19:44.000Z",
-          "wordCount": 288,
-          "title": "Inserting HTML into your rails view - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },
