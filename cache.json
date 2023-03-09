@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2558,
+          "wordCount": 2554,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -196,7 +196,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9917,
+          "wordCount": 9918,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -346,16 +346,6 @@
           "wordCount": 378,
           "title": "Control printable backgrounds in CSS - #html-css",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code",
-          "author": "craighafer",
-          "description": "⌘ + ↵ anywhere in the line to insert a new line below.\no in Vim's Normal mode)",
-          "link": "http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code",
-          "publishedOn": "2023-02-06T20:34:56.000Z",
-          "wordCount": 230,
-          "title": "Add a new line from any spot in Visual Studio Code - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         }
       ]
     },
@@ -1893,6 +1883,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/post/some-tools-to-help-me-focus/",
+          "author": null,
+          "description": "I&#8217;m terrible at focusing. I flit around from task to task like a goddamn hummingbird, never stopping too long on one thing to make too much progress. Flow state? More like &#8220;no state&#8221;, amirite? I&#8217;ve got many legitimate things contributing [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/some-tools-to-help-me-focus/",
+          "publishedOn": "2023-03-08T19:00:32.000Z",
+          "wordCount": 1067,
+          "title": "Some tools to help me focus",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/Screen-Shot-2023-03-07-at-4.03.42-PM.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/clever-code-considered-harmful/",
           "author": null,

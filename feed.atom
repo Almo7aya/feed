@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-08T00:24:56.396Z</id>
+    <id>urn:2023-03-09T00:24:27.868Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-08T00:24:56.396Z</updated>
+    <updated>2023-03-09T00:24:27.868Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Some tools to help me focus]]></title>
+        <id>https://bradfrost.com/blog/post/some-tools-to-help-me-focus/</id>
+        <link href="https://bradfrost.com/blog/post/some-tools-to-help-me-focus/"/>
+        <updated>2023-03-08T19:00:32.000Z</updated>
+        <summary type="html"><![CDATA[I&#8217;m terrible at focusing. I flit around from task to task like a goddamn hummingbird, never stopping too long on one thing to make too much progress. Flow state? More like &#8220;no state&#8221;, amirite? I&#8217;ve got many legitimate things contributing [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
         <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
@@ -2340,17 +2350,6 @@ print-color-adjust is set to economy. I like to think of this as if we're saving
 We now get our stamp style that looks great in our browser to look great on a printed page as well.]]></summary>
         <author>
             <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Add a new line from any spot in Visual Studio Code - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code</id>
-        <link href="http://til.hashrocket.com/posts/gn3mfr1hyc-add-a-new-line-from-any-spot-in-visual-studio-code"/>
-        <updated>2023-02-06T20:34:56.000Z</updated>
-        <summary type="html"><![CDATA[⌘ + ↵ anywhere in the line to insert a new line below.
-o in Vim's Normal mode)]]></summary>
-        <author>
-            <name>craighafer</name>
         </author>
     </entry>
 </feed>
