@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2554,
+          "wordCount": 2557,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -196,7 +196,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9918,
+          "wordCount": 9917,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -2011,6 +2011,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=26Mayv5JPz0",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=26Mayv5JPz0",
+          "publishedOn": "2023-03-09T15:23:18.000Z",
+          "wordCount": null,
+          "title": "FFmpeg in 100 Seconds",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=c4OyfL5o7DU",
           "author": null,
           "description": "",
@@ -2104,6 +2114,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=5gZdTZa8bOw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=5gZdTZa8bOw",
+          "publishedOn": "2023-03-09T17:25:08.000Z",
+          "wordCount": null,
+          "title": "Meditation For Coders",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=dFkGNe4oaKk",
           "author": null,
