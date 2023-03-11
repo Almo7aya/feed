@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2557,
+          "wordCount": 2554,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -196,7 +196,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9917,
+          "wordCount": 9914,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -207,6 +207,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/1bwfpggvl7-phone-and-email-links-in-markdown",
+          "author": "jackrosa",
+          "description": "tel: and mailto: to make phone and email links in markdown like this:\n[Call Me!](tel:1111111)     \n<a href=\"tel:1111111\">Call Me!</a>\r\n[example@example.com](mailto:example@example.com)\n<a href=\"mailto:example@example.com\">example@example.com</a>",
+          "link": "http://til.hashrocket.com/posts/1bwfpggvl7-phone-and-email-links-in-markdown",
+          "publishedOn": "2023-03-10T21:13:34.000Z",
+          "wordCount": 222,
+          "title": "Phone and Email links in Markdown - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails",
           "author": "andrewvogel",
@@ -336,16 +346,6 @@
           "wordCount": 262,
           "title": "Formatting numbers with commas in javascript - #javascript",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/ijszyngyas-control-printable-backgrounds-in-css",
-          "author": "mattpolito",
-          "description": "cornflowerblue background but when printing that we lose the look of the stamp due to the background being missing.\n.stamp {\r\n  background-color: cornflowerblue;\r\n  border-radius: 5px;\r\n  padding: 10px;\r\n}\r\nprint-color-adjust css directive can be set so that your styles will do your printable bidding.\nprint-color-adjust is set to economy. I like to think of this as if we're saving money in unused ink.\n.stamp {\r\n  background-color: cornflowerblue;\r\n  border-radius: 5px;\r\n  padding: 10px;\r\n  print-color-adjust: exact;\r\n}\r\n\nWe now get our stamp style that looks great in our browser to look great on a printed page as well.",
-          "link": "http://til.hashrocket.com/posts/ijszyngyas-control-printable-backgrounds-in-css",
-          "publishedOn": "2023-02-08T15:15:29.000Z",
-          "wordCount": 378,
-          "title": "Control printable backgrounds in CSS - #html-css",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         }
       ]
     },
@@ -2011,6 +2011,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=-J7EWBYipqI",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=-J7EWBYipqI",
+          "publishedOn": "2023-03-10T15:39:54.000Z",
+          "wordCount": null,
+          "title": "the PATH var of righteousness",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=26Mayv5JPz0",
           "author": null,
           "description": "",
@@ -2049,16 +2059,6 @@
           "wordCount": null,
           "title": "ChatGPT is a perfectly balanced AI with no exploits",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=jb2AvF8XzII",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=jb2AvF8XzII",
-          "publishedOn": "2023-02-08T16:25:49.000Z",
-          "wordCount": null,
-          "title": "15 futuristic databases you’ve never heard of",
-          "imageUrl": null
         }
       ]
     },
@@ -2067,6 +2067,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=SCM4AoOh-sk",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=SCM4AoOh-sk",
+          "publishedOn": "2023-03-10T15:41:20.000Z",
+          "wordCount": null,
+          "title": "Rust 1.68.0",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=luOgEhLE2sg",
           "author": null,
@@ -2095,16 +2105,6 @@
           "publishedOn": "2023-02-20T15:00:32.000Z",
           "wordCount": null,
           "title": "Speed up your Rust code with Rayon",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=6CbLuNqGpz0",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=6CbLuNqGpz0",
-          "publishedOn": "2023-02-09T12:00:05.000Z",
-          "wordCount": null,
-          "title": "Should you learn Rust in 2023?",
           "imageUrl": null
         }
       ]
