@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-12T00:24:39.915Z</id>
+    <id>urn:2023-03-13T00:23:51.016Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-12T00:24:39.915Z</updated>
+    <updated>2023-03-13T00:23:51.016Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Silicon Valley had a bank... HAD]]></title>
+        <id>https://www.youtube.com/watch?v=nMdwS3A6zck</id>
+        <link href="https://www.youtube.com/watch?v=nMdwS3A6zck"/>
+        <updated>2023-03-12T19:45:41.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Neurodiversity Design System]]></title>
         <id>https://bradfrost.com/blog/link/neurodiversity-design-system/</id>
@@ -2337,37 +2346,6 @@ Reddit
 Git…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Formatting numbers with commas in javascript - #javascript]]></title>
-        <id>http://til.hashrocket.com/posts/faxfylf2sq-formatting-numbers-with-commas-in-javascript</id>
-        <link href="http://til.hashrocket.com/posts/faxfylf2sq-formatting-numbers-with-commas-in-javascript"/>
-        <updated>2023-02-10T21:19:55.000Z</updated>
-        <summary type="html"><![CDATA[Number.toLocaleString() function to format the number correctly with commas. All you need is the BCP 47 language code to specify how to format the number (some countries/languages use periods instead of commas). It works like this:
-number = 100000
-number.toLocaleString('en-US');
-// => "100,000"]]></summary>
-        <author>
-            <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to sound GREAT]]></title>
-        <id>https://www.youtube.com/watch?v=fzNk_1xLIKI</id>
-        <link href="https://www.youtube.com/watch?v=fzNk_1xLIKI"/>
-        <updated>2023-02-10T17:09:16.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[how big is a yottabyte?]]></title>
-        <id>https://www.youtube.com/watch?v=6V-eRPPLSy0</id>
-        <link href="https://www.youtube.com/watch?v=6V-eRPPLSy0"/>
-        <updated>2023-02-10T17:00:04.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
