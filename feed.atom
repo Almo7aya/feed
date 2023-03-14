@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-13T00:23:51.016Z</id>
+    <id>urn:2023-03-14T00:21:42.057Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-13T00:23:51.016Z</updated>
+    <updated>2023-03-14T00:21:42.057Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Redefining Developer Experience]]></title>
+        <id>https://bradfrost.com/blog/link/redefining-developer-experience/</id>
+        <link href="https://bradfrost.com/blog/link/redefining-developer-experience/"/>
+        <updated>2023-03-13T15:50:25.000Z</updated>
+        <summary type="html"><![CDATA[developer experience needs to pivot from a concept centered on feeling fast and living on the bleeding edge to one based on the enabling of developers to deliver reliable and first rate end user experiences — for as many users [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why You Should Stop Reading News]]></title>
+        <id>https://bradfrost.com/blog/link/why-you-should-stop-reading-news/</id>
+        <link href="https://bradfrost.com/blog/link/why-you-should-stop-reading-news/"/>
+        <updated>2023-03-13T01:48:05.000Z</updated>
+        <summary type="html"><![CDATA[While there&#8217;s nothing particularly revolutionary here, Why You Should Stop Reading News shares an important message that needs to be repeated often.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Silicon Valley had a bank... HAD]]></title>
         <id>https://www.youtube.com/watch?v=nMdwS3A6zck</id>
