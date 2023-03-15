@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Mar/14",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nBreaking changes are now tracked in :help news\n\nBreaking changes are now tracked in :help news\nYou can subscribe via…\n\nRSS: http://github.com/neovim/neovim/commits/master/runtime/doc/news.txt.atom\nThird-party service: enter https://github.com/neovim/neovim/blob/master/runtime/doc/news.txt at https://app.github-file-watcher.com/\nWhere possible, breaking changes are also flagged with vim.deprecate()\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plug…",
+          "link": "https://this-week-in-neovim.org/2023/Mar/14",
+          "publishedOn": "2023-03-14T00:00:00.000Z",
+          "wordCount": 479,
+          "title": "14 Mar 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Mar/6",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      Minimal preconfiguration for LaTeX\n    \n  \n\nThis preconfiguration might be helpful, if you don’t want to commit too much time to configuring Neovim but still want \nto use it for editing your papers.\nReddit\nGitHub\nNew plugins\n\n      \n    \n    nvim-ts-rainbow2\n  \n\n\nA hard fork of the original (now abandoned) nvim-ts-rainbow. The goal was to \ncreate a hackable rainb…",
           "link": "https://this-week-in-neovim.org/2023/Mar/6",
           "publishedOn": "2023-03-06T00:00:00.000Z",
-          "wordCount": 526,
+          "wordCount": 529,
           "title": "6 Mar 2023",
           "imageUrl": null
         },
@@ -39,16 +49,6 @@
           "publishedOn": "2023-02-20T00:00:00.000Z",
           "wordCount": 1114,
           "title": "20 Feb 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Feb/13",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#22137: Unsaved changes are now preserved rather than discarded when\nstdio channel is closed.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    LuaRocks tag release - Publish your Neovim plugins to LuaRocks\n  \n\n\nNot a plugin, but a tool that facilitates the release of Neovim plugins as LuaRocks packages.\nWith the goal to help alleviate the pain point of dependency management in the Neovim plugin ecosystem.\nBlog post\nReddit\nGit…",
-          "link": "https://this-week-in-neovim.org/2023/Feb/13",
-          "publishedOn": "2023-02-13T00:00:00.000Z",
-          "wordCount": 762,
-          "title": "13 Feb 2023",
           "imageUrl": null
         }
       ]
@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3762,
+          "wordCount": 3756,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -196,7 +196,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9917,
+          "wordCount": 9927,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -207,6 +207,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind",
+          "author": "jackrosa",
+          "description": "<div class=\"w-[50rem]\">...</div>\r\n<p class=\"text-[14px]\">...</p>\r\n\nThis is super helpful at times when you don't want to bother with tailwind's size classes.",
+          "link": "http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind",
+          "publishedOn": "2023-03-14T00:32:46.000Z",
+          "wordCount": 226,
+          "title": "Arbitrary Values with Tailwind - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/1bwfpggvl7-phone-and-email-links-in-markdown",
           "author": "jackrosa",
@@ -1874,6 +1884,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/i-am-an-artist/",
+          "author": null,
+          "description": "Once upon a time, I had the word &#8220;artist&#8221; in my bio. Somewhere along the line, I removed it. Maybe it was because I was preoccupied with what I do for money. Maybe it was because I&#8217;m not a professional [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/i-am-an-artist/",
+          "publishedOn": "2023-03-14T17:49:50.000Z",
+          "wordCount": 1002,
+          "title": "I am an artist.",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230314_151749128.MP_-scaled.jpg"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/redefining-developer-experience/",
           "author": null,
           "description": "developer experience needs to pivot from a concept centered on feeling fast and living on the bleeding edge to one based on the enabling of developers to deliver reliable and first rate end user experiences — for as many users [&#8230;]",
@@ -2021,16 +2041,6 @@
           "publishedOn": "2023-02-14T16:42:00.000Z",
           "wordCount": 794,
           "title": "The (extremely) loud minority &#124; Andy Bell",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/you-kinda-want-an-orange-favicon-chris-coyier/",
-          "author": null,
-          "description": "If you want a colored, shaped favicon, you need a color that works on dark and light equally well. Like orange! You kinda want an orange favicon. &#8211; Chris Coyier Can&#8217;t say I disagree with this one!",
-          "link": "https://bradfrost.com/blog/link/you-kinda-want-an-orange-favicon-chris-coyier/",
-          "publishedOn": "2023-02-13T11:29:53.000Z",
-          "wordCount": 557,
-          "title": "You kinda want an orange favicon. &#8211; Chris Coyier",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]

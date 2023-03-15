@@ -1,10 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-14T00:21:42.057Z</id>
+    <id>urn:2023-03-15T00:23:28.005Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-14T00:21:42.057Z</updated>
+    <updated>2023-03-15T00:23:28.005Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[I am an artist.]]></title>
+        <id>https://bradfrost.com/blog/post/i-am-an-artist/</id>
+        <link href="https://bradfrost.com/blog/post/i-am-an-artist/"/>
+        <updated>2023-03-14T17:49:50.000Z</updated>
+        <summary type="html"><![CDATA[Once upon a time, I had the word &#8220;artist&#8221; in my bio. Somewhere along the line, I removed it. Maybe it was because I was preoccupied with what I do for money. Maybe it was because I&#8217;m not a professional [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arbitrary Values with Tailwind - #html-css]]></title>
+        <id>http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind</id>
+        <link href="http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind"/>
+        <updated>2023-03-14T00:32:46.000Z</updated>
+        <summary type="html"><![CDATA[<div class="w-[50rem]">...</div>
+<p class="text-[14px]">...</p>
+
+This is super helpful at times when you don't want to bother with tailwind's size classes.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[14 Mar 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Mar/14</id>
+        <link href="https://this-week-in-neovim.org/2023/Mar/14"/>
+        <updated>2023-03-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: if you are a plugin author, you are strongly advised to follow the
+#14090 breaking changes on master GitHub thread, as it contains
+important breaking changes information.
+Breaking changes are now tracked in :help news
+
+Breaking changes are now tracked in :help news
+You can subscribe via…
+
+RSS: http://github.com/neovim/neovim/commits/master/runtime/doc/news.txt.atom
+Third-party service: enter https://github.com/neovim/neovim/blob/master/runtime/doc/news.txt at https://app.github-file-watcher.com/
+Where possible, breaking changes are also flagged with vim.deprecate()
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plug…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Redefining Developer Experience]]></title>
         <id>https://bradfrost.com/blog/link/redefining-developer-experience/</id>
@@ -2325,47 +2373,6 @@ MDN docs]]></summary>
         <updated>2023-02-13T13:02:01.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You kinda want an orange favicon. &#8211; Chris Coyier]]></title>
-        <id>https://bradfrost.com/blog/link/you-kinda-want-an-orange-favicon-chris-coyier/</id>
-        <link href="https://bradfrost.com/blog/link/you-kinda-want-an-orange-favicon-chris-coyier/"/>
-        <updated>2023-02-13T11:29:53.000Z</updated>
-        <summary type="html"><![CDATA[If you want a colored, shaped favicon, you need a color that works on dark and light equally well. Like orange! You kinda want an orange favicon. &#8211; Chris Coyier Can&#8217;t say I disagree with this one!]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[13 Feb 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Feb/13</id>
-        <link href="https://this-week-in-neovim.org/2023/Feb/13"/>
-        <updated>2023-02-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#22137: Unsaved changes are now preserved rather than discarded when
-stdio channel is closed.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    LuaRocks tag release - Publish your Neovim plugins to LuaRocks
-  
-
-
-Not a plugin, but a tool that facilitates the release of Neovim plugins as LuaRocks packages.
-With the goal to help alleviate the pain point of dependency management in the Neovim plugin ecosystem.
-Blog post
-Reddit
-Git…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>
