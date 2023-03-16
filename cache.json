@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3756,
+          "wordCount": 3759,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -188,16 +188,6 @@
           "publishedOn": "2023-03-05T07:30:01.000Z",
           "wordCount": 2557,
           "title": "Setting up a local Ubuntu Server VM",
-          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
-        },
-        {
-          "id": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
-          "author": null,
-          "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
-          "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
-          "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9927,
-          "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
@@ -2051,6 +2041,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=EunbKbPV2C0",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=EunbKbPV2C0",
+          "publishedOn": "2023-03-15T17:55:12.000Z",
+          "wordCount": null,
+          "title": "GPT-4 has been unleashed",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=nMdwS3A6zck",
           "author": null,
           "description": "",
@@ -2162,16 +2162,6 @@
           "publishedOn": "2023-02-24T14:56:23.000Z",
           "wordCount": null,
           "title": "Oxidise Your Life",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=JCP4zRk_q7c",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=JCP4zRk_q7c",
-          "publishedOn": "2023-02-13T13:02:01.000Z",
-          "wordCount": null,
-          "title": "Announcement: Mentoring for Coding, Writing, and Production",
           "imageUrl": null
         }
       ]
