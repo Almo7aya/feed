@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-16T00:24:44.515Z</id>
+    <id>urn:2023-03-17T00:23:36.427Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-16T00:24:44.515Z</updated>
+    <updated>2023-03-17T00:23:36.427Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Midjourney 5 must be stopped at all costs]]></title>
+        <id>https://www.youtube.com/watch?v=nYqeHIRKboM</id>
+        <link href="https://www.youtube.com/watch?v=nYqeHIRKboM"/>
+        <updated>2023-03-16T19:16:09.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some thoughts on AI&#8217;s impact on digital design and development]]></title>
+        <id>https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/</id>
+        <link href="https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/"/>
+        <updated>2023-03-16T15:24:19.000Z</updated>
+        <summary type="html"><![CDATA[I drive my kiddo to school in the morning, and my 12-minute return trip home is a fruitful time to think and prepare for my day. I had the realization that my little drive home is a nice window of [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GPT-4 has been unleashed]]></title>
         <id>https://www.youtube.com/watch?v=EunbKbPV2C0</id>
@@ -2311,49 +2330,6 @@ iex> url(~p"/images/header.jpg")
         <link href="https://bradfrost.com/blog/link/testing-components-in-storybook-in-2023/"/>
         <updated>2023-02-15T16:30:11.000Z</updated>
         <summary type="html"><![CDATA[Testing design system component libraries is critically important, but has historically been a pain in the butt to implement. That&#8217;s why I&#8217;m thrilled my brilliant colleague wrote Testing Components in Storybook in 2023, which details how to lean into Storybook&#8217;s testing [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Setting the url_options hash in the controller - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/3exmhtwqy6-setting-the-urloptions-hash-in-the-controller</id>
-        <link href="http://til.hashrocket.com/posts/3exmhtwqy6-setting-the-urloptions-hash-in-the-controller"/>
-        <updated>2023-02-14T21:41:21.000Z</updated>
-        <summary type="html"><![CDATA[ActiveStorage::Blob#url,ActiveStorage::Variant#url,ActiveStorage::Preview#url you may find yourself running into this error: 
-Cannot generate URL for <FILENAME> using Disk service, 
-please set ActiveStorage::Current.url_options.
-ActiveStorage::SetCurrent.
-class MyController < ApplicationController
-  include ActiveStorage::SetCurrent
-  
-  # The rest of your controller...
-end
-#url on your ActiveStorage record, it will know where to generate the url from!
-ActiveStorage::SetCurrent sets the ActiveStorage::Current.url_options hash to match the current request.]]></summary>
-        <author>
-            <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Has a Repeat Function - #html-css]]></title>
-        <id>http://til.hashrocket.com/posts/spsqnz3gmg-css-has-a-repeat-function</id>
-        <link href="http://til.hashrocket.com/posts/spsqnz3gmg-css-has-a-repeat-function"/>
-        <updated>2023-02-14T18:03:43.000Z</updated>
-        <summary type="html"><![CDATA[repeat function in CSS, where
-grid-template-columns: repeat(3, 1fr)
-grid-template-columns: 1fr 1fr 1fr
-MDN docs]]></summary>
-        <author>
-            <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The (extremely) loud minority &#124; Andy Bell]]></title>
-        <id>https://bradfrost.com/blog/link/the-extremely-loud-minority-andy-bell/</id>
-        <link href="https://bradfrost.com/blog/link/the-extremely-loud-minority-andy-bell/"/>
-        <updated>2023-02-14T16:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Here&#8217;s Andy Bell with a post called the (extremely) loud minority.  Always remember that although a subset of the JavaScript community can be very loud, they represent a paltry portion of the web as a whole. This means that when they say something like “Best practices [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>

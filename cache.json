@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3759,
+          "wordCount": 3761,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2557,
+          "wordCount": 2558,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -316,26 +316,6 @@
           "wordCount": 285,
           "title": "Phoenix full url using sigil_p - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/3exmhtwqy6-setting-the-urloptions-hash-in-the-controller",
-          "author": "craighafer",
-          "description": "ActiveStorage::Blob#url,ActiveStorage::Variant#url,ActiveStorage::Preview#url you may find yourself running into this error: \nCannot generate URL for <FILENAME> using Disk service, \r\nplease set ActiveStorage::Current.url_options.\r\nActiveStorage::SetCurrent.\nclass MyController < ApplicationController\r\n  include ActiveStorage::SetCurrent\r\n  \r\n  # The rest of your controller...\r\nend\r\n#url on your ActiveStorage record, it will know where to generate the url from!\nActiveStorage::SetCurrent sets the ActiveStorage::Current.url_options hash to match the current request.",
-          "link": "http://til.hashrocket.com/posts/3exmhtwqy6-setting-the-urloptions-hash-in-the-controller",
-          "publishedOn": "2023-02-14T21:41:21.000Z",
-          "wordCount": 336,
-          "title": "Setting the url_options hash in the controller - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/spsqnz3gmg-css-has-a-repeat-function",
-          "author": "tonyyunker",
-          "description": "repeat function in CSS, where\ngrid-template-columns: repeat(3, 1fr)\r\ngrid-template-columns: 1fr 1fr 1fr\r\nMDN docs",
-          "link": "http://til.hashrocket.com/posts/spsqnz3gmg-css-has-a-repeat-function",
-          "publishedOn": "2023-02-14T18:03:43.000Z",
-          "wordCount": 205,
-          "title": "CSS Has a Repeat Function - #html-css",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         }
       ]
     },
@@ -1874,6 +1854,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/",
+          "author": null,
+          "description": "I drive my kiddo to school in the morning, and my 12-minute return trip home is a fruitful time to think and prepare for my day. I had the realization that my little drive home is a nice window of [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/",
+          "publishedOn": "2023-03-16T15:24:19.000Z",
+          "wordCount": 3459,
+          "title": "Some thoughts on AI&#8217;s impact on digital design and development",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/post/i-am-an-artist/",
           "author": null,
           "description": "Once upon a time, I had the word &#8220;artist&#8221; in my bio. Somewhere along the line, I removed it. Maybe it was because I was preoccupied with what I do for money. Maybe it was because I&#8217;m not a professional [&#8230;]",
@@ -2022,16 +2012,6 @@
           "wordCount": 621,
           "title": "Testing Components in Storybook in 2023",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/the-extremely-loud-minority-andy-bell/",
-          "author": null,
-          "description": "Here&#8217;s Andy Bell with a post called the (extremely) loud minority.  Always remember that although a subset of the JavaScript community can be very loud, they represent a paltry portion of the web as a whole. This means that when they say something like “Best practices [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/the-extremely-loud-minority-andy-bell/",
-          "publishedOn": "2023-02-14T16:42:00.000Z",
-          "wordCount": 794,
-          "title": "The (extremely) loud minority &#124; Andy Bell",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -2040,6 +2020,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=nYqeHIRKboM",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=nYqeHIRKboM",
+          "publishedOn": "2023-03-16T19:16:09.000Z",
+          "wordCount": null,
+          "title": "Midjourney 5 must be stopped at all costs",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=EunbKbPV2C0",
           "author": null,
