@@ -22,6 +22,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-17 datetime="2023-03-17T14:00:22.000Z">2023-03-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-17 datetime="2023-03-17T14:00:22.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Let&#x27;s Get Rusty</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;Nzclc6MswaI"
+                        open
+                      >
+                        <summary class="article-expander__title">5 traits your Rust types must implement</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;Nzclc6MswaI">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-16 datetime="2023-03-16T19:16:09.000Z">2023-03-16</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-16 datetime="2023-03-16T19:16:09.000Z"></time>
           </button>
@@ -5251,89 +5296,10 @@ iex&gt; url(~p&quot;/images/header.jpg&quot;)
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-15 datetime="2023-02-15T18:15:32.000Z">2023-02-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-15 datetime="2023-02-15T18:15:32.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;c4OyfL5o7DU"
-                        open
-                      >
-                        <summary class="article-expander__title">Neovim in 100 Seconds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;c4OyfL5o7DU">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Brad Frost</button>
-                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bradfrost.com/blog/link/testing-components-in-storybook-in-2023/"
-                        open
-                      >
-                        <summary class="article-expander__title">Testing Components in Storybook in 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/testing-components-in-storybook-in-2023/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Testing design system component libraries is critically important, but has historically been a pain in the butt to implement. That’s why I’m thrilled my brilliant colleague wrote Testing Components in Storybook in 2023, which details how to lean into Storybook’s testing […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4442867640">
-        <time id="build-timestamp" datetime="2023-03-17T00:23:36.390Z">2023-03-17T00:23:36.390Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4452676051">
+        <time id="build-timestamp" datetime="2023-03-18T00:22:20.638Z">2023-03-18T00:22:20.638Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
