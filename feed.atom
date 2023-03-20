@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-19T00:25:41.743Z</id>
+    <id>urn:2023-03-20T00:24:01.121Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-19T00:25:41.743Z</updated>
+    <updated>2023-03-20T00:24:01.121Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2253,34 +2253,6 @@ rackup --port 4000
 [2023-02-18 14:28:17] INFO  WEBrick::HTTPServer#start: pid=62732 port=4000]]></summary>
         <author>
             <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Set an input's cursor position with Javascript - #javascript]]></title>
-        <id>http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript</id>
-        <link href="http://til.hashrocket.com/posts/piw9ovbunt-set-an-inputs-cursor-position-with-javascript"/>
-        <updated>2023-02-17T19:52:29.000Z</updated>
-        <summary type="html"><![CDATA[.setSelectionRange(). This function takes two zero-based index arguments: a starting position and end position and makes makes a text-selection based on those start and end points. With this understanding, we can pass in the same index for both the start and end point to manually move the cursors position without making a selection. For example:
-// move the cursor to the end of an input
-inputElement.setSelectionRange(inputElement.value.length, inputElement.value.length)
-
-//or move the cursor to a specific index
-inputElement.setSelectionRange(3, 3)
-
-//or make a selection with a different start/end
-inputElement.setSelectionRange(3, 6)]]></summary>
-        <author>
-            <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thanks, An Event Apart]]></title>
-        <id>https://bradfrost.com/blog/post/thanks-an-event-apart/</id>
-        <link href="https://bradfrost.com/blog/post/thanks-an-event-apart/"/>
-        <updated>2023-02-17T17:49:11.000Z</updated>
-        <summary type="html"><![CDATA[Late last year, our friends at An Event Apart brought down the curtain of running conferences after an impressive 17-year run. It&#8217;s difficult to articulate exactly how An Event Apart changed the trajectory of my life, but it did in [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
