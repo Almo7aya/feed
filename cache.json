@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Mar/20",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    easyread.nvim\n  \n\n\neasyread.nvim brings bionic-like reading to Neovim. With features like saccades and custom highlighting, you can \ntailor your reading experience just how you like.\nRedd…",
+          "link": "https://this-week-in-neovim.org/2023/Mar/20",
+          "publishedOn": "2023-03-20T00:00:00.000Z",
+          "wordCount": 698,
+          "title": "20 Mar 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Mar/14",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nBreaking changes are now tracked in :help news\n\nBreaking changes are now tracked in :help news\nYou can subscribe via…\n\nRSS: http://github.com/neovim/neovim/commits/master/runtime/doc/news.txt.atom\nThird-party service: enter https://github.com/neovim/neovim/blob/master/runtime/doc/news.txt at https://app.github-file-watcher.com/\nWhere possible, breaking changes are also flagged with vim.deprecate()\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plug…",
           "link": "https://this-week-in-neovim.org/2023/Mar/14",
           "publishedOn": "2023-03-14T00:00:00.000Z",
-          "wordCount": 479,
+          "wordCount": 482,
           "title": "14 Mar 2023",
           "imageUrl": null
         },
@@ -166,7 +176,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5927,
+          "wordCount": 5929,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +186,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3757,
+          "wordCount": 3759,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +196,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2557,
+          "wordCount": 2556,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -275,16 +285,6 @@
           "publishedOn": "2023-02-19T19:06:14.000Z",
           "wordCount": 352,
           "title": "Curl `-T/--upload-file` in Faraday - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/w7vr8otafi-use-a-custom-rackup-port",
-          "author": "dillonhafer",
-          "description": "--port flag\nrackup --port 4000\r\n[2023-02-18 14:28:17] INFO  WEBrick 1.8.1\r\n[2023-02-18 14:28:17] INFO  ruby 3.1.2 (2022-04-12) [x86_64-linux]\r\n[2023-02-18 14:28:17] INFO  WEBrick::HTTPServer#start: pid=62732 port=4000",
-          "link": "http://til.hashrocket.com/posts/w7vr8otafi-use-a-custom-rackup-port",
-          "publishedOn": "2023-02-18T19:29:38.000Z",
-          "wordCount": 274,
-          "title": "Use a custom rackup port - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
@@ -1960,6 +1960,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=ORMx45xqWkA",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=ORMx45xqWkA",
+          "publishedOn": "2023-03-20T15:11:37.000Z",
+          "wordCount": null,
+          "title": "PyTorch in 100 Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=nYqeHIRKboM",
           "author": null,
