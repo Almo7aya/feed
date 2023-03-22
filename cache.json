@@ -50,16 +50,6 @@
           "wordCount": 901,
           "title": "27 Feb 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Feb/20",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\n#22257 removed the (undocumented) vim.g.ts_highlight_lua variable \nthat enabled treesitter highlighting for Lua files. \nThis variable was only meant for easier testing during the last development cycle.\nTo enable treesitter highlighting for Lua files (or any of the file types with a bundled parser), either put \nvim.treesitter.start() in a .config/nvim/ftplugin/lua.lua (and/or help.lua, c.lua, vim.lua) or in an \nautocommand like:\nvim.api.nvim_create_autocmd('FileType', {\n  pattern = 'lua', -- or { 'lua', 'help' },\n  callback = f…",
-          "link": "https://this-week-in-neovim.org/2023/Feb/20",
-          "publishedOn": "2023-02-20T00:00:00.000Z",
-          "wordCount": 1114,
-          "title": "20 Feb 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -176,7 +166,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5929,
+          "wordCount": 5926,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3759,
+          "wordCount": 3758,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -196,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2556,
+          "wordCount": 2557,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -207,6 +197,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day",
+          "author": "craighafer",
+          "description": "Date#commercial is what you're looking for! It will create a Date object for you based on the year,week,  and day that you give it.\nrequire 'date'\r\n\n# Wednesday (3) of week 1 of year 2023\r\nDate.commercial(2023, 1, 3)\r\nDate.commercial(Date.current.year, Date.current.cweek, 5)\r\nRails TimeHelpers to travel to that specific date you need:\nnext_friday = Date.commercial(Date.current.year, Date.current.cweek + 1, 5)\r\n\ntravel_to next_friday do\r\n  # Friday specific code\r\nend",
+          "link": "http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day",
+          "publishedOn": "2023-03-21T16:09:36.000Z",
+          "wordCount": 359,
+          "title": "Create a Date object for a specific day - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind",
           "author": "jackrosa",
@@ -276,16 +276,6 @@
           "wordCount": 218,
           "title": "Fuzzy Text Search in the Command Line with fzy - #command-line",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday",
-          "author": "andrewvogel",
-          "description": "curl --upload-file request with ruby. This flag is a special flag that tells curl to generate a PUT request with the body being the file(s) to upload to the remote server. \nfaraday and faraday-multipart gem: \nrequire 'faraday'\r\nrequire 'faraday-multipart'\r\n\nconn = Faraday.new(\"https://example.com\") do |f|\r\n  f.request :multipart\r\nend\r\n\nupload_file = File.open(\"./path/to/image.jpg\")\r\n\nconn.put(\"/file-upload\") do |req|\r\n  req['Content-Type'] = 'image/jpeg'\r\n  req['Content-Length'] = upload_file.size.to_s\r\n  req.body = Faraday::Multipart::FilePart.new(\r\n    upload_file,\r\n    'image/jpeg'\r\n  )\r\nend\r\nContent-Type and the Content-Length header.\nhttps://github.com/lostisland/faraday-multipart",
-          "link": "http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday",
-          "publishedOn": "2023-02-19T19:06:14.000Z",
-          "wordCount": 352,
-          "title": "Curl `-T/--upload-file` in Faraday - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
@@ -1823,6 +1813,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/post/just-do-it/",
+          "author": null,
+          "description": "I&#8217;ve spent the last two years thinking about doing these two projects, and the actual effort to bring them into existence only took two weekends. I arrived at an important insight: if you find yourself frequently revisiting an idea you [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/just-do-it/",
+          "publishedOn": "2023-03-21T21:53:52.000Z",
+          "wordCount": 736,
+          "title": "Just do it.",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230321_132636341.MP_-1-scaled.jpg"
+        },
         {
           "id": "https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/",
           "author": null,

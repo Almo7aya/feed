@@ -22,6 +22,99 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-21 datetime="2023-03-21T21:53:52.000Z">2023-03-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-21 datetime="2023-03-21T21:53:52.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Brad Frost</button>
+                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://bradfrost.com/blog/post/just-do-it/"
+                        open
+                      >
+                        <summary class="article-expander__title">Just do it.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/post/just-do-it/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230321_132636341.MP_-1-scaled.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I’ve spent the last two years thinking about doing these two projects, and the actual effort to bring them into existence only took two weekends. I arrived at an important insight: if you find yourself frequently revisiting an idea you […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day"
+                        open
+                      >
+                        <summary class="article-expander__title">Create a Date object for a specific day - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Date#commercial is what you&#x27;re looking for! It will create a Date object for you based on the year,week,  and day that you give it.
+require &#x27;date&#x27;
+
+# Wednesday (3) of week 1 of year 2023
+Date.commercial(2023, 1, 3)
+Date.commercial(Date.current.year, Date.current.cweek, 5)
+Rails TimeHelpers to travel to that specific date you need:
+next_friday &#x3D; Date.commercial(Date.current.year, Date.current.cweek + 1, 5)
+
+travel_to next_friday do
+  # Friday specific code
+end</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-20 datetime="2023-03-20T15:11:37.000Z">2023-03-20</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-20 datetime="2023-03-20T15:11:37.000Z"></time>
           </button>
@@ -5022,126 +5115,12 @@ Matt Polito</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2023/Feb/20"
-                        open
-                      >
-                        <summary class="article-expander__title">20 Feb 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Feb/20">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#22257 removed the (undocumented) vim.g.ts_highlight_lua variable 
-that enabled treesitter highlighting for Lua files. 
-This variable was only meant for easier testing during the last development cycle.
-To enable treesitter highlighting for Lua files (or any of the file types with a bundled parser), either put 
-vim.treesitter.start() in a .config/nvim/ftplugin/lua.lua (and/or help.lua, c.lua, vim.lua) or in an 
-autocommand like:
-vim.api.nvim_create_autocmd(&#x27;FileType&#x27;, {
-  pattern &#x3D; &#x27;lua&#x27;, -- or { &#x27;lua&#x27;, &#x27;help&#x27; },
-  callback &#x3D; f…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-19 datetime="2023-02-19T19:06:14.000Z">2023-02-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-19 datetime="2023-02-19T19:06:14.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday"
-                        open
-                      >
-                        <summary class="article-expander__title">Curl &#x60;-T/--upload-file&#x60; in Faraday - #ruby</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>curl --upload-file request with ruby. This flag is a special flag that tells curl to generate a PUT request with the body being the file(s) to upload to the remote server. 
-faraday and faraday-multipart gem: 
-require &#x27;faraday&#x27;
-require &#x27;faraday-multipart&#x27;
-
-conn &#x3D; Faraday.new(&quot;https://example.com&quot;) do |f|
-  f.request :multipart
-end
-
-upload_file &#x3D; File.open(&quot;./path/to/image.jpg&quot;)
-
-conn.put(&quot;/file-upload&quot;) do |req|
-  req[&#x27;Content-Type&#x27;] &#x3D; &#x27;image/jpeg&#x27;
-  req[&#x27;Content-Length&#x27;] &#x3D; upload_file.size.to_s
-  req.body &#x3D; Faraday::Multipart::FilePart.new(
-    upload_file,
-    &#x27;image/jpeg&#x27;
-  )
-end
-Content-Type and the Content-Length header.
-https://github.com/lostisland/faraday-multipart</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4474210861">
-        <time id="build-timestamp" datetime="2023-03-21T00:22:05.773Z">2023-03-21T00:22:05.773Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4485068253">
+        <time id="build-timestamp" datetime="2023-03-22T00:20:44.211Z">2023-03-22T00:20:44.211Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

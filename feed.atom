@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-21T00:22:05.801Z</id>
+    <id>urn:2023-03-22T00:20:44.244Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-21T00:22:05.801Z</updated>
+    <updated>2023-03-22T00:20:44.244Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Just do it.]]></title>
+        <id>https://bradfrost.com/blog/post/just-do-it/</id>
+        <link href="https://bradfrost.com/blog/post/just-do-it/"/>
+        <updated>2023-03-21T21:53:52.000Z</updated>
+        <summary type="html"><![CDATA[I&#8217;ve spent the last two years thinking about doing these two projects, and the actual effort to bring them into existence only took two weekends. I arrived at an important insight: if you find yourself frequently revisiting an idea you [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create a Date object for a specific day - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day</id>
+        <link href="http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day"/>
+        <updated>2023-03-21T16:09:36.000Z</updated>
+        <summary type="html"><![CDATA[Date#commercial is what you're looking for! It will create a Date object for you based on the year,week,  and day that you give it.
+require 'date'
+
+# Wednesday (3) of week 1 of year 2023
+Date.commercial(2023, 1, 3)
+Date.commercial(Date.current.year, Date.current.cweek, 5)
+Rails TimeHelpers to travel to that specific date you need:
+next_friday = Date.commercial(Date.current.year, Date.current.cweek + 1, 5)
+
+travel_to next_friday do
+  # Friday specific code
+end]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PyTorch in 100 Seconds]]></title>
         <id>https://www.youtube.com/watch?v=ORMx45xqWkA</id>
@@ -2224,59 +2255,6 @@ Matt Polito]]></summary>
         <updated>2023-02-20T15:00:32.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20 Feb 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Feb/20</id>
-        <link href="https://this-week-in-neovim.org/2023/Feb/20"/>
-        <updated>2023-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-#22257 removed the (undocumented) vim.g.ts_highlight_lua variable 
-that enabled treesitter highlighting for Lua files. 
-This variable was only meant for easier testing during the last development cycle.
-To enable treesitter highlighting for Lua files (or any of the file types with a bundled parser), either put 
-vim.treesitter.start() in a .config/nvim/ftplugin/lua.lua (and/or help.lua, c.lua, vim.lua) or in an 
-autocommand like:
-vim.api.nvim_create_autocmd('FileType', {
-  pattern = 'lua', -- or { 'lua', 'help' },
-  callback = f…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Curl `-T/--upload-file` in Faraday - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday</id>
-        <link href="http://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday"/>
-        <updated>2023-02-19T19:06:14.000Z</updated>
-        <summary type="html"><![CDATA[curl --upload-file request with ruby. This flag is a special flag that tells curl to generate a PUT request with the body being the file(s) to upload to the remote server. 
-faraday and faraday-multipart gem: 
-require 'faraday'
-require 'faraday-multipart'
-
-conn = Faraday.new("https://example.com") do |f|
-  f.request :multipart
-end
-
-upload_file = File.open("./path/to/image.jpg")
-
-conn.put("/file-upload") do |req|
-  req['Content-Type'] = 'image/jpeg'
-  req['Content-Length'] = upload_file.size.to_s
-  req.body = Faraday::Multipart::FilePart.new(
-    upload_file,
-    'image/jpeg'
-  )
-end
-Content-Type and the Content-Length header.
-https://github.com/lostisland/faraday-multipart]]></summary>
-        <author>
-            <name>andrewvogel</name>
         </author>
     </entry>
 </feed>
