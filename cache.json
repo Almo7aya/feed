@@ -166,7 +166,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5926,
+          "wordCount": 5932,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3758,
+          "wordCount": 3759,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -1814,6 +1814,26 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/",
+          "author": null,
+          "description": "I had an unique opportunity to be interviewed about my interest in both music and web design. I covered a lot of ground! The interview is pretty raw (meaning not super edited), but it&#8217;s interesting (to me anyways). Check it [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/",
+          "publishedOn": "2023-03-22T19:08:17.000Z",
+          "wordCount": 585,
+          "title": "Brad Frost – Music, Web Development, &#038; Artificial Intelligence – American Blues Scene",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/the-end-of-front-end-development/",
+          "author": null,
+          "description": "Despite its hyperbolic title, The End of Front-End Development is a well-considered piece by Josh Comeau. I share many of the sentiments expressed here, though how things will actually shake out is anyone&#8217;s guess. In my view, this is one [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/the-end-of-front-end-development/",
+          "publishedOn": "2023-03-22T02:31:16.000Z",
+          "wordCount": 621,
+          "title": "The End of Front-End Development",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/post/just-do-it/",
           "author": null,
           "description": "I&#8217;ve spent the last two years thinking about doing these two projects, and the actual effort to bring them into existence only took two weekends. I arrived at an important insight: if you find yourself frequently revisiting an idea you [&#8230;]",
@@ -1961,6 +1981,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=xW9DJTvB3NI",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=xW9DJTvB3NI",
+          "publishedOn": "2023-03-22T16:50:22.000Z",
+          "wordCount": null,
+          "title": "Google Bard… the ChatGPT killer?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=ORMx45xqWkA",
           "author": null,
           "description": "",
@@ -2065,16 +2095,6 @@
           "publishedOn": "2023-02-23T16:00:23.000Z",
           "wordCount": null,
           "title": "Improve your Rust APIs with the type state pattern",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=YxG7PhZ3fb4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=YxG7PhZ3fb4",
-          "publishedOn": "2023-02-20T15:00:32.000Z",
-          "wordCount": null,
-          "title": "Speed up your Rust code with Rayon",
           "imageUrl": null
         }
       ]

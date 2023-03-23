@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-22T00:20:44.244Z</id>
+    <id>urn:2023-03-23T00:22:58.483Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-22T00:20:44.244Z</updated>
+    <updated>2023-03-23T00:22:58.483Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Brad Frost – Music, Web Development, &#038; Artificial Intelligence – American Blues Scene]]></title>
+        <id>https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/</id>
+        <link href="https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/"/>
+        <updated>2023-03-22T19:08:17.000Z</updated>
+        <summary type="html"><![CDATA[I had an unique opportunity to be interviewed about my interest in both music and web design. I covered a lot of ground! The interview is pretty raw (meaning not super edited), but it&#8217;s interesting (to me anyways). Check it [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Bard… the ChatGPT killer?]]></title>
+        <id>https://www.youtube.com/watch?v=xW9DJTvB3NI</id>
+        <link href="https://www.youtube.com/watch?v=xW9DJTvB3NI"/>
+        <updated>2023-03-22T16:50:22.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The End of Front-End Development]]></title>
+        <id>https://bradfrost.com/blog/link/the-end-of-front-end-development/</id>
+        <link href="https://bradfrost.com/blog/link/the-end-of-front-end-development/"/>
+        <updated>2023-03-22T02:31:16.000Z</updated>
+        <summary type="html"><![CDATA[Despite its hyperbolic title, The End of Front-End Development is a well-considered piece by Josh Comeau. I share many of the sentiments expressed here, though how things will actually shake out is anyone&#8217;s guess. In my view, this is one [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Just do it.]]></title>
         <id>https://bradfrost.com/blog/post/just-do-it/</id>
@@ -2246,15 +2275,6 @@ Matt Polito]]></summary>
         <summary type="html"><![CDATA[It&#8217;s been absolutely wild to witness the rise of the new crop of AI tools. This moment feels equally exciting and terrifying, but given humans&#8217; track record of driving promising technologies off the rails, I&#8217;m erring on the side of [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Speed up your Rust code with Rayon]]></title>
-        <id>https://www.youtube.com/watch?v=YxG7PhZ3fb4</id>
-        <link href="https://www.youtube.com/watch?v=YxG7PhZ3fb4"/>
-        <updated>2023-02-20T15:00:32.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>
