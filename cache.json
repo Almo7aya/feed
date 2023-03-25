@@ -166,7 +166,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5928,
+          "wordCount": 5929,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3757,
+          "wordCount": 3759,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2556,
+          "wordCount": 2557,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -266,16 +266,6 @@
           "wordCount": 297,
           "title": "Phoenix LiveView slot attributes - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy",
-          "author": "tonyyunker",
-          "description": "fzy, an interactive fuzzy text selector. \nMatt Polito",
-          "link": "http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy",
-          "publishedOn": "2023-02-22T21:39:55.000Z",
-          "wordCount": 218,
-          "title": "Fuzzy Text Search in the Command Line with fzy - #command-line",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
         }
       ]
     },
@@ -1814,6 +1804,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/leading-successful-product-teams/",
+          "author": null,
+          "description": "Some really great things in here. I found myself nodding right along.",
+          "link": "https://bradfrost.com/blog/link/leading-successful-product-teams/",
+          "publishedOn": "2023-03-24T02:27:40.000Z",
+          "wordCount": 522,
+          "title": "Leading Successful Product Teams",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/",
           "author": null,
           "description": "I had an unique opportunity to be interviewed about my interest in both music and web design. I covered a lot of ground! The interview is pretty raw (meaning not super edited), but it&#8217;s interesting (to me anyways). Check it [&#8230;]",
@@ -1971,6 +1971,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=mpnh1YTT66w",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=mpnh1YTT66w",
+          "publishedOn": "2023-03-24T20:11:02.000Z",
+          "wordCount": null,
+          "title": "ChatGPT gets another insane new buff",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=q1HZj40ZQrM",
           "author": null,
           "description": "",
@@ -2058,6 +2068,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=qY9j4dRaMjU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=qY9j4dRaMjU",
+          "publishedOn": "2023-03-24T13:24:38.000Z",
+          "wordCount": null,
+          "title": "Make iterators 10X better with itertools",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=Nzclc6MswaI",
           "author": null,
           "description": "",
@@ -2104,6 +2124,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=2hXNd6x9sZs",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=2hXNd6x9sZs",
+          "publishedOn": "2023-03-24T14:41:21.000Z",
+          "wordCount": null,
+          "title": "How to Learn Rust",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=5gZdTZa8bOw",
           "author": null,

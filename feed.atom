@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-24T00:21:59.800Z</id>
+    <id>urn:2023-03-25T00:21:20.444Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-24T00:21:59.800Z</updated>
+    <updated>2023-03-25T00:21:20.444Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT gets another insane new buff]]></title>
+        <id>https://www.youtube.com/watch?v=mpnh1YTT66w</id>
+        <link href="https://www.youtube.com/watch?v=mpnh1YTT66w"/>
+        <updated>2023-03-24T20:11:02.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Learn Rust]]></title>
+        <id>https://www.youtube.com/watch?v=2hXNd6x9sZs</id>
+        <link href="https://www.youtube.com/watch?v=2hXNd6x9sZs"/>
+        <updated>2023-03-24T14:41:21.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Make iterators 10X better with itertools]]></title>
+        <id>https://www.youtube.com/watch?v=qY9j4dRaMjU</id>
+        <link href="https://www.youtube.com/watch?v=qY9j4dRaMjU"/>
+        <updated>2023-03-24T13:24:38.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leading Successful Product Teams]]></title>
+        <id>https://bradfrost.com/blog/link/leading-successful-product-teams/</id>
+        <link href="https://bradfrost.com/blog/link/leading-successful-product-teams/"/>
+        <updated>2023-03-24T02:27:40.000Z</updated>
+        <summary type="html"><![CDATA[Some really great things in here. I found myself nodding right along.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Game over… GitHub Copilot X announced]]></title>
         <id>https://www.youtube.com/watch?v=q1HZj40ZQrM</id>
@@ -2263,17 +2300,6 @@ end
 this out]]></summary>
         <author>
             <name>viniciusnegrisolo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fuzzy Text Search in the Command Line with fzy - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy</id>
-        <link href="http://til.hashrocket.com/posts/7bzsaed3df-fuzzy-text-search-in-the-command-line-with-fzy"/>
-        <updated>2023-02-22T21:39:55.000Z</updated>
-        <summary type="html"><![CDATA[fzy, an interactive fuzzy text selector. 
-Matt Polito]]></summary>
-        <author>
-            <name>tonyyunker</name>
         </author>
     </entry>
 </feed>
