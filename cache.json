@@ -156,7 +156,7 @@
           "description": "<p>Our <code>catscii</code> program does everything we want it to do, except that it's a\ncommand-line application rather than a web server. Let's fix that.</p>\n\n                        <h2>\n                            <a id=\"enter-axum\" class=\"anchor\" href=\"#enter-axum\">\n                                Enter <code>axum</code>\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
           "publishedOn": "2023-03-05T07:30:04.000Z",
-          "wordCount": 1121,
+          "wordCount": 4838,
           "title": "Serving ASCII cats over HTTP",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -166,7 +166,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5929,
+          "wordCount": 5928,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2557,
+          "wordCount": 2555,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -256,16 +256,6 @@
           "wordCount": 309,
           "title": "Pretty-print JSON in Ruby - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/9ds3qtqtdc-phoenix-liveview-slot-attributes",
-          "author": "viniciusnegrisolo",
-          "description": "attribute on a Phoenix LiveView slot using a do block:\nslot :column\r\n  attr :field, :atom\r\n  attr :sortable, :boolean, default: false\r\nend\r\n\ndef table(assigns) do\r\n  ~H\"\"\"\r\n  <table>\r\n    <tr>\r\n      <th :for={col <- @column}>\r\n        <%= col.label %>\r\n        <.sort_by :if={col.sortable} field={col.field}/>\r\n      </th>\r\n    </tr>\r\n  </table>\r\n  \"\"\"\r\nend\r\ndef render(assigns) do\r\n  ~H\"\"\"\r\n    <.table>\r\n      <:colum field={:name} sortable>Name</:colum>\r\n      <:colum field={:price}>Price</:colum>\r\n      <:colum>Actions</:colum>\r\n      ...\r\n    </.table>\r\n  \"\"\"\r\nend\r\nthis out",
-          "link": "http://til.hashrocket.com/posts/9ds3qtqtdc-phoenix-liveview-slot-attributes",
-          "publishedOn": "2023-02-23T15:18:12.000Z",
-          "wordCount": 297,
-          "title": "Phoenix LiveView slot attributes - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
     },
@@ -1952,16 +1942,6 @@
           "wordCount": 523,
           "title": "Scribble Diffusion",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-27-at-12.12.47-PM-1024x711-1.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/amateur-lasse-gjertsen/",
-          "author": null,
-          "description": "For whatever reason, this video just crashed into my memory like a meteorite. I remember likely landing on this video via Stumble Upon (!!!), and I remember showing it to everyone. It was incredibly influential for me as it combined [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/amateur-lasse-gjertsen/",
-          "publishedOn": "2023-02-23T15:26:14.000Z",
-          "wordCount": 606,
-          "title": "Amateur &#8211; Lasse Gjertsen",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -2105,16 +2085,6 @@
           "publishedOn": "2023-03-03T13:32:13.000Z",
           "wordCount": null,
           "title": "Build your entire tech stack in Rust",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=_ccDqRTx-JU",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=_ccDqRTx-JU",
-          "publishedOn": "2023-02-23T16:00:23.000Z",
-          "wordCount": null,
-          "title": "Improve your Rust APIs with the type state pattern",
           "imageUrl": null
         }
       ]

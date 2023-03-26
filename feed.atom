@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-25T00:21:20.444Z</id>
+    <id>urn:2023-03-26T00:24:22.178Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-25T00:21:20.444Z</updated>
+    <updated>2023-03-26T00:24:22.178Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2243,63 +2243,6 @@ Jump f…]]></summary>
         <updated>2023-02-24T14:56:23.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improve your Rust APIs with the type state pattern]]></title>
-        <id>https://www.youtube.com/watch?v=_ccDqRTx-JU</id>
-        <link href="https://www.youtube.com/watch?v=_ccDqRTx-JU"/>
-        <updated>2023-02-23T16:00:23.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amateur &#8211; Lasse Gjertsen]]></title>
-        <id>https://bradfrost.com/blog/link/amateur-lasse-gjertsen/</id>
-        <link href="https://bradfrost.com/blog/link/amateur-lasse-gjertsen/"/>
-        <updated>2023-02-23T15:26:14.000Z</updated>
-        <summary type="html"><![CDATA[For whatever reason, this video just crashed into my memory like a meteorite. I remember likely landing on this video via Stumble Upon (!!!), and I remember showing it to everyone. It was incredibly influential for me as it combined [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phoenix LiveView slot attributes - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/9ds3qtqtdc-phoenix-liveview-slot-attributes</id>
-        <link href="http://til.hashrocket.com/posts/9ds3qtqtdc-phoenix-liveview-slot-attributes"/>
-        <updated>2023-02-23T15:18:12.000Z</updated>
-        <summary type="html"><![CDATA[attribute on a Phoenix LiveView slot using a do block:
-slot :column
-  attr :field, :atom
-  attr :sortable, :boolean, default: false
-end
-
-def table(assigns) do
-  ~H"""
-  <table>
-    <tr>
-      <th :for={col <- @column}>
-        <%= col.label %>
-        <.sort_by :if={col.sortable} field={col.field}/>
-      </th>
-    </tr>
-  </table>
-  """
-end
-def render(assigns) do
-  ~H"""
-    <.table>
-      <:colum field={:name} sortable>Name</:colum>
-      <:colum field={:price}>Price</:colum>
-      <:colum>Actions</:colum>
-      ...
-    </.table>
-  """
-end
-this out]]></summary>
-        <author>
-            <name>viniciusnegrisolo</name>
         </author>
     </entry>
 </feed>
