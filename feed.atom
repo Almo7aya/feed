@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-26T00:24:22.178Z</id>
+    <id>urn:2023-03-27T00:22:19.765Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-26T00:24:22.178Z</updated>
+    <updated>2023-03-27T00:22:19.765Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Disable ruby console autocomplete in Heroku - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/edwsk9c5hi-disable-ruby-console-autocomplete-in-heroku</id>
+        <link href="http://til.hashrocket.com/posts/edwsk9c5hi-disable-ruby-console-autocomplete-in-heroku"/>
+        <updated>2023-03-26T21:18:41.000Z</updated>
+        <summary type="html"><![CDATA[Heroku console?
+heroku run "rails console -- --nomultiline"
+
+Now it'll be disabled for that console session.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unreal Engine 5.2 is getting too real]]></title>
+        <id>https://www.youtube.com/watch?v=qLGmj86-j4k</id>
+        <link href="https://www.youtube.com/watch?v=qLGmj86-j4k"/>
+        <updated>2023-03-26T17:58:29.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT gets another insane new buff]]></title>
         <id>https://www.youtube.com/watch?v=mpnh1YTT66w</id>
@@ -2234,15 +2256,6 @@ Indent change[I [i ]i ]I
 Jump f…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oxidise Your Life]]></title>
-        <id>https://www.youtube.com/watch?v=dFkGNe4oaKk</id>
-        <link href="https://www.youtube.com/watch?v=dFkGNe4oaKk"/>
-        <updated>2023-02-24T14:56:23.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
