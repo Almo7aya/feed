@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Mar/27",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      \n      Neovim Config Switcher\n    \n  \n\n\n  \n\nElijah Manor published a new YouTube video \nNeovim Config Switcher where he shows a new feature of Neovim nightly that allows fo…",
+          "link": "https://this-week-in-neovim.org/2023/Mar/27",
+          "publishedOn": "2023-03-27T00:00:00.000Z",
+          "wordCount": 867,
+          "title": "27 Mar 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Mar/20",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    easyread.nvim\n  \n\n\neasyread.nvim brings bionic-like reading to Neovim. With features like saccades and custom highlighting, you can \ntailor your reading experience just how you like.\nRedd…",
           "link": "https://this-week-in-neovim.org/2023/Mar/20",
           "publishedOn": "2023-03-20T00:00:00.000Z",
-          "wordCount": 698,
+          "wordCount": 701,
           "title": "20 Mar 2023",
           "imageUrl": null
         },
@@ -156,7 +166,7 @@
           "description": "<p>Our <code>catscii</code> program does everything we want it to do, except that it's a\ncommand-line application rather than a web server. Let's fix that.</p>\n\n                        <h2>\n                            <a id=\"enter-axum\" class=\"anchor\" href=\"#enter-axum\">\n                                Enter <code>axum</code>\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
           "publishedOn": "2023-03-05T07:30:04.000Z",
-          "wordCount": 4836,
+          "wordCount": 4835,
           "title": "Serving ASCII cats over HTTP",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -166,7 +176,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5928,
+          "wordCount": 5930,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +186,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3758,
+          "wordCount": 3760,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +196,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2566,
+          "wordCount": 2557,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1960,6 +1970,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=-HYbFm67Gs8",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=-HYbFm67Gs8",
+          "publishedOn": "2023-03-27T15:07:00.000Z",
+          "wordCount": null,
+          "title": "I literally connected my brain to GPT-4 with JavaScript",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=qLGmj86-j4k",
           "author": null,
