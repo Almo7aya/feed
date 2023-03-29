@@ -50,16 +50,6 @@
           "wordCount": 529,
           "title": "6 Mar 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Feb/27",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    mini.bracketed\n  \n\n\n  \n\nA mini.bracketed module of mini.nvim implements functionality and mappings\nto go forward/backward with square brackets. This is a Lua evolution of\ntpope/vim-unimpaired with much more targets:\n\nTargetMappings\n\nBuffer[B [b ]b ]B\nComment block[C [c ]c ]C\nConflict marker[X [x ]x ]X\nDiagnostic[D [d ]d ]D\nFile on disk[F [f ]f ]F\nIndent change[I [i ]i ]I\nJump f…",
-          "link": "https://this-week-in-neovim.org/2023/Feb/27",
-          "publishedOn": "2023-02-27T00:00:00.000Z",
-          "wordCount": 901,
-          "title": "27 Feb 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -166,7 +156,7 @@
           "description": "<p>Our <code>catscii</code> program does everything we want it to do, except that it's a\ncommand-line application rather than a web server. Let's fix that.</p>\n\n                        <h2>\n                            <a id=\"enter-axum\" class=\"anchor\" href=\"#enter-axum\">\n                                Enter <code>axum</code>\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
           "publishedOn": "2023-03-05T07:30:04.000Z",
-          "wordCount": 4835,
+          "wordCount": 4838,
           "title": "Serving ASCII cats over HTTP",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +166,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5930,
+          "wordCount": 5927,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3760,
+          "wordCount": 3759,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -196,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2557,
+          "wordCount": 2556,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -207,6 +197,26 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui",
+          "author": "mattpolito",
+          "description": "Swagger UI is a great way to view API documentation. It's even got a cool feature where you can excercise the api right from the documentation.\nSwagger UI documentation shows a configuration option called tryItOutEnabled. This sounds promising and the description even states:\nhow to configure Swagger UI through rswag, we try:\nRswag::Ui.configure do |c|\r\n  c.config_object[\"tryItOutEnabled\"] = false\r\nend\r\nsupportedSubmitMethods and provide an empty array, we'll get something more usable.\nRswag::Ui.configure do |c|\r\n  c.config_object[\"supportedSubmitMethods\"] = []\r\nend\r\n\nNow the button will completely disappear!",
+          "link": "http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui",
+          "publishedOn": "2023-03-28T19:21:56.000Z",
+          "wordCount": 406,
+          "title": "Disable \"Try it out\" feature of Swagger UI - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/xpz9pezijf-configure-swagger-ui-when-using-rubygem-rswag",
+          "author": "mattpolito",
+          "description": "rswag contains the library Swagger UI. This allows your generated documentation to be viewable from your webserver. \nRswag::Ui.configure do |c|\r\n  c.config_object[\"showExtensions\"] = true\r\nend\r\nconfig_object. It is just a hash that you can set with keys that match available options found in Swagger UI's configuration docs",
+          "link": "http://til.hashrocket.com/posts/xpz9pezijf-configure-swagger-ui-when-using-rubygem-rswag",
+          "publishedOn": "2023-03-28T19:08:07.000Z",
+          "wordCount": 338,
+          "title": "Configure Swagger UI when using rubygem rswag - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/edwsk9c5hi-disable-ruby-console-autocomplete-in-heroku",
           "author": "mattpolito",
@@ -1970,6 +1980,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=xRMPKQweySE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=xRMPKQweySE",
+          "publishedOn": "2023-03-28T16:57:10.000Z",
+          "wordCount": null,
+          "title": "Ansible in 100 Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=-HYbFm67Gs8",
           "author": null,
