@@ -156,7 +156,7 @@
           "description": "<p>Our <code>catscii</code> program does everything we want it to do, except that it's a\ncommand-line application rather than a web server. Let's fix that.</p>\n\n                        <h2>\n                            <a id=\"enter-axum\" class=\"anchor\" href=\"#enter-axum\">\n                                Enter <code>axum</code>\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
           "publishedOn": "2023-03-05T07:30:04.000Z",
-          "wordCount": 4836,
+          "wordCount": 4837,
           "title": "Serving ASCII cats over HTTP",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3761,
+          "wordCount": 3758,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2554,
+          "wordCount": 2561,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -197,6 +197,36 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs",
+          "author": "dillonhafer",
+          "description": "adb logcat --buffer=crash \r\n\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: FATAL EXCEPTION: main\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: Process: expo.modules.mymodule.example, PID: 23769\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:448)\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:810)\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetE",
+          "link": "http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs",
+          "publishedOn": "2023-03-30T11:55:14.000Z",
+          "wordCount": 239,
+          "title": "Android crash logs - #workflow",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/leervapwgt-find-meta-information-about-githubs-services",
+          "author": "mattpolito",
+          "description": "meta information api endpoint\nhttps://api.github.com/meta and you'll find most of the info you're looking for.",
+          "link": "http://til.hashrocket.com/posts/leervapwgt-find-meta-information-about-githubs-services",
+          "publishedOn": "2023-03-30T03:35:36.000Z",
+          "wordCount": 255,
+          "title": "Find meta information about Github's services - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/vfne48fpks-remove-ssh-keys-from-known-host-file-by-ip-address",
+          "author": "mattpolito",
+          "description": "a situation which caused the need to potentially remove Github's keys from your known_hosts file.\nssh-keygen -R github.com\r\nssh-keygen -R 140.82.114.4\r\nssh-keygen -R 140.82.113.3\r\ngithub's meta information endpoint to find address ranges, but that's a problem for a more clever person.",
+          "link": "http://til.hashrocket.com/posts/vfne48fpks-remove-ssh-keys-from-known-host-file-by-ip-address",
+          "publishedOn": "2023-03-30T03:27:37.000Z",
+          "wordCount": 300,
+          "title": "Remove SSH keys from known host file by IP address - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui",
           "author": "mattpolito",
@@ -1824,6 +1854,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/retroactive-journaling/",
+          "author": null,
+          "description": "I wish I was better at journaling. I love it and love having documentation of the things I&#8217;ve done, feelings I&#8217;ve felt, experiences I&#8217;ve had, etc. I just haven&#8217;t built the habit yet. I&#8217;d like to change that. While I [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/retroactive-journaling/",
+          "publishedOn": "2023-03-30T14:59:22.000Z",
+          "wordCount": 936,
+          "title": "Retroactive Journaling",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/CleanShot-2023-03-29-at-16.06.05@2x.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/leading-successful-product-teams/",
           "author": null,
           "description": "Some really great things in here. I found myself nodding right along.",
@@ -1951,16 +1991,6 @@
           "publishedOn": "2023-03-02T22:59:02.000Z",
           "wordCount": 803,
           "title": "The design system mindset",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/bullet-points-about-mental-health/",
-          "author": null,
-          "description": "The mental health and vision analogy Stigma The mind/body connection Support Therapy Meditation and mindfulness Medication Psychedelics The big picture Resources Note: I am not a mental health professional, so take all of this with a grain of salt. Please [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/bullet-points-about-mental-health/",
-          "publishedOn": "2023-02-28T15:15:36.000Z",
-          "wordCount": 1685,
-          "title": "Bullet points about mental health",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
