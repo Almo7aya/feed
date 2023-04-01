@@ -156,7 +156,7 @@
           "description": "<p>Our <code>catscii</code> program does everything we want it to do, except that it's a\ncommand-line application rather than a web server. Let's fix that.</p>\n\n                        <h2>\n                            <a id=\"enter-axum\" class=\"anchor\" href=\"#enter-axum\">\n                                Enter <code>axum</code>\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4",
           "publishedOn": "2023-03-05T07:30:04.000Z",
-          "wordCount": 4837,
+          "wordCount": 4835,
           "title": "Serving ASCII cats over HTTP",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2561,
+          "wordCount": 2566,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -306,16 +306,6 @@
           "wordCount": 340,
           "title": "Convert Changeset Into Schema With `apply_changes` - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/kfys8edbgn-pretty-print-json-in-ruby",
-          "author": "mattpolito",
-          "description": "Kernal#j & Kernal#jj\nKernal#j method:\nfoo = {name: \"Matt\", company: \"Hashrocket\"}\r\n\n=> j foo\r\n{\"name\": \"Matt\", \"company\": \"Hashrocket\"}\r\nKernal#jj method:\nfoo = {name: \"Matt\", company: \"Hashrocket\"}\r\n\n=> jj foo\r\n{\r\n  \"name\": \"Matt\",\r\n  \"company\": \"Hashrocket\"\r\n}",
-          "link": "http://til.hashrocket.com/posts/kfys8edbgn-pretty-print-json-in-ruby",
-          "publishedOn": "2023-03-01T19:49:16.000Z",
-          "wordCount": 309,
-          "title": "Pretty-print JSON in Ruby - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
@@ -1854,6 +1844,26 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/2023-state-of-design-systems-and-where-we-take-them-next-ian-frost-weather/",
+          "author": null,
+          "description": "Here&#8217;s my brother sharing how he&#8217;s seen the design system landscape since he&#8217;s started working on them. There&#8217;s a lot of good stuff here, but I especially like this part: The success of a system depends more on the people [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/2023-state-of-design-systems-and-where-we-take-them-next-ian-frost-weather/",
+          "publishedOn": "2023-03-31T20:14:22.000Z",
+          "wordCount": 584,
+          "title": "2023 State of Design Systems and Where We Take Them Next – Ian Frost Weather",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/igalia-chats-web-components-with-brad-frost/",
+          "author": null,
+          "description": "I had a great time talking with Brian and Eric about web components, design systems, and trends in web development.",
+          "link": "https://bradfrost.com/blog/link/igalia-chats-web-components-with-brad-frost/",
+          "publishedOn": "2023-03-31T19:51:54.000Z",
+          "wordCount": 539,
+          "title": "Igalia Chats: Web Components with Brad Frost",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/post/retroactive-journaling/",
           "author": null,
           "description": "I wish I was better at journaling. I love it and love having documentation of the things I&#8217;ve done, feelings I&#8217;ve felt, experiences I&#8217;ve had, etc. I just haven&#8217;t built the habit yet. I&#8217;d like to change that. While I [&#8230;]",
@@ -2001,6 +2011,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=ZzI9JE0i6Lc",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=ZzI9JE0i6Lc",
+          "publishedOn": "2023-03-31T16:25:18.000Z",
+          "wordCount": null,
+          "title": "AWS for the Haters in 100 Seconds",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=TpZcGhYp4rw",
           "author": null,
           "description": "",
@@ -2137,6 +2157,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=Tsb9IQ3e8F8",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=Tsb9IQ3e8F8",
+          "publishedOn": "2023-03-31T14:00:30.000Z",
+          "wordCount": null,
+          "title": "Why I switched from JS to Rust",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=qY9j4dRaMjU",
           "author": null,
