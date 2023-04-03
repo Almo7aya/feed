@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-02T00:24:03.410Z</id>
+    <id>urn:2023-04-03T00:22:02.946Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-02T00:24:03.410Z</updated>
+    <updated>2023-04-03T00:22:02.946Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2331,31 +2331,6 @@ distribution, which I won't cover). Some folks like to develop on macOS first,
 and <em>then</em> build for Linux.</p>]]></summary>
         <author>
             <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Convert Changeset Into Schema With `apply_changes` - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges</id>
-        <link href="http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges"/>
-        <updated>2023-03-03T19:26:17.000Z</updated>
-        <summary type="html"><![CDATA[apply_changes/1 function to apply that changeset and receive schema with which you can perform operations. It's worth noting that the data is not validated when changes are applied, so care needs to be taken to ensure validity before an attempt to save that record.
-iex> lead_schema = Lead.changeset(%{name: "Andrew", email: "Andrew.Vogel@hashrocket.com"})
-                   |> apply_changes() 
-%Lead{name: "Andrew", email: "Andrew.Vogel@hashrocket.com"}
-
-iex> lead_schema |> downcase_email() |> do_some_other_processing()
-https://hexdocs.pm/ecto/Ecto.Changeset.html#apply_changes/1]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build your entire tech stack in Rust]]></title>
-        <id>https://www.youtube.com/watch?v=luOgEhLE2sg</id>
-        <link href="https://www.youtube.com/watch?v=luOgEhLE2sg"/>
-        <updated>2023-03-03T13:32:13.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>

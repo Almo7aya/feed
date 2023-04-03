@@ -146,7 +146,7 @@
           "description": "<p>Now that our service is production-ready, it's time to deploy it somewhere.</p>\n<p>There's a lot of ways to approach this: what we are going to do, though, is\nbuild a docker image. Or, I should say, an <a href=\"https://github.com/opencontainers/image-spec\">OCI\nimage</a>.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-5",
           "publishedOn": "2023-03-05T07:30:05.000Z",
-          "wordCount": 5501,
+          "wordCount": 5500,
           "title": "Writing a Dockerfile for catscii",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -166,7 +166,7 @@
           "description": "<p>Now that our development environment is all set up, let's make something useful!</p>\n\n                        <h2>\n                            <a id=\"creating-the-catscii-crate\" class=\"anchor\" href=\"#creating-the-catscii-crate\">\n                                Creating the <code>catscii</code> crate\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3",
           "publishedOn": "2023-03-05T07:30:03.000Z",
-          "wordCount": 5927,
+          "wordCount": 5930,
           "title": "Printing ASCII cats to the terminal",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,7 +176,7 @@
           "description": "<p>With <a href=\"part-1\">the previous part</a>'s VM still running, let's try connecting to our\nmachine over SSH.</p>\n\n                        <h2>\n                            <a id=\"network-addresses-loopback-and-ip-nets\" class=\"anchor\" href=\"#network-addresses-loopback-and-ip-nets\">\n                                Network addresses, loopback and IP nets\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2",
           "publishedOn": "2023-03-05T07:30:02.000Z",
-          "wordCount": 3756,
+          "wordCount": 3759,
           "title": "Developing over SSH",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -186,7 +186,7 @@
           "description": "<p>The first step to using Nix to build Rust is to do so <em>without</em> Nix, so that\nwhen we finally do, we can feel the difference.</p>\n<p>There's many ways to go about this: everyone has their favorite code editor,\nbase Linux distribution (there's even a <a href=\"https://nixos.org/\">NixOS</a>\ndistribution, which I won't cover). Some folks like to develop on macOS first,\nand <em>then</em> build for Linux.</p>",
           "link": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1",
           "publishedOn": "2023-03-05T07:30:01.000Z",
-          "wordCount": 2557,
+          "wordCount": 2554,
           "title": "Setting up a local Ubuntu Server VM",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -296,16 +296,6 @@
           "wordCount": 411,
           "title": "Custom Flash Messages in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges",
-          "author": "andrewvogel",
-          "description": "apply_changes/1 function to apply that changeset and receive schema with which you can perform operations. It's worth noting that the data is not validated when changes are applied, so care needs to be taken to ensure validity before an attempt to save that record.\niex> lead_schema = Lead.changeset(%{name: \"Andrew\", email: \"Andrew.Vogel@hashrocket.com\"})\r\n                   |> apply_changes() \r\n%Lead{name: \"Andrew\", email: \"Andrew.Vogel@hashrocket.com\"}\r\n\niex> lead_schema |> downcase_email() |> do_some_other_processing()\r\nhttps://hexdocs.pm/ecto/Ecto.Changeset.html#apply_changes/1",
-          "link": "http://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges",
-          "publishedOn": "2023-03-03T19:26:17.000Z",
-          "wordCount": 340,
-          "title": "Convert Changeset Into Schema With `apply_changes` - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
     },
@@ -2195,16 +2185,6 @@
           "publishedOn": "2023-03-10T15:41:20.000Z",
           "wordCount": null,
           "title": "Rust 1.68.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=luOgEhLE2sg",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=luOgEhLE2sg",
-          "publishedOn": "2023-03-03T13:32:13.000Z",
-          "wordCount": null,
-          "title": "Build your entire tech stack in Rust",
           "imageUrl": null
         }
       ]
