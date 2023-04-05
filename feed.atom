@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-04T00:21:40.437Z</id>
+    <id>urn:2023-04-05T00:19:06.202Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-04T00:21:40.437Z</updated>
+    <updated>2023-04-05T00:19:06.202Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Joe Dart Teaches Slap Bass &#8211; YouTube]]></title>
+        <id>https://bradfrost.com/blog/link/joe-dart-teaches-slap-bass-youtube/</id>
+        <link href="https://bradfrost.com/blog/link/joe-dart-teaches-slap-bass-youtube/"/>
+        <updated>2023-04-04T16:14:59.000Z</updated>
+        <summary type="html"><![CDATA[This is fantastic.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Quest for Meaning in an AI-driven World with Brad Frost &#8211; Lean Cast]]></title>
+        <id>https://bradfrost.com/blog/post/the-quest-for-meaning-in-an-ai-driven-world-with-brad-frost-lean-cast/</id>
+        <link href="https://bradfrost.com/blog/post/the-quest-for-meaning-in-an-ai-driven-world-with-brad-frost-lean-cast/"/>
+        <updated>2023-04-04T14:32:10.000Z</updated>
+        <summary type="html"><![CDATA[I had the great opportunity to chat with Behrad Mirafshar on the Lean Cast podcast. We covered a lot of ground about design systems and AI&#8217;s impact on the field of digital design. I really welcomed the opportunity to dig [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twitter algorithm open-sourced… Is Elon playing 5D chess?]]></title>
         <id>https://www.youtube.com/watch?v=GXN34w8kju4</id>
@@ -2090,80 +2110,6 @@ New plug…]]></summary>
         <summary type="html"><![CDATA[How to draw a camera frustum]]></summary>
         <author>
             <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clever Code Considered Harmful]]></title>
-        <id>https://bradfrost.com/blog/link/clever-code-considered-harmful/</id>
-        <link href="https://bradfrost.com/blog/link/clever-code-considered-harmful/"/>
-        <updated>2023-03-06T03:03:17.000Z</updated>
-        <summary type="html"><![CDATA[Clever Code Considered Harmful is a great read. When it comes to day-to-day production code, here&#8217;s the barometer I like to use: will a junior developer, someone at the very start of their career, struggle to understand this code? In [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Custom Flash Messages in Rails - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails</id>
-        <link href="http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails"/>
-        <updated>2023-03-06T01:11:44.000Z</updated>
-        <summary type="html"><![CDATA[alert and notice; you can use them like this in your controller: 
-redirect_to users_path, notice: "User created successfully"
-# - or -
-render :new, alert: "An error prevented the user from being saved"
-flash[:success] = "User created successfully"
-redirect_to users_path
-add_flash_type. You can use this an a controller (re: ApplicationController) to enable new flash message types. This will allow you to do the one liners in render and redirect calls: 
-class ApplicationController < ActionController::Base
-  add_flash_type :my_flash_type
-end
-
-# ...
-
-redirect_to users_path, my_flash_type: "User created successfully"
-# - or -
-render :new, my_flash_type: "An error prevented the user from being saved"
-<%= my_flash_type %>
-https://api.rubyonrails.org/classes/ActionController/Flash/ClassMethods.html]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 Mar 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Mar/6</id>
-        <link href="https://this-week-in-neovim.org/2023/Mar/6"/>
-        <updated>2023-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: if you are a plugin author, you are strongly advised to follow the
-#14090 breaking changes on master GitHub thread, as it contains
-important breaking changes information.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Guides, tours, articles, etc.
-
-      
-      Minimal preconfiguration for LaTeX
-    
-  
-
-This preconfiguration might be helpful, if you don’t want to commit too much time to configuring Neovim but still want 
-to use it for editing your papers.
-Reddit
-GitHub
-New plugins
-
-      
-    
-    nvim-ts-rainbow2
-  
-
-
-A hard fork of the original (now abandoned) nvim-ts-rainbow. The goal was to 
-create a hackable rainb…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>

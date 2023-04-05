@@ -50,16 +50,6 @@
           "wordCount": 482,
           "title": "14 Mar 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Mar/6",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      Minimal preconfiguration for LaTeX\n    \n  \n\nThis preconfiguration might be helpful, if you don’t want to commit too much time to configuring Neovim but still want \nto use it for editing your papers.\nReddit\nGitHub\nNew plugins\n\n      \n    \n    nvim-ts-rainbow2\n  \n\n\nA hard fork of the original (now abandoned) nvim-ts-rainbow. The goal was to \ncreate a hackable rainb…",
-          "link": "https://this-week-in-neovim.org/2023/Mar/6",
-          "publishedOn": "2023-03-06T00:00:00.000Z",
-          "wordCount": 529,
-          "title": "6 Mar 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -175,16 +165,6 @@
           "wordCount": 222,
           "title": "Phone and Email links in Markdown - #html-css",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails",
-          "author": "andrewvogel",
-          "description": "alert and notice; you can use them like this in your controller: \nredirect_to users_path, notice: \"User created successfully\"\r\n# - or -\r\nrender :new, alert: \"An error prevented the user from being saved\"\r\nflash[:success] = \"User created successfully\"\r\nredirect_to users_path\r\nadd_flash_type. You can use this an a controller (re: ApplicationController) to enable new flash message types. This will allow you to do the one liners in render and redirect calls: \nclass ApplicationController < ActionController::Base\r\n  add_flash_type :my_flash_type\r\nend\r\n\n# ...\r\n\nredirect_to users_path, my_flash_type: \"User created successfully\"\r\n# - or -\r\nrender :new, my_flash_type: \"An error prevented the user from being saved\"\r\n<%= my_flash_type %>\r\nhttps://api.rubyonrails.org/classes/ActionController/Flash/ClassMethods.html",
-          "link": "http://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails",
-          "publishedOn": "2023-03-06T01:11:44.000Z",
-          "wordCount": 411,
-          "title": "Custom Flash Messages in Rails - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },
@@ -1723,6 +1703,26 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/joe-dart-teaches-slap-bass-youtube/",
+          "author": null,
+          "description": "This is fantastic.",
+          "link": "https://bradfrost.com/blog/link/joe-dart-teaches-slap-bass-youtube/",
+          "publishedOn": "2023-04-04T16:14:59.000Z",
+          "wordCount": 521,
+          "title": "Joe Dart Teaches Slap Bass &#8211; YouTube",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/post/the-quest-for-meaning-in-an-ai-driven-world-with-brad-frost-lean-cast/",
+          "author": null,
+          "description": "I had the great opportunity to chat with Behrad Mirafshar on the Lean Cast podcast. We covered a lot of ground about design systems and AI&#8217;s impact on the field of digital design. I really welcomed the opportunity to dig [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/the-quest-for-meaning-in-an-ai-driven-world-with-brad-frost-lean-cast/",
+          "publishedOn": "2023-04-04T14:32:10.000Z",
+          "wordCount": 9605,
+          "title": "The Quest for Meaning in an AI-driven World with Brad Frost &#8211; Lean Cast",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/2023-state-of-design-systems-and-where-we-take-them-next-ian-frost-weather/",
           "author": null,
           "description": "Here&#8217;s my brother sharing how he&#8217;s seen the design system landscape since he&#8217;s started working on them. There&#8217;s a lot of good stuff here, but I especially like this part: The success of a system depends more on the people [&#8230;]",
@@ -1861,16 +1861,6 @@
           "wordCount": 1067,
           "title": "Some tools to help me focus",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/Screen-Shot-2023-03-07-at-4.03.42-PM.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/clever-code-considered-harmful/",
-          "author": null,
-          "description": "Clever Code Considered Harmful is a great read. When it comes to day-to-day production code, here&#8217;s the barometer I like to use: will a junior developer, someone at the very start of their career, struggle to understand this code? In [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/clever-code-considered-harmful/",
-          "publishedOn": "2023-03-06T03:03:17.000Z",
-          "wordCount": 637,
-          "title": "Clever Code Considered Harmful",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
