@@ -369,6 +369,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=WrxnpxKarxU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=WrxnpxKarxU",
+          "publishedOn": "2023-04-06T16:46:44.000Z",
+          "wordCount": null,
+          "title": "Meet SAM… Meta’s latest AI model",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=iO1mwxPNP5A",
           "author": null,
           "description": "",
@@ -506,16 +516,6 @@
           "publishedOn": "2023-03-15T17:55:12.000Z",
           "wordCount": null,
           "title": "GPT-4 has been unleashed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=nMdwS3A6zck",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=nMdwS3A6zck",
-          "publishedOn": "2023-03-12T19:45:41.000Z",
-          "wordCount": null,
-          "title": "Silicon Valley had a bank... HAD",
           "imageUrl": null
         }
       ]

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-06T00:20:43.325Z</id>
+    <id>urn:2023-04-07T00:19:57.378Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-06T00:20:43.325Z</updated>
+    <updated>2023-04-07T00:19:57.378Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Meet SAM… Meta’s latest AI model]]></title>
+        <id>https://www.youtube.com/watch?v=WrxnpxKarxU</id>
+        <link href="https://www.youtube.com/watch?v=WrxnpxKarxU"/>
+        <updated>2023-04-06T16:46:44.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Masterclass: AI-driven Development for Programmers]]></title>
         <id>https://www.youtube.com/watch?v=iO1mwxPNP5A</id>
@@ -539,15 +548,6 @@ New plug…]]></summary>
         <summary type="html"><![CDATA[While there&#8217;s nothing particularly revolutionary here, Why You Should Stop Reading News shares an important message that needs to be repeated often.]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Silicon Valley had a bank... HAD]]></title>
-        <id>https://www.youtube.com/watch?v=nMdwS3A6zck</id>
-        <link href="https://www.youtube.com/watch?v=nMdwS3A6zck"/>
-        <updated>2023-03-12T19:45:41.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
     <entry>
