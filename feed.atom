@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-07T00:19:57.378Z</id>
+    <id>urn:2023-04-08T00:19:40.307Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-07T00:19:57.378Z</updated>
+    <updated>2023-04-08T00:19:40.307Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Save without Formatting in Vim - #vim]]></title>
+        <id>http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim</id>
+        <link href="http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim"/>
+        <updated>2023-04-07T20:22:05.000Z</updated>
+        <summary type="html"><![CDATA[:noa w.
+here  to save without formatting in VSCode.]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vector databases are so hot right now. WTF are they?]]></title>
+        <id>https://www.youtube.com/watch?v=klTvEwg3oJ4</id>
+        <link href="https://www.youtube.com/watch?v=klTvEwg3oJ4"/>
+        <updated>2023-04-07T17:34:13.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amateur Radio: Open-Source Airwaves]]></title>
+        <id>https://www.youtube.com/watch?v=XcF6tvepRlg</id>
+        <link href="https://www.youtube.com/watch?v=XcF6tvepRlg"/>
+        <updated>2023-04-07T16:25:04.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meet SAM… Meta’s latest AI model]]></title>
         <id>https://www.youtube.com/watch?v=WrxnpxKarxU</id>
@@ -474,15 +503,6 @@ Redd…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GPT-4 has been unleashed]]></title>
-        <id>https://www.youtube.com/watch?v=EunbKbPV2C0</id>
-        <link href="https://www.youtube.com/watch?v=EunbKbPV2C0"/>
-        <updated>2023-03-15T17:55:12.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I am an artist.]]></title>
         <id>https://bradfrost.com/blog/post/i-am-an-artist/</id>
         <link href="https://bradfrost.com/blog/post/i-am-an-artist/"/>
@@ -600,16 +620,6 @@ New plug…]]></summary>
         <updated>2023-03-09T17:25:08.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some tools to help me focus]]></title>
-        <id>https://bradfrost.com/blog/post/some-tools-to-help-me-focus/</id>
-        <link href="https://bradfrost.com/blog/post/some-tools-to-help-me-focus/"/>
-        <updated>2023-03-08T19:00:32.000Z</updated>
-        <summary type="html"><![CDATA[I&#8217;m terrible at focusing. I flit around from task to task like a goddamn hummingbird, never stopping too long on one thing to make too much progress. Flow state? More like &#8220;no state&#8221;, amirite? I&#8217;ve got many legitimate things contributing [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>

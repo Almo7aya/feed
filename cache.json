@@ -77,6 +77,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim",
+          "author": "tonyyunker",
+          "description": ":noa w.\nhere  to save without formatting in VSCode.",
+          "link": "http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim",
+          "publishedOn": "2023-04-07T20:22:05.000Z",
+          "wordCount": 232,
+          "title": "Save without Formatting in Vim - #vim",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs",
           "author": "dillonhafer",
           "description": "adb logcat --buffer=crash \r\n\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: FATAL EXCEPTION: main\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: Process: expo.modules.mymodule.example, PID: 23769\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:448)\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:810)\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetE",
@@ -350,16 +360,6 @@
           "wordCount": 599,
           "title": "Metafoundry 75: Resilience, Abundance, Decentralization",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/some-tools-to-help-me-focus/",
-          "author": null,
-          "description": "I&#8217;m terrible at focusing. I flit around from task to task like a goddamn hummingbird, never stopping too long on one thing to make too much progress. Flow state? More like &#8220;no state&#8221;, amirite? I&#8217;ve got many legitimate things contributing [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/some-tools-to-help-me-focus/",
-          "publishedOn": "2023-03-08T19:00:32.000Z",
-          "wordCount": 1067,
-          "title": "Some tools to help me focus",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/Screen-Shot-2023-03-07-at-4.03.42-PM.png"
         }
       ]
     },
@@ -368,6 +368,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=klTvEwg3oJ4",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=klTvEwg3oJ4",
+          "publishedOn": "2023-04-07T17:34:13.000Z",
+          "wordCount": null,
+          "title": "Vector databases are so hot right now. WTF are they?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=WrxnpxKarxU",
           "author": null,
@@ -507,16 +517,6 @@
           "wordCount": null,
           "title": "Midjourney 5 must be stopped at all costs",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=EunbKbPV2C0",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=EunbKbPV2C0",
-          "publishedOn": "2023-03-15T17:55:12.000Z",
-          "wordCount": null,
-          "title": "GPT-4 has been unleashed",
-          "imageUrl": null
         }
       ]
     },
@@ -572,6 +572,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=XcF6tvepRlg",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=XcF6tvepRlg",
+          "publishedOn": "2023-04-07T16:25:04.000Z",
+          "wordCount": null,
+          "title": "Amateur Radio: Open-Source Airwaves",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=2hXNd6x9sZs",
           "author": null,
