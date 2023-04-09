@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-08T00:19:40.307Z</id>
+    <id>urn:2023-04-09T00:22:53.080Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-08T00:19:40.307Z</updated>
+    <updated>2023-04-09T00:22:53.080Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Disable gemrc configuration - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration</id>
+        <link href="http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration"/>
+        <updated>2023-04-08T04:53:05.000Z</updated>
+        <summary type="html"><![CDATA[configuration of your rubygems via the .gemrc file but now you want to bypass that.
+--norc flag will do just that:
+gem install decent_exposure --norc
+.gemrc will be ignored.
+Rubygems documentation]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't auto generate Gem documentation in Ruby - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/ikwts6m7us-dont-auto-generate-gem-documentation-in-ruby</id>
+        <link href="http://til.hashrocket.com/posts/ikwts6m7us-dont-auto-generate-gem-documentation-in-ruby"/>
+        <updated>2023-04-08T04:46:22.000Z</updated>
+        <summary type="html"><![CDATA[.gemrc if you don't already have one and add:
+gem: --no-document
+--no-ri & --no-rdoc, however --no-document takes care of both.
+gem documentation for more info]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Save without Formatting in Vim - #vim]]></title>
         <id>http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim</id>
@@ -611,15 +638,6 @@ New plug…]]></summary>
         <updated>2023-03-10T15:41:20.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meditation For Coders]]></title>
-        <id>https://www.youtube.com/watch?v=5gZdTZa8bOw</id>
-        <link href="https://www.youtube.com/watch?v=5gZdTZa8bOw"/>
-        <updated>2023-03-09T17:25:08.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
