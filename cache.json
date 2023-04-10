@@ -185,16 +185,6 @@
           "wordCount": 226,
           "title": "Arbitrary Values with Tailwind - #html-css",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/1bwfpggvl7-phone-and-email-links-in-markdown",
-          "author": "jackrosa",
-          "description": "tel: and mailto: to make phone and email links in markdown like this:\n[Call Me!](tel:1111111)     \n<a href=\"tel:1111111\">Call Me!</a>\r\n[example@example.com](mailto:example@example.com)\n<a href=\"mailto:example@example.com\">example@example.com</a>",
-          "link": "http://til.hashrocket.com/posts/1bwfpggvl7-phone-and-email-links-in-markdown",
-          "publishedOn": "2023-03-10T21:13:34.000Z",
-          "wordCount": 222,
-          "title": "Phone and Email links in Markdown - #html-css",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         }
       ]
     },
@@ -573,16 +563,6 @@
           "publishedOn": "2023-03-17T14:00:22.000Z",
           "wordCount": null,
           "title": "5 traits your Rust types must implement",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=SCM4AoOh-sk",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=SCM4AoOh-sk",
-          "publishedOn": "2023-03-10T15:41:20.000Z",
-          "wordCount": null,
-          "title": "Rust 1.68.0",
           "imageUrl": null
         }
       ]
