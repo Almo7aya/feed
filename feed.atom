@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-10T00:22:00.033Z</id>
+    <id>urn:2023-04-11T00:22:27.571Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-10T00:22:00.033Z</updated>
+    <updated>2023-04-11T00:22:27.571Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[10 Apr 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Apr/10</id>
+        <link href="https://this-week-in-neovim.org/2023/Apr/10"/>
+        <updated>2023-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: some updates might be missing from this week content. If you want to be sure to always keep up to
+date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
+@neovim on Twitter, which tweets the most recent news about the editor.
+:h news.txt will deliver you with the last news inside Neovim directly.
+Various PRs on GitHub.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    backseat.nvim
+  
+
+
+Backseat uses GPT to highlight and explain code readability issues under each line of code. 
+Run :Backseat to send the current buffer to the OpenAI API for gpt-3.5-turb…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Disable gemrc configuration - #ruby]]></title>
         <id>http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration</id>
@@ -593,26 +621,6 @@ New plug…]]></summary>
         <link href="https://bradfrost.com/blog/link/why-you-should-stop-reading-news/"/>
         <updated>2023-03-13T01:48:05.000Z</updated>
         <summary type="html"><![CDATA[While there&#8217;s nothing particularly revolutionary here, Why You Should Stop Reading News shares an important message that needs to be repeated often.]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neurodiversity Design System]]></title>
-        <id>https://bradfrost.com/blog/link/neurodiversity-design-system/</id>
-        <link href="https://bradfrost.com/blog/link/neurodiversity-design-system/"/>
-        <updated>2023-03-11T15:01:35.000Z</updated>
-        <summary type="html"><![CDATA[Neurodiversity Design System articulates some good design best practices to make information accessible to more people. Like most things accessibility related, these are design considerations that make an experience better for everybody, not just those with disabilities.]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Metafoundry 75: Resilience, Abundance, Decentralization]]></title>
-        <id>https://bradfrost.com/blog/link/metafoundry-75-resilience-abundance-decentralization/</id>
-        <link href="https://bradfrost.com/blog/link/metafoundry-75-resilience-abundance-decentralization/"/>
-        <updated>2023-03-11T14:50:43.000Z</updated>
-        <summary type="html"><![CDATA[Mitigating climate change is often framed as requiring money, effort, and sacrifice to keep something bad from happening, usually to other people. But we finally have the tools we need to create something new and better—to transform our technological and [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>

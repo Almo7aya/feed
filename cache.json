@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Apr/10",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    backseat.nvim\n  \n\n\nBackseat uses GPT to highlight and explain code readability issues under each line of code. \nRun :Backseat to send the current buffer to the OpenAI API for gpt-3.5-turb…",
+          "link": "https://this-week-in-neovim.org/2023/Apr/10",
+          "publishedOn": "2023-04-10T00:00:00.000Z",
+          "wordCount": 499,
+          "title": "10 Apr 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Apr/3",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\n#22668 adds lua-loader.\nA builtin Lua module which byte-compiles and caches Lua files (speeds up load times). To enable, add\nvim.loader.enable() to your init.lua.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      Something explaining what is …",
           "link": "https://this-week-in-neovim.org/2023/Apr/3",
           "publishedOn": "2023-04-03T00:00:00.000Z",
-          "wordCount": 704,
+          "wordCount": 707,
           "title": "3 Apr 2023",
           "imageUrl": null
         },
@@ -349,26 +359,6 @@
           "publishedOn": "2023-03-13T01:48:05.000Z",
           "wordCount": 539,
           "title": "Why You Should Stop Reading News",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/neurodiversity-design-system/",
-          "author": null,
-          "description": "Neurodiversity Design System articulates some good design best practices to make information accessible to more people. Like most things accessibility related, these are design considerations that make an experience better for everybody, not just those with disabilities.",
-          "link": "https://bradfrost.com/blog/link/neurodiversity-design-system/",
-          "publishedOn": "2023-03-11T15:01:35.000Z",
-          "wordCount": 546,
-          "title": "Neurodiversity Design System",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/metafoundry-75-resilience-abundance-decentralization/",
-          "author": null,
-          "description": "Mitigating climate change is often framed as requiring money, effort, and sacrifice to keep something bad from happening, usually to other people. But we finally have the tools we need to create something new and better—to transform our technological and [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/metafoundry-75-resilience-abundance-decentralization/",
-          "publishedOn": "2023-03-11T14:50:43.000Z",
-          "wordCount": 599,
-          "title": "Metafoundry 75: Resilience, Abundance, Decentralization",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
