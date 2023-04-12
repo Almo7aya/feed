@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-11T00:22:27.571Z</id>
+    <id>urn:2023-04-12T00:20:51.388Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-11T00:22:27.571Z</updated>
+    <updated>2023-04-12T00:20:51.388Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[I built my own AutoGPT that makes videos]]></title>
+        <id>https://www.youtube.com/watch?v=_rGXIXyNqpk</id>
+        <link href="https://www.youtube.com/watch?v=_rGXIXyNqpk"/>
+        <updated>2023-04-11T19:47:12.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Methods for Scoped Styles in Web Components That Work Everywhere—zachleat.com]]></title>
+        <id>https://bradfrost.com/blog/link/3-methods-for-scoped-styles-in-web-components-that-work-everywhere-zachleat-com/</id>
+        <link href="https://bradfrost.com/blog/link/3-methods-for-scoped-styles-in-web-components-that-work-everywhere-zachleat-com/"/>
+        <updated>2023-04-11T11:04:01.000Z</updated>
+        <summary type="html"><![CDATA[I pay attention to anything Zach has to say about web components (and, well, pretty much all web stuff), so I really liked 3 Methods for Scoped Styles in Web Components That Work Everywhere. WebC is something I want to [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 Apr 2023]]></title>
         <id>https://this-week-in-neovim.org/2023/Apr/10</id>
@@ -539,15 +558,6 @@ Redd…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Midjourney 5 must be stopped at all costs]]></title>
-        <id>https://www.youtube.com/watch?v=nYqeHIRKboM</id>
-        <link href="https://www.youtube.com/watch?v=nYqeHIRKboM"/>
-        <updated>2023-03-16T19:16:09.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Some thoughts on AI&#8217;s impact on digital design and development]]></title>
         <id>https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/</id>
         <link href="https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/"/>
@@ -611,16 +621,6 @@ New plug…]]></summary>
         <link href="https://bradfrost.com/blog/link/redefining-developer-experience/"/>
         <updated>2023-03-13T15:50:25.000Z</updated>
         <summary type="html"><![CDATA[developer experience needs to pivot from a concept centered on feeling fast and living on the bleeding edge to one based on the enabling of developers to deliver reliable and first rate end user experiences — for as many users [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why You Should Stop Reading News]]></title>
-        <id>https://bradfrost.com/blog/link/why-you-should-stop-reading-news/</id>
-        <link href="https://bradfrost.com/blog/link/why-you-should-stop-reading-news/"/>
-        <updated>2023-03-13T01:48:05.000Z</updated>
-        <summary type="html"><![CDATA[While there&#8217;s nothing particularly revolutionary here, Why You Should Stop Reading News shares an important message that needs to be repeated often.]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>

@@ -222,6 +222,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/3-methods-for-scoped-styles-in-web-components-that-work-everywhere-zachleat-com/",
+          "author": null,
+          "description": "I pay attention to anything Zach has to say about web components (and, well, pretty much all web stuff), so I really liked 3 Methods for Scoped Styles in Web Components That Work Everywhere. WebC is something I want to [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/3-methods-for-scoped-styles-in-web-components-that-work-everywhere-zachleat-com/",
+          "publishedOn": "2023-04-11T11:04:01.000Z",
+          "wordCount": 580,
+          "title": "3 Methods for Scoped Styles in Web Components That Work Everywhere—zachleat.com",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/post/choosing-a-name-for-your-design-system/",
           "author": null,
           "description": "In what I hope becomes a series, I&#8217;ve been recording myself as I drive home from dropping my daughter off at school. Shifting away from more heady topics like AI&#8217;s impact on design and development, I felt like talking about [&#8230;]",
@@ -350,16 +360,6 @@
           "wordCount": 628,
           "title": "Redefining Developer Experience",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/why-you-should-stop-reading-news/",
-          "author": null,
-          "description": "While there&#8217;s nothing particularly revolutionary here, Why You Should Stop Reading News shares an important message that needs to be repeated often.",
-          "link": "https://bradfrost.com/blog/link/why-you-should-stop-reading-news/",
-          "publishedOn": "2023-03-13T01:48:05.000Z",
-          "wordCount": 539,
-          "title": "Why You Should Stop Reading News",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -368,6 +368,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=_rGXIXyNqpk",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=_rGXIXyNqpk",
+          "publishedOn": "2023-04-11T19:47:12.000Z",
+          "wordCount": null,
+          "title": "I built my own AutoGPT that makes videos",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=klTvEwg3oJ4",
           "author": null,
@@ -506,16 +516,6 @@
           "publishedOn": "2023-03-20T15:11:37.000Z",
           "wordCount": null,
           "title": "PyTorch in 100 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=nYqeHIRKboM",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=nYqeHIRKboM",
-          "publishedOn": "2023-03-16T19:16:09.000Z",
-          "wordCount": null,
-          "title": "Midjourney 5 must be stopped at all costs",
           "imageUrl": null
         }
       ]
