@@ -50,16 +50,6 @@
           "wordCount": 701,
           "title": "20 Mar 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Mar/14",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: if you are a plugin author, you are strongly advised to follow the\n#14090 breaking changes on master GitHub thread, as it contains\nimportant breaking changes information.\nBreaking changes are now tracked in :help news\n\nBreaking changes are now tracked in :help news\nYou can subscribe via…\n\nRSS: http://github.com/neovim/neovim/commits/master/runtime/doc/news.txt.atom\nThird-party service: enter https://github.com/neovim/neovim/blob/master/runtime/doc/news.txt at https://app.github-file-watcher.com/\nWhere possible, breaking changes are also flagged with vim.deprecate()\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plug…",
-          "link": "https://this-week-in-neovim.org/2023/Mar/14",
-          "publishedOn": "2023-03-14T00:00:00.000Z",
-          "wordCount": 482,
-          "title": "14 Mar 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -185,16 +175,6 @@
           "wordCount": 359,
           "title": "Create a Date object for a specific day - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind",
-          "author": "jackrosa",
-          "description": "<div class=\"w-[50rem]\">...</div>\r\n<p class=\"text-[14px]\">...</p>\r\n\nThis is super helpful at times when you don't want to bother with tailwind's size classes.",
-          "link": "http://til.hashrocket.com/posts/pc7rlctpx8-arbitrary-values-with-tailwind",
-          "publishedOn": "2023-03-14T00:32:46.000Z",
-          "wordCount": 226,
-          "title": "Arbitrary Values with Tailwind - #html-css",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         }
       ]
     },
@@ -350,16 +330,6 @@
           "wordCount": 1002,
           "title": "I am an artist.",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230314_151749128.MP_-scaled.jpg"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/redefining-developer-experience/",
-          "author": null,
-          "description": "developer experience needs to pivot from a concept centered on feeling fast and living on the bleeding edge to one based on the enabling of developers to deliver reliable and first rate end user experiences — for as many users [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/redefining-developer-experience/",
-          "publishedOn": "2023-03-13T15:50:25.000Z",
-          "wordCount": 628,
-          "title": "Redefining Developer Experience",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -368,6 +338,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=nQ2A30cD3Q8",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=nQ2A30cD3Q8",
+          "publishedOn": "2023-04-12T17:18:25.000Z",
+          "wordCount": null,
+          "title": "Angular is back with a vengeance",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=_rGXIXyNqpk",
           "author": null,
@@ -506,16 +486,6 @@
           "publishedOn": "2023-03-22T16:50:22.000Z",
           "wordCount": null,
           "title": "Google Bard… the ChatGPT killer?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=ORMx45xqWkA",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=ORMx45xqWkA",
-          "publishedOn": "2023-03-20T15:11:37.000Z",
-          "wordCount": null,
-          "title": "PyTorch in 100 Seconds",
           "imageUrl": null
         }
       ]
