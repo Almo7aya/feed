@@ -320,16 +320,6 @@
           "wordCount": 3459,
           "title": "Some thoughts on AI&#8217;s impact on digital design and development",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/i-am-an-artist/",
-          "author": null,
-          "description": "Once upon a time, I had the word &#8220;artist&#8221; in my bio. Somewhere along the line, I removed it. Maybe it was because I was preoccupied with what I do for money. Maybe it was because I&#8217;m not a professional [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/i-am-an-artist/",
-          "publishedOn": "2023-03-14T17:49:50.000Z",
-          "wordCount": 1002,
-          "title": "I am an artist.",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230314_151749128.MP_-scaled.jpg"
         }
       ]
     },
@@ -338,6 +328,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=91IPJ6LFmto",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=91IPJ6LFmto",
+          "publishedOn": "2023-04-13T16:22:54.000Z",
+          "wordCount": null,
+          "title": "Uh oh… AI-search engine for developers has emerged",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=nQ2A30cD3Q8",
           "author": null,
@@ -477,16 +477,6 @@
           "wordCount": null,
           "title": "Game over… GitHub Copilot X announced",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=xW9DJTvB3NI",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=xW9DJTvB3NI",
-          "publishedOn": "2023-03-22T16:50:22.000Z",
-          "wordCount": null,
-          "title": "Google Bard… the ChatGPT killer?",
-          "imageUrl": null
         }
       ]
     },
@@ -539,7 +529,7 @@
           "link": "https://www.youtube.com/watch?v=XcF6tvepRlg",
           "publishedOn": "2023-04-07T16:25:04.000Z",
           "wordCount": null,
-          "title": "Amateur Radio: Open-Source Airwaves",
+          "title": "Off-grid communications for $25: Ham Radio",
           "imageUrl": null
         },
         {

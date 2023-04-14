@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-13T00:19:59.321Z</id>
+    <id>urn:2023-04-14T00:20:29.261Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-13T00:19:59.321Z</updated>
+    <updated>2023-04-14T00:20:29.261Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Uh oh… AI-search engine for developers has emerged]]></title>
+        <id>https://www.youtube.com/watch?v=91IPJ6LFmto</id>
+        <link href="https://www.youtube.com/watch?v=91IPJ6LFmto"/>
+        <updated>2023-04-13T16:22:54.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Angular is back with a vengeance]]></title>
         <id>https://www.youtube.com/watch?v=nQ2A30cD3Q8</id>
@@ -109,7 +118,7 @@ here  to save without formatting in VSCode.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Amateur Radio: Open-Source Airwaves]]></title>
+        <title type="html"><![CDATA[Off-grid communications for $25: Ham Radio]]></title>
         <id>https://www.youtube.com/watch?v=XcF6tvepRlg</id>
         <link href="https://www.youtube.com/watch?v=XcF6tvepRlg"/>
         <updated>2023-04-07T16:25:04.000Z</updated>
@@ -470,15 +479,6 @@ Now it'll be disabled for that console session.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Google Bard… the ChatGPT killer?]]></title>
-        <id>https://www.youtube.com/watch?v=xW9DJTvB3NI</id>
-        <link href="https://www.youtube.com/watch?v=xW9DJTvB3NI"/>
-        <updated>2023-03-22T16:50:22.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The End of Front-End Development]]></title>
         <id>https://bradfrost.com/blog/link/the-end-of-front-end-development/</id>
         <link href="https://bradfrost.com/blog/link/the-end-of-front-end-development/"/>
@@ -563,16 +563,6 @@ Redd…]]></summary>
         <link href="https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/"/>
         <updated>2023-03-16T15:24:19.000Z</updated>
         <summary type="html"><![CDATA[I drive my kiddo to school in the morning, and my 12-minute return trip home is a fruitful time to think and prepare for my day. I had the realization that my little drive home is a nice window of [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I am an artist.]]></title>
-        <id>https://bradfrost.com/blog/post/i-am-an-artist/</id>
-        <link href="https://bradfrost.com/blog/post/i-am-an-artist/"/>
-        <updated>2023-03-14T17:49:50.000Z</updated>
-        <summary type="html"><![CDATA[Once upon a time, I had the word &#8220;artist&#8221; in my bio. Somewhere along the line, I removed it. Maybe it was because I was preoccupied with what I do for money. Maybe it was because I&#8217;m not a professional [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>
