@@ -207,7 +207,7 @@
           "description": "Today marks the 1-year anniversary of Ziggy leaving us. We had a hell of a 2022 and so I&#8217;m only just now getting the opportunity to write about my best bud. Thankfully, I&#8217;ve had a year to work through my [&#8230;]",
           "link": "https://bradfrost.com/blog/post/ziggy/",
           "publishedOn": "2023-04-14T17:39:11.000Z",
-          "wordCount": 1333,
+          "wordCount": 1325,
           "title": "Ziggy",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/04/CleanShot-2023-04-13-at-16.08.56@2x-1024x864.png"
         },
@@ -320,16 +320,6 @@
           "wordCount": 736,
           "title": "Just do it.",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230321_132636341.MP_-1-scaled.jpg"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/",
-          "author": null,
-          "description": "I drive my kiddo to school in the morning, and my 12-minute return trip home is a fruitful time to think and prepare for my day. I had the realization that my little drive home is a nice window of [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/some-thoughts-on-ais-impact-on-digital-design-and-development/",
-          "publishedOn": "2023-03-16T15:24:19.000Z",
-          "wordCount": 3459,
-          "title": "Some thoughts on AI&#8217;s impact on digital design and development",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -549,7 +539,7 @@
           "link": "https://www.youtube.com/watch?v=XcF6tvepRlg",
           "publishedOn": "2023-04-07T16:25:04.000Z",
           "wordCount": null,
-          "title": "Off-grid communications for $25: Ham Radio",
+          "title": "Amateur Radio: Open Source Airwaves",
           "imageUrl": null
         },
         {
