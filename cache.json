@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Apr/17",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n    \n    Dotfyle.com - Discover and share Neovim configs\n  \n\n\nIntroducing Dotfyle: a website to discover and share neovim configs.\nHow does it work?\nSign up with GitHub and sync …",
+          "link": "https://this-week-in-neovim.org/2023/Apr/17",
+          "publishedOn": "2023-04-17T00:00:00.000Z",
+          "wordCount": 677,
+          "title": "17 Apr 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Apr/10",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    backseat.nvim\n  \n\n\nBackseat uses GPT to highlight and explain code readability issues under each line of code. \nRun :Backseat to send the current buffer to the OpenAI API for gpt-3.5-turb…",
           "link": "https://this-week-in-neovim.org/2023/Apr/10",
           "publishedOn": "2023-04-10T00:00:00.000Z",
-          "wordCount": 499,
+          "wordCount": 502,
           "title": "10 Apr 2023",
           "imageUrl": null
         },
@@ -1850,6 +1860,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=LkrI3erbUtw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=LkrI3erbUtw",
+          "publishedOn": "2023-04-17T18:15:53.000Z",
+          "wordCount": null,
+          "title": "Music Industry on life support right now",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=FJACTC9wFhU",
           "author": null,
           "description": "",
@@ -1987,16 +2007,6 @@
           "publishedOn": "2023-03-26T17:58:29.000Z",
           "wordCount": null,
           "title": "Unreal Engine 5.2 is getting too real",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=mpnh1YTT66w",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=mpnh1YTT66w",
-          "publishedOn": "2023-03-24T20:11:02.000Z",
-          "wordCount": null,
-          "title": "ChatGPT gets another insane new buff",
           "imageUrl": null
         }
       ]

@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-17T00:21:49.420Z</id>
+    <id>urn:2023-04-18T00:20:59.749Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-17T00:21:49.420Z</updated>
+    <updated>2023-04-18T00:20:59.749Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Music Industry on life support right now]]></title>
+        <id>https://www.youtube.com/watch?v=LkrI3erbUtw</id>
+        <link href="https://www.youtube.com/watch?v=LkrI3erbUtw"/>
+        <updated>2023-04-17T18:15:53.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[17 Apr 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Apr/17</id>
+        <link href="https://this-week-in-neovim.org/2023/Apr/17"/>
+        <updated>2023-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: some updates might be missing from this week content. If you want to be sure to always keep up to
+date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
+@neovim on Twitter, which tweets the most recent news about the editor.
+:h news.txt will deliver you with the last news inside Neovim directly.
+Various PRs on GitHub.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+Guides, tours, articles, etc.
+
+      
+    
+    Dotfyle.com - Discover and share Neovim configs
+  
+
+
+Introducing Dotfyle: a website to discover and share neovim configs.
+How does it work?
+Sign up with GitHub and sync …]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Brilliant Inventor Who Made Two of History’s Biggest Mistakes]]></title>
         <id>https://bradfrost.com/blog/link/the-brilliant-inventor-who-made-two-of-historys-biggest-mistakes/</id>
@@ -1966,15 +2004,6 @@ Now it'll be disabled for that console session.]]></summary>
         <id>https://www.youtube.com/watch?v=qLGmj86-j4k</id>
         <link href="https://www.youtube.com/watch?v=qLGmj86-j4k"/>
         <updated>2023-03-26T17:58:29.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT gets another insane new buff]]></title>
-        <id>https://www.youtube.com/watch?v=mpnh1YTT66w</id>
-        <link href="https://www.youtube.com/watch?v=mpnh1YTT66w"/>
-        <updated>2023-03-24T20:11:02.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>
