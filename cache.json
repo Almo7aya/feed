@@ -50,16 +50,6 @@
           "wordCount": 870,
           "title": "27 Mar 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Mar/20",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    easyread.nvim\n  \n\n\neasyread.nvim brings bionic-like reading to Neovim. With features like saccades and custom highlighting, you can \ntailor your reading experience just how you like.\nRedd…",
-          "link": "https://this-week-in-neovim.org/2023/Mar/20",
-          "publishedOn": "2023-03-20T00:00:00.000Z",
-          "wordCount": 701,
-          "title": "20 Mar 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -86,6 +76,36 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service",
+          "author": "briandunn",
+          "description": "~/.ssh/config add something like\nHost prod.client\r\n  User ubuntu\r\n  Hostname prod-ec2-instance.example.com\r\n  LocalForward localhost:5433 rds-gibberish.us-west-1.rds.amazonaws.com:5432\r\n  IdentityFile ~/production-ec2-key.pem\r\npg service\n~/.pg_service.conf save the user, database name, and password\n[client-prod]\r\nhost=localhost\r\nport=5433\r\nuser=rds-user\r\ndbname=client-production\r\npassword=blablabla\r\nssh prod.client\r\npg_dump, psql, etc.) in another:\npsql service=client-prod\r\n\nwarning\n\nWell you just saved a production password to a plain text file, and now you can easily connect and muck things up in production. Make sure your machine is secure and be careful and stuff.",
+          "link": "http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service",
+          "publishedOn": "2023-04-18T18:56:46.000Z",
+          "wordCount": 325,
+          "title": "Easily connect to postgres via proxy with service - #workflow",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder",
+          "author": "jackrosa",
+          "description": "right-clicking on the file and then holding down the option key. You will then see an option to copy the file/folder's pathname.",
+          "link": "http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder",
+          "publishedOn": "2023-04-18T18:33:13.000Z",
+          "wordCount": 215,
+          "title": "Copy pathname in MacOS finder - #workflow",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences",
+          "author": "craighafer",
+          "description": "Array#to_sentence that turns your array into a string in sentence format.\nsuperheroes = [\"Spider-Man\", \"Batman\", \"Iron man\", \"Wonder woman\"]\r\n\nsuperheroes.to_sentence\r\n=> \"Spider-Man, Batman, Iron man, and Wonder woman\"\r\n\nsuperheroes.to_sentence(\r\n  words_connector: \" or \", \r\n  last_word_connector: \" or maybe even \"\r\n)\r\n=> \"Spider-Man or Batman or Iron man or maybe even Wonder woman\"\r\ndocs!",
+          "link": "http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences",
+          "publishedOn": "2023-04-18T18:02:00.000Z",
+          "wordCount": 313,
+          "title": "You can turn arrays into sentences! - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration",
           "author": "mattpolito",
@@ -1860,6 +1880,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=tszI9GrH1u0",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=tszI9GrH1u0",
+          "publishedOn": "2023-04-18T15:14:10.000Z",
+          "wordCount": null,
+          "title": "I built a react app… but with a visual editor",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=LkrI3erbUtw",
           "author": null,
           "description": "",
@@ -1997,16 +2027,6 @@
           "publishedOn": "2023-03-27T15:07:00.000Z",
           "wordCount": null,
           "title": "I literally connected my brain to GPT-4 with JavaScript",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=qLGmj86-j4k",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=qLGmj86-j4k",
-          "publishedOn": "2023-03-26T17:58:29.000Z",
-          "wordCount": null,
-          "title": "Unreal Engine 5.2 is getting too real",
           "imageUrl": null
         }
       ]

@@ -22,6 +22,156 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-18 datetime="2023-04-18T18:56:46.000Z">2023-04-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-18 datetime="2023-04-18T18:56:46.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service"
+                        open
+                      >
+                        <summary class="article-expander__title">Easily connect to postgres via proxy with service - #workflow</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>~/.ssh/config add something like
+Host prod.client
+  User ubuntu
+  Hostname prod-ec2-instance.example.com
+  LocalForward localhost:5433 rds-gibberish.us-west-1.rds.amazonaws.com:5432
+  IdentityFile ~/production-ec2-key.pem
+pg service
+~/.pg_service.conf save the user, database name, and password
+[client-prod]
+host&#x3D;localhost
+port&#x3D;5433
+user&#x3D;rds-user
+dbname&#x3D;client-production
+password&#x3D;blablabla
+ssh prod.client
+pg_dump, psql, etc.) in another:
+psql service&#x3D;client-prod
+
+warning
+
+Well you just saved a production password to a plain text file, and now you can easily connect and muck things up in production. Make sure your machine is secure and be careful and stuff.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder"
+                        open
+                      >
+                        <summary class="article-expander__title">Copy pathname in MacOS finder - #workflow</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>right-clicking on the file and then holding down the option key. You will then see an option to copy the file/folder&#x27;s pathname.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences"
+                        open
+                      >
+                        <summary class="article-expander__title">You can turn arrays into sentences! - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Array#to_sentence that turns your array into a string in sentence format.
+superheroes &#x3D; [&quot;Spider-Man&quot;, &quot;Batman&quot;, &quot;Iron man&quot;, &quot;Wonder woman&quot;]
+
+superheroes.to_sentence
+&#x3D;&gt; &quot;Spider-Man, Batman, Iron man, and Wonder woman&quot;
+
+superheroes.to_sentence(
+  words_connector: &quot; or &quot;, 
+  last_word_connector: &quot; or maybe even &quot;
+)
+&#x3D;&gt; &quot;Spider-Man or Batman or Iron man or maybe even Wonder woman&quot;
+docs!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;tszI9GrH1u0"
+                        open
+                      >
+                        <summary class="article-expander__title">I built a react app… but with a visual editor</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;tszI9GrH1u0">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-17 datetime="2023-04-17T18:15:53.000Z">2023-04-17</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-17 datetime="2023-04-17T18:15:53.000Z"></time>
           </button>
@@ -4625,37 +4775,6 @@ Now it&#x27;ll be disabled for that console session.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;qLGmj86-j4k"
-                        open
-                      >
-                        <summary class="article-expander__title">Unreal Engine 5.2 is getting too real</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;qLGmj86-j4k">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4929,76 +5048,10 @@ end</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-20 datetime="2023-03-20T00:00:00.000Z">2023-03-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-20 datetime="2023-03-20T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2023/Mar/20"
-                        open
-                      >
-                        <summary class="article-expander__title">20 Mar 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Mar/20">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    easyread.nvim
-  
-
-
-easyread.nvim brings bionic-like reading to Neovim. With features like saccades and custom highlighting, you can 
-tailor your reading experience just how you like.
-Redd…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4727158215">
-        <time id="build-timestamp" datetime="2023-04-18T00:20:59.712Z">2023-04-18T00:20:59.712Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4738184468">
+        <time id="build-timestamp" datetime="2023-04-19T00:23:08.867Z">2023-04-19T00:23:08.867Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
