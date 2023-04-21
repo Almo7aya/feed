@@ -195,16 +195,6 @@
           "wordCount": 278,
           "title": "Disable ruby console autocomplete in Heroku - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day",
-          "author": "craighafer",
-          "description": "Date#commercial is what you're looking for! It will create a Date object for you based on the year,week,  and day that you give it.\nrequire 'date'\r\n\n# Wednesday (3) of week 1 of year 2023\r\nDate.commercial(2023, 1, 3)\r\nDate.commercial(Date.current.year, Date.current.cweek, 5)\r\nRails TimeHelpers to travel to that specific date you need:\nnext_friday = Date.commercial(Date.current.year, Date.current.cweek + 1, 5)\r\n\ntravel_to next_friday do\r\n  # Friday specific code\r\nend",
-          "link": "http://til.hashrocket.com/posts/73dlyhpbfy-create-a-date-object-for-a-specific-day",
-          "publishedOn": "2023-03-21T16:09:36.000Z",
-          "wordCount": 359,
-          "title": "Create a Date object for a specific day - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
@@ -1851,26 +1841,6 @@
           "wordCount": 585,
           "title": "Brad Frost – Music, Web Development, &#038; Artificial Intelligence – American Blues Scene",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/the-end-of-front-end-development/",
-          "author": null,
-          "description": "Despite its hyperbolic title, The End of Front-End Development is a well-considered piece by Josh Comeau. I share many of the sentiments expressed here, though how things will actually shake out is anyone&#8217;s guess. In my view, this is one [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/the-end-of-front-end-development/",
-          "publishedOn": "2023-03-22T02:31:16.000Z",
-          "wordCount": 621,
-          "title": "The End of Front-End Development",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/just-do-it/",
-          "author": null,
-          "description": "I&#8217;ve spent the last two years thinking about doing these two projects, and the actual effort to bring them into existence only took two weekends. I arrived at an important insight: if you find yourself frequently revisiting an idea you [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/just-do-it/",
-          "publishedOn": "2023-03-21T21:53:52.000Z",
-          "wordCount": 736,
-          "title": "Just do it.",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/PXL_20230321_132636341.MP_-1-scaled.jpg"
         }
       ]
     },
