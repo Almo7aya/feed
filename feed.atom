@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-21T00:21:12.891Z</id>
+    <id>urn:2023-04-22T00:21:37.455Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-21T00:21:12.891Z</updated>
+    <updated>2023-04-22T00:21:37.455Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[10 Math Concepts for Programmers]]></title>
+        <id>https://www.youtube.com/watch?v=bOCHTHkBoAs</id>
+        <link href="https://www.youtube.com/watch?v=bOCHTHkBoAs"/>
+        <updated>2023-04-21T18:33:00.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust 1.69.0]]></title>
+        <id>https://www.youtube.com/watch?v=PHEmHxrlxhU</id>
+        <link href="https://www.youtube.com/watch?v=PHEmHxrlxhU"/>
+        <updated>2023-04-21T15:53:24.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Data Modelling WITHOUT OOP]]></title>
+        <id>https://www.youtube.com/watch?v=z-0-bbc80JM</id>
+        <link href="https://www.youtube.com/watch?v=z-0-bbc80JM"/>
+        <updated>2023-04-21T14:49:30.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Easily connect to postgres via proxy with service - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service</id>
@@ -2017,15 +2044,6 @@ config_object. It is just a hash that you can set with keys that match available
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I literally connected my brain to GPT-4 with JavaScript]]></title>
-        <id>https://www.youtube.com/watch?v=-HYbFm67Gs8</id>
-        <link href="https://www.youtube.com/watch?v=-HYbFm67Gs8"/>
-        <updated>2023-03-27T15:07:00.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[27 Mar 2023]]></title>
         <id>https://this-week-in-neovim.org/2023/Mar/27</id>
         <link href="https://this-week-in-neovim.org/2023/Mar/27"/>
@@ -2093,16 +2111,6 @@ Now it'll be disabled for that console session.]]></summary>
         <link href="https://bradfrost.com/blog/link/leading-successful-product-teams/"/>
         <updated>2023-03-24T02:27:40.000Z</updated>
         <summary type="html"><![CDATA[Some really great things in here. I found myself nodding right along.]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brad Frost – Music, Web Development, &#038; Artificial Intelligence – American Blues Scene]]></title>
-        <id>https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/</id>
-        <link href="https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/"/>
-        <updated>2023-03-22T19:08:17.000Z</updated>
-        <summary type="html"><![CDATA[I had an unique opportunity to be interviewed about my interest in both music and web design. I covered a lot of ground! The interview is pretty raw (meaning not super edited), but it&#8217;s interesting (to me anyways). Check it [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>

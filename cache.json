@@ -1831,16 +1831,6 @@
           "wordCount": 522,
           "title": "Leading Successful Product Teams",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/",
-          "author": null,
-          "description": "I had an unique opportunity to be interviewed about my interest in both music and web design. I covered a lot of ground! The interview is pretty raw (meaning not super edited), but it&#8217;s interesting (to me anyways). Check it [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/brad-frost-music-web-development-artificial-intelligence-american-blues-scene/",
-          "publishedOn": "2023-03-22T19:08:17.000Z",
-          "wordCount": 585,
-          "title": "Brad Frost – Music, Web Development, &#038; Artificial Intelligence – American Blues Scene",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1849,6 +1839,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=bOCHTHkBoAs",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=bOCHTHkBoAs",
+          "publishedOn": "2023-04-21T18:33:00.000Z",
+          "wordCount": null,
+          "title": "10 Math Concepts for Programmers",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=tszI9GrH1u0",
           "author": null,
@@ -1988,16 +1988,6 @@
           "wordCount": null,
           "title": "Ansible in 100 Seconds",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=-HYbFm67Gs8",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=-HYbFm67Gs8",
-          "publishedOn": "2023-03-27T15:07:00.000Z",
-          "wordCount": null,
-          "title": "I literally connected my brain to GPT-4 with JavaScript",
-          "imageUrl": null
         }
       ]
     },
@@ -2006,6 +1996,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=PHEmHxrlxhU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=PHEmHxrlxhU",
+          "publishedOn": "2023-04-21T15:53:24.000Z",
+          "wordCount": null,
+          "title": "Rust 1.69.0",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=J4slMaFWCcg",
           "author": null,
@@ -2043,6 +2043,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=z-0-bbc80JM",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=z-0-bbc80JM",
+          "publishedOn": "2023-04-21T14:49:30.000Z",
+          "wordCount": null,
+          "title": "Rust Data Modelling WITHOUT OOP",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=XcF6tvepRlg",
           "author": null,
