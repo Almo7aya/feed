@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-23T00:23:45.280Z</id>
+    <id>urn:2023-04-24T00:22:04.836Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-23T00:23:45.280Z</updated>
+    <updated>2023-04-24T00:22:04.836Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2085,24 +2085,6 @@ heroku run "rails console -- --nomultiline"
 Now it'll be disabled for that console session.]]></summary>
         <author>
             <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Learn Rust]]></title>
-        <id>https://www.youtube.com/watch?v=2hXNd6x9sZs</id>
-        <link href="https://www.youtube.com/watch?v=2hXNd6x9sZs"/>
-        <updated>2023-03-24T14:41:21.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make iterators 10X better with itertools]]></title>
-        <id>https://www.youtube.com/watch?v=qY9j4dRaMjU</id>
-        <link href="https://www.youtube.com/watch?v=qY9j4dRaMjU"/>
-        <updated>2023-03-24T13:24:38.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>
