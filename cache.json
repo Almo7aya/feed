@@ -1733,6 +1733,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/",
+          "author": null,
+          "description": "Containing multi-site management within a single codebase covers how one can apply atomic design principles in a React codebase.",
+          "link": "https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/",
+          "publishedOn": "2023-04-24T20:26:56.000Z",
+          "wordCount": 541,
+          "title": "Containing multi-site management within a single codebase – Vercel",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/the-brilliant-inventor-who-made-two-of-historys-biggest-mistakes/",
           "author": null,
           "description": "Two innovations — Ethyl and Freon, conjured by one man presiding over a single laboratory during a span of roughly 10 years. Combined, the two products generated billions of dollars in revenue for the companies that manufactured them and provided [&#8230;]",

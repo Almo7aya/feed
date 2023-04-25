@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-24T00:22:04.836Z</id>
+    <id>urn:2023-04-25T00:21:22.332Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-24T00:22:04.836Z</updated>
+    <updated>2023-04-25T00:21:22.332Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Containing multi-site management within a single codebase – Vercel]]></title>
+        <id>https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/</id>
+        <link href="https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/"/>
+        <updated>2023-04-24T20:26:56.000Z</updated>
+        <summary type="html"><![CDATA[Containing multi-site management within a single codebase covers how one can apply atomic design principles in a React codebase.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 Math Concepts for Programmers]]></title>
         <id>https://www.youtube.com/watch?v=bOCHTHkBoAs</id>
