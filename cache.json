@@ -40,16 +40,6 @@
           "wordCount": 707,
           "title": "3 Apr 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Mar/27",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      \n      Neovim Config Switcher\n    \n  \n\n\n  \n\nElijah Manor published a new YouTube video \nNeovim Config Switcher where he shows a new feature of Neovim nightly that allows fo…",
-          "link": "https://this-week-in-neovim.org/2023/Mar/27",
-          "publishedOn": "2023-03-27T00:00:00.000Z",
-          "wordCount": 870,
-          "title": "27 Mar 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -184,16 +174,6 @@
           "publishedOn": "2023-03-28T19:08:07.000Z",
           "wordCount": 338,
           "title": "Configure Swagger UI when using rubygem rswag - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/edwsk9c5hi-disable-ruby-console-autocomplete-in-heroku",
-          "author": "mattpolito",
-          "description": "Heroku console?\nheroku run \"rails console -- --nomultiline\"\r\n\nNow it'll be disabled for that console session.",
-          "link": "http://til.hashrocket.com/posts/edwsk9c5hi-disable-ruby-console-autocomplete-in-heroku",
-          "publishedOn": "2023-03-26T21:18:41.000Z",
-          "wordCount": 278,
-          "title": "Disable ruby console autocomplete in Heroku - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
