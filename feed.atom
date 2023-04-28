@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-27T00:23:12.805Z</id>
+    <id>urn:2023-04-28T00:22:39.130Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-27T00:23:12.805Z</updated>
+    <updated>2023-04-28T00:22:39.130Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2005,50 +2005,6 @@ github's meta information endpoint to find address ranges, but that's a problem 
         <id>https://www.youtube.com/watch?v=TpZcGhYp4rw</id>
         <link href="https://www.youtube.com/watch?v=TpZcGhYp4rw"/>
         <updated>2023-03-29T18:28:17.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable "Try it out" feature of Swagger UI - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui</id>
-        <link href="http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui"/>
-        <updated>2023-03-28T19:21:56.000Z</updated>
-        <summary type="html"><![CDATA[Swagger UI is a great way to view API documentation. It's even got a cool feature where you can excercise the api right from the documentation.
-Swagger UI documentation shows a configuration option called tryItOutEnabled. This sounds promising and the description even states:
-how to configure Swagger UI through rswag, we try:
-Rswag::Ui.configure do |c|
-  c.config_object["tryItOutEnabled"] = false
-end
-supportedSubmitMethods and provide an empty array, we'll get something more usable.
-Rswag::Ui.configure do |c|
-  c.config_object["supportedSubmitMethods"] = []
-end
-
-Now the button will completely disappear!]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Configure Swagger UI when using rubygem rswag - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/xpz9pezijf-configure-swagger-ui-when-using-rubygem-rswag</id>
-        <link href="http://til.hashrocket.com/posts/xpz9pezijf-configure-swagger-ui-when-using-rubygem-rswag"/>
-        <updated>2023-03-28T19:08:07.000Z</updated>
-        <summary type="html"><![CDATA[rswag contains the library Swagger UI. This allows your generated documentation to be viewable from your webserver. 
-Rswag::Ui.configure do |c|
-  c.config_object["showExtensions"] = true
-end
-config_object. It is just a hash that you can set with keys that match available options found in Swagger UI's configuration docs]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ansible in 100 Seconds]]></title>
-        <id>https://www.youtube.com/watch?v=xRMPKQweySE</id>
-        <link href="https://www.youtube.com/watch?v=xRMPKQweySE"/>
-        <updated>2023-03-28T16:57:10.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>

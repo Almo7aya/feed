@@ -155,26 +155,6 @@
           "wordCount": 300,
           "title": "Remove SSH keys from known host file by IP address - #command-line",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui",
-          "author": "mattpolito",
-          "description": "Swagger UI is a great way to view API documentation. It's even got a cool feature where you can excercise the api right from the documentation.\nSwagger UI documentation shows a configuration option called tryItOutEnabled. This sounds promising and the description even states:\nhow to configure Swagger UI through rswag, we try:\nRswag::Ui.configure do |c|\r\n  c.config_object[\"tryItOutEnabled\"] = false\r\nend\r\nsupportedSubmitMethods and provide an empty array, we'll get something more usable.\nRswag::Ui.configure do |c|\r\n  c.config_object[\"supportedSubmitMethods\"] = []\r\nend\r\n\nNow the button will completely disappear!",
-          "link": "http://til.hashrocket.com/posts/niki7fwdlj-disable-try-it-out-feature-of-swagger-ui",
-          "publishedOn": "2023-03-28T19:21:56.000Z",
-          "wordCount": 406,
-          "title": "Disable \"Try it out\" feature of Swagger UI - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/xpz9pezijf-configure-swagger-ui-when-using-rubygem-rswag",
-          "author": "mattpolito",
-          "description": "rswag contains the library Swagger UI. This allows your generated documentation to be viewable from your webserver. \nRswag::Ui.configure do |c|\r\n  c.config_object[\"showExtensions\"] = true\r\nend\r\nconfig_object. It is just a hash that you can set with keys that match available options found in Swagger UI's configuration docs",
-          "link": "http://til.hashrocket.com/posts/xpz9pezijf-configure-swagger-ui-when-using-rubygem-rswag",
-          "publishedOn": "2023-03-28T19:08:07.000Z",
-          "wordCount": 338,
-          "title": "Configure Swagger UI when using rubygem rswag - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
@@ -1957,16 +1937,6 @@
           "publishedOn": "2023-03-29T18:28:17.000Z",
           "wordCount": null,
           "title": "Elon wants GPT-5 stopped NOW… 5 reasons AI kinda sucks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=xRMPKQweySE",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=xRMPKQweySE",
-          "publishedOn": "2023-03-28T16:57:10.000Z",
-          "wordCount": null,
-          "title": "Ansible in 100 Seconds",
           "imageUrl": null
         }
       ]
