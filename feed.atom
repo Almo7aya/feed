@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-28T00:22:39.130Z</id>
+    <id>urn:2023-04-29T00:21:24.550Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-28T00:22:39.130Z</updated>
+    <updated>2023-04-29T00:21:24.550Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1956,57 +1956,6 @@ Need help
         <summary type="html"><![CDATA[I wish I was better at journaling. I love it and love having documentation of the things I&#8217;ve done, feelings I&#8217;ve felt, experiences I&#8217;ve had, etc. I just haven&#8217;t built the habit yet. I&#8217;d like to change that. While I [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android crash logs - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs</id>
-        <link href="http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs"/>
-        <updated>2023-03-30T11:55:14.000Z</updated>
-        <summary type="html"><![CDATA[adb logcat --buffer=crash 
-
-03-30 07:53:59.221 23769 23769 E AndroidRuntime: FATAL EXCEPTION: main
-03-30 07:53:59.221 23769 23769 E AndroidRuntime: Process: expo.modules.mymodule.example, PID: 23769
-03-30 07:53:59.221 23769 23769 E AndroidRuntime: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-03-30 07:53:59.221 23769 23769 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:448)
-03-30 07:53:59.221 23769 23769 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:810)
-03-30 07:53:59.221 23769 23769 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetE]]></summary>
-        <author>
-            <name>dillonhafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find meta information about Github's services - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/leervapwgt-find-meta-information-about-githubs-services</id>
-        <link href="http://til.hashrocket.com/posts/leervapwgt-find-meta-information-about-githubs-services"/>
-        <updated>2023-03-30T03:35:36.000Z</updated>
-        <summary type="html"><![CDATA[meta information api endpoint
-https://api.github.com/meta and you'll find most of the info you're looking for.]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remove SSH keys from known host file by IP address - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/vfne48fpks-remove-ssh-keys-from-known-host-file-by-ip-address</id>
-        <link href="http://til.hashrocket.com/posts/vfne48fpks-remove-ssh-keys-from-known-host-file-by-ip-address"/>
-        <updated>2023-03-30T03:27:37.000Z</updated>
-        <summary type="html"><![CDATA[a situation which caused the need to potentially remove Github's keys from your known_hosts file.
-ssh-keygen -R github.com
-ssh-keygen -R 140.82.114.4
-ssh-keygen -R 140.82.113.3
-github's meta information endpoint to find address ranges, but that's a problem for a more clever person.]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elon wants GPT-5 stopped NOW… 5 reasons AI kinda sucks]]></title>
-        <id>https://www.youtube.com/watch?v=TpZcGhYp4rw</id>
-        <link href="https://www.youtube.com/watch?v=TpZcGhYp4rw"/>
-        <updated>2023-03-29T18:28:17.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>

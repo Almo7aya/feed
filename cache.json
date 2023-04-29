@@ -125,36 +125,6 @@
           "wordCount": 232,
           "title": "Save without Formatting in Vim - #vim",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs",
-          "author": "dillonhafer",
-          "description": "adb logcat --buffer=crash \r\n\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: FATAL EXCEPTION: main\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: Process: expo.modules.mymodule.example, PID: 23769\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:448)\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:810)\r\n03-30 07:53:59.221 23769 23769 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetE",
-          "link": "http://til.hashrocket.com/posts/kiil9ho2ld-android-crash-logs",
-          "publishedOn": "2023-03-30T11:55:14.000Z",
-          "wordCount": 239,
-          "title": "Android crash logs - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/leervapwgt-find-meta-information-about-githubs-services",
-          "author": "mattpolito",
-          "description": "meta information api endpoint\nhttps://api.github.com/meta and you'll find most of the info you're looking for.",
-          "link": "http://til.hashrocket.com/posts/leervapwgt-find-meta-information-about-githubs-services",
-          "publishedOn": "2023-03-30T03:35:36.000Z",
-          "wordCount": 255,
-          "title": "Find meta information about Github's services - #command-line",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/vfne48fpks-remove-ssh-keys-from-known-host-file-by-ip-address",
-          "author": "mattpolito",
-          "description": "a situation which caused the need to potentially remove Github's keys from your known_hosts file.\nssh-keygen -R github.com\r\nssh-keygen -R 140.82.114.4\r\nssh-keygen -R 140.82.113.3\r\ngithub's meta information endpoint to find address ranges, but that's a problem for a more clever person.",
-          "link": "http://til.hashrocket.com/posts/vfne48fpks-remove-ssh-keys-from-known-host-file-by-ip-address",
-          "publishedOn": "2023-03-30T03:27:37.000Z",
-          "wordCount": 300,
-          "title": "Remove SSH keys from known host file by IP address - #command-line",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
         }
       ]
     },
@@ -1927,16 +1897,6 @@
           "publishedOn": "2023-03-31T16:25:18.000Z",
           "wordCount": null,
           "title": "AWS for the Haters in 100 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=TpZcGhYp4rw",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=TpZcGhYp4rw",
-          "publishedOn": "2023-03-29T18:28:17.000Z",
-          "wordCount": null,
-          "title": "Elon wants GPT-5 stopped NOW… 5 reasons AI kinda sucks",
           "imageUrl": null
         }
       ]
