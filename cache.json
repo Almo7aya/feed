@@ -1731,26 +1731,6 @@
           "wordCount": 9605,
           "title": "The Quest for Meaning in an AI-driven World with Brad Frost &#8211; Lean Cast",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/2023-state-of-design-systems-and-where-we-take-them-next-ian-frost-weather/",
-          "author": null,
-          "description": "Here&#8217;s my brother sharing how he&#8217;s seen the design system landscape since he&#8217;s started working on them. There&#8217;s a lot of good stuff here, but I especially like this part: The success of a system depends more on the people [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/2023-state-of-design-systems-and-where-we-take-them-next-ian-frost-weather/",
-          "publishedOn": "2023-03-31T20:14:22.000Z",
-          "wordCount": 584,
-          "title": "2023 State of Design Systems and Where We Take Them Next – Ian Frost Weather",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/igalia-chats-web-components-with-brad-frost/",
-          "author": null,
-          "description": "I had a great time talking with Brian and Eric about web components, design systems, and trends in web development.",
-          "link": "https://bradfrost.com/blog/link/igalia-chats-web-components-with-brad-frost/",
-          "publishedOn": "2023-03-31T19:51:54.000Z",
-          "wordCount": 539,
-          "title": "Igalia Chats: Web Components with Brad Frost",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1878,16 +1858,6 @@
           "wordCount": null,
           "title": "AI is giving me an unfair advantage",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=ZzI9JE0i6Lc",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=ZzI9JE0i6Lc",
-          "publishedOn": "2023-03-31T16:25:18.000Z",
-          "wordCount": null,
-          "title": "AWS for the Haters in 100 Seconds",
-          "imageUrl": null
         }
       ]
     },
@@ -1914,16 +1884,6 @@
           "publishedOn": "2023-04-14T16:35:07.000Z",
           "wordCount": null,
           "title": "Should Rust be your first programming language?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=Tsb9IQ3e8F8",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=Tsb9IQ3e8F8",
-          "publishedOn": "2023-03-31T14:00:30.000Z",
-          "wordCount": null,
-          "title": "Why I switched from JS to Rust",
           "imageUrl": null
         }
       ]
