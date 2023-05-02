@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-01T00:23:21.149Z</id>
+    <id>urn:2023-05-02T00:21:35.450Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-01T00:23:21.149Z</updated>
+    <updated>2023-05-02T00:21:35.450Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Rust is taking over Windows!]]></title>
+        <id>https://www.youtube.com/watch?v=oXzDg_RnBQs</id>
+        <link href="https://www.youtube.com/watch?v=oXzDg_RnBQs"/>
+        <updated>2023-05-01T16:15:49.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
         <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
@@ -1899,15 +1908,6 @@ Need help
       Something explaining what is …]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI is giving me an unfair advantage]]></title>
-        <id>https://www.youtube.com/watch?v=J1U1h_EjkPs</id>
-        <link href="https://www.youtube.com/watch?v=J1U1h_EjkPs"/>
-        <updated>2023-04-01T13:55:52.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
