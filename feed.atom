@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-02T00:21:35.450Z</id>
+    <id>urn:2023-05-03T00:21:21.682Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-02T00:21:35.450Z</updated>
+    <updated>2023-05-03T00:21:21.682Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Vercel dropped a database and leaked new Next.js features]]></title>
+        <id>https://www.youtube.com/watch?v=Km0aNxhVuC4</id>
+        <link href="https://www.youtube.com/watch?v=Km0aNxhVuC4"/>
+        <updated>2023-05-02T18:02:47.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust is taking over Windows!]]></title>
         <id>https://www.youtube.com/watch?v=oXzDg_RnBQs</id>
@@ -1883,31 +1892,6 @@ here  to save without formatting in VSCode.]]></summary>
         <updated>2023-04-03T15:58:29.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Apr 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Apr/3</id>
-        <link href="https://this-week-in-neovim.org/2023/Apr/3"/>
-        <updated>2023-04-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-#22668 adds lua-loader.
-A builtin Lua module which byte-compiles and caches Lua files (speeds up load times). To enable, add
-vim.loader.enable() to your init.lua.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-Need help
-
-      
-      Something explaining what is …]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>

@@ -30,16 +30,6 @@
           "wordCount": 502,
           "title": "10 Apr 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Apr/3",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\n#22668 adds lua-loader.\nA builtin Lua module which byte-compiles and caches Lua files (speeds up load times). To enable, add\nvim.loader.enable() to your init.lua.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNeed help\n\n      \n      Something explaining what is …",
-          "link": "https://this-week-in-neovim.org/2023/Apr/3",
-          "publishedOn": "2023-04-03T00:00:00.000Z",
-          "wordCount": 707,
-          "title": "3 Apr 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -1739,6 +1729,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=Km0aNxhVuC4",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=Km0aNxhVuC4",
+          "publishedOn": "2023-05-02T18:02:47.000Z",
+          "wordCount": null,
+          "title": "Vercel dropped a database and leaked new Next.js features",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=bOCHTHkBoAs",
           "author": null,
