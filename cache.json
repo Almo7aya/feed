@@ -1653,6 +1653,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/bird-buddy/",
+          "author": null,
+          "description": "A few years ago I got way into birds. I wouldn&#8217;t dare call myself a die-hard birder (yet), but it&#8217;s been a lot of fun to learn about the birds that show up in my back yard. I backed Bird [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/bird-buddy/",
+          "publishedOn": "2023-05-03T13:15:58.000Z",
+          "wordCount": 1149,
+          "title": "Bird Buddy",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/05/image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/",
           "author": null,
           "description": "Containing multi-site management within a single codebase covers how one can apply atomic design principles in a React codebase.",
@@ -1729,6 +1739,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=PR_ykicOZYU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=PR_ykicOZYU",
+          "publishedOn": "2023-05-03T19:11:03.000Z",
+          "wordCount": null,
+          "title": "The first casualties of AI",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=Km0aNxhVuC4",
           "author": null,
@@ -1837,16 +1857,6 @@
           "publishedOn": "2023-04-05T19:14:18.000Z",
           "wordCount": null,
           "title": "Masterclass: AI-driven Development for Programmers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=GXN34w8kju4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=GXN34w8kju4",
-          "publishedOn": "2023-04-03T15:58:29.000Z",
-          "wordCount": null,
-          "title": "Twitter algorithm open-sourced… Is Elon playing 5D chess?",
           "imageUrl": null
         }
       ]

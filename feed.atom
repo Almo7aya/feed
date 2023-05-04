@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-03T00:21:21.682Z</id>
+    <id>urn:2023-05-04T00:21:14.574Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-03T00:21:21.682Z</updated>
+    <updated>2023-05-04T00:21:14.574Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The first casualties of AI]]></title>
+        <id>https://www.youtube.com/watch?v=PR_ykicOZYU</id>
+        <link href="https://www.youtube.com/watch?v=PR_ykicOZYU"/>
+        <updated>2023-05-03T19:11:03.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bird Buddy]]></title>
+        <id>https://bradfrost.com/blog/post/bird-buddy/</id>
+        <link href="https://bradfrost.com/blog/post/bird-buddy/"/>
+        <updated>2023-05-03T13:15:58.000Z</updated>
+        <summary type="html"><![CDATA[A few years ago I got way into birds. I wouldn&#8217;t dare call myself a die-hard birder (yet), but it&#8217;s been a lot of fun to learn about the birds that show up in my back yard. I backed Bird [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vercel dropped a database and leaked new Next.js features]]></title>
         <id>https://www.youtube.com/watch?v=Km0aNxhVuC4</id>
@@ -1883,15 +1902,6 @@ here  to save without formatting in VSCode.]]></summary>
         <summary type="html"><![CDATA[I had the great opportunity to chat with Behrad Mirafshar on the Lean Cast podcast. We covered a lot of ground about design systems and AI&#8217;s impact on the field of digital design. I really welcomed the opportunity to dig [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter algorithm open-sourced… Is Elon playing 5D chess?]]></title>
-        <id>https://www.youtube.com/watch?v=GXN34w8kju4</id>
-        <link href="https://www.youtube.com/watch?v=GXN34w8kju4"/>
-        <updated>2023-04-03T15:58:29.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
