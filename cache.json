@@ -57,6 +57,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/rynww6hwyy-do-not-serve-svg-images-in-email-content",
+          "author": "mattpolito",
+          "description": "the image tags src & srcset attributes, however, just converting to PNG/JPG will end up being the least problematic.",
+          "link": "http://til.hashrocket.com/posts/rynww6hwyy-do-not-serve-svg-images-in-email-content",
+          "publishedOn": "2023-05-04T03:41:29.000Z",
+          "wordCount": 268,
+          "title": "Do not serve SVG images in email content - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service",
           "author": "briandunn",
           "description": "~/.ssh/config add something like\nHost prod.client\r\n  User ubuntu\r\n  Hostname prod-ec2-instance.example.com\r\n  LocalForward localhost:5433 rds-gibberish.us-west-1.rds.amazonaws.com:5432\r\n  IdentityFile ~/production-ec2-key.pem\r\npg service\n~/.pg_service.conf save the user, database name, and password\n[client-prod]\r\nhost=localhost\r\nport=5433\r\nuser=rds-user\r\ndbname=client-production\r\npassword=blablabla\r\nssh prod.client\r\npg_dump, psql, etc.) in another:\npsql service=client-prod\r\n\nwarning\n\nWell you just saved a production password to a plain text file, and now you can easily connect and muck things up in production. Make sure your machine is secure and be careful and stuff.",
@@ -1711,26 +1721,6 @@
           "wordCount": 1201,
           "title": "Choosing a name for your design system",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/joe-dart-teaches-slap-bass-youtube/",
-          "author": null,
-          "description": "This is fantastic.",
-          "link": "https://bradfrost.com/blog/link/joe-dart-teaches-slap-bass-youtube/",
-          "publishedOn": "2023-04-04T16:14:59.000Z",
-          "wordCount": 521,
-          "title": "Joe Dart Teaches Slap Bass &#8211; YouTube",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/the-quest-for-meaning-in-an-ai-driven-world-with-brad-frost-lean-cast/",
-          "author": null,
-          "description": "I had the great opportunity to chat with Behrad Mirafshar on the Lean Cast podcast. We covered a lot of ground about design systems and AI&#8217;s impact on the field of digital design. I really welcomed the opportunity to dig [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/the-quest-for-meaning-in-an-ai-driven-world-with-brad-frost-lean-cast/",
-          "publishedOn": "2023-04-04T14:32:10.000Z",
-          "wordCount": 9605,
-          "title": "The Quest for Meaning in an AI-driven World with Brad Frost &#8211; Lean Cast",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1739,6 +1729,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=V4gGJ7XXlC0",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=V4gGJ7XXlC0",
+          "publishedOn": "2023-05-04T19:57:07.000Z",
+          "wordCount": null,
+          "title": "Mojo Lang… a fast futuristic Python alternative",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=PR_ykicOZYU",
           "author": null,
