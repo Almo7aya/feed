@@ -95,36 +95,6 @@
           "wordCount": 313,
           "title": "You can turn arrays into sentences! - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration",
-          "author": "mattpolito",
-          "description": "configuration of your rubygems via the .gemrc file but now you want to bypass that.\n--norc flag will do just that:\ngem install decent_exposure --norc\r\n.gemrc will be ignored.\nRubygems documentation",
-          "link": "http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration",
-          "publishedOn": "2023-04-08T04:53:05.000Z",
-          "wordCount": 280,
-          "title": "Disable gemrc configuration - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/ikwts6m7us-dont-auto-generate-gem-documentation-in-ruby",
-          "author": "mattpolito",
-          "description": ".gemrc if you don't already have one and add:\ngem: --no-document\r\n--no-ri & --no-rdoc, however --no-document takes care of both.\ngem documentation for more info",
-          "link": "http://til.hashrocket.com/posts/ikwts6m7us-dont-auto-generate-gem-documentation-in-ruby",
-          "publishedOn": "2023-04-08T04:46:22.000Z",
-          "wordCount": 316,
-          "title": "Don't auto generate Gem documentation in Ruby - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim",
-          "author": "tonyyunker",
-          "description": ":noa w.\nhere  to save without formatting in VSCode.",
-          "link": "http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim",
-          "publishedOn": "2023-04-07T20:22:05.000Z",
-          "wordCount": 232,
-          "title": "Save without Formatting in Vim - #vim",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
         }
       ]
     },
@@ -1828,16 +1798,6 @@
           "wordCount": null,
           "title": "I built my own AutoGPT that makes videos",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=klTvEwg3oJ4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=klTvEwg3oJ4",
-          "publishedOn": "2023-04-07T17:34:13.000Z",
-          "wordCount": null,
-          "title": "Vector databases are so hot right now. WTF are they?",
-          "imageUrl": null
         }
       ]
     },
@@ -1901,16 +1861,6 @@
           "publishedOn": "2023-04-21T14:49:30.000Z",
           "wordCount": null,
           "title": "Rust Data Modelling WITHOUT OOP",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=XcF6tvepRlg",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=XcF6tvepRlg",
-          "publishedOn": "2023-04-07T16:25:04.000Z",
-          "wordCount": null,
-          "title": "Amateur Radio: Open Source Airwaves",
           "imageUrl": null
         }
       ]

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-07T00:22:46.143Z</id>
+    <id>urn:2023-05-08T00:21:02.886Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-07T00:22:46.143Z</updated>
+    <updated>2023-05-08T00:21:02.886Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1835,62 +1835,6 @@ Backseat uses GPT to highlight and explain code readability issues under each li
 Run :Backseat to send the current buffer to the OpenAI API for gpt-3.5-turb…]]></summary>
         <author>
             <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable gemrc configuration - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration</id>
-        <link href="http://til.hashrocket.com/posts/vdrkpjrjiu-disable-gemrc-configuration"/>
-        <updated>2023-04-08T04:53:05.000Z</updated>
-        <summary type="html"><![CDATA[configuration of your rubygems via the .gemrc file but now you want to bypass that.
---norc flag will do just that:
-gem install decent_exposure --norc
-.gemrc will be ignored.
-Rubygems documentation]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't auto generate Gem documentation in Ruby - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/ikwts6m7us-dont-auto-generate-gem-documentation-in-ruby</id>
-        <link href="http://til.hashrocket.com/posts/ikwts6m7us-dont-auto-generate-gem-documentation-in-ruby"/>
-        <updated>2023-04-08T04:46:22.000Z</updated>
-        <summary type="html"><![CDATA[.gemrc if you don't already have one and add:
-gem: --no-document
---no-ri & --no-rdoc, however --no-document takes care of both.
-gem documentation for more info]]></summary>
-        <author>
-            <name>mattpolito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Save without Formatting in Vim - #vim]]></title>
-        <id>http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim</id>
-        <link href="http://til.hashrocket.com/posts/b5khzkxqkn-save-without-formatting-in-vim"/>
-        <updated>2023-04-07T20:22:05.000Z</updated>
-        <summary type="html"><![CDATA[:noa w.
-here  to save without formatting in VSCode.]]></summary>
-        <author>
-            <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vector databases are so hot right now. WTF are they?]]></title>
-        <id>https://www.youtube.com/watch?v=klTvEwg3oJ4</id>
-        <link href="https://www.youtube.com/watch?v=klTvEwg3oJ4"/>
-        <updated>2023-04-07T17:34:13.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amateur Radio: Open Source Airwaves]]></title>
-        <id>https://www.youtube.com/watch?v=XcF6tvepRlg</id>
-        <link href="https://www.youtube.com/watch?v=XcF6tvepRlg"/>
-        <updated>2023-04-07T16:25:04.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
