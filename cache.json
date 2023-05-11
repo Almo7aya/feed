@@ -1701,16 +1701,6 @@
           "wordCount": 1325,
           "title": "Ziggy",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/04/CleanShot-2023-04-13-at-16.08.56@2x-1024x864.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/3-methods-for-scoped-styles-in-web-components-that-work-everywhere-zachleat-com/",
-          "author": null,
-          "description": "I pay attention to anything Zach has to say about web components (and, well, pretty much all web stuff), so I really liked 3 Methods for Scoped Styles in Web Components That Work Everywhere. WebC is something I want to [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/3-methods-for-scoped-styles-in-web-components-that-work-everywhere-zachleat-com/",
-          "publishedOn": "2023-04-11T11:04:01.000Z",
-          "wordCount": 580,
-          "title": "3 Methods for Scoped Styles in Web Components That Work Everywhere—zachleat.com",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1719,6 +1709,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=0rIvB3LZiKA",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=0rIvB3LZiKA",
+          "publishedOn": "2023-05-10T17:53:59.000Z",
+          "wordCount": null,
+          "title": "I built a smarter smart home",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=H1sXIUbpRCU",
           "author": null,
@@ -1846,6 +1846,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=EA19neOCeCo",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=EA19neOCeCo",
+          "publishedOn": "2023-05-10T14:42:55.000Z",
+          "wordCount": null,
+          "title": "Rust’s most wanted feature is coming!",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=oXzDg_RnBQs",
           "author": null,
