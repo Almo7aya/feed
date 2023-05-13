@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-12T00:20:55.369Z</id>
+    <id>urn:2023-05-13T00:20:21.813Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-12T00:20:55.369Z</updated>
+    <updated>2023-05-13T00:20:21.813Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Casting Associations in Phoenix - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix</id>
+        <link href="http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix"/>
+        <updated>2023-05-12T18:50:20.000Z</updated>
+        <summary type="html"><![CDATA[cast_assoc/3. This allows you to make changes to a parent struct and its associations at the same time.
+Artist and an associated schema called Album. The schema for the Album looks something like this:
+def module MyApp.Music.Album do
+ use Ecto.Schema
+ alias MyApp.Music.Artist
+
+  schema "albums" do
+    field :title, :string
+    
+    belongs_to :artist, Artist
+  end
+
+  def changeset(artist, params \\ %{}) do
+    artist
+    |> cast(params, [:title, :artist_id])
+    |> validate_required([:title])
+  end
+end
+def module MyApp.Music.Artist do
+ use Ecto.Schema
+ alias MyApp.Music.Album
+
+  schema "albums" do
+    field :name, :string
+    
+    has_many :albums, Album
+  end
+end
+Artist where you can change the artist's name and the title field on an associated album:
+def changeset(artist, params \\ %{}) do
+    artist
+    |> cast(params, [:name])
+    |> cast_assoc(:albums, with: &MyApp.Album.changeset/2)
+    |> validate_required([:name])
+end]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 crazy announcements from Google I/O]]></title>
         <id>https://www.youtube.com/watch?v=nmfRDRNjCnM</id>
@@ -1885,15 +1929,6 @@ Sign up with GitHub and sync …]]></summary>
         <id>https://www.youtube.com/watch?v=91IPJ6LFmto</id>
         <link href="https://www.youtube.com/watch?v=91IPJ6LFmto"/>
         <updated>2023-04-13T16:22:54.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angular is back with a vengeance]]></title>
-        <id>https://www.youtube.com/watch?v=nQ2A30cD3Q8</id>
-        <link href="https://www.youtube.com/watch?v=nQ2A30cD3Q8"/>
-        <updated>2023-04-12T17:18:25.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>

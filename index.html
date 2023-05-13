@@ -22,6 +22,88 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-12 datetime="2023-05-12T18:50:20.000Z">2023-05-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-12 datetime="2023-05-12T18:50:20.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix"
+                        open
+                      >
+                        <summary class="article-expander__title">Casting Associations in Phoenix - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>cast_assoc/3. This allows you to make changes to a parent struct and its associations at the same time.
+Artist and an associated schema called Album. The schema for the Album looks something like this:
+def module MyApp.Music.Album do
+ use Ecto.Schema
+ alias MyApp.Music.Artist
+
+  schema &quot;albums&quot; do
+    field :title, :string
+    
+    belongs_to :artist, Artist
+  end
+
+  def changeset(artist, params \\ %{}) do
+    artist
+    |&gt; cast(params, [:title, :artist_id])
+    |&gt; validate_required([:title])
+  end
+end
+def module MyApp.Music.Artist do
+ use Ecto.Schema
+ alias MyApp.Music.Album
+
+  schema &quot;albums&quot; do
+    field :name, :string
+    
+    has_many :albums, Album
+  end
+end
+Artist where you can change the artist&#x27;s name and the title field on an associated album:
+def changeset(artist, params \\ %{}) do
+    artist
+    |&gt; cast(params, [:name])
+    |&gt; cast_assoc(:albums, with: &amp;MyApp.Album.changeset/2)
+    |&gt; validate_required([:name])
+end</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-11 datetime="2023-05-11T17:54:35.000Z">2023-05-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-11 datetime="2023-05-11T17:54:35.000Z"></time>
           </button>
@@ -4325,55 +4407,10 @@ Sign up with GitHub and sync …</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-12 datetime="2023-04-12T17:18:25.000Z">2023-04-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-12 datetime="2023-04-12T17:18:25.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;nQ2A30cD3Q8"
-                        open
-                      >
-                        <summary class="article-expander__title">Angular is back with a vengeance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;nQ2A30cD3Q8">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4953794630">
-        <time id="build-timestamp" datetime="2023-05-12T00:20:55.342Z">2023-05-12T00:20:55.342Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/4964046998">
+        <time id="build-timestamp" datetime="2023-05-13T00:20:21.785Z">2023-05-13T00:20:21.785Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

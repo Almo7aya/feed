@@ -57,6 +57,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix",
+          "author": "jackrosa",
+          "description": "cast_assoc/3. This allows you to make changes to a parent struct and its associations at the same time.\nArtist and an associated schema called Album. The schema for the Album looks something like this:\ndef module MyApp.Music.Album do\r\n use Ecto.Schema\r\n alias MyApp.Music.Artist\r\n\n  schema \"albums\" do\r\n    field :title, :string\r\n    \r\n    belongs_to :artist, Artist\r\n  end\r\n\n  def changeset(artist, params \\\\ %{}) do\r\n    artist\r\n    |> cast(params, [:title, :artist_id])\r\n    |> validate_required([:title])\r\n  end\r\nend\r\ndef module MyApp.Music.Artist do\r\n use Ecto.Schema\r\n alias MyApp.Music.Album\r\n\n  schema \"albums\" do\r\n    field :name, :string\r\n    \r\n    has_many :albums, Album\r\n  end\r\nend\r\nArtist where you can change the artist's name and the title field on an associated album:\ndef changeset(artist, params \\\\ %{}) do\r\n    artist\r\n    |> cast(params, [:name])\r\n    |> cast_assoc(:albums, with: &MyApp.Album.changeset/2)\r\n    |> validate_required([:name])\r\nend",
+          "link": "http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix",
+          "publishedOn": "2023-05-12T18:50:20.000Z",
+          "wordCount": 382,
+          "title": "Casting Associations in Phoenix - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby",
           "author": "andrewvogel",
           "description": "delete_all . But I recently learned of another method that can used to shorthand this method-call on a where statement. \ndelete_by(...) is the shorthand for Model.where(...).delete_all\nModel.where(foo: true, bar: false).delete_all\r\n\n# vs.\r\n\nModel.delete_by(foo: true, bar: false)\r\ndelete_all, you will need to be careful with delete_by as it creates a single delete statement for the database and callbacks are not called.\ndestroy_by is a similar shorthand for Model.where(...).destroy\nhttps://api.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-delete_by",
@@ -1827,16 +1837,6 @@
           "publishedOn": "2023-04-13T16:22:54.000Z",
           "wordCount": null,
           "title": "Uh oh… AI-search engine for developers has emerged",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=nQ2A30cD3Q8",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=nQ2A30cD3Q8",
-          "publishedOn": "2023-04-12T17:18:25.000Z",
-          "wordCount": null,
-          "title": "Angular is back with a vengeance",
           "imageUrl": null
         }
       ]
