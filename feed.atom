@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-13T00:20:21.813Z</id>
+    <id>urn:2023-05-14T00:23:12.470Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-13T00:20:21.813Z</updated>
+    <updated>2023-05-14T00:23:12.470Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1922,15 +1922,6 @@ Sign up with GitHub and sync …]]></summary>
         <updated>2023-04-14T16:35:07.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uh oh… AI-search engine for developers has emerged]]></title>
-        <id>https://www.youtube.com/watch?v=91IPJ6LFmto</id>
-        <link href="https://www.youtube.com/watch?v=91IPJ6LFmto"/>
-        <updated>2023-04-13T16:22:54.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
