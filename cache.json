@@ -1701,16 +1701,6 @@
           "wordCount": 624,
           "title": "The Brilliant Inventor Who Made Two of History’s Biggest Mistakes",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/ziggy/",
-          "author": null,
-          "description": "Today marks the 1-year anniversary of Ziggy leaving us. We had a hell of a 2022 and so I&#8217;m only just now getting the opportunity to write about my best bud. Thankfully, I&#8217;ve had a year to work through my [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/ziggy/",
-          "publishedOn": "2023-04-14T17:39:11.000Z",
-          "wordCount": 1325,
-          "title": "Ziggy",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/04/CleanShot-2023-04-13-at-16.08.56@2x-1024x864.png"
         }
       ]
     },
@@ -1818,16 +1808,6 @@
           "wordCount": null,
           "title": "Music Industry on life support right now",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=FJACTC9wFhU",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=FJACTC9wFhU",
-          "publishedOn": "2023-04-14T18:12:52.000Z",
-          "wordCount": null,
-          "title": "AWS CodeWhisperer… The Copilot Killer?",
-          "imageUrl": null
         }
       ]
     },
@@ -1864,16 +1844,6 @@
           "publishedOn": "2023-04-21T15:53:24.000Z",
           "wordCount": null,
           "title": "Rust 1.69.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=J4slMaFWCcg",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=J4slMaFWCcg",
-          "publishedOn": "2023-04-14T16:35:07.000Z",
-          "wordCount": null,
-          "title": "Should Rust be your first programming language?",
           "imageUrl": null
         }
       ]
