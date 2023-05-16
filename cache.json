@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/May/15",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      A guide on how to use Neorg\n    \n  \n\n\nNeorg is an all-encompassing tool based around structured note taking, project and task management, time tracking, slideshows, writing…",
+          "link": "https://this-week-in-neovim.org/2023/May/15",
+          "publishedOn": "2023-05-15T00:00:00.000Z",
+          "wordCount": 405,
+          "title": "15 May 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/May/8",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Important disclaimer\nThis release marks the release of three different TWiN releases all merged as one:\nMonday April 24th 2023\nMonday May 1st 2023\nMonday May 8th 2023\nI — @phaazon — was not available for a whole week (work summit in New-York) and missed two\nrelease dates. Hence, you get a mega update this week, yaaaay.\nHowever, I think it’s important for me to explain something about\nthis-week-in-neovim. I started the project almost one year ago now, completely on my\nown, just after asking the community whether they would like a curated list of news\n(reddit).\nPeople might have noticed — should they know me directly or not — that I have moved away from Neovim. I will not explain\nwhy (I plan on writing a blog article about it), but the thing is, my only binding to Neovim now is TWiN. I keep …",
           "link": "https://this-week-in-neovim.org/2023/May/8",
           "publishedOn": "2023-05-08T00:00:00.000Z",
-          "wordCount": 1496,
+          "wordCount": 1499,
           "title": "8 May 2023",
           "imageUrl": null
         },
