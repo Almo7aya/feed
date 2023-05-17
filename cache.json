@@ -30,16 +30,6 @@
           "wordCount": 1499,
           "title": "8 May 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Apr/17",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n    \n    Dotfyle.com - Discover and share Neovim configs\n  \n\n\nIntroducing Dotfyle: a website to discover and share neovim configs.\nHow does it work?\nSign up with GitHub and sync …",
-          "link": "https://this-week-in-neovim.org/2023/Apr/17",
-          "publishedOn": "2023-04-17T00:00:00.000Z",
-          "wordCount": 680,
-          "title": "17 Apr 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -1700,16 +1690,6 @@
           "publishedOn": "2023-04-24T20:26:56.000Z",
           "wordCount": 541,
           "title": "Containing multi-site management within a single codebase – Vercel",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/the-brilliant-inventor-who-made-two-of-historys-biggest-mistakes/",
-          "author": null,
-          "description": "Two innovations — Ethyl and Freon, conjured by one man presiding over a single laboratory during a span of roughly 10 years. Combined, the two products generated billions of dollars in revenue for the companies that manufactured them and provided [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/the-brilliant-inventor-who-made-two-of-historys-biggest-mistakes/",
-          "publishedOn": "2023-04-16T21:00:16.000Z",
-          "wordCount": 624,
-          "title": "The Brilliant Inventor Who Made Two of History’s Biggest Mistakes",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
