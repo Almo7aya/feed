@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-17T00:24:16.598Z</id>
+    <id>urn:2023-05-18T00:21:16.637Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-17T00:24:16.598Z</updated>
+    <updated>2023-05-18T00:21:16.637Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AI regulation is coming...]]></title>
+        <id>https://www.youtube.com/watch?v=CDokUdux0rc</id>
+        <link href="https://www.youtube.com/watch?v=CDokUdux0rc"/>
+        <updated>2023-05-17T19:39:07.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[15 May 2023]]></title>
         <id>https://this-week-in-neovim.org/2023/May/15</id>
@@ -1871,15 +1880,6 @@ docs!]]></summary>
         <id>https://www.youtube.com/watch?v=tszI9GrH1u0</id>
         <link href="https://www.youtube.com/watch?v=tszI9GrH1u0"/>
         <updated>2023-04-18T15:14:10.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Music Industry on life support right now]]></title>
-        <id>https://www.youtube.com/watch?v=LkrI3erbUtw</id>
-        <link href="https://www.youtube.com/watch?v=LkrI3erbUtw"/>
-        <updated>2023-04-17T18:15:53.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>
