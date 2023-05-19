@@ -95,36 +95,6 @@
           "wordCount": 268,
           "title": "Do not serve SVG images in email content - #html-css",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service",
-          "author": "briandunn",
-          "description": "~/.ssh/config add something like\nHost prod.client\r\n  User ubuntu\r\n  Hostname prod-ec2-instance.example.com\r\n  LocalForward localhost:5433 rds-gibberish.us-west-1.rds.amazonaws.com:5432\r\n  IdentityFile ~/production-ec2-key.pem\r\npg service\n~/.pg_service.conf save the user, database name, and password\n[client-prod]\r\nhost=localhost\r\nport=5433\r\nuser=rds-user\r\ndbname=client-production\r\npassword=blablabla\r\nssh prod.client\r\npg_dump, psql, etc.) in another:\npsql service=client-prod\r\n\nwarning\n\nWell you just saved a production password to a plain text file, and now you can easily connect and muck things up in production. Make sure your machine is secure and be careful and stuff.",
-          "link": "http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service",
-          "publishedOn": "2023-04-18T18:56:46.000Z",
-          "wordCount": 325,
-          "title": "Easily connect to postgres via proxy with service - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder",
-          "author": "jackrosa",
-          "description": "right-clicking on the file and then holding down the option key. You will then see an option to copy the file/folder's pathname.",
-          "link": "http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder",
-          "publishedOn": "2023-04-18T18:33:13.000Z",
-          "wordCount": 215,
-          "title": "Copy pathname in MacOS finder - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences",
-          "author": "craighafer",
-          "description": "Array#to_sentence that turns your array into a string in sentence format.\nsuperheroes = [\"Spider-Man\", \"Batman\", \"Iron man\", \"Wonder woman\"]\r\n\nsuperheroes.to_sentence\r\n=> \"Spider-Man, Batman, Iron man, and Wonder woman\"\r\n\nsuperheroes.to_sentence(\r\n  words_connector: \" or \", \r\n  last_word_connector: \" or maybe even \"\r\n)\r\n=> \"Spider-Man or Batman or Iron man or maybe even Wonder woman\"\r\ndocs!",
-          "link": "http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences",
-          "publishedOn": "2023-04-18T18:02:00.000Z",
-          "wordCount": 313,
-          "title": "You can turn arrays into sentences! - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },
@@ -1787,16 +1757,6 @@
           "publishedOn": "2023-04-21T18:33:00.000Z",
           "wordCount": null,
           "title": "10 Math Concepts for Programmers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=tszI9GrH1u0",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=tszI9GrH1u0",
-          "publishedOn": "2023-04-18T15:14:10.000Z",
-          "wordCount": null,
-          "title": "I built a react app… but with a visual editor",
           "imageUrl": null
         }
       ]

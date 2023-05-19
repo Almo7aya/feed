@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-18T00:21:16.637Z</id>
+    <id>urn:2023-05-19T00:21:16.116Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-18T00:21:16.637Z</updated>
+    <updated>2023-05-19T00:21:16.116Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1812,76 +1812,6 @@ why (I plan on writing a blog article about it), but the thing is, my only bindi
         <updated>2023-04-21T14:49:30.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Easily connect to postgres via proxy with service - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service</id>
-        <link href="http://til.hashrocket.com/posts/6qzm9gzwlw-easily-connect-to-postgres-via-proxy-with-service"/>
-        <updated>2023-04-18T18:56:46.000Z</updated>
-        <summary type="html"><![CDATA[~/.ssh/config add something like
-Host prod.client
-  User ubuntu
-  Hostname prod-ec2-instance.example.com
-  LocalForward localhost:5433 rds-gibberish.us-west-1.rds.amazonaws.com:5432
-  IdentityFile ~/production-ec2-key.pem
-pg service
-~/.pg_service.conf save the user, database name, and password
-[client-prod]
-host=localhost
-port=5433
-user=rds-user
-dbname=client-production
-password=blablabla
-ssh prod.client
-pg_dump, psql, etc.) in another:
-psql service=client-prod
-
-warning
-
-Well you just saved a production password to a plain text file, and now you can easily connect and muck things up in production. Make sure your machine is secure and be careful and stuff.]]></summary>
-        <author>
-            <name>briandunn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Copy pathname in MacOS finder - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder</id>
-        <link href="http://til.hashrocket.com/posts/or086ctxyt-copy-pathname-in-macos-finder"/>
-        <updated>2023-04-18T18:33:13.000Z</updated>
-        <summary type="html"><![CDATA[right-clicking on the file and then holding down the option key. You will then see an option to copy the file/folder's pathname.]]></summary>
-        <author>
-            <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You can turn arrays into sentences! - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences</id>
-        <link href="http://til.hashrocket.com/posts/gyrfh9bmi2-you-can-turn-arrays-into-sentences"/>
-        <updated>2023-04-18T18:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Array#to_sentence that turns your array into a string in sentence format.
-superheroes = ["Spider-Man", "Batman", "Iron man", "Wonder woman"]
-
-superheroes.to_sentence
-=> "Spider-Man, Batman, Iron man, and Wonder woman"
-
-superheroes.to_sentence(
-  words_connector: " or ", 
-  last_word_connector: " or maybe even "
-)
-=> "Spider-Man or Batman or Iron man or maybe even Wonder woman"
-docs!]]></summary>
-        <author>
-            <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I built a react app… but with a visual editor]]></title>
-        <id>https://www.youtube.com/watch?v=tszI9GrH1u0</id>
-        <link href="https://www.youtube.com/watch?v=tszI9GrH1u0"/>
-        <updated>2023-04-18T15:14:10.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
