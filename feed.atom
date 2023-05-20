@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-19T00:21:16.116Z</id>
+    <id>urn:2023-05-20T00:20:18.598Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-19T00:21:16.116Z</updated>
+    <updated>2023-05-20T00:20:18.598Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[How to get rich as a solo software developer - The Ultimate Guide]]></title>
+        <id>https://www.youtube.com/watch?v=A4_TFHzqAAg</id>
+        <link href="https://www.youtube.com/watch?v=A4_TFHzqAAg"/>
+        <updated>2023-05-19T15:46:56.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI regulation is coming...]]></title>
         <id>https://www.youtube.com/watch?v=CDokUdux0rc</id>

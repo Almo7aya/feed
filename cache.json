@@ -1670,6 +1670,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=A4_TFHzqAAg",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=A4_TFHzqAAg",
+          "publishedOn": "2023-05-19T15:46:56.000Z",
+          "wordCount": null,
+          "title": "How to get rich as a solo software developer - The Ultimate Guide",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=CDokUdux0rc",
           "author": null,
           "description": "",
