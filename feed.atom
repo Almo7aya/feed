@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-21T00:24:01.190Z</id>
+    <id>urn:2023-05-22T00:22:40.155Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-21T00:24:01.190Z</updated>
+    <updated>2023-05-22T00:22:40.155Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1794,33 +1794,6 @@ why (I plan on writing a blog article about it), but the thing is, my only bindi
         <summary type="html"><![CDATA[Containing multi-site management within a single codebase covers how one can apply atomic design principles in a React codebase.]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Math Concepts for Programmers]]></title>
-        <id>https://www.youtube.com/watch?v=bOCHTHkBoAs</id>
-        <link href="https://www.youtube.com/watch?v=bOCHTHkBoAs"/>
-        <updated>2023-04-21T18:33:00.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust 1.69.0]]></title>
-        <id>https://www.youtube.com/watch?v=PHEmHxrlxhU</id>
-        <link href="https://www.youtube.com/watch?v=PHEmHxrlxhU"/>
-        <updated>2023-04-21T15:53:24.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Data Modelling WITHOUT OOP]]></title>
-        <id>https://www.youtube.com/watch?v=z-0-bbc80JM</id>
-        <link href="https://www.youtube.com/watch?v=z-0-bbc80JM"/>
-        <updated>2023-04-21T14:49:30.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>

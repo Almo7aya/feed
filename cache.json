@@ -1758,16 +1758,6 @@
           "wordCount": null,
           "title": "Vercel dropped a database and leaked new Next.js features",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=bOCHTHkBoAs",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=bOCHTHkBoAs",
-          "publishedOn": "2023-04-21T18:33:00.000Z",
-          "wordCount": null,
-          "title": "10 Math Concepts for Programmers",
-          "imageUrl": null
         }
       ]
     },
@@ -1795,16 +1785,6 @@
           "wordCount": null,
           "title": "Rust is taking over Windows!",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=PHEmHxrlxhU",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=PHEmHxrlxhU",
-          "publishedOn": "2023-04-21T15:53:24.000Z",
-          "wordCount": null,
-          "title": "Rust 1.69.0",
-          "imageUrl": null
         }
       ]
     },
@@ -1821,16 +1801,6 @@
           "publishedOn": "2023-05-05T09:10:21.000Z",
           "wordCount": null,
           "title": "Hacking your brain with Polyphasic Sleep",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=z-0-bbc80JM",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=z-0-bbc80JM",
-          "publishedOn": "2023-04-21T14:49:30.000Z",
-          "wordCount": null,
-          "title": "Rust Data Modelling WITHOUT OOP",
           "imageUrl": null
         }
       ]
