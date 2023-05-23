@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-22T00:22:40.155Z</id>
+    <id>urn:2023-05-23T00:22:31.528Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-22T00:22:40.155Z</updated>
+    <updated>2023-05-23T00:22:31.528Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incrementing/Decrementing Numbers in Vim - #vim]]></title>
+        <id>http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim</id>
+        <link href="http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim"/>
+        <updated>2023-05-22T20:48:37.000Z</updated>
+        <summary type="html"><![CDATA[Ctrl+a to jump to the next number and increment. To jump to the next number and decrement use Ctrl+x.
+
+Note:
+
+Jumping to the next number only works on your current line.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to get rich as a solo software developer - The Ultimate Guide]]></title>
         <id>https://www.youtube.com/watch?v=A4_TFHzqAAg</id>

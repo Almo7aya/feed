@@ -57,6 +57,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
+          "author": "jackrosa",
+          "description": "Ctrl+a to jump to the next number and increment. To jump to the next number and decrement use Ctrl+x.\n\nNote:\n\nJumping to the next number only works on your current line.",
+          "link": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
+          "publishedOn": "2023-05-22T20:48:37.000Z",
+          "wordCount": 244,
+          "title": "Incrementing/Decrementing Numbers in Vim - #vim",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix",
           "author": "jackrosa",
           "description": "cast_assoc/3. This allows you to make changes to a parent struct and its associations at the same time.\nArtist and an associated schema called Album. The schema for the Album looks something like this:\ndef module MyApp.Music.Album do\r\n use Ecto.Schema\r\n alias MyApp.Music.Artist\r\n\n  schema \"albums\" do\r\n    field :title, :string\r\n    \r\n    belongs_to :artist, Artist\r\n  end\r\n\n  def changeset(artist, params \\\\ %{}) do\r\n    artist\r\n    |> cast(params, [:title, :artist_id])\r\n    |> validate_required([:title])\r\n  end\r\nend\r\ndef module MyApp.Music.Artist do\r\n use Ecto.Schema\r\n alias MyApp.Music.Album\r\n\n  schema \"albums\" do\r\n    field :name, :string\r\n    \r\n    has_many :albums, Album\r\n  end\r\nend\r\nArtist where you can change the artist's name and the title field on an associated album:\ndef changeset(artist, params \\\\ %{}) do\r\n    artist\r\n    |> cast(params, [:name])\r\n    |> cast_assoc(:albums, with: &MyApp.Album.changeset/2)\r\n    |> validate_required([:name])\r\nend",
