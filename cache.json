@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/May/23",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    github-nvim-theme\n  \n\n\nThis new Colorscheme plugin supports the latest features, such as Treesitter and LSP, while resembling GitHub’s VSCode \nthemes and following primer design guideline…",
+          "link": "https://this-week-in-neovim.org/2023/May/23",
+          "publishedOn": "2023-05-23T00:00:00.000Z",
+          "wordCount": 430,
+          "title": "23 May 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/May/15",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      A guide on how to use Neorg\n    \n  \n\n\nNeorg is an all-encompassing tool based around structured note taking, project and task management, time tracking, slideshows, writing…",
           "link": "https://this-week-in-neovim.org/2023/May/15",
           "publishedOn": "2023-05-15T00:00:00.000Z",
-          "wordCount": 405,
+          "wordCount": 408,
           "title": "15 May 2023",
           "imageUrl": null
         },
@@ -59,7 +69,7 @@
         {
           "id": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
           "author": "jackrosa",
-          "description": "Ctrl+a to jump to the next number and increment. To jump to the next number and decrement use Ctrl+x.\n\nNote:\n\nJumping to the next number only works on your current line.",
+          "description": "Ctrl+a to jump to the next number and increment. To jump to the next number and decrement, use Ctrl+x.\n\nNote:\n\nJumping to the next number only works on your current line.",
           "link": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
           "publishedOn": "2023-05-22T20:48:37.000Z",
           "wordCount": 244,
@@ -1679,6 +1689,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=4_MDP6TcHwU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=4_MDP6TcHwU",
+          "publishedOn": "2023-05-23T18:06:38.000Z",
+          "wordCount": null,
+          "title": "Why did my side-hustle fail? How to validate business ideas",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=A4_TFHzqAAg",
           "author": null,

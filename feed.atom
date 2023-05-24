@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-23T00:22:31.528Z</id>
+    <id>urn:2023-05-24T00:22:01.328Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-23T00:22:31.528Z</updated>
+    <updated>2023-05-24T00:22:01.328Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Why did my side-hustle fail? How to validate business ideas]]></title>
+        <id>https://www.youtube.com/watch?v=4_MDP6TcHwU</id>
+        <link href="https://www.youtube.com/watch?v=4_MDP6TcHwU"/>
+        <updated>2023-05-23T18:06:38.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[23 May 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/May/23</id>
+        <link href="https://this-week-in-neovim.org/2023/May/23"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: some updates might be missing from this week content. If you want to be sure to always keep up to
+date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
+@neovim on Twitter, which tweets the most recent news about the editor.
+:h news.txt will deliver you with the last news inside Neovim directly.
+Various PRs on GitHub.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    github-nvim-theme
+  
+
+
+This new Colorscheme plugin supports the latest features, such as Treesitter and LSP, while resembling GitHub’s VSCode 
+themes and following primer design guideline…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incrementing/Decrementing Numbers in Vim - #vim]]></title>
         <id>http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim</id>
         <link href="http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim"/>
         <updated>2023-05-22T20:48:37.000Z</updated>
-        <summary type="html"><![CDATA[Ctrl+a to jump to the next number and increment. To jump to the next number and decrement use Ctrl+x.
+        <summary type="html"><![CDATA[Ctrl+a to jump to the next number and increment. To jump to the next number and decrement, use Ctrl+x.
 
 Note:
 
