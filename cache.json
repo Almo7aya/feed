@@ -67,6 +67,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device",
+          "author": "gabrielreis",
+          "description": "https://developer.samsung.com/remote-test-lab",
+          "link": "http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device",
+          "publishedOn": "2023-05-24T15:41:15.000Z",
+          "wordCount": 241,
+          "title": "Samsung Android Emulator / Real Device - #mobile",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
           "author": "jackrosa",
           "description": "Ctrl+a to jump to the next number and increment. To jump to the next number and decrement, use Ctrl+x.\n\nNote:\n\nJumping to the next number only works on your current line.",
@@ -1671,16 +1681,6 @@
           "wordCount": 1149,
           "title": "Bird Buddy",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/05/image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/",
-          "author": null,
-          "description": "Containing multi-site management within a single codebase covers how one can apply atomic design principles in a React codebase.",
-          "link": "https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/",
-          "publishedOn": "2023-04-24T20:26:56.000Z",
-          "wordCount": 541,
-          "title": "Containing multi-site management within a single codebase – Vercel",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },

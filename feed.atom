@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-24T00:22:01.328Z</id>
+    <id>urn:2023-05-25T00:21:38.517Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-24T00:22:01.328Z</updated>
+    <updated>2023-05-25T00:21:38.517Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Samsung Android Emulator / Real Device - #mobile]]></title>
+        <id>http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device</id>
+        <link href="http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device"/>
+        <updated>2023-05-24T15:41:15.000Z</updated>
+        <summary type="html"><![CDATA[https://developer.samsung.com/remote-test-lab]]></summary>
+        <author>
+            <name>gabrielreis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why did my side-hustle fail? How to validate business ideas]]></title>
         <id>https://www.youtube.com/watch?v=4_MDP6TcHwU</id>
@@ -1835,16 +1845,6 @@ why (I plan on writing a blog article about it), but the thing is, my only bindi
         <updated>2023-05-01T16:15:49.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Containing multi-site management within a single codebase – Vercel]]></title>
-        <id>https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/</id>
-        <link href="https://bradfrost.com/blog/link/containing-multi-site-management-within-a-single-codebase-vercel/"/>
-        <updated>2023-04-24T20:26:56.000Z</updated>
-        <summary type="html"><![CDATA[Containing multi-site management within a single codebase covers how one can apply atomic design principles in a React codebase.]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
