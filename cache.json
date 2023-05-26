@@ -67,6 +67,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator",
+          "author": "andrewvogel",
+          "description": "eas build --platform ios\r\neas build:run --platform ios\r\nhttps://docs.expo.dev/build-reference/simulators/",
+          "link": "http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator",
+          "publishedOn": "2023-05-25T15:25:28.000Z",
+          "wordCount": 257,
+          "title": "Download and Run an Expo Build on Simulator - #mobile",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device",
           "author": "gabrielreis",
           "description": "https://developer.samsung.com/remote-test-lab",
@@ -127,12 +137,6 @@
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         }
       ]
-    },
-    {
-      "title": "Laura Kalbag",
-      "feedUrl": "https://laurakalbag.com/posts/index.xml",
-      "siteUrl": "https://laurakalbag.com/posts/",
-      "articles": []
     },
     {
       "title": "Chris Morgan’s blog",
@@ -1662,6 +1666,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/link/sometimes-the-job-is-an-assembly-line/",
+          "author": null,
+          "description": "I really enjoyed this post from Dave about the different kinds of work folks can encounter. I also want to acknowledge that sometimes the job&#160;is&#160;an assembly line. Times exist when you need to slow down, think, explore, and use the [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/sometimes-the-job-is-an-assembly-line/",
+          "publishedOn": "2023-05-25T10:50:10.000Z",
+          "wordCount": 675,
+          "title": "Sometimes the job is an assembly line",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/india-street-lettering/",
           "author": null,

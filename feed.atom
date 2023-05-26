@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-25T00:21:38.517Z</id>
+    <id>urn:2023-05-26T00:22:40.303Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-25T00:21:38.517Z</updated>
+    <updated>2023-05-26T00:22:40.303Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Download and Run an Expo Build on Simulator - #mobile]]></title>
+        <id>http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator</id>
+        <link href="http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator"/>
+        <updated>2023-05-25T15:25:28.000Z</updated>
+        <summary type="html"><![CDATA[eas build --platform ios
+eas build:run --platform ios
+https://docs.expo.dev/build-reference/simulators/]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sometimes the job is an assembly line]]></title>
+        <id>https://bradfrost.com/blog/link/sometimes-the-job-is-an-assembly-line/</id>
+        <link href="https://bradfrost.com/blog/link/sometimes-the-job-is-an-assembly-line/"/>
+        <updated>2023-05-25T10:50:10.000Z</updated>
+        <summary type="html"><![CDATA[I really enjoyed this post from Dave about the different kinds of work folks can encounter. I also want to acknowledge that sometimes the job&#160;is&#160;an assembly line. Times exist when you need to slow down, think, explore, and use the [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Samsung Android Emulator / Real Device - #mobile]]></title>
         <id>http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device</id>
