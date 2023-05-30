@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/May/29",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    mini.hipatterns\n  \n\n\n  \n\nmini.nvim plugin got its module number 30 - mini.hipatterns. It can be used to highlight patterns in text (like\nTODO, hex color strings, etc.) with configurable p…",
+          "link": "https://this-week-in-neovim.org/2023/May/29",
+          "publishedOn": "2023-05-29T00:00:00.000Z",
+          "wordCount": 450,
+          "title": "29 May 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/May/23",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    github-nvim-theme\n  \n\n\nThis new Colorscheme plugin supports the latest features, such as Treesitter and LSP, while resembling GitHub’s VSCode \nthemes and following primer design guideline…",
           "link": "https://this-week-in-neovim.org/2023/May/23",
           "publishedOn": "2023-05-23T00:00:00.000Z",
-          "wordCount": 430,
+          "wordCount": 433,
           "title": "23 May 2023",
           "imageUrl": null
         },
@@ -137,6 +147,12 @@
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
         }
       ]
+    },
+    {
+      "title": "Laura Kalbag",
+      "feedUrl": "https://laurakalbag.com/posts/index.xml",
+      "siteUrl": "https://laurakalbag.com/posts/",
+      "articles": []
     },
     {
       "title": "Chris Morgan’s blog",
@@ -1704,6 +1720,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=V4qrvoFodmo",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=V4qrvoFodmo",
+          "publishedOn": "2023-05-29T19:30:11.000Z",
+          "wordCount": null,
+          "title": "Worldcoin… the sh*tcoin for humanity?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=0xnuhmqRvVQ",
           "author": null,
           "description": "",
@@ -1864,7 +1890,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Rust Macros as Build Tools with shuttle.rs [sponsored]",
+          "title": "Deploy Rust with shuttle.rs",
           "imageUrl": null
         },
         {
@@ -1874,7 +1900,7 @@
           "link": "https://www.youtube.com/watch?v=OuizzRCALCU",
           "publishedOn": "2023-05-05T09:10:21.000Z",
           "wordCount": null,
-          "title": "Hacking your brain with Polyphasic Sleep",
+          "title": "Hacking Your Brain with Polyphasic Sleep",
           "imageUrl": null
         }
       ]

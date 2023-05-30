@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-29T00:23:04.501Z</id>
+    <id>urn:2023-05-30T00:23:58.871Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-29T00:23:04.501Z</updated>
+    <updated>2023-05-30T00:23:58.871Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Worldcoin… the sh*tcoin for humanity?]]></title>
+        <id>https://www.youtube.com/watch?v=V4qrvoFodmo</id>
+        <link href="https://www.youtube.com/watch?v=V4qrvoFodmo"/>
+        <updated>2023-05-29T19:30:11.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[29 May 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/May/29</id>
+        <link href="https://this-week-in-neovim.org/2023/May/29"/>
+        <updated>2023-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: some updates might be missing from this week content. If you want to be sure to always keep up to
+date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
+@neovim on Twitter, which tweets the most recent news about the editor.
+:h news.txt will deliver you with the last news inside Neovim directly.
+Various PRs on GitHub.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    mini.hipatterns
+  
+
+
+  
+
+mini.nvim plugin got its module number 30 - mini.hipatterns. It can be used to highlight patterns in text (like
+TODO, hex color strings, etc.) with configurable p…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5 Better ways to code in Rust]]></title>
         <id>https://www.youtube.com/watch?v=BU1LYFkpJuk</id>
@@ -1534,7 +1573,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rust Macros as Build Tools with shuttle.rs [sponsored]]]></title>
+        <title type="html"><![CDATA[Deploy Rust with shuttle.rs]]></title>
         <id>https://www.youtube.com/watch?v=HZf6uKO0Ep4</id>
         <link href="https://www.youtube.com/watch?v=HZf6uKO0Ep4"/>
         <updated>2023-05-26T13:00:37.000Z</updated>
@@ -1832,7 +1871,7 @@ why (I plan on writing a blog article about it), but the thing is, my only bindi
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hacking your brain with Polyphasic Sleep]]></title>
+        <title type="html"><![CDATA[Hacking Your Brain with Polyphasic Sleep]]></title>
         <id>https://www.youtube.com/watch?v=OuizzRCALCU</id>
         <link href="https://www.youtube.com/watch?v=OuizzRCALCU"/>
         <updated>2023-05-05T09:10:21.000Z</updated>
