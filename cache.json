@@ -86,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1445,
+          "wordCount": 1446,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1849,16 +1849,6 @@
           "wordCount": null,
           "title": "Serverless was a big mistake... says Amazon",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=V4gGJ7XXlC0",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=V4gGJ7XXlC0",
-          "publishedOn": "2023-05-04T19:57:07.000Z",
-          "wordCount": null,
-          "title": "Mojo Lang… a fast futuristic Python alternative",
-          "imageUrl": null
         }
       ]
     },
@@ -1901,17 +1891,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Deploy Rust with shuttle.rs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=OuizzRCALCU",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=OuizzRCALCU",
-          "publishedOn": "2023-05-05T09:10:21.000Z",
-          "wordCount": null,
-          "title": "Hacking Your Brain with Polyphasic Sleep",
+          "title": "Rust macros as build tools",
           "imageUrl": null
         }
       ]

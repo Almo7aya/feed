@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-03T00:23:59.901Z</id>
+    <id>urn:2023-06-04T00:28:00.131Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-03T00:23:59.901Z</updated>
+    <updated>2023-06-04T00:28:00.131Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1687,7 +1687,7 @@ gist</a>)</p>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Deploy Rust with shuttle.rs]]></title>
+        <title type="html"><![CDATA[Rust macros as build tools]]></title>
         <id>https://www.youtube.com/watch?v=HZf6uKO0Ep4</id>
         <link href="https://www.youtube.com/watch?v=HZf6uKO0Ep4"/>
         <updated>2023-05-26T13:00:37.000Z</updated>
@@ -1980,24 +1980,6 @@ why (I plan on writing a blog article about it), but the thing is, my only bindi
         <id>https://www.youtube.com/watch?v=qQk94CjRvIs</id>
         <link href="https://www.youtube.com/watch?v=qQk94CjRvIs"/>
         <updated>2023-05-06T20:03:36.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking Your Brain with Polyphasic Sleep]]></title>
-        <id>https://www.youtube.com/watch?v=OuizzRCALCU</id>
-        <link href="https://www.youtube.com/watch?v=OuizzRCALCU"/>
-        <updated>2023-05-05T09:10:21.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mojo Lang… a fast futuristic Python alternative]]></title>
-        <id>https://www.youtube.com/watch?v=V4gGJ7XXlC0</id>
-        <link href="https://www.youtube.com/watch?v=V4gGJ7XXlC0"/>
-        <updated>2023-05-04T19:57:07.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>
