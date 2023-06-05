@@ -76,7 +76,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5068,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -86,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1446,
+          "wordCount": 1455,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
