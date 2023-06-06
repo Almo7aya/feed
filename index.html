@@ -22,11 +22,42 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-02 datetime="2023-06-02T13:26:02.000Z">2023-06-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-02 datetime="2023-06-02T13:26:02.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-05 datetime="2023-06-05T17:54:25.000Z">2023-06-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-05 datetime="2023-06-05T17:54:25.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;Ibjm2KHfymo"
+                        open
+                      >
+                        <summary class="article-expander__title">Java is mounting a huge comeback</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;Ibjm2KHfymo">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -42,54 +73,55 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-"
+                        data-accordion-key="http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate"
                         open
                       >
-                        <summary class="article-expander__title">RSpec Spies 🕵️‍♀️ - #ruby</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-">
+                        <summary class="article-expander__title">FactoryBot skip_create - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>class SomeJob
-  def perform
-    SomeService.call
-  end
-
-end
-
-Rspec.describe SomeJob do
-  it &quot;makes the call&quot; do
-    expect(SomeService).to receive(:call)
-    SomeJob.new.perform
+                              <span>save! on create:
+FactoryBot.define do
+  factory :model_without_table do
+    skip_create
+    an_attribute { &quot;An Attribute&quot; }
   end
 end
-allow, exercise the subject under test, then assert with have_received:
-class SomeJob
-  attr_reader :some_attribute
-
-  def perform
-    set_an_instance_var
-    SomeService.call(some_attribute)
-  end
-
-  def set_an_instance_var
-    @some_attribute &#x3D; :something
-  end
-end
-
-Rspec.describe SomeJob do
-  subject { SomeJob.new }
-
-  it &quot;makes the call with an argument&quot; do
-    allow(SomeService).to receive(:call)
-    subject.perform
-    expect(SomeService).to have_received(:call).with(subject.some_attribute)
-  end
-end
-some_attribute is until we perform - a perfect use case for a spy.
-Matt Polito</span>
+Docs</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Let&#x27;s Get Rusty</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;QEnuzwCWpgQ"
+                        open
+                      >
+                        <summary class="article-expander__title">Rust is being destroyed from the inside</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;QEnuzwCWpgQ">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
                             </span>
                           </div>
                         </a>
@@ -3141,6 +3173,91 @@ Matt Polito</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-02 datetime="2023-06-02T13:26:02.000Z">2023-06-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-02 datetime="2023-06-02T13:26:02.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-"
+                        open
+                      >
+                        <summary class="article-expander__title">RSpec Spies 🕵️‍♀️ - #ruby</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>class SomeJob
+  def perform
+    SomeService.call
+  end
+
+end
+
+Rspec.describe SomeJob do
+  it &quot;makes the call&quot; do
+    expect(SomeService).to receive(:call)
+    SomeJob.new.perform
+  end
+end
+allow, exercise the subject under test, then assert with have_received:
+class SomeJob
+  attr_reader :some_attribute
+
+  def perform
+    set_an_instance_var
+    SomeService.call(some_attribute)
+  end
+
+  def set_an_instance_var
+    @some_attribute &#x3D; :something
+  end
+end
+
+Rspec.describe SomeJob do
+  subject { SomeJob.new }
+
+  it &quot;makes the call with an argument&quot; do
+    allow(SomeService).to receive(:call)
+    subject.perform
+    expect(SomeService).to have_received(:call).with(subject.some_attribute)
+  end
+end
+some_attribute is until we perform - a perfect use case for a spy.
+Matt Polito</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-01 datetime="2023-06-01T16:20:30.000Z">2023-06-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-01 datetime="2023-06-01T16:20:30.000Z"></time>
           </button>
@@ -4436,55 +4553,10 @@ why (I plan on writing a blog article about it), but the thing is, my only bindi
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-06 datetime="2023-05-06T20:03:36.000Z">2023-05-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-06 datetime="2023-05-06T20:03:36.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;qQk94CjRvIs"
-                        open
-                      >
-                        <summary class="article-expander__title">Serverless was a big mistake... says Amazon</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;qQk94CjRvIs">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5171966816">
-        <time id="build-timestamp" datetime="2023-06-05T00:24:31.692Z">2023-06-05T00:24:31.692Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5183198457">
+        <time id="build-timestamp" datetime="2023-06-06T00:24:45.676Z">2023-06-06T00:24:45.676Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
