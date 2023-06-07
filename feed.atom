@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-06T00:24:45.717Z</id>
+    <id>urn:2023-06-07T00:24:57.348Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-06T00:24:45.717Z</updated>
+    <updated>2023-06-07T00:24:57.348Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Apple makes risky bet on VR/AR future]]></title>
+        <id>https://www.youtube.com/watch?v=Uc6lM1Aig9c</id>
+        <link href="https://www.youtube.com/watch?v=Uc6lM1Aig9c"/>
+        <updated>2023-06-06T18:54:17.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Java is mounting a huge comeback]]></title>
         <id>https://www.youtube.com/watch?v=Ibjm2KHfymo</id>
@@ -1986,28 +1995,6 @@ https://github.com/rails/rails/commit/4dba136c83cc808282625c0d5b195ce5e0bbaa68
 https://github.com/rails/rails/issues/32790]]></summary>
         <author>
             <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 May 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/May/8</id>
-        <link href="https://this-week-in-neovim.org/2023/May/8"/>
-        <updated>2023-05-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Important disclaimer
-This release marks the release of three different TWiN releases all merged as one:
-Monday April 24th 2023
-Monday May 1st 2023
-Monday May 8th 2023
-I — @phaazon — was not available for a whole week (work summit in New-York) and missed two
-release dates. Hence, you get a mega update this week, yaaaay.
-However, I think it’s important for me to explain something about
-this-week-in-neovim. I started the project almost one year ago now, completely on my
-own, just after asking the community whether they would like a curated list of news
-(reddit).
-People might have noticed — should they know me directly or not — that I have moved away from Neovim. I will not explain
-why (I plan on writing a blog article about it), but the thing is, my only binding to Neovim now is TWiN. I keep …]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
 </feed>

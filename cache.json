@@ -40,16 +40,6 @@
           "wordCount": 408,
           "title": "15 May 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/May/8",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Important disclaimer\nThis release marks the release of three different TWiN releases all merged as one:\nMonday April 24th 2023\nMonday May 1st 2023\nMonday May 8th 2023\nI — @phaazon — was not available for a whole week (work summit in New-York) and missed two\nrelease dates. Hence, you get a mega update this week, yaaaay.\nHowever, I think it’s important for me to explain something about\nthis-week-in-neovim. I started the project almost one year ago now, completely on my\nown, just after asking the community whether they would like a curated list of news\n(reddit).\nPeople might have noticed — should they know me directly or not — that I have moved away from Neovim. I will not explain\nwhy (I plan on writing a blog article about it), but the thing is, my only binding to Neovim now is TWiN. I keep …",
-          "link": "https://this-week-in-neovim.org/2023/May/8",
-          "publishedOn": "2023-05-08T00:00:00.000Z",
-          "wordCount": 1499,
-          "title": "8 May 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -76,7 +66,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5067,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -1760,6 +1750,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=Uc6lM1Aig9c",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=Uc6lM1Aig9c",
+          "publishedOn": "2023-06-06T18:54:17.000Z",
+          "wordCount": null,
+          "title": "Apple makes risky bet on VR/AR future",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=Ibjm2KHfymo",
           "author": null,
