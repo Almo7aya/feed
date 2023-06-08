@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-07T00:24:57.348Z</id>
+    <id>urn:2023-06-08T00:24:34.352Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-07T00:24:57.348Z</updated>
+    <updated>2023-06-08T00:24:34.352Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Comparison Validator Also Validates Presence - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence</id>
+        <link href="http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence"/>
+        <updated>2023-06-07T18:29:41.000Z</updated>
+        <summary type="html"><![CDATA[:blank error if the attribute is missing. So you don't have to explicitly add a presence validation if you're also doing a comparison validation (unless you really really want to (I probably still will)).
+class SomeClass
+  include ActiveModel::Model
+  include ActiveModel::Attributes
+
+  attribute :some_number
+
+  validates(
+    :some_number,
+    comparison: {greater_than: 8}
+  )
+end
+some_number you'll get a :blank error, and the comparison validation will not run:
+pry(main)> foo = SomeClass.new
+pry(main)> foo.valid?; foo.errors.full_messages
+=> ["Some number can't be blank"]
+some_number, then the comparison validation will run as expected:
+pry(main)> bar = SomeClass.new(some_number: 3)
+pry(main)> bar.valid?; bar.errors.full_messages
+=> ["Some number must be greater than 8"]
+Source]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 Jun 2023]]></title>
+        <id>https://this-week-in-neovim.org/2023/Jun/7</id>
+        <link href="https://this-week-in-neovim.org/2023/Jun/7"/>
+        <updated>2023-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: some updates might be missing from this week content. If you want to be sure to always keep up to
+date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
+@neovim on Twitter, which tweets the most recent news about the editor.
+:h news.txt will deliver you with the last news inside Neovim directly.
+Various PRs on GitHub.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    dropbar.nvim
+  
+
+
+  
+
+Introducing dropbar.nvim, the new winbar plugin designed for neovimmers!
+With dropbar.nvim, you can elevate your neovim experience to an IDE-like level. This standal…]]></summary>
+        <author>
+            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple makes risky bet on VR/AR future]]></title>
         <id>https://www.youtube.com/watch?v=Uc6lM1Aig9c</id>
@@ -1731,7 +1791,7 @@ gist</a>)</p>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rust macros as build tools]]></title>
+        <title type="html"><![CDATA[Oxidise Your Infra With Shuttle.rs]]></title>
         <id>https://www.youtube.com/watch?v=HZf6uKO0Ep4</id>
         <link href="https://www.youtube.com/watch?v=HZf6uKO0Ep4"/>
         <updated>2023-05-26T13:00:37.000Z</updated>
@@ -1955,46 +2015,6 @@ end]]></summary>
         <summary type="html"><![CDATA[If you stole my phone (please don&#8217;t) and saw all of my photos, I&#8217;m constantly capturing photos of beautiful/funny/interesting/decrepit signs. It&#8217;s one of my favorite things to do when traveling. So naturally I love this site India Street Lettering.]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bulk Delete Records in Rails with `delete_by` - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby</id>
-        <link href="http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby"/>
-        <updated>2023-05-08T15:14:15.000Z</updated>
-        <summary type="html"><![CDATA[delete_all . But I recently learned of another method that can used to shorthand this method-call on a where statement. 
-delete_by(...) is the shorthand for Model.where(...).delete_all
-Model.where(foo: true, bar: false).delete_all
-
-# vs.
-
-Model.delete_by(foo: true, bar: false)
-delete_all, you will need to be careful with delete_by as it creates a single delete statement for the database and callbacks are not called.
-destroy_by is a similar shorthand for Model.where(...).destroy
-https://api.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-delete_by]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Upload Active Storage Attachments to Specific Path - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path</id>
-        <link href="http://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path"/>
-        <updated>2023-05-08T14:12:44.000Z</updated>
-        <summary type="html"><![CDATA[key argument to #attach, you can specify the location of the file within the bucket - 
-class Invoice < ApplicationRecord
-  has_one_attached :document
-end
-
-invoice = Invoice.create
-invoice.document.attach(
-  key: "invoices/invoice_1_20230505.pdf",
-  io: File.read("invoice_1.pdf")
-)
-https://github.com/rails/rails/commit/4dba136c83cc808282625c0d5b195ce5e0bbaa68
-https://github.com/rails/rails/issues/32790]]></summary>
-        <author>
-            <name>andrewvogel</name>
         </author>
     </entry>
 </feed>

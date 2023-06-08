@@ -22,6 +22,127 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-07 datetime="2023-06-07T18:29:41.000Z">2023-06-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-07 datetime="2023-06-07T18:29:41.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence"
+                        open
+                      >
+                        <summary class="article-expander__title">Comparison Validator Also Validates Presence - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>:blank error if the attribute is missing. So you don&#x27;t have to explicitly add a presence validation if you&#x27;re also doing a comparison validation (unless you really really want to (I probably still will)).
+class SomeClass
+  include ActiveModel::Model
+  include ActiveModel::Attributes
+
+  attribute :some_number
+
+  validates(
+    :some_number,
+    comparison: {greater_than: 8}
+  )
+end
+some_number you&#x27;ll get a :blank error, and the comparison validation will not run:
+pry(main)&gt; foo &#x3D; SomeClass.new
+pry(main)&gt; foo.valid?; foo.errors.full_messages
+&#x3D;&gt; [&quot;Some number can&#x27;t be blank&quot;]
+some_number, then the comparison validation will run as expected:
+pry(main)&gt; bar &#x3D; SomeClass.new(some_number: 3)
+pry(main)&gt; bar.valid?; bar.errors.full_messages
+&#x3D;&gt; [&quot;Some number must be greater than 8&quot;]
+Source</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >This Week In Neovim</button>
+                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://this-week-in-neovim.org/2023/Jun/7"
+                        open
+                      >
+                        <summary class="article-expander__title">7 Jun 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/Jun/7">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Neovim Core updates
+Updates of Neovim itself, which are available on Neovim nightly.
+Important: some updates might be missing from this week content. If you want to be sure to always keep up to
+date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
+@neovim on Twitter, which tweets the most recent news about the editor.
+:h news.txt will deliver you with the last news inside Neovim directly.
+Various PRs on GitHub.
+Neovim Plugin Community updates
+Neovim is full of active plugins. This section is about the community and what is going on.
+New plugins
+
+      
+    
+    dropbar.nvim
+  
+
+
+  
+
+Introducing dropbar.nvim, the new winbar plugin designed for neovimmers!
+With dropbar.nvim, you can elevate your neovim experience to an IDE-like level. This standal…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-06 datetime="2023-06-06T18:54:17.000Z">2023-06-06</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-06 datetime="2023-06-06T18:54:17.000Z"></time>
           </button>
@@ -3734,7 +3855,7 @@ gist)
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;HZf6uKO0Ep4"
                         open
                       >
-                        <summary class="article-expander__title">Rust macros as build tools</summary>
+                        <summary class="article-expander__title">Oxidise Your Infra With Shuttle.rs</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;HZf6uKO0Ep4">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -4465,98 +4586,10 @@ end</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-08 datetime="2023-05-08T15:14:15.000Z">2023-05-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-08 datetime="2023-05-08T15:14:15.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby"
-                        open
-                      >
-                        <summary class="article-expander__title">Bulk Delete Records in Rails with &#x60;delete_by&#x60; - #rails</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>delete_all . But I recently learned of another method that can used to shorthand this method-call on a where statement. 
-delete_by(...) is the shorthand for Model.where(...).delete_all
-Model.where(foo: true, bar: false).delete_all
-
-# vs.
-
-Model.delete_by(foo: true, bar: false)
-delete_all, you will need to be careful with delete_by as it creates a single delete statement for the database and callbacks are not called.
-destroy_by is a similar shorthand for Model.where(...).destroy
-https://api.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-delete_by</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path"
-                        open
-                      >
-                        <summary class="article-expander__title">Upload Active Storage Attachments to Specific Path - #rails</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>key argument to #attach, you can specify the location of the file within the bucket - 
-class Invoice &lt; ApplicationRecord
-  has_one_attached :document
-end
-
-invoice &#x3D; Invoice.create
-invoice.document.attach(
-  key: &quot;invoices/invoice_1_20230505.pdf&quot;,
-  io: File.read(&quot;invoice_1.pdf&quot;)
-)
-https://github.com/rails/rails/commit/4dba136c83cc808282625c0d5b195ce5e0bbaa68
-https://github.com/rails/rails/issues/32790</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5194638634">
-        <time id="build-timestamp" datetime="2023-06-07T00:24:57.320Z">2023-06-07T00:24:57.320Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5206038864">
+        <time id="build-timestamp" datetime="2023-06-08T00:24:34.322Z">2023-06-08T00:24:34.322Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

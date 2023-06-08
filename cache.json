@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Jun/7",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    dropbar.nvim\n  \n\n\n  \n\nIntroducing dropbar.nvim, the new winbar plugin designed for neovimmers!\nWith dropbar.nvim, you can elevate your neovim experience to an IDE-like level. This standal…",
+          "link": "https://this-week-in-neovim.org/2023/Jun/7",
+          "publishedOn": "2023-06-07T00:00:00.000Z",
+          "wordCount": 1869,
+          "title": "7 Jun 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/May/29",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    mini.hipatterns\n  \n\n\n  \n\nmini.nvim plugin got its module number 30 - mini.hipatterns. It can be used to highlight patterns in text (like\nTODO, hex color strings, etc.) with configurable p…",
           "link": "https://this-week-in-neovim.org/2023/May/29",
           "publishedOn": "2023-05-29T00:00:00.000Z",
-          "wordCount": 450,
+          "wordCount": 453,
           "title": "29 May 2023",
           "imageUrl": null
         },
@@ -66,7 +76,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5067,
+          "wordCount": 5070,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -87,6 +97,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence",
+          "author": "tonyyunker",
+          "description": ":blank error if the attribute is missing. So you don't have to explicitly add a presence validation if you're also doing a comparison validation (unless you really really want to (I probably still will)).\nclass SomeClass\r\n  include ActiveModel::Model\r\n  include ActiveModel::Attributes\r\n\n  attribute :some_number\r\n\n  validates(\r\n    :some_number,\r\n    comparison: {greater_than: 8}\r\n  )\r\nend\r\nsome_number you'll get a :blank error, and the comparison validation will not run:\npry(main)> foo = SomeClass.new\r\npry(main)> foo.valid?; foo.errors.full_messages\r\n=> [\"Some number can't be blank\"]\r\nsome_number, then the comparison validation will run as expected:\npry(main)> bar = SomeClass.new(some_number: 3)\r\npry(main)> bar.valid?; bar.errors.full_messages\r\n=> [\"Some number must be greater than 8\"]\r\nSource",
+          "link": "http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence",
+          "publishedOn": "2023-06-07T18:29:41.000Z",
+          "wordCount": 354,
+          "title": "Comparison Validator Also Validates Presence - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate",
           "author": "tonyyunker",
@@ -146,26 +166,6 @@
           "wordCount": 382,
           "title": "Casting Associations in Phoenix - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby",
-          "author": "andrewvogel",
-          "description": "delete_all . But I recently learned of another method that can used to shorthand this method-call on a where statement. \ndelete_by(...) is the shorthand for Model.where(...).delete_all\nModel.where(foo: true, bar: false).delete_all\r\n\n# vs.\r\n\nModel.delete_by(foo: true, bar: false)\r\ndelete_all, you will need to be careful with delete_by as it creates a single delete statement for the database and callbacks are not called.\ndestroy_by is a similar shorthand for Model.where(...).destroy\nhttps://api.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-delete_by",
-          "link": "http://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby",
-          "publishedOn": "2023-05-08T15:14:15.000Z",
-          "wordCount": 318,
-          "title": "Bulk Delete Records in Rails with `delete_by` - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path",
-          "author": "andrewvogel",
-          "description": "key argument to #attach, you can specify the location of the file within the bucket - \nclass Invoice < ApplicationRecord\r\n  has_one_attached :document\r\nend\r\n\ninvoice = Invoice.create\r\ninvoice.document.attach(\r\n  key: \"invoices/invoice_1_20230505.pdf\",\r\n  io: File.read(\"invoice_1.pdf\")\r\n)\r\nhttps://github.com/rails/rails/commit/4dba136c83cc808282625c0d5b195ce5e0bbaa68\nhttps://github.com/rails/rails/issues/32790",
-          "link": "http://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path",
-          "publishedOn": "2023-05-08T14:12:44.000Z",
-          "wordCount": 293,
-          "title": "Upload Active Storage Attachments to Specific Path - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },
@@ -1911,7 +1911,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Rust macros as build tools",
+          "title": "Oxidise Your Infra With Shuttle.rs",
           "imageUrl": null
         }
       ]
