@@ -76,7 +76,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5069,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -1732,16 +1732,6 @@
           "wordCount": 675,
           "title": "Sometimes the job is an assembly line",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/india-street-lettering/",
-          "author": null,
-          "description": "If you stole my phone (please don&#8217;t) and saw all of my photos, I&#8217;m constantly capturing photos of beautiful/funny/interesting/decrepit signs. It&#8217;s one of my favorite things to do when traveling. So naturally I love this site India Street Lettering.",
-          "link": "https://bradfrost.com/blog/link/india-street-lettering/",
-          "publishedOn": "2023-05-09T12:41:18.000Z",
-          "wordCount": 547,
-          "title": "India Street Lettering",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1848,16 +1838,6 @@
           "publishedOn": "2023-05-10T17:53:59.000Z",
           "wordCount": null,
           "title": "I built a smarter smart home",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=H1sXIUbpRCU",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=H1sXIUbpRCU",
-          "publishedOn": "2023-05-09T17:03:01.000Z",
-          "wordCount": null,
-          "title": "A Day in the Life of a Proompt Engineer",
           "imageUrl": null
         }
       ]

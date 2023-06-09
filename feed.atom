@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-08T00:24:34.352Z</id>
+    <id>urn:2023-06-09T00:26:11.327Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-08T00:24:34.352Z</updated>
+    <updated>2023-06-09T00:26:11.327Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1996,25 +1996,6 @@ end]]></summary>
         <updated>2023-05-10T14:42:55.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Day in the Life of a Proompt Engineer]]></title>
-        <id>https://www.youtube.com/watch?v=H1sXIUbpRCU</id>
-        <link href="https://www.youtube.com/watch?v=H1sXIUbpRCU"/>
-        <updated>2023-05-09T17:03:01.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[India Street Lettering]]></title>
-        <id>https://bradfrost.com/blog/link/india-street-lettering/</id>
-        <link href="https://bradfrost.com/blog/link/india-street-lettering/"/>
-        <updated>2023-05-09T12:41:18.000Z</updated>
-        <summary type="html"><![CDATA[If you stole my phone (please don&#8217;t) and saw all of my photos, I&#8217;m constantly capturing photos of beautiful/funny/interesting/decrepit signs. It&#8217;s one of my favorite things to do when traveling. So naturally I love this site India Street Lettering.]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
