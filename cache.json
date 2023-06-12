@@ -86,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1444,
+          "wordCount": 1450,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -156,16 +156,6 @@
           "wordCount": 244,
           "title": "Incrementing/Decrementing Numbers in Vim - #vim",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix",
-          "author": "jackrosa",
-          "description": "cast_assoc/3. This allows you to make changes to a parent struct and its associations at the same time.\nArtist and an associated schema called Album. The schema for the Album looks something like this:\ndef module MyApp.Music.Album do\r\n use Ecto.Schema\r\n alias MyApp.Music.Artist\r\n\n  schema \"albums\" do\r\n    field :title, :string\r\n    \r\n    belongs_to :artist, Artist\r\n  end\r\n\n  def changeset(artist, params \\\\ %{}) do\r\n    artist\r\n    |> cast(params, [:title, :artist_id])\r\n    |> validate_required([:title])\r\n  end\r\nend\r\ndef module MyApp.Music.Artist do\r\n use Ecto.Schema\r\n alias MyApp.Music.Album\r\n\n  schema \"albums\" do\r\n    field :name, :string\r\n    \r\n    has_many :albums, Album\r\n  end\r\nend\r\nArtist where you can change the artist's name and the title field on an associated album:\ndef changeset(artist, params \\\\ %{}) do\r\n    artist\r\n    |> cast(params, [:name])\r\n    |> cast_assoc(:albums, with: &MyApp.Album.changeset/2)\r\n    |> validate_required([:name])\r\nend",
-          "link": "http://til.hashrocket.com/posts/gtetsqknip-casting-associations-in-phoenix",
-          "publishedOn": "2023-05-12T18:50:20.000Z",
-          "wordCount": 382,
-          "title": "Casting Associations in Phoenix - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
     },
@@ -1881,7 +1871,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Oxidise Your Infra With Shuttle.rs",
+          "title": "Rust-native deploying using shuttle.rs",
           "imageUrl": null
         }
       ]
