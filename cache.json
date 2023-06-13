@@ -12,12 +12,22 @@
       "siteUrl": "https://this-week-in-neovim.org",
       "articles": [
         {
+          "id": "https://this-week-in-neovim.org/2023/Jun/12",
+          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
+          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    highlight-undo.nvim\n  \n\n\nHighlight changed text after Undo / Redo operations. Purely lua / nvim api implementation,\nno external dependencies needed.\nGitHub\nUpdates\n\n      \n    \n    mini.n…",
+          "link": "https://this-week-in-neovim.org/2023/Jun/12",
+          "publishedOn": "2023-06-12T00:00:00.000Z",
+          "wordCount": 647,
+          "title": "12 Jun 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://this-week-in-neovim.org/2023/Jun/7",
           "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
           "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    dropbar.nvim\n  \n\n\n  \n\nIntroducing dropbar.nvim, the new winbar plugin designed for neovimmers!\nWith dropbar.nvim, you can elevate your neovim experience to an IDE-like level. This standal…",
           "link": "https://this-week-in-neovim.org/2023/Jun/7",
           "publishedOn": "2023-06-07T00:00:00.000Z",
-          "wordCount": 1869,
+          "wordCount": 1872,
           "title": "7 Jun 2023",
           "imageUrl": null
         },
@@ -86,7 +96,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1450,
+          "wordCount": 1445,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1731,6 +1741,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=Ch6zNEq9fwM",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=Ch6zNEq9fwM",
+          "publishedOn": "2023-06-12T18:19:47.000Z",
+          "wordCount": null,
+          "title": "Reddit’s API rug pull",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=VkezQMb1DHw",
           "author": null,
           "description": "",
@@ -1871,7 +1891,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Rust-native deploying using shuttle.rs",
+          "title": "Deploy your Rust with a macro",
           "imageUrl": null
         }
       ]
