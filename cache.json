@@ -50,16 +50,6 @@
           "wordCount": 433,
           "title": "23 May 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/May/15",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nGuides, tours, articles, etc.\n\n      \n      A guide on how to use Neorg\n    \n  \n\n\nNeorg is an all-encompassing tool based around structured note taking, project and task management, time tracking, slideshows, writing…",
-          "link": "https://this-week-in-neovim.org/2023/May/15",
-          "publishedOn": "2023-05-15T00:00:00.000Z",
-          "wordCount": 408,
-          "title": "15 May 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -86,7 +76,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5068,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -96,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1445,
+          "wordCount": 1446,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1741,6 +1731,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=dCxSsr5xuL8",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=dCxSsr5xuL8",
+          "publishedOn": "2023-06-13T14:16:21.000Z",
+          "wordCount": null,
+          "title": "Nuxt in 100 Seconds",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=Ch6zNEq9fwM",
           "author": null,
           "description": "",
@@ -1891,7 +1891,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Deploy your Rust with a macro",
+          "title": "A database inside a Rust macro",
           "imageUrl": null
         }
       ]
