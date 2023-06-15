@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-14T00:22:55.285Z</id>
+    <id>urn:2023-06-15T00:24:30.650Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-14T00:22:55.285Z</updated>
+    <updated>2023-06-15T00:24:30.650Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Custom Radio and Checkbox colors in Tailwind - #html-css]]></title>
+        <id>http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind</id>
+        <link href="http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind"/>
+        <updated>2023-06-14T21:09:36.000Z</updated>
+        <summary type="html"><![CDATA[accent-{color} class, you can customize your form's colors. On your input, simply add the class along with the color of your choice like this:
+<input type="checkbox" class="accent-red-300" checked>
+
+And the result looks like this! (its an image btw, I'll save you a click)
+  
+
+
+This works for the accent colors of radio groups as well.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nuxt in 100 Seconds]]></title>
         <id>https://www.youtube.com/watch?v=dCxSsr5xuL8</id>

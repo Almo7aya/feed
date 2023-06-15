@@ -86,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1446,
+          "wordCount": 1447,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -97,6 +97,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind",
+          "author": "jackrosa",
+          "description": "accent-{color} class, you can customize your form's colors. On your input, simply add the class along with the color of your choice like this:\n<input type=\"checkbox\" class=\"accent-red-300\" checked>\r\n\nAnd the result looks like this! (its an image btw, I'll save you a click)\n  \n\n\nThis works for the accent colors of radio groups as well.",
+          "link": "http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind",
+          "publishedOn": "2023-06-14T21:09:36.000Z",
+          "wordCount": 244,
+          "title": "Custom Radio and Checkbox colors in Tailwind - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/eovmkimoxl-comparison-validator-also-validates-presence",
           "author": "tonyyunker",
