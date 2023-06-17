@@ -86,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1446,
+          "wordCount": 1447,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -97,6 +97,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir",
+          "author": "jackrosa",
+          "description": "Lets start by looking at a super basic guard clause here:\ndef greater_than_10(num) when num > 10, do: true\r\ndef greater_than_10(_), do: false\r\nwhen guard. This is overkill for our situation, but lets say we want the when to use a custom function of ours instead of a basic operation, but when guards don't allow you to directly pass functions to them.\ndefguard that allows you to define custom guards like functions. Let's change our function up and define a guard that checks if our argument is both a integer and even.\ndefmodule Guards do\r\n  defguard is_even_num(num) when is_integer(value) and rem(value, 2) == 0\r\nend\r\nimport Guards\r\n\ndef even_num_greater_than_10(num) when is_even_num(num) do\r\n  case num > 10 do\r\n    true -> true\r\n    _ -> false\r\n  end\r\nend\r\n\nEven though this example is a bit overkill, the option to use custom guards is a cool elixir feature.",
+          "link": "http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir",
+          "publishedOn": "2023-06-16T19:45:21.000Z",
+          "wordCount": 409,
+          "title": "Macro Guard Clauses in Elixir - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind",
           "author": "jackrosa",
@@ -1741,6 +1751,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=1GSq7Je32iw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=1GSq7Je32iw",
+          "publishedOn": "2023-06-16T18:00:57.000Z",
+          "wordCount": null,
+          "title": "RIP Google Domains… and 5 big tech stories this week",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=dCxSsr5xuL8",
           "author": null,
           "description": "",
@@ -1839,16 +1859,6 @@
           "wordCount": null,
           "title": "How to get rich as a solo software developer - The Ultimate Guide",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=CDokUdux0rc",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=CDokUdux0rc",
-          "publishedOn": "2023-05-17T19:39:07.000Z",
-          "wordCount": null,
-          "title": "AI regulation is coming...",
-          "imageUrl": null
         }
       ]
     },
@@ -1891,7 +1901,7 @@
           "link": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
           "publishedOn": "2023-06-09T10:29:22.000Z",
           "wordCount": null,
-          "title": "Hacking your brain with elaborate coping mechanisms",
+          "title": "My elaborate coping mechanisms",
           "imageUrl": null
         },
         {
@@ -1901,7 +1911,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "A database inside a Rust macro",
+          "title": "Build your infrastructure inside a Rust macro",
           "imageUrl": null
         }
       ]
