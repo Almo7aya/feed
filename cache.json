@@ -76,7 +76,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5071,
+          "wordCount": 5070,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -86,7 +86,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1445,
+          "wordCount": 1443,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1714,6 +1714,36 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/",
+          "author": null,
+          "description": "Well ain&#8217;t this just some pretty damning and sobering stuff. The examples they use to demonstrate the lack of thought or safety built into these technologies is incredibly unnerving. They demonstrate how basic, 101-level stuff to keep kids safe is [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/",
+          "publishedOn": "2023-06-19T20:37:08.000Z",
+          "wordCount": 572,
+          "title": "The A.I. Dilemma &#8211; March 9, 2023",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/the-dangers-of-highly-centralized-ai-by-clive-thompson-medium/",
+          "author": null,
+          "description": "The field of large language models is becoming dangerously centralized. A huge amount of power resides in the hands of a tiny number of firms. Source: The Dangers Of Highly Centralized AI &#124; by Clive Thompson &#124; Medium",
+          "link": "https://bradfrost.com/blog/link/the-dangers-of-highly-centralized-ai-by-clive-thompson-medium/",
+          "publishedOn": "2023-06-19T20:07:47.000Z",
+          "wordCount": 565,
+          "title": "The Dangers Of Highly Centralized AI &#124; by Clive Thompson &#124; Medium",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/artificial-intelligence-who-owns-the-future-ethical-net/",
+          "author": null,
+          "description": "Beyond the contemporary issues lurk deeper long-term questions. What should and shouldn’t we automate? Should we create lethal autonomous weapons, or should a human always take charge of life-and-death decisions? How will we earn a living and even find meaning [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/artificial-intelligence-who-owns-the-future-ethical-net/",
+          "publishedOn": "2023-06-19T19:32:14.000Z",
+          "wordCount": 630,
+          "title": "Artificial intelligence: who owns the future? &#8211; ethical.net",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/2023-milky-way-photographer-of-the-year-capture-the-atlas/",
           "author": null,
           "description": "I could look at this stuff all day: 2023 Milky Way Photographer of the Year &#8211; Capture the Atlas Via Kottke",
@@ -1901,7 +1931,7 @@
           "link": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
           "publishedOn": "2023-06-09T10:29:22.000Z",
           "wordCount": null,
-          "title": "My elaborate coping mechanisms",
+          "title": "Hacking your brain with 18 elaborate coping mechanisms",
           "imageUrl": null
         },
         {
