@@ -40,16 +40,6 @@
           "wordCount": 453,
           "title": "29 May 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/May/23",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    github-nvim-theme\n  \n\n\nThis new Colorscheme plugin supports the latest features, such as Treesitter and LSP, while resembling GitHub’s VSCode \nthemes and following primer design guideline…",
-          "link": "https://this-week-in-neovim.org/2023/May/23",
-          "publishedOn": "2023-05-23T00:00:00.000Z",
-          "wordCount": 433,
-          "title": "23 May 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -76,7 +66,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5071,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -86,7 +76,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1448,
+          "wordCount": 1446,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -97,6 +87,36 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions",
+          "author": "craighafer",
+          "description": "Rails.application.config.hosts << /.*\\.ngrok\\.app/\r\nRails.application.config.hosts << \".ngrok.app\"\r\n\nBut it's still nice to know you can utilize regular expressions if needed!",
+          "link": "http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions",
+          "publishedOn": "2023-06-21T18:47:27.000Z",
+          "wordCount": 338,
+          "title": "Rails config hosts accepts regular expressions - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations",
+          "author": "gabrielreis",
+          "description": "change method on migrations is great so you don't have to specify up and down and if you just want to execute a simple sql update on up then you can use the up_only method:\n  def change\r\n    add_column :products, :draft, :boolean, default: true\r\n    \r\n    up_only do\r\n      execute \"update products set draft = false\"\r\n    end\r\n  end",
+          "link": "http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations",
+          "publishedOn": "2023-06-21T16:12:03.000Z",
+          "wordCount": 282,
+          "title": "Using `up_only` in ActiveRecord migrations - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset",
+          "author": "jackrosa",
+          "description": "fetch_change/2. Simply pass the function a changeset, and the name of the column where you want to see the change.\nchangeset = change(%User{}, %{first_name: \"John\"})\r\n|> fetch_change(:first_name)\r\n# => \"John\"",
+          "link": "http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset",
+          "publishedOn": "2023-06-21T15:38:31.000Z",
+          "wordCount": 281,
+          "title": "Directly fetch a change from a phoenix changeset - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir",
           "author": "jackrosa",
@@ -166,16 +186,6 @@
           "wordCount": 241,
           "title": "Samsung Android Emulator / Real Device - #mobile",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
-          "author": "jackrosa",
-          "description": "Ctrl+a to jump to the next number and increment. To jump to the next number and decrement, use Ctrl+x.\n\nNote:\n\nJumping to the next number only works on your current line.",
-          "link": "http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim",
-          "publishedOn": "2023-05-22T20:48:37.000Z",
-          "wordCount": 244,
-          "title": "Incrementing/Decrementing Numbers in Vim - #vim",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
         }
       ]
     },
@@ -1781,6 +1791,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=3Ay6qZ88boI",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=3Ay6qZ88boI",
+          "publishedOn": "2023-06-21T20:11:06.000Z",
+          "wordCount": null,
+          "title": "PHP will make you poor? StackOverflow 2023 Results",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=JY_d0vf-rfw",
           "author": null,
           "description": "",
@@ -1897,6 +1917,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=U4x9br8OXkg",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=U4x9br8OXkg",
+          "publishedOn": "2023-06-21T14:00:31.000Z",
+          "wordCount": null,
+          "title": "Rust 1.70.0",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=784JWR4oxOI",
           "author": null,

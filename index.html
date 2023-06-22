@@ -22,6 +22,169 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-21 datetime="2023-06-21T20:11:06.000Z">2023-06-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-21 datetime="2023-06-21T20:11:06.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;3Ay6qZ88boI"
+                        open
+                      >
+                        <summary class="article-expander__title">PHP will make you poor? StackOverflow 2023 Results</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;3Ay6qZ88boI">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions"
+                        open
+                      >
+                        <summary class="article-expander__title">Rails config hosts accepts regular expressions - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Rails.application.config.hosts &lt;&lt; /.*\.ngrok\.app/
+Rails.application.config.hosts &lt;&lt; &quot;.ngrok.app&quot;
+
+But it&#x27;s still nice to know you can utilize regular expressions if needed!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations"
+                        open
+                      >
+                        <summary class="article-expander__title">Using &#x60;up_only&#x60; in ActiveRecord migrations - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>change method on migrations is great so you don&#x27;t have to specify up and down and if you just want to execute a simple sql update on up then you can use the up_only method:
+  def change
+    add_column :products, :draft, :boolean, default: true
+    
+    up_only do
+      execute &quot;update products set draft &#x3D; false&quot;
+    end
+  end</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset"
+                        open
+                      >
+                        <summary class="article-expander__title">Directly fetch a change from a phoenix changeset - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>fetch_change/2. Simply pass the function a changeset, and the name of the column where you want to see the change.
+changeset &#x3D; change(%User{}, %{first_name: &quot;John&quot;})
+|&gt; fetch_change(:first_name)
+# &#x3D;&gt; &quot;John&quot;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Let&#x27;s Get Rusty</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;U4x9br8OXkg"
+                        open
+                      >
+                        <summary class="article-expander__title">Rust 1.70.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;U4x9br8OXkg">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-20 datetime="2023-06-20T18:19:43.000Z">2023-06-20</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-20 datetime="2023-06-20T18:19:43.000Z"></time>
           </button>
@@ -4611,115 +4774,12 @@ https://docs.expo.dev/build-reference/simulators/</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >This Week In Neovim</button>
-                  <a class="source-heading__link" href="https://this-week-in-neovim.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://this-week-in-neovim.org/2023/May/23"
-                        open
-                      >
-                        <summary class="article-expander__title">23 May 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://this-week-in-neovim.org/2023/May/23">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    github-nvim-theme
-  
-
-
-This new Colorscheme plugin supports the latest features, such as Treesitter and LSP, while resembling GitHub’s VSCode 
-themes and following primer design guideline…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-22 datetime="2023-05-22T20:48:37.000Z">2023-05-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-22 datetime="2023-05-22T20:48:37.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim"
-                        open
-                      >
-                        <summary class="article-expander__title">Incrementing/Decrementing Numbers in Vim - #vim</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ctrl+a to jump to the next number and increment. To jump to the next number and decrement, use Ctrl+x.
-
-Note:
-
-Jumping to the next number only works on your current line.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5328680553">
-        <time id="build-timestamp" datetime="2023-06-21T00:24:04.075Z">2023-06-21T00:24:04.075Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5340231303">
+        <time id="build-timestamp" datetime="2023-06-22T00:24:39.446Z">2023-06-22T00:24:39.446Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-21T00:24:04.112Z</id>
+    <id>urn:2023-06-22T00:24:39.480Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-21T00:24:04.112Z</updated>
+    <updated>2023-06-22T00:24:39.480Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[PHP will make you poor? StackOverflow 2023 Results]]></title>
+        <id>https://www.youtube.com/watch?v=3Ay6qZ88boI</id>
+        <link href="https://www.youtube.com/watch?v=3Ay6qZ88boI"/>
+        <updated>2023-06-21T20:11:06.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rails config hosts accepts regular expressions - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions</id>
+        <link href="http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions"/>
+        <updated>2023-06-21T18:47:27.000Z</updated>
+        <summary type="html"><![CDATA[Rails.application.config.hosts << /.*\.ngrok\.app/
+Rails.application.config.hosts << ".ngrok.app"
+
+But it's still nice to know you can utilize regular expressions if needed!]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using `up_only` in ActiveRecord migrations - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations</id>
+        <link href="http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations"/>
+        <updated>2023-06-21T16:12:03.000Z</updated>
+        <summary type="html"><![CDATA[change method on migrations is great so you don't have to specify up and down and if you just want to execute a simple sql update on up then you can use the up_only method:
+  def change
+    add_column :products, :draft, :boolean, default: true
+    
+    up_only do
+      execute "update products set draft = false"
+    end
+  end]]></summary>
+        <author>
+            <name>gabrielreis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Directly fetch a change from a phoenix changeset - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset</id>
+        <link href="http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset"/>
+        <updated>2023-06-21T15:38:31.000Z</updated>
+        <summary type="html"><![CDATA[fetch_change/2. Simply pass the function a changeset, and the name of the column where you want to see the change.
+changeset = change(%User{}, %{first_name: "John"})
+|> fetch_change(:first_name)
+# => "John"]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust 1.70.0]]></title>
+        <id>https://www.youtube.com/watch?v=U4x9br8OXkg</id>
+        <link href="https://www.youtube.com/watch?v=U4x9br8OXkg"/>
+        <updated>2023-06-21T14:00:31.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SST in 100 seconds]]></title>
         <id>https://www.youtube.com/watch?v=JY_d0vf-rfw</id>
@@ -2009,48 +2070,6 @@ https://docs.expo.dev/build-reference/simulators/]]></summary>
         <updated>2023-05-23T18:06:38.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23 May 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/May/23</id>
-        <link href="https://this-week-in-neovim.org/2023/May/23"/>
-        <updated>2023-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    github-nvim-theme
-  
-
-
-This new Colorscheme plugin supports the latest features, such as Treesitter and LSP, while resembling GitHub’s VSCode 
-themes and following primer design guideline…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incrementing/Decrementing Numbers in Vim - #vim]]></title>
-        <id>http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim</id>
-        <link href="http://til.hashrocket.com/posts/xemjpjgz8y-incrementingdecrementing-numbers-in-vim"/>
-        <updated>2023-05-22T20:48:37.000Z</updated>
-        <summary type="html"><![CDATA[Ctrl+a to jump to the next number and increment. To jump to the next number and decrement, use Ctrl+x.
-
-Note:
-
-Jumping to the next number only works on your current line.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
