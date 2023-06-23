@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-22T00:24:39.480Z</id>
+    <id>urn:2023-06-23T00:27:53.501Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-22T00:24:39.480Z</updated>
+    <updated>2023-06-23T00:27:53.501Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2023,7 +2023,7 @@ gist</a>)</p>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Forget terraform, write Rust]]></title>
+        <title type="html"><![CDATA[Rust as infrastructure]]></title>
         <id>https://www.youtube.com/watch?v=HZf6uKO0Ep4</id>
         <link href="https://www.youtube.com/watch?v=HZf6uKO0Ep4"/>
         <updated>2023-05-26T13:00:37.000Z</updated>
@@ -2061,15 +2061,6 @@ https://docs.expo.dev/build-reference/simulators/]]></summary>
         <summary type="html"><![CDATA[https://developer.samsung.com/remote-test-lab]]></summary>
         <author>
             <name>gabrielreis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why did my side-hustle fail? How to validate business ideas]]></title>
-        <id>https://www.youtube.com/watch?v=4_MDP6TcHwU</id>
-        <link href="https://www.youtube.com/watch?v=4_MDP6TcHwU"/>
-        <updated>2023-05-23T18:06:38.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
