@@ -66,7 +66,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5071,
+          "wordCount": 5070,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -76,7 +76,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1444,
+          "wordCount": 1445,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -87,6 +87,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw",
+          "author": "tonyyunker",
+          "description": "uncomplicated firewall (ufw). You run ufw help and see that the entry for delete is \ndelete RULE|NUM                 delete RULE\r\nsudo ufw status, all you see is this\nStatus: active\r\n\nTo                         Action      From\r\n--                         ------      ----\r\nOpenSSH                    ALLOW       Anywhere\r\n443                        ALLOW       Anywhere\r\nOpenSSH (v6)               ALLOW       Anywhere (v6)\r\n443 (v6)                   ALLOW       Anywhere (v6)\r\nsudo ufw status numbered, which has the rule number in the left hand column.\nStatus: active\r\n\n     To                         Action      From\r\n     --                         ------      ----\r\n[ 1] OpenSSH                    ALLOW IN    Anywhere\r\n[ 2] 443                        ALLOW IN    Anywhere\r\n[ 3] OpenSSH (v6)               ALLOW IN    Anywhere (v6)\r\n[ 4] 443 (v6)                   ALLOW IN    Anywhere (v6)\r\nsudo ufw delete 3.",
+          "link": "http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw",
+          "publishedOn": "2023-06-23T20:25:50.000Z",
+          "wordCount": 326,
+          "title": "Delete A Rule In UFW - #devops",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions",
           "author": "craighafer",
@@ -175,16 +185,6 @@
           "publishedOn": "2023-05-25T15:25:28.000Z",
           "wordCount": 257,
           "title": "Download and Run an Expo Build on Simulator - #mobile",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device",
-          "author": "gabrielreis",
-          "description": "https://developer.samsung.com/remote-test-lab",
-          "link": "http://til.hashrocket.com/posts/0wscqclrls--samsung-android-emulator-real-device",
-          "publishedOn": "2023-05-24T15:41:15.000Z",
-          "wordCount": 241,
-          "title": "Samsung Android Emulator / Real Device - #mobile",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
         }
       ]
@@ -1724,6 +1724,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/stop-sabbatical-time/",
+          "author": null,
+          "description": "I&#8217;m taking a three-month sabbatical! It feels really weird to write that sentence, and it feels even weirder to add an exclamation mark at the end of it. But that&#8217;s what&#8217;s happening, even if it hasn&#8217;t sunk in yet. I&#8217;ve [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/stop-sabbatical-time/",
+          "publishedOn": "2023-06-23T12:47:13.000Z",
+          "wordCount": 1017,
+          "title": "Stop! Sabbatical time",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/painting-crop-1024x753.jpg"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/",
           "author": null,
           "description": "Well ain&#8217;t this just some pretty damning and sobering stuff. The examples they use to demonstrate the lack of thought or safety built into these technologies is incredibly unnerving. They demonstrate how basic, 101-level stuff to keep kids safe is [&#8230;]",
@@ -1771,16 +1781,6 @@
           "publishedOn": "2023-05-30T18:04:04.000Z",
           "wordCount": 643,
           "title": "Mini Moog Factory",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/sometimes-the-job-is-an-assembly-line/",
-          "author": null,
-          "description": "I really enjoyed this post from Dave about the different kinds of work folks can encounter. I also want to acknowledge that sometimes the job&#160;is&#160;an assembly line. Times exist when you need to slow down, think, explore, and use the [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/sometimes-the-job-is-an-assembly-line/",
-          "publishedOn": "2023-05-25T10:50:10.000Z",
-          "wordCount": 785,
-          "title": "Sometimes the job is an assembly line",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
@@ -1955,13 +1955,23 @@
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=bu_gulee89Q",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=bu_gulee89Q",
+          "publishedOn": "2023-06-23T15:06:16.000Z",
+          "wordCount": null,
+          "title": "How To Speak Rust",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
           "author": null,
           "description": "",
           "link": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
           "publishedOn": "2023-06-09T10:29:22.000Z",
           "wordCount": null,
-          "title": "Hacking your brain with 18 elaborate coping mechanisms",
+          "title": "Hack your brain with elaborate coping mechanisms",
           "imageUrl": null
         },
         {
