@@ -66,7 +66,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5067,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -176,16 +176,6 @@
           "wordCount": 418,
           "title": "RSpec Spies 🕵️‍♀️ - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator",
-          "author": "andrewvogel",
-          "description": "eas build --platform ios\r\neas build:run --platform ios\r\nhttps://docs.expo.dev/build-reference/simulators/",
-          "link": "http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator",
-          "publishedOn": "2023-05-25T15:25:28.000Z",
-          "wordCount": 257,
-          "title": "Download and Run an Expo Build on Simulator - #mobile",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
         }
       ]
     },
@@ -1971,7 +1961,7 @@
           "link": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
           "publishedOn": "2023-06-09T10:29:22.000Z",
           "wordCount": null,
-          "title": "Hack your brain with elaborate coping mechanisms",
+          "title": "Hack Your Brain With Elaborate Coping Mechanisms",
           "imageUrl": null
         },
         {
@@ -1981,7 +1971,7 @@
           "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
           "publishedOn": "2023-05-26T13:00:37.000Z",
           "wordCount": null,
-          "title": "Rust as infrastructure",
+          "title": "Zero-config Rust Deploys",
           "imageUrl": null
         }
       ]

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-24T00:27:18.530Z</id>
+    <id>urn:2023-06-25T00:30:35.134Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-24T00:27:18.530Z</updated>
+    <updated>2023-06-25T00:30:35.134Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -278,7 +278,7 @@ Updates
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hack your brain with elaborate coping mechanisms]]></title>
+        <title type="html"><![CDATA[Hack Your Brain With Elaborate Coping Mechanisms]]></title>
         <id>https://www.youtube.com/watch?v=XUZ9VATeF_4</id>
         <link href="https://www.youtube.com/watch?v=XUZ9VATeF_4"/>
         <updated>2023-06-09T10:29:22.000Z</updated>
@@ -2072,24 +2072,12 @@ gist</a>)</p>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rust as infrastructure]]></title>
+        <title type="html"><![CDATA[Zero-config Rust Deploys]]></title>
         <id>https://www.youtube.com/watch?v=HZf6uKO0Ep4</id>
         <link href="https://www.youtube.com/watch?v=HZf6uKO0Ep4"/>
         <updated>2023-05-26T13:00:37.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Download and Run an Expo Build on Simulator - #mobile]]></title>
-        <id>http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator</id>
-        <link href="http://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator"/>
-        <updated>2023-05-25T15:25:28.000Z</updated>
-        <summary type="html"><![CDATA[eas build --platform ios
-eas build:run --platform ios
-https://docs.expo.dev/build-reference/simulators/]]></summary>
-        <author>
-            <name>andrewvogel</name>
         </author>
     </entry>
 </feed>
