@@ -66,7 +66,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5067,
+          "wordCount": 5071,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -76,7 +76,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1445,
+          "wordCount": 1444,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1879,16 +1879,6 @@
           "wordCount": null,
           "title": "Worldcoin… the sh*tcoin for humanity?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=0xnuhmqRvVQ",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=0xnuhmqRvVQ",
-          "publishedOn": "2023-05-26T16:20:42.000Z",
-          "wordCount": null,
-          "title": "Yo mama so FAT32...",
-          "imageUrl": null
         }
       ]
     },
@@ -1962,16 +1952,6 @@
           "publishedOn": "2023-06-09T10:29:22.000Z",
           "wordCount": null,
           "title": "Hack Your Brain With Elaborate Coping Mechanisms",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=HZf6uKO0Ep4",
-          "publishedOn": "2023-05-26T13:00:37.000Z",
-          "wordCount": null,
-          "title": "Zero-config Rust Deploys",
           "imageUrl": null
         }
       ]

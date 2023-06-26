@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-25T00:30:35.134Z</id>
+    <id>urn:2023-06-26T00:28:09.787Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-25T00:30:35.134Z</updated>
+    <updated>2023-06-26T00:28:09.787Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2060,24 +2060,6 @@ gist</a>)</p>
         <updated>2023-05-27T14:34:29.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yo mama so FAT32...]]></title>
-        <id>https://www.youtube.com/watch?v=0xnuhmqRvVQ</id>
-        <link href="https://www.youtube.com/watch?v=0xnuhmqRvVQ"/>
-        <updated>2023-05-26T16:20:42.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero-config Rust Deploys]]></title>
-        <id>https://www.youtube.com/watch?v=HZf6uKO0Ep4</id>
-        <link href="https://www.youtube.com/watch?v=HZf6uKO0Ep4"/>
-        <updated>2023-05-26T13:00:37.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
