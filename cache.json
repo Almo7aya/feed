@@ -66,7 +66,7 @@
           "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
           "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
           "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5071,
+          "wordCount": 5080,
           "title": "The RustConf Keynote Fiasco, explained",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -76,7 +76,7 @@
           "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
           "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1444,
+          "wordCount": 1451,
           "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -87,6 +87,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records",
+          "author": "gabrielreis",
+          "description": "!= to filter them:\nselect * from purchases where coupon != 'JULY4';\r\nnull values. One way to solve that is by doing a or:\nselect * from purchases where coupon != 'JULY4' or coupon is null;\r\nis distinct from:\nselect * from purchases where coupon is distinct from 'JULY4';",
+          "link": "http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records",
+          "publishedOn": "2023-06-26T20:22:44.000Z",
+          "wordCount": 329,
+          "title": "Use `is distinct from` to match `null` records - #sql",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw",
           "author": "tonyyunker",
@@ -1714,6 +1724,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/",
+          "author": null,
+          "description": "User Inyerface &#8211; A worst-practice UI experiment is &#8220;a challenging exploration of user interactions and design patterns.&#8221; Hilariously bad UX and a lot of fun.",
+          "link": "https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/",
+          "publishedOn": "2023-06-26T14:51:55.000Z",
+          "wordCount": 652,
+          "title": "User Inyerface &#8211; A worst-practice UI experiment",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/post/stop-sabbatical-time/",
           "author": null,
           "description": "I&#8217;m taking a three-month sabbatical! It feels really weird to write that sentence, and it feels even weirder to add an exclamation mark at the end of it. But that&#8217;s what&#8217;s happening, even if it hasn&#8217;t sunk in yet. I&#8217;ve [&#8230;]",
@@ -1915,16 +1935,6 @@
           "publishedOn": "2023-06-05T14:30:09.000Z",
           "wordCount": null,
           "title": "Rust is being destroyed from the inside",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=BU1LYFkpJuk",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=BU1LYFkpJuk",
-          "publishedOn": "2023-05-27T14:34:29.000Z",
-          "wordCount": null,
-          "title": "5 Better ways to code in Rust",
           "imageUrl": null
         }
       ]

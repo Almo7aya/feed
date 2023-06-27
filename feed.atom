@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-26T00:28:09.787Z</id>
+    <id>urn:2023-06-27T00:26:52.113Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-26T00:28:09.787Z</updated>
+    <updated>2023-06-27T00:26:52.113Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Use `is distinct from` to match `null` records - #sql]]></title>
+        <id>http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records</id>
+        <link href="http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records"/>
+        <updated>2023-06-26T20:22:44.000Z</updated>
+        <summary type="html"><![CDATA[!= to filter them:
+select * from purchases where coupon != 'JULY4';
+null values. One way to solve that is by doing a or:
+select * from purchases where coupon != 'JULY4' or coupon is null;
+is distinct from:
+select * from purchases where coupon is distinct from 'JULY4';]]></summary>
+        <author>
+            <name>gabrielreis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[User Inyerface &#8211; A worst-practice UI experiment]]></title>
+        <id>https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/</id>
+        <link href="https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/"/>
+        <updated>2023-06-26T14:51:55.000Z</updated>
+        <summary type="html"><![CDATA[User Inyerface &#8211; A worst-practice UI experiment is &#8220;a challenging exploration of user interactions and design patterns.&#8221; Hilariously bad UX and a lot of fun.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Delete A Rule In UFW - #devops]]></title>
         <id>http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw</id>
@@ -2051,15 +2076,6 @@ gist</a>)</p>
                         </h2>]]></summary>
         <author>
             <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Better ways to code in Rust]]></title>
-        <id>https://www.youtube.com/watch?v=BU1LYFkpJuk</id>
-        <link href="https://www.youtube.com/watch?v=BU1LYFkpJuk"/>
-        <updated>2023-05-27T14:34:29.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>
