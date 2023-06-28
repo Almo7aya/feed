@@ -30,16 +30,6 @@
           "wordCount": 1872,
           "title": "7 Jun 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/May/29",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    mini.hipatterns\n  \n\n\n  \n\nmini.nvim plugin got its module number 30 - mini.hipatterns. It can be used to highlight patterns in text (like\nTODO, hex color strings, etc.) with configurable p…",
-          "link": "https://this-week-in-neovim.org/2023/May/29",
-          "publishedOn": "2023-05-29T00:00:00.000Z",
-          "wordCount": 453,
-          "title": "29 May 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -68,16 +58,6 @@
           "publishedOn": "2023-05-31T21:00:00.000Z",
           "wordCount": 5080,
           "title": "The RustConf Keynote Fiasco, explained",
-          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
-        },
-        {
-          "id": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
-          "author": null,
-          "description": "<p>(Note: this was originally posted <a href=\"https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849\">as a\ngist</a>)</p>\n\n                        <h2>\n                            <a id=\"reassuring-myself-about-rust\" class=\"anchor\" href=\"#reassuring-myself-about-rust\">\n                                Reassuring myself about Rust\n                            </a>\n                        </h2>",
-          "link": "https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning",
-          "publishedOn": "2023-05-28T17:04:00.000Z",
-          "wordCount": 1451,
-          "title": "Rust: The wrong people are resigning",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
@@ -1723,6 +1703,26 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/",
+          "author": null,
+          "description": "I love this initiative from Shamsi Brinn: No Handoff: close the gap between product and engineering. Imagine a project where teams work together at each stage, progressively improving the end result based on qualitative and quantitative data. Project handoff is [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/",
+          "publishedOn": "2023-06-27T13:59:25.000Z",
+          "wordCount": 744,
+          "title": "No Handoff: close the gap between product and engineering",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/",
+          "author": null,
+          "description": "I love Dan&#8217;s Artificial Intelligence &#38; Humanity as it mirrors a lot of my own thinking about how best to wield AI. If I embrace the role of AI as an accident generator, then I’d gladly give it all the [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/",
+          "publishedOn": "2023-06-27T13:54:53.000Z",
+          "wordCount": 711,
+          "title": "“Artificial Intelligence &#038; Humanity,” an article by Dan Mall",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/",
           "author": null,

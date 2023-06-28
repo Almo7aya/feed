@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-27T00:26:52.113Z</id>
+    <id>urn:2023-06-28T00:26:37.427Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-27T00:26:52.113Z</updated>
+    <updated>2023-06-28T00:26:37.427Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[No Handoff: close the gap between product and engineering]]></title>
+        <id>https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/</id>
+        <link href="https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/"/>
+        <updated>2023-06-27T13:59:25.000Z</updated>
+        <summary type="html"><![CDATA[I love this initiative from Shamsi Brinn: No Handoff: close the gap between product and engineering. Imagine a project where teams work together at each stage, progressively improving the end result based on qualitative and quantitative data. Project handoff is [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Artificial Intelligence &#038; Humanity,” an article by Dan Mall]]></title>
+        <id>https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/</id>
+        <link href="https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/"/>
+        <updated>2023-06-27T13:54:53.000Z</updated>
+        <summary type="html"><![CDATA[I love Dan&#8217;s Artificial Intelligence &#38; Humanity as it mirrors a lot of my own thinking about how best to wield AI. If I embrace the role of AI as an accident generator, then I’d gladly give it all the [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Use `is distinct from` to match `null` records - #sql]]></title>
         <id>http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records</id>
@@ -2029,53 +2049,6 @@ track record.</p>
         <updated>2023-05-29T19:30:11.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[29 May 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/May/29</id>
-        <link href="https://this-week-in-neovim.org/2023/May/29"/>
-        <updated>2023-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    mini.hipatterns
-  
-
-
-  
-
-mini.nvim plugin got its module number 30 - mini.hipatterns. It can be used to highlight patterns in text (like
-TODO, hex color strings, etc.) with configurable p…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust: The wrong people are resigning]]></title>
-        <id>https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning</id>
-        <link href="https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning"/>
-        <updated>2023-05-28T17:04:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>(Note: this was originally posted <a href="https://gist.github.com/fasterthanlime/42da9378768aebef662dd26dddf04849">as a
-gist</a>)</p>
-
-                        <h2>
-                            <a id="reassuring-myself-about-rust" class="anchor" href="#reassuring-myself-about-rust">
-                                Reassuring myself about Rust
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>
