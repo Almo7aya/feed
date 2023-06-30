@@ -68,6 +68,36 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/5tuatm0cry-skip-hidden-fields-on-phoenix-inputsfor",
+          "author": "viniciusnegrisolo",
+          "description": "inputs_for accepts a skip_hidden attr which was very useful today. We have a has_many relationship that we are using <.inputs_for> to decompose the nested fields and as it was generating some hidden fields the style was breaking.\nTailwind divide on the parent tag and those hidden fields were adding extra separation borders. A way to solve that was calling <.inputs_for twice as this:\n<div>\r\n\n  <.inputs_for field={@form[:posts]} />\r\n\n  <div class=\"divide-y\">\r\n    <.inputs_for :let={form} field={@form[:posts]} skip_hidden>\r\n      <.input type=\"text\" field={form[:title]} label=\"Title\" />\r\n    </.inputs_for>\r\n  </div>\r\n</div>",
+          "link": "http://til.hashrocket.com/posts/5tuatm0cry-skip-hidden-fields-on-phoenix-inputsfor",
+          "publishedOn": "2023-06-29T17:16:41.000Z",
+          "wordCount": 320,
+          "title": "Skip hidden fields on Phoenix inputs_for - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/wp3ppdxypj-tailwind-divide-to-add-border-between",
+          "author": "viniciusnegrisolo",
+          "description": "divide classes that helps to add border between elements. So if you want to add a separator border for your children you can try:\n<div class=\"grid grid-cols-1 divide-y\">\r\n  <div>01</div>\r\n  <div>02</div>\r\n  <div>03</div>\r\n</div>\r\n\nAnd that will add horizontal borders between those nodes.",
+          "link": "http://til.hashrocket.com/posts/wp3ppdxypj-tailwind-divide-to-add-border-between",
+          "publishedOn": "2023-06-29T17:10:23.000Z",
+          "wordCount": 234,
+          "title": "Tailwind divide to add border between - #design",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/7wrxxjxcci-on-disk-size-of-a-tableview-in-postgres",
+          "author": "craighafer",
+          "description": "pg_total_relation_size(<relation_name>)\nSELECT pg_total_relation_size('<relation_name>') as size;\r\npg_size_pretty() to give a more readable output\nSELECT pg_size_pretty(pg_total_relation_size('<relation_name>')) as size;",
+          "link": "http://til.hashrocket.com/posts/7wrxxjxcci-on-disk-size-of-a-tableview-in-postgres",
+          "publishedOn": "2023-06-29T14:14:13.000Z",
+          "wordCount": 288,
+          "title": "On-disk size of a table/view in Postgres - #sql",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records",
           "author": "gabrielreis",
           "description": "!= to filter them:\nselect * from purchases where coupon != 'JULY4';\r\nnull values. One way to solve that is by doing a or:\nselect * from purchases where coupon != 'JULY4' or coupon is null;\r\nis distinct from:\nselect * from purchases where coupon is distinct from 'JULY4';",
@@ -1782,16 +1812,6 @@
           "wordCount": 655,
           "title": "2023 Milky Way Photographer of the Year &#8211; Capture the Atlas",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/mini-moog-factory/",
-          "author": null,
-          "description": "Mini Moog Factory is a really fun piece of web design. The aesthetic reminds me of Habbo Hotel from way back in the day.",
-          "link": "https://bradfrost.com/blog/link/mini-moog-factory/",
-          "publishedOn": "2023-05-30T18:04:04.000Z",
-          "wordCount": 643,
-          "title": "Mini Moog Factory",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1800,6 +1820,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=M_wZpSEvOkc",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=M_wZpSEvOkc",
+          "publishedOn": "2023-06-29T18:01:44.000Z",
+          "wordCount": null,
+          "title": "This unicorn startup faked 95% of its users",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=3Ay6qZ88boI",
           "author": null,
@@ -1878,16 +1908,6 @@
           "publishedOn": "2023-06-05T17:54:25.000Z",
           "wordCount": null,
           "title": "Java is mounting a huge comeback",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=q1fsBWLpYW4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=q1fsBWLpYW4",
-          "publishedOn": "2023-05-30T17:13:09.000Z",
-          "wordCount": null,
-          "title": "21 Awesome Web Features you’re not using yet",
           "imageUrl": null
         }
       ]

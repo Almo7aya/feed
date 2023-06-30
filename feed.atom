@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-29T00:27:48.410Z</id>
+    <id>urn:2023-06-30T00:25:43.022Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-29T00:27:48.410Z</updated>
+    <updated>2023-06-30T00:25:43.022Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[This unicorn startup faked 95% of its users]]></title>
+        <id>https://www.youtube.com/watch?v=M_wZpSEvOkc</id>
+        <link href="https://www.youtube.com/watch?v=M_wZpSEvOkc"/>
+        <updated>2023-06-29T18:01:44.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Skip hidden fields on Phoenix inputs_for - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/5tuatm0cry-skip-hidden-fields-on-phoenix-inputsfor</id>
+        <link href="http://til.hashrocket.com/posts/5tuatm0cry-skip-hidden-fields-on-phoenix-inputsfor"/>
+        <updated>2023-06-29T17:16:41.000Z</updated>
+        <summary type="html"><![CDATA[inputs_for accepts a skip_hidden attr which was very useful today. We have a has_many relationship that we are using <.inputs_for> to decompose the nested fields and as it was generating some hidden fields the style was breaking.
+Tailwind divide on the parent tag and those hidden fields were adding extra separation borders. A way to solve that was calling <.inputs_for twice as this:
+<div>
+
+  <.inputs_for field={@form[:posts]} />
+
+  <div class="divide-y">
+    <.inputs_for :let={form} field={@form[:posts]} skip_hidden>
+      <.input type="text" field={form[:title]} label="Title" />
+    </.inputs_for>
+  </div>
+</div>]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tailwind divide to add border between - #design]]></title>
+        <id>http://til.hashrocket.com/posts/wp3ppdxypj-tailwind-divide-to-add-border-between</id>
+        <link href="http://til.hashrocket.com/posts/wp3ppdxypj-tailwind-divide-to-add-border-between"/>
+        <updated>2023-06-29T17:10:23.000Z</updated>
+        <summary type="html"><![CDATA[divide classes that helps to add border between elements. So if you want to add a separator border for your children you can try:
+<div class="grid grid-cols-1 divide-y">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+
+And that will add horizontal borders between those nodes.]]></summary>
+        <author>
+            <name>viniciusnegrisolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On-disk size of a table/view in Postgres - #sql]]></title>
+        <id>http://til.hashrocket.com/posts/7wrxxjxcci-on-disk-size-of-a-tableview-in-postgres</id>
+        <link href="http://til.hashrocket.com/posts/7wrxxjxcci-on-disk-size-of-a-tableview-in-postgres"/>
+        <updated>2023-06-29T14:14:13.000Z</updated>
+        <summary type="html"><![CDATA[pg_total_relation_size(<relation_name>)
+SELECT pg_total_relation_size('<relation_name>') as size;
+pg_size_pretty() to give a more readable output
+SELECT pg_size_pretty(pg_total_relation_size('<relation_name>')) as size;]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[No Handoff: close the gap between product and engineering]]></title>
         <id>https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/</id>
@@ -2021,25 +2081,6 @@ track record.</p>
 </div>]]></summary>
         <author>
             <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mini Moog Factory]]></title>
-        <id>https://bradfrost.com/blog/link/mini-moog-factory/</id>
-        <link href="https://bradfrost.com/blog/link/mini-moog-factory/"/>
-        <updated>2023-05-30T18:04:04.000Z</updated>
-        <summary type="html"><![CDATA[Mini Moog Factory is a really fun piece of web design. The aesthetic reminds me of Habbo Hotel from way back in the day.]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21 Awesome Web Features you’re not using yet]]></title>
-        <id>https://www.youtube.com/watch?v=q1fsBWLpYW4</id>
-        <link href="https://www.youtube.com/watch?v=q1fsBWLpYW4"/>
-        <updated>2023-05-30T17:13:09.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
