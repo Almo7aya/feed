@@ -7,33 +7,6 @@
       "articles": []
     },
     {
-      "title": "This Week In Neovim",
-      "feedUrl": "https://this-week-in-neovim.org/rss",
-      "siteUrl": "https://this-week-in-neovim.org",
-      "articles": [
-        {
-          "id": "https://this-week-in-neovim.org/2023/Jun/12",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    highlight-undo.nvim\n  \n\n\nHighlight changed text after Undo / Redo operations. Purely lua / nvim api implementation,\nno external dependencies needed.\nGitHub\nUpdates\n\n      \n    \n    mini.n…",
-          "link": "https://this-week-in-neovim.org/2023/Jun/12",
-          "publishedOn": "2023-06-12T00:00:00.000Z",
-          "wordCount": 647,
-          "title": "12 Jun 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://this-week-in-neovim.org/2023/Jun/7",
-          "author": "Dimitri 'phaazon' Sabadie <dimitri.sabadie@gmail.com>",
-          "description": "Neovim Core updates\nUpdates of Neovim itself, which are available on Neovim nightly.\nImportant: some updates might be missing from this week content. If you want to be sure to always keep up to\ndate with what’s going on in Neovim Core, you are strongly advised to have a look to these places:\n@neovim on Twitter, which tweets the most recent news about the editor.\n:h news.txt will deliver you with the last news inside Neovim directly.\nVarious PRs on GitHub.\nNeovim Plugin Community updates\nNeovim is full of active plugins. This section is about the community and what is going on.\nNew plugins\n\n      \n    \n    dropbar.nvim\n  \n\n\n  \n\nIntroducing dropbar.nvim, the new winbar plugin designed for neovimmers!\nWith dropbar.nvim, you can elevate your neovim experience to an IDE-like level. This standal…",
-          "link": "https://this-week-in-neovim.org/2023/Jun/7",
-          "publishedOn": "2023-06-07T00:00:00.000Z",
-          "wordCount": 1872,
-          "title": "7 Jun 2023",
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "almo7aya.dev",
       "feedUrl": "https://almo7aya.dev/index.xml",
       "siteUrl": "/",
@@ -49,24 +22,23 @@
       "title": "fasterthanli.me",
       "feedUrl": "https://fasterthanli.me/index.xml",
       "siteUrl": "https://fasterthanli.me",
-      "articles": [
-        {
-          "id": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
-          "author": null,
-          "description": "<div class=\"disclosure\">\n<p><strong>Disclosure</strong>: \nAt some point in this article, I discuss The Rust Foundation. I have received a\n$5000 grant from them in 2023 for making educational articles and videos about\nRust.</p>\n<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of\nagreement that would prevent me from saying exactly how I feel about their\ntrack record.</p>\n</div>\n<div class=\"disclosure\">\n\n</div>",
-          "link": "https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained",
-          "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": 5077,
-          "title": "The RustConf Keynote Fiasco, explained",
-          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Today I Learned",
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems",
+          "author": "craighafer",
+          "description": "gem pristine <gem_name>. This command restores installed gems to their original, pristine state using the files stored in the gem cache.\nhere is some documentation.  \nMatt Polito",
+          "link": "http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems",
+          "publishedOn": "2023-06-30T20:07:07.000Z",
+          "wordCount": 316,
+          "title": "Gem pristine <gem_name> restores installed gems - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/5tuatm0cry-skip-hidden-fields-on-phoenix-inputsfor",
           "author": "viniciusnegrisolo",

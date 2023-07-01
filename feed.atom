@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-30T00:25:43.022Z</id>
+    <id>urn:2023-07-01T00:32:04.276Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-30T00:25:43.022Z</updated>
+    <updated>2023-07-01T00:32:04.276Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Gem pristine <gem_name> restores installed gems - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems</id>
+        <link href="http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems"/>
+        <updated>2023-06-30T20:07:07.000Z</updated>
+        <summary type="html"><![CDATA[gem pristine <gem_name>. This command restores installed gems to their original, pristine state using the files stored in the gem cache.
+here is some documentation.  
+Matt Polito]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[This unicorn startup faked 95% of its users]]></title>
         <id>https://www.youtube.com/watch?v=M_wZpSEvOkc</id>
@@ -340,40 +352,6 @@ This works for the accent colors of radio groups as well.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[12 Jun 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Jun/12</id>
-        <link href="https://this-week-in-neovim.org/2023/Jun/12"/>
-        <updated>2023-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    highlight-undo.nvim
-  
-
-
-Highlight changed text after Undo / Redo operations. Purely lua / nvim api implementation,
-no external dependencies needed.
-GitHub
-Updates
-
-      
-    
-    mini.n…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[High-school student makes React a million times faster]]></title>
         <id>https://www.youtube.com/watch?v=VkezQMb1DHw</id>
         <link href="https://www.youtube.com/watch?v=VkezQMb1DHw"/>
@@ -419,36 +397,6 @@ pry(main)> bar.valid?; bar.errors.full_messages
 Source]]></summary>
         <author>
             <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 Jun 2023]]></title>
-        <id>https://this-week-in-neovim.org/2023/Jun/7</id>
-        <link href="https://this-week-in-neovim.org/2023/Jun/7"/>
-        <updated>2023-06-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Neovim Core updates
-Updates of Neovim itself, which are available on Neovim nightly.
-Important: some updates might be missing from this week content. If you want to be sure to always keep up to
-date with what’s going on in Neovim Core, you are strongly advised to have a look to these places:
-@neovim on Twitter, which tweets the most recent news about the editor.
-:h news.txt will deliver you with the last news inside Neovim directly.
-Various PRs on GitHub.
-Neovim Plugin Community updates
-Neovim is full of active plugins. This section is about the community and what is going on.
-New plugins
-
-      
-    
-    dropbar.nvim
-  
-
-
-  
-
-Introducing dropbar.nvim, the new winbar plugin designed for neovimmers!
-With dropbar.nvim, you can elevate your neovim experience to an IDE-like level. This standal…]]></summary>
-        <author>
-            <name>Dimitri 'phaazon' Sabadie &lt;dimitri.sabadie@gmail.com&gt;</name>
         </author>
     </entry>
     <entry>
@@ -2060,27 +2008,6 @@ Matt Polito]]></summary>
         <summary type="html"><![CDATA[I could look at this stuff all day: 2023 Milky Way Photographer of the Year &#8211; Capture the Atlas Via Kottke]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The RustConf Keynote Fiasco, explained]]></title>
-        <id>https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained</id>
-        <link href="https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained"/>
-        <updated>2023-05-31T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<div class="disclosure">
-<p><strong>Disclosure</strong>: 
-At some point in this article, I discuss The Rust Foundation. I have received a
-$5000 grant from them in 2023 for making educational articles and videos about
-Rust.</p>
-<p>I have NOT signed any non-disclosure, non-disparagement, or any other sort of
-agreement that would prevent me from saying exactly how I feel about their
-track record.</p>
-</div>
-<div class="disclosure">
-
-</div>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>
