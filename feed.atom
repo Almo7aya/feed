@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-01T00:32:04.276Z</id>
+    <id>urn:2023-07-02T00:29:44.551Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-01T00:32:04.276Z</updated>
+    <updated>2023-07-02T00:29:44.551Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1998,16 +1998,6 @@ some_attribute is until we perform - a perfect use case for a spy.
 Matt Polito]]></summary>
         <author>
             <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 Milky Way Photographer of the Year &#8211; Capture the Atlas]]></title>
-        <id>https://bradfrost.com/blog/link/2023-milky-way-photographer-of-the-year-capture-the-atlas/</id>
-        <link href="https://bradfrost.com/blog/link/2023-milky-way-photographer-of-the-year-capture-the-atlas/"/>
-        <updated>2023-06-01T16:20:30.000Z</updated>
-        <summary type="html"><![CDATA[I could look at this stuff all day: 2023 Milky Way Photographer of the Year &#8211; Capture the Atlas Via Kottke]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
