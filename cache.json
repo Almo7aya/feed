@@ -158,16 +158,6 @@
           "wordCount": 294,
           "title": "FactoryBot skip_create - #ruby",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-",
-          "author": "tonyyunker",
-          "description": "class SomeJob\r\n  def perform\r\n    SomeService.call\r\n  end\r\n\nend\r\n\nRspec.describe SomeJob do\r\n  it \"makes the call\" do\r\n    expect(SomeService).to receive(:call)\r\n    SomeJob.new.perform\r\n  end\r\nend\r\nallow, exercise the subject under test, then assert with have_received:\nclass SomeJob\r\n  attr_reader :some_attribute\r\n\n  def perform\r\n    set_an_instance_var\r\n    SomeService.call(some_attribute)\r\n  end\r\n\n  def set_an_instance_var\r\n    @some_attribute = :something\r\n  end\r\nend\r\n\nRspec.describe SomeJob do\r\n  subject { SomeJob.new }\r\n\n  it \"makes the call with an argument\" do\r\n    allow(SomeService).to receive(:call)\r\n    subject.perform\r\n    expect(SomeService).to have_received(:call).with(subject.some_attribute)\r\n  end\r\nend\r\nsome_attribute is until we perform - a perfect use case for a spy.\nMatt Polito",
-          "link": "http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-",
-          "publishedOn": "2023-06-02T13:26:02.000Z",
-          "wordCount": 418,
-          "title": "RSpec Spies 🕵️‍♀️ - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },

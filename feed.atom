@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-02T00:29:44.551Z</id>
+    <id>urn:2023-07-03T00:26:54.797Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-02T00:29:44.551Z</updated>
+    <updated>2023-07-03T00:26:54.797Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1951,53 +1951,6 @@ Docs]]></summary>
         <summary type="html"><![CDATA[How to draw a camera frustum]]></summary>
         <author>
             <name>WebGL Fundamentals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RSpec Spies 🕵️‍♀️ - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-</id>
-        <link href="http://til.hashrocket.com/posts/0t6wcigncf-rspec-spies-"/>
-        <updated>2023-06-02T13:26:02.000Z</updated>
-        <summary type="html"><![CDATA[class SomeJob
-  def perform
-    SomeService.call
-  end
-
-end
-
-Rspec.describe SomeJob do
-  it "makes the call" do
-    expect(SomeService).to receive(:call)
-    SomeJob.new.perform
-  end
-end
-allow, exercise the subject under test, then assert with have_received:
-class SomeJob
-  attr_reader :some_attribute
-
-  def perform
-    set_an_instance_var
-    SomeService.call(some_attribute)
-  end
-
-  def set_an_instance_var
-    @some_attribute = :something
-  end
-end
-
-Rspec.describe SomeJob do
-  subject { SomeJob.new }
-
-  it "makes the call with an argument" do
-    allow(SomeService).to receive(:call)
-    subject.perform
-    expect(SomeService).to have_received(:call).with(subject.some_attribute)
-  end
-end
-some_attribute is until we perform - a perfect use case for a spy.
-Matt Polito]]></summary>
-        <author>
-            <name>tonyyunker</name>
         </author>
     </entry>
 </feed>
