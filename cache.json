@@ -22,7 +22,18 @@
       "title": "fasterthanli.me",
       "feedUrl": "https://fasterthanli.me/index.xml",
       "siteUrl": "https://fasterthanli.me",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://fasterthanli.me/articles/cracking-electron-apps-open",
+          "author": null,
+          "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
+          "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
+          "publishedOn": "2023-07-03T16:30:00.000Z",
+          "wordCount": 4622,
+          "title": "Cracking Electron apps open",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
+        }
+      ]
     },
     {
       "title": "Today I Learned",
@@ -1772,6 +1783,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=3AS5x05XIyg",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=3AS5x05XIyg",
+          "publishedOn": "2023-07-03T17:48:50.000Z",
+          "wordCount": null,
+          "title": "The sad truth about Twitter’s rate limit",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=M_wZpSEvOkc",
           "author": null,

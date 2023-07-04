@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-03T00:26:54.797Z</id>
+    <id>urn:2023-07-04T00:26:52.475Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-03T00:26:54.797Z</updated>
+    <updated>2023-07-04T00:26:52.475Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The sad truth about Twitter’s rate limit]]></title>
+        <id>https://www.youtube.com/watch?v=3AS5x05XIyg</id>
+        <link href="https://www.youtube.com/watch?v=3AS5x05XIyg"/>
+        <updated>2023-07-03T17:48:50.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cracking Electron apps open]]></title>
+        <id>https://fasterthanli.me/articles/cracking-electron-apps-open</id>
+        <link href="https://fasterthanli.me/articles/cracking-electron-apps-open"/>
+        <updated>2023-07-03T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I use the <a href="https://github.com/jgraph/drawio-desktop">draw.io desktop app</a> to
+make diagrams for my website. I run it on an actual desktop, like Windows or
+macOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to
+<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gem pristine <gem_name> restores installed gems - #ruby]]></title>
         <id>http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems</id>
