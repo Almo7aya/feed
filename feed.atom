@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-05T00:27:48.940Z</id>
+    <id>urn:2023-07-06T00:28:15.412Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-05T00:27:48.940Z</updated>
+    <updated>2023-07-06T00:28:15.412Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Rust is easy... (we make it hard)]]></title>
+        <id>https://www.youtube.com/watch?v=06CVZKbNvgE</id>
+        <link href="https://www.youtube.com/watch?v=06CVZKbNvgE"/>
+        <updated>2023-07-05T14:00:00.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebGL Using 2 or More Textures]]></title>
         <id>https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html</id>
@@ -1938,41 +1947,6 @@ Source]]></summary>
         <updated>2023-06-06T18:54:17.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java is mounting a huge comeback]]></title>
-        <id>https://www.youtube.com/watch?v=Ibjm2KHfymo</id>
-        <link href="https://www.youtube.com/watch?v=Ibjm2KHfymo"/>
-        <updated>2023-06-05T17:54:25.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FactoryBot skip_create - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate</id>
-        <link href="http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate"/>
-        <updated>2023-06-05T17:47:39.000Z</updated>
-        <summary type="html"><![CDATA[save! on create:
-FactoryBot.define do
-  factory :model_without_table do
-    skip_create
-    an_attribute { "An Attribute" }
-  end
-end
-Docs]]></summary>
-        <author>
-            <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust is being destroyed from the inside]]></title>
-        <id>https://www.youtube.com/watch?v=QEnuzwCWpgQ</id>
-        <link href="https://www.youtube.com/watch?v=QEnuzwCWpgQ"/>
-        <updated>2023-06-05T14:30:09.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>

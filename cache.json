@@ -159,16 +159,6 @@
           "wordCount": 354,
           "title": "Comparison Validator Also Validates Presence - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate",
-          "author": "tonyyunker",
-          "description": "save! on create:\nFactoryBot.define do\r\n  factory :model_without_table do\r\n    skip_create\r\n    an_attribute { \"An Attribute\" }\r\n  end\r\nend\r\nDocs",
-          "link": "http://til.hashrocket.com/posts/q7eprqi4id-factorybot-skipcreate",
-          "publishedOn": "2023-06-05T17:47:39.000Z",
-          "wordCount": 294,
-          "title": "FactoryBot skip_create - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
@@ -1872,16 +1862,6 @@
           "wordCount": null,
           "title": "Apple makes risky bet on VR/AR future",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=Ibjm2KHfymo",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=Ibjm2KHfymo",
-          "publishedOn": "2023-06-05T17:54:25.000Z",
-          "wordCount": null,
-          "title": "Java is mounting a huge comeback",
-          "imageUrl": null
         }
       ]
     },
@@ -1890,6 +1870,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=06CVZKbNvgE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=06CVZKbNvgE",
+          "publishedOn": "2023-07-05T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Rust is easy... (we make it hard)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=U4x9br8OXkg",
           "author": null,
@@ -1908,16 +1898,6 @@
           "publishedOn": "2023-06-17T14:00:04.000Z",
           "wordCount": null,
           "title": "All Rust features explained",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=QEnuzwCWpgQ",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=QEnuzwCWpgQ",
-          "publishedOn": "2023-06-05T14:30:09.000Z",
-          "wordCount": null,
-          "title": "Rust is being destroyed from the inside",
           "imageUrl": null
         }
       ]
