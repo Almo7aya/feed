@@ -41,6 +41,26 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails",
+          "author": "andrewvogel",
+          "description": "my last post about Geocoding, you'll notice that the value passed to the geocode sql function is an address. To properly pass that value, we need to make sure that we quote it for SQL land. \nActiveRecord::Base.connection.execute(<<~SQL)\r\n  select\r\n    rating\r\n  from geocode('#{address}', 1)\r\nSQL\r\naddress like 100 O'Connel Ave will cause the above to throw an error in the database\nquote function from ActiveRecord, we properly quote our strings for SQL: \nquoted_address = ActiveRecord::Base.connection.quote(address)\r\n\nActiveRecord::Base.connection.execute(<<~SQL)\r\n  select\r\n    rating\r\n  from geocode(#{quoted_address}, 1)\r\nSQL\r\nhttps://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/Quoting.html#method-i-quote",
+          "link": "http://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails",
+          "publishedOn": "2023-07-06T01:41:07.000Z",
+          "wordCount": 347,
+          "title": "Quote a SQL Value in Rails - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis",
+          "author": "andrewvogel",
+          "description": "select\r\n  result.rating,\r\n  ST_X(result.geomout) as longitude,\r\n  ST_Y(result.geomout) as latitude\r\nfrom geocode('320 1st St N, Jacksonville Beach FL', 1) as result;\r\n\n rating |     longitude      |      latitude\r\n--------+--------------------+--------------------\r\n      1 | -81.39021163774713 | 30.291481272126084\r\n(1 row)\r\nhttps://postgis.net/docs/manual-3.3/postgis_installation.html#loading_extras_tiger_geocoder\n\nh/t Mary Lee",
+          "link": "http://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis",
+          "publishedOn": "2023-07-06T01:20:59.000Z",
+          "wordCount": 354,
+          "title": "Geocode an Address in PostgreSQL with PostGIS - #sql",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems",
           "author": "craighafer",
           "description": "gem pristine <gem_name>. This command restores installed gems to their original, pristine state using the files stored in the gem cache.\nhere is some documentation.  \nMatt Polito",
@@ -1851,16 +1871,6 @@
           "publishedOn": "2023-06-10T19:11:57.000Z",
           "wordCount": null,
           "title": "High-school student makes React a million times faster",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=Uc6lM1Aig9c",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=Uc6lM1Aig9c",
-          "publishedOn": "2023-06-06T18:54:17.000Z",
-          "wordCount": null,
-          "title": "Apple makes risky bet on VR/AR future",
           "imageUrl": null
         }
       ]

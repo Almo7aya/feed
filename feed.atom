@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-06T00:28:15.412Z</id>
+    <id>urn:2023-07-07T00:27:12.871Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-06T00:28:15.412Z</updated>
+    <updated>2023-07-07T00:27:12.871Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Quote a SQL Value in Rails - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails</id>
+        <link href="http://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails"/>
+        <updated>2023-07-06T01:41:07.000Z</updated>
+        <summary type="html"><![CDATA[my last post about Geocoding, you'll notice that the value passed to the geocode sql function is an address. To properly pass that value, we need to make sure that we quote it for SQL land. 
+ActiveRecord::Base.connection.execute(<<~SQL)
+  select
+    rating
+  from geocode('#{address}', 1)
+SQL
+address like 100 O'Connel Ave will cause the above to throw an error in the database
+quote function from ActiveRecord, we properly quote our strings for SQL: 
+quoted_address = ActiveRecord::Base.connection.quote(address)
+
+ActiveRecord::Base.connection.execute(<<~SQL)
+  select
+    rating
+  from geocode(#{quoted_address}, 1)
+SQL
+https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/Quoting.html#method-i-quote]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Geocode an Address in PostgreSQL with PostGIS - #sql]]></title>
+        <id>http://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis</id>
+        <link href="http://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis"/>
+        <updated>2023-07-06T01:20:59.000Z</updated>
+        <summary type="html"><![CDATA[select
+  result.rating,
+  ST_X(result.geomout) as longitude,
+  ST_Y(result.geomout) as latitude
+from geocode('320 1st St N, Jacksonville Beach FL', 1) as result;
+
+ rating |     longitude      |      latitude
+--------+--------------------+--------------------
+      1 | -81.39021163774713 | 30.291481272126084
+(1 row)
+https://postgis.net/docs/manual-3.3/postgis_installation.html#loading_extras_tiger_geocoder
+
+h/t Mary Lee]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust is easy... (we make it hard)]]></title>
         <id>https://www.youtube.com/watch?v=06CVZKbNvgE</id>
@@ -1938,15 +1985,6 @@ pry(main)> bar.valid?; bar.errors.full_messages
 Source]]></summary>
         <author>
             <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple makes risky bet on VR/AR future]]></title>
-        <id>https://www.youtube.com/watch?v=Uc6lM1Aig9c</id>
-        <link href="https://www.youtube.com/watch?v=Uc6lM1Aig9c"/>
-        <updated>2023-06-06T18:54:17.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
