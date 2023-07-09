@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-08T00:25:58.265Z</id>
+    <id>urn:2023-07-09T00:30:44.213Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-08T00:25:58.265Z</updated>
+    <updated>2023-07-09T00:30:44.213Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT just leveled up big time...]]></title>
+        <id>https://www.youtube.com/watch?v=p6Yw0Bx5dbw</id>
+        <link href="https://www.youtube.com/watch?v=p6Yw0Bx5dbw"/>
+        <updated>2023-07-08T18:58:53.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Modifier Keys with Hot Corners - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/vlni11wckx-modifier-keys-with-hot-corners</id>
@@ -1988,15 +1997,6 @@ This works for the accent colors of radio groups as well.]]></summary>
         <updated>2023-06-10T19:11:57.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hack Your Brain With Elaborate Coping Mechanisms]]></title>
-        <id>https://www.youtube.com/watch?v=XUZ9VATeF_4</id>
-        <link href="https://www.youtube.com/watch?v=XUZ9VATeF_4"/>
-        <updated>2023-06-09T10:29:22.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>

@@ -1804,6 +1804,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=p6Yw0Bx5dbw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=p6Yw0Bx5dbw",
+          "publishedOn": "2023-07-08T18:58:53.000Z",
+          "wordCount": null,
+          "title": "ChatGPT just leveled up big time...",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=r-GSGH2RxJs",
           "author": null,
           "description": "",
@@ -1955,16 +1965,6 @@
           "publishedOn": "2023-06-23T15:06:16.000Z",
           "wordCount": null,
           "title": "How To Speak Rust",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=XUZ9VATeF_4",
-          "publishedOn": "2023-06-09T10:29:22.000Z",
-          "wordCount": null,
-          "title": "Hack Your Brain With Elaborate Coping Mechanisms",
           "imageUrl": null
         }
       ]
