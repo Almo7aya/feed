@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4620,
+          "wordCount": 4623,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -40,6 +40,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources",
+          "author": "craighafer",
+          "description": "view_template in a Spina CMS Rails app there is an option of exclude_from that will take an array of strings. For any resources included in this array, that view template will not be available to pages of that resource.\ntheme.view_templates = [\r\n  {\r\n    # The rest of your view template...\r\n    exclude_from: [\"main\", \"blog_resource\"]\r\n  }\r\n]\r\nNote: If you want to exclude templates from being used on main spina pages, you can just exclude from the implicit \"main\" resource.",
+          "link": "http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources",
+          "publishedOn": "2023-07-10T20:36:00.000Z",
+          "wordCount": 315,
+          "title": "Excluding view templates for Spina resources - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/vlni11wckx-modifier-keys-with-hot-corners",
           "author": "craighafer",
@@ -1727,6 +1737,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/",
+          "author": null,
+          "description": "Kevin Coyle, currently working with Brad Frost and friends at Big Medium, is an incredible all-star professional in tech currently focusing on frontend. We met when we enlisted his help to migrate a mutual client onto a Terraform setup in [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/",
+          "publishedOn": "2023-07-10T19:49:17.000Z",
+          "wordCount": 771,
+          "title": "Pfizer&#8217;s Design System, spatial design, and AI is coming after your (boring) job",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/",
           "author": null,
           "description": "I love this initiative from Shamsi Brinn: No Handoff: close the gap between product and engineering. Imagine a project where teams work together at each stage, progressively improving the end result based on qualitative and quantitative data. Project handoff is [&#8230;]",
@@ -1891,16 +1911,6 @@
           "publishedOn": "2023-06-12T18:19:47.000Z",
           "wordCount": null,
           "title": "Reddit’s API rug pull",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=VkezQMb1DHw",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=VkezQMb1DHw",
-          "publishedOn": "2023-06-10T19:11:57.000Z",
-          "wordCount": null,
-          "title": "High-school student makes React a million times faster",
           "imageUrl": null
         }
       ]
