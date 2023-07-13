@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4623,
+          "wordCount": 4621,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -40,6 +40,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring",
+          "author": "tonyyunker",
+          "description": "const obj = { a: 1, b: 2, c: 3, d: 4 }\r\nconst { a, b, d } = obj\r\nconsole.log([a,b,d]) \r\n// => [1, 2, 4]\r\nhsh = { a: 1, b: 2, c: 3, d: 4 }\r\nhsh => { a:, b:, d: new_name }\r\nputs [a, b, new_name]\r\n# => [1,2,4]\r\n\nNice!",
+          "link": "http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring",
+          "publishedOn": "2023-07-12T18:51:16.000Z",
+          "wordCount": 366,
+          "title": "Ruby Rightward Assignment -> JS-like Destructuring - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources",
           "author": "craighafer",
@@ -1901,16 +1911,6 @@
           "publishedOn": "2023-06-13T14:16:21.000Z",
           "wordCount": null,
           "title": "Nuxt in 100 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=Ch6zNEq9fwM",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=Ch6zNEq9fwM",
-          "publishedOn": "2023-06-12T18:19:47.000Z",
-          "wordCount": null,
-          "title": "Reddit’s API rug pull",
           "imageUrl": null
         }
       ]

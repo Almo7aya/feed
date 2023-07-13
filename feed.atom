@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-12T00:29:12.284Z</id>
+    <id>urn:2023-07-13T00:26:53.103Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-12T00:29:12.284Z</updated>
+    <updated>2023-07-13T00:26:53.103Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Ruby Rightward Assignment -> JS-like Destructuring - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring</id>
+        <link href="http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring"/>
+        <updated>2023-07-12T18:51:16.000Z</updated>
+        <summary type="html"><![CDATA[const obj = { a: 1, b: 2, c: 3, d: 4 }
+const { a, b, d } = obj
+console.log([a,b,d]) 
+// => [1, 2, 4]
+hsh = { a: 1, b: 2, c: 3, d: 4 }
+hsh => { a:, b:, d: new_name }
+puts [a, b, new_name]
+# => [1,2,4]
+
+Nice!]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Excluding view templates for Spina resources - #rails]]></title>
         <id>http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources</id>
@@ -2004,15 +2023,6 @@ This works for the accent colors of radio groups as well.]]></summary>
         <id>https://www.youtube.com/watch?v=dCxSsr5xuL8</id>
         <link href="https://www.youtube.com/watch?v=dCxSsr5xuL8"/>
         <updated>2023-06-13T14:16:21.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reddit’s API rug pull]]></title>
-        <id>https://www.youtube.com/watch?v=Ch6zNEq9fwM</id>
-        <link href="https://www.youtube.com/watch?v=Ch6zNEq9fwM"/>
-        <updated>2023-06-12T18:19:47.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>
