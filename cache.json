@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4621,
+          "wordCount": 4624,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1901,16 +1901,6 @@
           "publishedOn": "2023-06-16T18:00:57.000Z",
           "wordCount": null,
           "title": "RIP Google Domains… and 5 big tech stories this week",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=dCxSsr5xuL8",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=dCxSsr5xuL8",
-          "publishedOn": "2023-06-13T14:16:21.000Z",
-          "wordCount": null,
-          "title": "Nuxt in 100 Seconds",
           "imageUrl": null
         }
       ]
