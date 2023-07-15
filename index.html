@@ -22,6 +22,74 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-14 datetime="2023-07-14T02:52:54.000Z">2023-07-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-14 datetime="2023-07-14T02:52:54.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/4nvk9ie5ct-add-partial-lookup-prefixes-in-rails"
+                        open
+                      >
+                        <summary class="article-expander__title">Add partial lookup prefixes in Rails - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/4nvk9ie5ct-add-partial-lookup-prefixes-in-rails">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span># app/views/foos/_foo.html.erb
+
+Foobity doo
+
+# app/views/dews/show.html.erb
+
+Dewbie doo
+
+&quot;bar&quot; partial cannot be found.
+Missing partial dews/_bar, application/_bar
+&quot;bar&quot; partial in the context it was called from. We declared the &quot;foo&quot; partial explicitly, so it did not error there. Since the &quot;foo&quot; partial calls the &quot;bar&quot; partial internally without being fully qualified, Rails is trying to find where it lives but cannot find it.
+local_prefixes method and add the prefix where the partial lives.
+class DewsController &lt; ApplicationController
+  def self.local_prefixes
+    super &lt;&lt; &quot;foos&quot;
+  end
+  
+  ...
+end
+
+Rails can now find the sub-partial once you&#x27;ve added &quot;foos&quot; to the lookup context.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-12 datetime="2023-07-12T18:51:16.000Z">2023-07-12</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-12 datetime="2023-07-12T18:51:16.000Z"></time>
           </button>
@@ -51,13 +119,13 @@
                               <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>const obj &#x3D; { a: 1, b: 2, c: 3, d: 4 }
-const { a, b, d } &#x3D; obj
-console.log([a,b,d]) 
+const { a, b, d: newName } &#x3D; obj
+console.log([a, b, newName]) 
 // &#x3D;&gt; [1, 2, 4]
 hsh &#x3D; { a: 1, b: 2, c: 3, d: 4 }
 hsh &#x3D;&gt; { a:, b:, d: new_name }
 puts [a, b, new_name]
-# &#x3D;&gt; [1,2,4]
+# &#x3D;&gt; [1, 2, 4]
 
 Nice!</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
@@ -4507,65 +4575,10 @@ Even though this example is a bit overkill, the option to use custom guards is a
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-14 datetime="2023-06-14T21:09:36.000Z">2023-06-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-14 datetime="2023-06-14T21:09:36.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind"
-                        open
-                      >
-                        <summary class="article-expander__title">Custom Radio and Checkbox colors in Tailwind - #html-css</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>accent-{color} class, you can customize your form&#x27;s colors. On your input, simply add the class along with the color of your choice like this:
-
-
-And the result looks like this! (its an image btw, I&#x27;ll save you a click)
-  
-
-
-This works for the accent colors of radio groups as well.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5549176864">
-        <time id="build-timestamp" datetime="2023-07-14T00:29:01.081Z">2023-07-14T00:29:01.081Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5559423407">
+        <time id="build-timestamp" datetime="2023-07-15T00:26:48.899Z">2023-07-15T00:26:48.899Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

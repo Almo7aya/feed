@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-14T00:29:01.116Z</id>
+    <id>urn:2023-07-15T00:26:48.926Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-14T00:29:01.116Z</updated>
+    <updated>2023-07-15T00:26:48.926Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Add partial lookup prefixes in Rails - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/4nvk9ie5ct-add-partial-lookup-prefixes-in-rails</id>
+        <link href="http://til.hashrocket.com/posts/4nvk9ie5ct-add-partial-lookup-prefixes-in-rails"/>
+        <updated>2023-07-14T02:52:54.000Z</updated>
+        <summary type="html"><![CDATA[# app/views/foos/_foo.html.erb
+
+Foobity doo
+<%= render "bar" %>
+# app/views/dews/show.html.erb
+
+Dewbie doo
+<%= render "foos/foo" %>
+"bar" partial cannot be found.
+Missing partial dews/_bar, application/_bar
+"bar" partial in the context it was called from. We declared the "foo" partial explicitly, so it did not error there. Since the "foo" partial calls the "bar" partial internally without being fully qualified, Rails is trying to find where it lives but cannot find it.
+local_prefixes method and add the prefix where the partial lives.
+class DewsController < ApplicationController
+  def self.local_prefixes
+    super << "foos"
+  end
+  
+  ...
+end
+
+Rails can now find the sub-partial once you've added "foos" to the lookup context.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ruby Rightward Assignment -> JS-like Destructuring - #ruby]]></title>
         <id>http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring</id>
         <link href="http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring"/>
         <updated>2023-07-12T18:51:16.000Z</updated>
         <summary type="html"><![CDATA[const obj = { a: 1, b: 2, c: 3, d: 4 }
-const { a, b, d } = obj
-console.log([a,b,d]) 
+const { a, b, d: newName } = obj
+console.log([a, b, newName]) 
 // => [1, 2, 4]
 hsh = { a: 1, b: 2, c: 3, d: 4 }
 hsh => { a:, b:, d: new_name }
 puts [a, b, new_name]
-# => [1,2,4]
+# => [1, 2, 4]
 
 Nice!]]></summary>
         <author>
@@ -1999,23 +2029,6 @@ Even though this example is a bit overkill, the option to use custom guards is a
         <updated>2023-06-16T18:00:57.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Custom Radio and Checkbox colors in Tailwind - #html-css]]></title>
-        <id>http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind</id>
-        <link href="http://til.hashrocket.com/posts/pdwcehiqsk-custom-radio-and-checkbox-colors-in-tailwind"/>
-        <updated>2023-06-14T21:09:36.000Z</updated>
-        <summary type="html"><![CDATA[accent-{color} class, you can customize your form's colors. On your input, simply add the class along with the color of your choice like this:
-<input type="checkbox" class="accent-red-300" checked>
-
-And the result looks like this! (its an image btw, I'll save you a click)
-  
-
-
-This works for the accent colors of radio groups as well.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
