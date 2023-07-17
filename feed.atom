@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-16T00:30:29.929Z</id>
+    <id>urn:2023-07-17T00:29:16.860Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-16T00:30:29.929Z</updated>
+    <updated>2023-07-17T00:29:16.860Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1993,42 +1993,6 @@ changeset = change(%User{}, %{first_name: "John"})
         <updated>2023-06-17T14:00:04.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Macro Guard Clauses in Elixir - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir</id>
-        <link href="http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir"/>
-        <updated>2023-06-16T19:45:21.000Z</updated>
-        <summary type="html"><![CDATA[Lets start by looking at a super basic guard clause here:
-def greater_than_10(num) when num > 10, do: true
-def greater_than_10(_), do: false
-when guard. This is overkill for our situation, but lets say we want the when to use a custom function of ours instead of a basic operation, but when guards don't allow you to directly pass functions to them.
-defguard that allows you to define custom guards like functions. Let's change our function up and define a guard that checks if our argument is both a integer and even.
-defmodule Guards do
-  defguard is_even_num(num) when is_integer(value) and rem(value, 2) == 0
-end
-import Guards
-
-def even_num_greater_than_10(num) when is_even_num(num) do
-  case num > 10 do
-    true -> true
-    _ -> false
-  end
-end
-
-Even though this example is a bit overkill, the option to use custom guards is a cool elixir feature.]]></summary>
-        <author>
-            <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RIP Google Domains… and 5 big tech stories this week]]></title>
-        <id>https://www.youtube.com/watch?v=1GSq7Je32iw</id>
-        <link href="https://www.youtube.com/watch?v=1GSq7Je32iw"/>
-        <updated>2023-06-16T18:00:57.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>

@@ -4479,106 +4479,10 @@ changeset &#x3D; change(%User{}, %{first_name: &quot;John&quot;})
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-16 datetime="2023-06-16T19:45:21.000Z">2023-06-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-16 datetime="2023-06-16T19:45:21.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir"
-                        open
-                      >
-                        <summary class="article-expander__title">Macro Guard Clauses in Elixir - #elixir</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Lets start by looking at a super basic guard clause here:
-def greater_than_10(num) when num &gt; 10, do: true
-def greater_than_10(_), do: false
-when guard. This is overkill for our situation, but lets say we want the when to use a custom function of ours instead of a basic operation, but when guards don&#x27;t allow you to directly pass functions to them.
-defguard that allows you to define custom guards like functions. Let&#x27;s change our function up and define a guard that checks if our argument is both a integer and even.
-defmodule Guards do
-  defguard is_even_num(num) when is_integer(value) and rem(value, 2) &#x3D;&#x3D; 0
-end
-import Guards
-
-def even_num_greater_than_10(num) when is_even_num(num) do
-  case num &gt; 10 do
-    true -&gt; true
-    _ -&gt; false
-  end
-end
-
-Even though this example is a bit overkill, the option to use custom guards is a cool elixir feature.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;1GSq7Je32iw"
-                        open
-                      >
-                        <summary class="article-expander__title">RIP Google Domains… and 5 big tech stories this week</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;1GSq7Je32iw">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5564918741">
-        <time id="build-timestamp" datetime="2023-07-16T00:30:29.902Z">2023-07-16T00:30:29.902Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5570582596">
+        <time id="build-timestamp" datetime="2023-07-17T00:29:16.827Z">2023-07-17T00:29:16.827Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

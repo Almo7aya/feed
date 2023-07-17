@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4621,
+          "wordCount": 4622,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -198,16 +198,6 @@
           "publishedOn": "2023-06-21T15:38:31.000Z",
           "wordCount": 281,
           "title": "Directly fetch a change from a phoenix changeset - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir",
-          "author": "jackrosa",
-          "description": "Lets start by looking at a super basic guard clause here:\ndef greater_than_10(num) when num > 10, do: true\r\ndef greater_than_10(_), do: false\r\nwhen guard. This is overkill for our situation, but lets say we want the when to use a custom function of ours instead of a basic operation, but when guards don't allow you to directly pass functions to them.\ndefguard that allows you to define custom guards like functions. Let's change our function up and define a guard that checks if our argument is both a integer and even.\ndefmodule Guards do\r\n  defguard is_even_num(num) when is_integer(value) and rem(value, 2) == 0\r\nend\r\nimport Guards\r\n\ndef even_num_greater_than_10(num) when is_even_num(num) do\r\n  case num > 10 do\r\n    true -> true\r\n    _ -> false\r\n  end\r\nend\r\n\nEven though this example is a bit overkill, the option to use custom guards is a cool elixir feature.",
-          "link": "http://til.hashrocket.com/posts/dhbgxjigpe-macro-guard-clauses-in-elixir",
-          "publishedOn": "2023-06-16T19:45:21.000Z",
-          "wordCount": 409,
-          "title": "Macro Guard Clauses in Elixir - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
@@ -1891,16 +1881,6 @@
           "publishedOn": "2023-06-20T18:19:43.000Z",
           "wordCount": null,
           "title": "SST in 100 seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=1GSq7Je32iw",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=1GSq7Je32iw",
-          "publishedOn": "2023-06-16T18:00:57.000Z",
-          "wordCount": null,
-          "title": "RIP Google Domains… and 5 big tech stories this week",
           "imageUrl": null
         }
       ]
