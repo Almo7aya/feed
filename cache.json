@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4622,
+          "wordCount": 4623,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1824,6 +1824,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=-Bdb2KOb_zI",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=-Bdb2KOb_zI",
+          "publishedOn": "2023-07-17T18:36:46.000Z",
+          "wordCount": null,
+          "title": "The future of \"truth\" on the Internet",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=p6Yw0Bx5dbw",
           "author": null,
           "description": "",
@@ -1908,16 +1918,6 @@
           "publishedOn": "2023-06-21T14:00:31.000Z",
           "wordCount": null,
           "title": "Rust 1.70.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=784JWR4oxOI",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=784JWR4oxOI",
-          "publishedOn": "2023-06-17T14:00:04.000Z",
-          "wordCount": null,
-          "title": "All Rust features explained",
           "imageUrl": null
         }
       ]
