@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4623,
+          "wordCount": 4620,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -40,6 +40,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/z3rmso7wxv-dark-mode-in-tailwind",
+          "author": "craighafer",
+          "description": "Dark Mode. This is done by simply prepending dark: to your tailwind classes.\n<div class=\"dark:bg-slate-700 dark:text-white\">\r\n  Sample text\r\n</div>\r\nprefers-color-scheme, which is determined by the browser.\nthe official tailwind documentation for yourself.",
+          "link": "http://til.hashrocket.com/posts/z3rmso7wxv-dark-mode-in-tailwind",
+          "publishedOn": "2023-07-18T14:19:36.000Z",
+          "wordCount": 240,
+          "title": "Dark Mode in Tailwind - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/4nvk9ie5ct-add-partial-lookup-prefixes-in-rails",
           "author": "mattpolito",
@@ -1900,6 +1910,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=_gMzg77Qjm0",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=_gMzg77Qjm0",
+          "publishedOn": "2023-07-18T14:15:46.000Z",
+          "wordCount": null,
+          "title": "Deploy your Rust project in 20 minutes",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=06CVZKbNvgE",
           "author": null,
