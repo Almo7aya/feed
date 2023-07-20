@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4620,
+          "wordCount": 4623,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1747,6 +1747,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/sabbradical-vibe-check-1/",
+          "author": null,
+          "description": "Why hello there! I&#8217;m over three weeks into my 3-month sabbatical. Or Sabbradical as several people have pointed out (which, holy shit why didn&#8217;t I think of that!). Imagine waking up in the morning and saying &#8220;I wonder what I&#8217;m [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/sabbradical-vibe-check-1/",
+          "publishedOn": "2023-07-19T16:03:18.000Z",
+          "wordCount": 1924,
+          "title": "Sabbradical Vibe Check #1",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/07/CleanShot-2023-07-17-at-12.30.55@2x-1-700x761.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/",
           "author": null,
           "description": "Kevin Coyle, currently working with Brad Frost and friends at Big Medium, is an incredible all-star professional in tech currently focusing on frontend. We met when we enlisted his help to migrate a mutual client onto a Terraform setup in [&#8230;]",
@@ -1795,36 +1805,6 @@
           "wordCount": 1017,
           "title": "Stop! Sabbatical time",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/painting-crop-1024x753.jpg"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/",
-          "author": null,
-          "description": "Well ain&#8217;t this just some pretty damning and sobering stuff. The examples they use to demonstrate the lack of thought or safety built into these technologies is incredibly unnerving. They demonstrate how basic, 101-level stuff to keep kids safe is [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/",
-          "publishedOn": "2023-06-19T20:37:08.000Z",
-          "wordCount": 682,
-          "title": "The A.I. Dilemma &#8211; March 9, 2023",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/the-dangers-of-highly-centralized-ai-by-clive-thompson-medium/",
-          "author": null,
-          "description": "The field of large language models is becoming dangerously centralized. A huge amount of power resides in the hands of a tiny number of firms. Source: The Dangers Of Highly Centralized AI &#124; by Clive Thompson &#124; Medium",
-          "link": "https://bradfrost.com/blog/link/the-dangers-of-highly-centralized-ai-by-clive-thompson-medium/",
-          "publishedOn": "2023-06-19T20:07:47.000Z",
-          "wordCount": 675,
-          "title": "The Dangers Of Highly Centralized AI &#124; by Clive Thompson &#124; Medium",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/artificial-intelligence-who-owns-the-future-ethical-net/",
-          "author": null,
-          "description": "Beyond the contemporary issues lurk deeper long-term questions. What should and shouldn’t we automate? Should we create lethal autonomous weapons, or should a human always take charge of life-and-death decisions? How will we earn a living and even find meaning [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/artificial-intelligence-who-owns-the-future-ethical-net/",
-          "publishedOn": "2023-06-19T19:32:14.000Z",
-          "wordCount": 740,
-          "title": "Artificial intelligence: who owns the future? &#8211; ethical.net",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1833,6 +1813,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=H1eEFfAkIik",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=H1eEFfAkIik",
+          "publishedOn": "2023-07-19T17:31:38.000Z",
+          "wordCount": null,
+          "title": "SvelteKit in 100 seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=-Bdb2KOb_zI",
           "author": null,
@@ -1954,7 +1944,7 @@
           "link": "https://www.youtube.com/watch?v=DbsAQSIKQXk",
           "publishedOn": "2023-07-07T06:36:44.000Z",
           "wordCount": null,
-          "title": "Hack Your Brain With Obsidian.md",
+          "title": "Remember everything with Obsidian.md",
           "imageUrl": null
         },
         {

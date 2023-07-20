@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-19T00:41:40.269Z</id>
+    <id>urn:2023-07-20T00:25:06.323Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-19T00:41:40.269Z</updated>
+    <updated>2023-07-20T00:25:06.323Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SvelteKit in 100 seconds]]></title>
+        <id>https://www.youtube.com/watch?v=H1eEFfAkIik</id>
+        <link href="https://www.youtube.com/watch?v=H1eEFfAkIik"/>
+        <updated>2023-07-19T17:31:38.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sabbradical Vibe Check #1]]></title>
+        <id>https://bradfrost.com/blog/post/sabbradical-vibe-check-1/</id>
+        <link href="https://bradfrost.com/blog/post/sabbradical-vibe-check-1/"/>
+        <updated>2023-07-19T16:03:18.000Z</updated>
+        <summary type="html"><![CDATA[Why hello there! I&#8217;m over three weeks into my 3-month sabbatical. Or Sabbradical as several people have pointed out (which, holy shit why didn&#8217;t I think of that!). Imagine waking up in the morning and saying &#8220;I wonder what I&#8217;m [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dark Mode in Tailwind - #html-css]]></title>
         <id>http://til.hashrocket.com/posts/z3rmso7wxv-dark-mode-in-tailwind</id>
@@ -1667,7 +1686,7 @@ here.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hack Your Brain With Obsidian.md]]></title>
+        <title type="html"><![CDATA[Remember everything with Obsidian.md]]></title>
         <id>https://www.youtube.com/watch?v=DbsAQSIKQXk</id>
         <link href="https://www.youtube.com/watch?v=DbsAQSIKQXk"/>
         <updated>2023-07-07T06:36:44.000Z</updated>
@@ -1987,36 +2006,6 @@ changeset = change(%User{}, %{first_name: "John"})
         <updated>2023-06-20T18:19:43.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The A.I. Dilemma &#8211; March 9, 2023]]></title>
-        <id>https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/</id>
-        <link href="https://bradfrost.com/blog/link/the-a-i-dilemma-march-9-2023/"/>
-        <updated>2023-06-19T20:37:08.000Z</updated>
-        <summary type="html"><![CDATA[Well ain&#8217;t this just some pretty damning and sobering stuff. The examples they use to demonstrate the lack of thought or safety built into these technologies is incredibly unnerving. They demonstrate how basic, 101-level stuff to keep kids safe is [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Dangers Of Highly Centralized AI &#124; by Clive Thompson &#124; Medium]]></title>
-        <id>https://bradfrost.com/blog/link/the-dangers-of-highly-centralized-ai-by-clive-thompson-medium/</id>
-        <link href="https://bradfrost.com/blog/link/the-dangers-of-highly-centralized-ai-by-clive-thompson-medium/"/>
-        <updated>2023-06-19T20:07:47.000Z</updated>
-        <summary type="html"><![CDATA[The field of large language models is becoming dangerously centralized. A huge amount of power resides in the hands of a tiny number of firms. Source: The Dangers Of Highly Centralized AI &#124; by Clive Thompson &#124; Medium]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artificial intelligence: who owns the future? &#8211; ethical.net]]></title>
-        <id>https://bradfrost.com/blog/link/artificial-intelligence-who-owns-the-future-ethical-net/</id>
-        <link href="https://bradfrost.com/blog/link/artificial-intelligence-who-owns-the-future-ethical-net/"/>
-        <updated>2023-06-19T19:32:14.000Z</updated>
-        <summary type="html"><![CDATA[Beyond the contemporary issues lurk deeper long-term questions. What should and shouldn’t we automate? Should we create lethal autonomous weapons, or should a human always take charge of life-and-death decisions? How will we earn a living and even find meaning [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
