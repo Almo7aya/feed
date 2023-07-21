@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-20T00:25:06.323Z</id>
+    <id>urn:2023-07-21T00:24:12.487Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-20T00:25:06.323Z</updated>
+    <updated>2023-07-21T00:24:12.487Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[NPM script hooks - #javascript]]></title>
+        <id>http://til.hashrocket.com/posts/7tqknjptcq-npm-script-hooks</id>
+        <link href="http://til.hashrocket.com/posts/7tqknjptcq-npm-script-hooks"/>
+        <updated>2023-07-20T19:58:44.000Z</updated>
+        <summary type="html"><![CDATA[package.json you can have additional scripting before & after your script with a special incantation of script commands.
+test script
+{
+	"scripts": {
+  	"test": "SOME TEST COMMAND"
+  }
+}
+pre to your command.
+{
+	"scripts": {
+  	"pretest": "SOME COMMAND THAT HAPPENS BEFORE",
+  	"test": "SOME TEST COMMAND"
+  }
+}
+{
+	"scripts": {
+  	"pretest": "COMMAND THAT HAPPENS BEFORE",
+  	"test": "TEST COMMAND",
+    "posttest": "COMMAND THAY HAPPENS AFTER"
+  }
+}
+pre & post.
+documentation.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debug a Jest test - #javascript]]></title>
+        <id>http://til.hashrocket.com/posts/xtcm0jqoac-debug-a-jest-test</id>
+        <link href="http://til.hashrocket.com/posts/xtcm0jqoac-debug-a-jest-test"/>
+        <updated>2023-07-20T19:37:35.000Z</updated>
+        <summary type="html"><![CDATA[node command so that the flag of --inspect-brk can be added.
+node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand
+docs:
+--runInBand cli option makes sure Jest runs the test in the same process rather than spawning processes for individual tests. Normally Jest parallelizes test runs across processes but it is hard to debug many processes at the same time.  
+about:inspect. This will open the dev tools where you can select 'Open dedicated DevTools for Node'.
+
+  
+
+
+Then you'll see the node dev tools window open. 
+
+  
+
+
+Now just enter a debugger whereever you need and run the jest command from above.]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is AI really getting dumber? Llama2 vs GPT-4]]></title>
+        <id>https://www.youtube.com/watch?v=DXWwCggFROk</id>
+        <link href="https://www.youtube.com/watch?v=DXWwCggFROk"/>
+        <updated>2023-07-20T17:23:34.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Import Github User Public SSH Keys  - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/aggicgrpxg-import-github-user-public-ssh-keys-</id>
+        <link href="http://til.hashrocket.com/posts/aggicgrpxg-import-github-user-public-ssh-keys-"/>
+        <updated>2023-07-20T14:58:04.000Z</updated>
+        <summary type="html"><![CDATA[authorized_keys file. This command works for public keyservers, but in my case, I used it for Github. Handy when setting up a new machine or adding a new user's keys to a system. 
+# Example - ssh-import-id gh:GITHUB_USERNAME
+
+ssh-import-id gh:avogel3
+PROTOCOL (gh above) portion is absent, it defaults to lp. Acceptable values are lp = launchpad and gh = github. You can also configure this command to handle a specific URL when not specifying a protocol.
+https://manpages.ubuntu.com/manpages/xenial/man1/ssh-import-id.1.html]]></summary>
+        <author>
+            <name>andrewvogel</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SvelteKit in 100 seconds]]></title>
         <id>https://www.youtube.com/watch?v=H1eEFfAkIik</id>
@@ -1997,15 +2077,6 @@ changeset = change(%User{}, %{first_name: "John"})
         <updated>2023-06-21T14:00:31.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SST in 100 seconds]]></title>
-        <id>https://www.youtube.com/watch?v=JY_d0vf-rfw</id>
-        <link href="https://www.youtube.com/watch?v=JY_d0vf-rfw"/>
-        <updated>2023-06-20T18:19:43.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>

@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4623,
+          "wordCount": 4624,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -40,6 +40,36 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/7tqknjptcq-npm-script-hooks",
+          "author": "mattpolito",
+          "description": "package.json you can have additional scripting before & after your script with a special incantation of script commands.\ntest script\n{\r\n\t\"scripts\": {\r\n  \t\"test\": \"SOME TEST COMMAND\"\r\n  }\r\n}\r\npre to your command.\n{\r\n\t\"scripts\": {\r\n  \t\"pretest\": \"SOME COMMAND THAT HAPPENS BEFORE\",\r\n  \t\"test\": \"SOME TEST COMMAND\"\r\n  }\r\n}\r\n{\r\n\t\"scripts\": {\r\n  \t\"pretest\": \"COMMAND THAT HAPPENS BEFORE\",\r\n  \t\"test\": \"TEST COMMAND\",\r\n    \"posttest\": \"COMMAND THAY HAPPENS AFTER\"\r\n  }\r\n}\r\npre & post.\ndocumentation.",
+          "link": "http://til.hashrocket.com/posts/7tqknjptcq-npm-script-hooks",
+          "publishedOn": "2023-07-20T19:58:44.000Z",
+          "wordCount": 329,
+          "title": "NPM script hooks - #javascript",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/xtcm0jqoac-debug-a-jest-test",
+          "author": "mattpolito",
+          "description": "node command so that the flag of --inspect-brk can be added.\nnode --inspect-brk ./node_modules/jest/bin/jest.js --runInBand\r\ndocs:\n--runInBand cli option makes sure Jest runs the test in the same process rather than spawning processes for individual tests. Normally Jest parallelizes test runs across processes but it is hard to debug many processes at the same time.  \nabout:inspect. This will open the dev tools where you can select 'Open dedicated DevTools for Node'.\n\n  \n\n\nThen you'll see the node dev tools window open. \n\n  \n\n\nNow just enter a debugger whereever you need and run the jest command from above.",
+          "link": "http://til.hashrocket.com/posts/xtcm0jqoac-debug-a-jest-test",
+          "publishedOn": "2023-07-20T19:37:35.000Z",
+          "wordCount": 350,
+          "title": "Debug a Jest test - #javascript",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/javascript_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/aggicgrpxg-import-github-user-public-ssh-keys-",
+          "author": "andrewvogel",
+          "description": "authorized_keys file. This command works for public keyservers, but in my case, I used it for Github. Handy when setting up a new machine or adding a new user's keys to a system. \n# Example - ssh-import-id gh:GITHUB_USERNAME\r\n\nssh-import-id gh:avogel3\r\nPROTOCOL (gh above) portion is absent, it defaults to lp. Acceptable values are lp = launchpad and gh = github. You can also configure this command to handle a specific URL when not specifying a protocol.\nhttps://manpages.ubuntu.com/manpages/xenial/man1/ssh-import-id.1.html",
+          "link": "http://til.hashrocket.com/posts/aggicgrpxg-import-github-user-public-ssh-keys-",
+          "publishedOn": "2023-07-20T14:58:04.000Z",
+          "wordCount": 277,
+          "title": "Import Github User Public SSH Keys  - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/z3rmso7wxv-dark-mode-in-tailwind",
           "author": "craighafer",
@@ -1814,6 +1844,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=DXWwCggFROk",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=DXWwCggFROk",
+          "publishedOn": "2023-07-20T17:23:34.000Z",
+          "wordCount": null,
+          "title": "Is AI really getting dumber? Llama2 vs GPT-4",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=H1eEFfAkIik",
           "author": null,
           "description": "",
@@ -1881,16 +1921,6 @@
           "publishedOn": "2023-06-21T20:11:06.000Z",
           "wordCount": null,
           "title": "PHP will make you poor? StackOverflow 2023 Results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=JY_d0vf-rfw",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=JY_d0vf-rfw",
-          "publishedOn": "2023-06-20T18:19:43.000Z",
-          "wordCount": null,
-          "title": "SST in 100 seconds",
           "imageUrl": null
         }
       ]
