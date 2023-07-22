@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4624,
+          "wordCount": 4623,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -40,6 +40,26 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki",
+          "author": "mattpolito",
+          "description": ".wiki to the end of your repo when cloning.\ngh repo clone hashrocket/decent_exposure.wiki\r\n\nNow you have all of the wiki files locally and can search however you feel.",
+          "link": "http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki",
+          "publishedOn": "2023-07-21T21:10:31.000Z",
+          "wordCount": 265,
+          "title": "Clone a Github Repository Wiki - #git",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/vnnawov1tt-decomposing-nested-arrays",
+          "author": "craighafer",
+          "description": "decompose a nested array into variables like so:\nletters_and_numbers = [[\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]]\r\nletters, numbers = letters_and_numbers\r\n\n>> letters\r\n=> [\"a\", \"b\", \"c\", \"d\", \"e\"]\r\n\n>> numbers\r\n=> [1, 2, 3, 4, 5]\r\n() to decompose specific values from a nested array?\nletters_and_numbers = [[\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]]\r\n(a, b, *other_letters), numbers = letters_and_numbers\r\n\n>> a\r\n=> \"a\"\r\n\n>> b\r\n=> \"b\"\r\n\n>> other_letters\r\n=> [\"c\", \"d\", \"e\"]\r\n\n>> numbers\r\n=> [1, 2, 3, 4, 5]\r\nNote: You can also grab values from either the beginning or  end of the array!\nletters_and_numbers = [[\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]]\r\n(a, *other, d, e), _ = letters_and_numbers\r\n\n>> a\r\n=> \"a\"\r\n\n>> other\r\n=> [\"b\", \"c\"]\r\n\n>> d\r\n=> \"d\"\r\n\n>> e\r\n=> \"e\"",
+          "link": "http://til.hashrocket.com/posts/vnnawov1tt-decomposing-nested-arrays",
+          "publishedOn": "2023-07-21T16:12:03.000Z",
+          "wordCount": 392,
+          "title": "Decomposing Nested Arrays - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/7tqknjptcq-npm-script-hooks",
           "author": "mattpolito",
@@ -209,36 +229,6 @@
           "wordCount": 326,
           "title": "Delete A Rule In UFW - #devops",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions",
-          "author": "craighafer",
-          "description": "Rails.application.config.hosts << /.*\\.ngrok\\.app/\r\nRails.application.config.hosts << \".ngrok.app\"\r\n\nBut it's still nice to know you can utilize regular expressions if needed!",
-          "link": "http://til.hashrocket.com/posts/tavv6gbb2d-rails-config-hosts-accepts-regular-expressions",
-          "publishedOn": "2023-06-21T18:47:27.000Z",
-          "wordCount": 338,
-          "title": "Rails config hosts accepts regular expressions - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations",
-          "author": "gabrielreis",
-          "description": "change method on migrations is great so you don't have to specify up and down and if you just want to execute a simple sql update on up then you can use the up_only method:\n  def change\r\n    add_column :products, :draft, :boolean, default: true\r\n    \r\n    up_only do\r\n      execute \"update products set draft = false\"\r\n    end\r\n  end",
-          "link": "http://til.hashrocket.com/posts/neclvcibtx-using-uponly-in-activerecord-migrations",
-          "publishedOn": "2023-06-21T16:12:03.000Z",
-          "wordCount": 282,
-          "title": "Using `up_only` in ActiveRecord migrations - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset",
-          "author": "jackrosa",
-          "description": "fetch_change/2. Simply pass the function a changeset, and the name of the column where you want to see the change.\nchangeset = change(%User{}, %{first_name: \"John\"})\r\n|> fetch_change(:first_name)\r\n# => \"John\"",
-          "link": "http://til.hashrocket.com/posts/zqodkbcxf7-directly-fetch-a-change-from-a-phoenix-changeset",
-          "publishedOn": "2023-06-21T15:38:31.000Z",
-          "wordCount": 281,
-          "title": "Directly fetch a change from a phoenix changeset - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
     },
@@ -264,7 +254,7 @@
           "author": null,
           "description": "How to use 2 or more textures in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2-textures.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1618,
           "title": "WebGL Using 2 or More Textures",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2-textures_en.jpg"
@@ -274,7 +264,7 @@
           "author": null,
           "description": "How to implement canvas 2d's drawImage function in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-drawimage.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2728,
           "title": "WebGL Implementing DrawImage",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-drawimage_en.jpg"
@@ -284,7 +274,7 @@
           "author": null,
           "description": "How matrix math works explained in simple easy to follow directions.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-matrices.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3829,
           "title": "WebGL 2D Matrices",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-matrices_en.jpg"
@@ -294,7 +284,7 @@
           "author": null,
           "description": "How to implement canvas 2d's translate/rotate/scale functions in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-matrix-stack.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2135,
           "title": "WebGL Implementing A Matrix Stack",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-matrix-stack_en.jpg"
@@ -304,7 +294,7 @@
           "author": null,
           "description": "How to rotate in 2D",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-rotation.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1648,
           "title": "WebGL 2D Rotation",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-rotation_en.jpg"
@@ -314,7 +304,7 @@
           "author": null,
           "description": "How to scale in 2D",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-scale.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 996,
           "title": "WebGL 2D Scale",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-scale_en.jpg"
@@ -324,7 +314,7 @@
           "author": null,
           "description": "How to translate in 2D",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-translation.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1641,
           "title": "WebGL 2D Translation",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-translation_en.jpg"
@@ -334,7 +324,7 @@
           "author": null,
           "description": "Why WebGL is not a 3D library and why it matters.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1937,
           "title": "WebGL - Rasterization vs 3D libraries",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-2d-vs-3d-library_en.jpg"
@@ -344,7 +334,7 @@
           "author": null,
           "description": "How cameras work in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-camera.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2667,
           "title": "WebGL 3D - Cameras",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-camera_en.jpg"
@@ -354,7 +344,7 @@
           "author": null,
           "description": "How to lathe a bezier curve.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-geometry-lathe.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 5531,
           "title": "WebGL 3D Geometry - Lathe",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-geometry-lathe_en.jpg"
@@ -364,7 +354,7 @@
           "author": null,
           "description": "How to implement directional lighting in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3069,
           "title": "WebGL 3D - Directional Lighting",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-lighting-directional_en.jpg"
@@ -374,7 +364,7 @@
           "author": null,
           "description": "How to implement normal maps",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-normal-mapping.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 624,
           "title": "WebGL 3D - Normal Mapping",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-lighting-normal-mapping_en.jpg"
@@ -384,7 +374,7 @@
           "author": null,
           "description": "How to implement point lighting in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-point.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2232,
           "title": "WebGL 3D - Point Lighting",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-lighting-point_en.jpg"
@@ -394,7 +384,7 @@
           "author": null,
           "description": "How to implement spot lights in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-spot.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2523,
           "title": "WebGL 3D - Spot Lighting",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-lighting-spot_en.jpg"
@@ -404,7 +394,7 @@
           "author": null,
           "description": "How to do 3D in WebGL starting with an orthographic projection.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-orthographic.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 4090,
           "title": "WebGL - Orthographic 3D",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-orthographic_en.jpg"
@@ -414,7 +404,7 @@
           "author": null,
           "description": "What's special about W",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective-correct-texturemapping.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2360,
           "title": "WebGL 3D Perspective Correct Texture Mapping",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-perspective-correct-texturemapping_en.jpg"
@@ -424,7 +414,7 @@
           "author": null,
           "description": "How to display perspective in 3D in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2619,
           "title": "WebGL 3D Perspective",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-perspective_en.jpg"
@@ -434,7 +424,7 @@
           "author": null,
           "description": "How textures work in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-3d-textures.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3898,
           "title": "WebGL Textures",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-3d-textures_en.jpg"
@@ -444,7 +434,7 @@
           "author": null,
           "description": "How alpha in WebGL is different than alpha in OpenGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1347,
           "title": "WebGL and Alpha",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-and-alpha_en.jpg"
@@ -454,7 +444,7 @@
           "author": null,
           "description": "How to do animation in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-animation.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1529,
           "title": "WebGL - Animation",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-animation_en.jpg"
@@ -464,7 +454,7 @@
           "author": null,
           "description": "What not to do in WebGL, why not to do it, and what to do instead",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2699,
           "title": "WebGL Anti-Patterns",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-anti-patterns_en.jpg"
@@ -474,7 +464,7 @@
           "author": null,
           "description": "What are attributes in WebGL?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-attributes.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1879,
           "title": "WebGL Attributes",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-attributes_en.jpg"
@@ -484,7 +474,7 @@
           "author": null,
           "description": "Some of the code you need for all WebGL programs",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-boilerplate.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1588,
           "title": "WebGL Boilerplate",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-boilerplate_en.jpg"
@@ -494,7 +484,7 @@
           "author": null,
           "description": "Using images across domains",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-cors-permission.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1444,
           "title": "WebGL - Cross Origin Images",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-cors-permission_en.jpg"
@@ -504,7 +494,7 @@
           "author": null,
           "description": "Things to be aware of when trying to make your WebGL app work everywhere.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-cross-platform-issues.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2452,
           "title": "WebGL Cross Platform Issues",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-cross-platform-issues_en.jpg"
@@ -514,7 +504,7 @@
           "author": null,
           "description": "How to use cubemaps in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-cube-maps.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1605,
           "title": "WebGL Cubemaps",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-cube-maps_en.jpg"
@@ -524,7 +514,7 @@
           "author": null,
           "description": "Supplying data to a texture.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-data-textures.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1296,
           "title": "WebGL 3D - Data Textures",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-data-textures_en.jpg"
@@ -534,7 +524,7 @@
           "author": null,
           "description": "How to draw multiple different kinds of things in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-drawing-multiple-things.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2375,
           "title": "WebGL - Drawing Multiple Things",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-drawing-multiple-things_en.jpg"
@@ -544,7 +534,7 @@
           "author": null,
           "description": "Creative Coding - Drawing Without Data",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-drawing-without-data.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3636,
           "title": "WebGL Drawing Without Data",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-drawing-without-data_en.jpg"
@@ -554,7 +544,7 @@
           "author": null,
           "description": "How to implement environment maps.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-environment-maps.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2029,
           "title": "WebGL Environment Maps (reflections)",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-environment-maps_en.jpg"
@@ -564,7 +554,7 @@
           "author": null,
           "description": "How to implement fog",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-fog.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2541,
           "title": "WebGL Fog",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-fog_en.jpg"
@@ -574,7 +564,7 @@
           "author": null,
           "description": "What are framebuffers in WebGL?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-framebuffers.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 955,
           "title": "WebGL Framebuffers",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-framebuffers_en.jpg"
@@ -584,7 +574,7 @@
           "author": null,
           "description": "Your first WebGL lesson starting with the fundamentals",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 4539,
           "title": "WebGL Fundamentals",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-fundamentals_en.jpg"
@@ -594,7 +584,7 @@
           "author": null,
           "description": "How to do general computing with WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-gpgpu.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 8559,
           "title": "WebGL GPGPU",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-gpgpu_en.jpg"
@@ -604,7 +594,7 @@
           "author": null,
           "description": "What WebGL is really doing under the hood",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2749,
           "title": "WebGL How It Works",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-how-it-works_en.jpg"
@@ -614,7 +604,7 @@
           "author": null,
           "description": "How to apply multiple image processing techniques to images in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-image-processing-continued.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1686,
           "title": "WebGL Image Processing Continued",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-image-processing-continued_en.jpg"
@@ -624,7 +614,7 @@
           "author": null,
           "description": "How to image process in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2051,
           "title": "WebGL Image Processing",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-image-processing_en.jpg"
@@ -634,7 +624,7 @@
           "author": null,
           "description": "How to use gl.drawElements",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-indexed-vertices.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1415,
           "title": "WebGL Indexed Vertices",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-indexed-vertices_en.jpg"
@@ -644,7 +634,7 @@
           "author": null,
           "description": "Drawing Multiple Instances of the same Object",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-instanced-drawing.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2684,
           "title": "WebGL Optimization - Instanced Drawing",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-instanced-drawing_en.jpg"
@@ -654,7 +644,7 @@
           "author": null,
           "description": "Ways to make programming WebGL less verbose",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-less-code-more-fun.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2810,
           "title": "WebGL - Less Code, More Fun",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-less-code-more-fun_en.jpg"
@@ -664,7 +654,7 @@
           "author": null,
           "description": "How to parse an .MTL file",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 4675,
           "title": "WebGL Load Obj with Mtl",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-load-obj-w-mtl_en.jpg"
@@ -674,7 +664,7 @@
           "author": null,
           "description": "How to parse and display an .OBJ file",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-load-obj.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 6127,
           "title": "WebGL Load Obj",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-load-obj_en.jpg"
@@ -684,7 +674,7 @@
           "author": null,
           "description": "The difference between WebGL conventions and Math conventions.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-matrix-vs-math.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1684,
           "title": "WebGL Matrices vs Math Matrices",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-matrix-vs-math_en.jpg"
@@ -694,7 +684,7 @@
           "author": null,
           "description": "Drawing multiple views",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-multiple-views.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3304,
           "title": "WebGL Multiple Views, Multiple Canvases",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-multiple-views_en.jpg"
@@ -704,7 +694,7 @@
           "author": null,
           "description": "How to pick things in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-picking.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3681,
           "title": "WebGL Picking",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-picking_en.jpg"
@@ -714,7 +704,7 @@
           "author": null,
           "description": "Projecting a texture as a plane",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-planar-projection-mapping.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3999,
           "title": "WebGL Planar and Perspective Projection Mapping",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-planar-projection-mapping_en.jpg"
@@ -724,7 +714,7 @@
           "author": null,
           "description": "Details on drawing Points, Lines, and Triangles",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-points-lines-triangles.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1345,
           "title": "WebGL Points, Lines, and Triangles",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-points-lines-triangles_en.jpg"
@@ -734,7 +724,7 @@
           "author": null,
           "description": "Post Processing",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-post-processing.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 614,
           "title": "WebGL Post Processing",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-post-processing_en.jpg"
@@ -744,7 +734,7 @@
           "author": null,
           "description": "Precision Issues in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-precision-issues.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2994,
           "title": "WebGL Precision Issues",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-precision-issues_en.jpg"
@@ -754,7 +744,7 @@
           "author": null,
           "description": "Using independent indices",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-pulling-vertices.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2912,
           "title": "WebGL Pulling Vertices",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-pulling-vertices_en.jpg"
@@ -764,7 +754,7 @@
           "author": null,
           "description": "A simple way to show the load on the GPU's vertex and fragment processing?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-a-simple-way-to-show-the-load-on-the-gpu-s-vertex-and-fragment-processing-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 857,
           "title": "A simple way to show the load on the GPU's vertex and fragment processing?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-a-simple-way-to-show-the-load-on-the-gpu-s-vertex-and-fragment-processing-_en.jpg"
@@ -774,7 +764,7 @@
           "author": null,
           "description": "Accessing textures by pixel coordinate in WebGL2",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-accessing-textures-by-pixel-coordinate-in-webgl2.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 915,
           "title": "Accessing textures by pixel coordinate in WebGL2",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-accessing-textures-by-pixel-coordinate-in-webgl2_en.jpg"
@@ -784,7 +774,7 @@
           "author": null,
           "description": "Apply a displacement map and specular map",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-apply-a-displacement-map-and-specular-map.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1985,
           "title": "Apply a displacement map and specular map",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-apply-a-displacement-map-and-specular-map_en.jpg"
@@ -794,7 +784,7 @@
           "author": null,
           "description": "Can anyone explain what this GLSL fragment shader is doing?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-can-anyone-explain-what-this-glsl-fragment-shader-is-doing-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1224,
           "title": "Can anyone explain what this GLSL fragment shader is doing?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-can-anyone-explain-what-this-glsl-fragment-shader-is-doing-_en.jpg"
@@ -804,7 +794,7 @@
           "author": null,
           "description": "Can I mute the warning about vertex attrib 0 being disabled?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-can-i-mute-the-warning-about-vertex-attrib-0-being-disabled-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1155,
           "title": "Can I mute the warning about vertex attrib 0 being disabled?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-can-i-mute-the-warning-about-vertex-attrib-0-being-disabled-_en.jpg"
@@ -814,7 +804,7 @@
           "author": null,
           "description": "Create image warping effect in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-create-image-warping-effect-in-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 986,
           "title": "Create image warping effect in WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-create-image-warping-effect-in-webgl_en.jpg"
@@ -824,7 +814,7 @@
           "author": null,
           "description": "Creating a smudge/liquify effect",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-creating-a-smudge-liquify-effect.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1338,
           "title": "Creating a smudge/liquify effect",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-creating-a-smudge-liquify-effect_en.jpg"
@@ -834,7 +824,7 @@
           "author": null,
           "description": "Drawing sprites that sort pixels by depth",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-depth-sprites.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1153,
           "title": "How to draw Depth Sprites",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-depth-sprites_en.jpg"
@@ -844,7 +834,7 @@
           "author": null,
           "description": "Determine min/max values for the entire image",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-determine-min-max-values-for-the-entire-image.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1172,
           "title": "Determine min/max values for the entire image",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-determine-min-max-values-for-the-entire-image_en.jpg"
@@ -854,7 +844,7 @@
           "author": null,
           "description": "Don't blend a polygon that crosses itself",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-don-t-blend-a-polygon-that-crosses-itself.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1071,
           "title": "Don't blend a polygon that crosses itself",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-don-t-blend-a-polygon-that-crosses-itself_en.jpg"
@@ -864,7 +854,7 @@
           "author": null,
           "description": "Drawing 2D image with depth map to achieve pseudo-3D effect",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-2d-image-with-depth-map-to-achieve-pseudo-3d-effect.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1386,
           "title": "Drawing 2D image with depth map to achieve pseudo-3D effect",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-drawing-2d-image-with-depth-map-to-achieve-pseudo-3d-effect_en.jpg"
@@ -874,7 +864,7 @@
           "author": null,
           "description": "Drawing a heightmap",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-a-heightmap.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1007,
           "title": "Drawing a heightmap",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-drawing-a-heightmap_en.jpg"
@@ -884,7 +874,7 @@
           "author": null,
           "description": "Drawing layers with different points",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-layers-with-different-points.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1643,
           "title": "Drawing layers with different points",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-drawing-layers-with-different-points_en.jpg"
@@ -894,7 +884,7 @@
           "author": null,
           "description": "Drawing Many different models in a single draw call",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-many-different-models-in-a-single-draw-call.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1159,
           "title": "Drawing Many different models in a single draw call",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-drawing-many-different-models-in-a-single-draw-call_en.jpg"
@@ -904,7 +894,7 @@
           "author": null,
           "description": "Drawing textured sprites with instanced drawing",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-drawing-textured-sprites-with-instanced-drawing.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1117,
           "title": "Drawing textured sprites with instanced drawing",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-drawing-textured-sprites-with-instanced-drawing_en.jpg"
@@ -914,7 +904,7 @@
           "author": null,
           "description": "Efficient particle system in javascript? (WebGL)",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-efficient-particle-system-in-javascript---webgl-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1556,
           "title": "Efficient particle system in javascript? (WebGL)",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-efficient-particle-system-in-javascript---webgl-_en.jpg"
@@ -924,7 +914,7 @@
           "author": null,
           "description": "Emulating palette based graphics in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-emulating-palette-based-graphics-in-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1545,
           "title": "Emulating palette based graphics in WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-emulating-palette-based-graphics-in-webgl_en.jpg"
@@ -934,7 +924,7 @@
           "author": null,
           "description": "FPS-like camera movement with basic matrix transformations",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-fps-like-camera-movement-with-basic-matrix-transformations.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 833,
           "title": "FPS-like camera movement with basic matrix transformations",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-fps-like-camera-movement-with-basic-matrix-transformations_en.jpg"
@@ -944,7 +934,7 @@
           "author": null,
           "description": "Get the size of a point for collision checking",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-get-the-size-of-a-point-for-collision-checking.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1110,
           "title": "Get the size of a point for collision checking",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-get-the-size-of-a-point-for-collision-checking_en.jpg"
@@ -954,7 +944,7 @@
           "author": null,
           "description": "GLSL shader to support coloring and texturing",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-glsl-shader-to-support-coloring-and-texturing.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1165,
           "title": "GLSL shader to support coloring and texturing",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-glsl-shader-to-support-coloring-and-texturing_en.jpg"
@@ -964,7 +954,7 @@
           "author": null,
           "description": "How can I compute for 500 points which of 1000 line segments is nearest to each point?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-compute-for-500-points-which-of-1000-line-segments-is-nearest-to-each-point-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1920,
           "title": "How can I compute for 500 points which of 1000 line segments is nearest to each point?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-can-i-compute-for-500-points-which-of-1000-line-segments-is-nearest-to-each-point-_en.jpg"
@@ -974,7 +964,7 @@
           "author": null,
           "description": "How can I create a 16bit historgram of 16bit data",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-create-a-16bit-historgram-of-16bit-data.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3064,
           "title": "How can I create a 16bit historgram of 16bit data",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-can-i-create-a-16bit-historgram-of-16bit-data_en.jpg"
@@ -984,7 +974,7 @@
           "author": null,
           "description": "How can I get all the uniforms and uniformBlocks",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-get-all-the-uniforms-and-uniformblocks.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 810,
           "title": "How can I get all the uniforms and uniformBlocks",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-can-i-get-all-the-uniforms-and-uniformblocks_en.jpg"
@@ -994,7 +984,7 @@
           "author": null,
           "description": "How can I move the perspective vanishing point from the center of the canvas?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-can-i-move-the-perspective-vanishing-point-from-the-center-of-the-canvas-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1234,
           "title": "How can I move the perspective vanishing point from the center of the canvas?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-can-i-move-the-perspective-vanishing-point-from-the-center-of-the-canvas-_en.jpg"
@@ -1004,7 +994,7 @@
           "author": null,
           "description": "How to Achieve Moving Line with Trail Effects",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-achieve-moving-line-with-trail-effects.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 739,
           "title": "How to Achieve Moving Line with Trail Effects",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-achieve-moving-line-with-trail-effects_en.jpg"
@@ -1014,7 +1004,7 @@
           "author": null,
           "description": "How to bind an array of textures to a WebGL shader uniform?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1016,
           "title": "How to bind an array of textures to a WebGL shader uniform?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-_en.jpg"
@@ -1024,7 +1014,7 @@
           "author": null,
           "description": "How to blend colors across 2 triangles",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-blend-colors-across-2-triangles.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1052,
           "title": "How to blend colors across 2 triangles",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-blend-colors-across-2-triangles_en.jpg"
@@ -1034,7 +1024,7 @@
           "author": null,
           "description": "How to combine more text drawing into fewer draw calls",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-combine-more-text-drawing-into-fewer-draw-calls.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1232,
           "title": "How to combine more text drawing into fewer draw calls",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-combine-more-text-drawing-into-fewer-draw-calls_en.jpg"
@@ -1044,7 +1034,7 @@
           "author": null,
           "description": "How to control the color between vertices",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-control-the-color-between-vertices.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 913,
           "title": "How to control the color between vertices",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-control-the-color-between-vertices_en.jpg"
@@ -1054,7 +1044,7 @@
           "author": null,
           "description": "How to create a torus",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-create-a-torus.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1088,
           "title": "How to create a torus",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-create-a-torus_en.jpg"
@@ -1064,7 +1054,7 @@
           "author": null,
           "description": "How to detect clipped triangles in the framgment shader",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-detect-clipped-triangles-in-the-framgment-shader.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 940,
           "title": "How to detect clipped triangles in the framgment shader",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-detect-clipped-triangles-in-the-framgment-shader_en.jpg"
@@ -1074,7 +1064,7 @@
           "author": null,
           "description": "How to determine the average brightness in a scene?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-determine-the-average-brightness-in-a-scene-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1165,
           "title": "How to determine the average brightness in a scene?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-determine-the-average-brightness-in-a-scene-_en.jpg"
@@ -1084,7 +1074,7 @@
           "author": null,
           "description": "How to draw correctly textured trapezoid polygons",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-draw-correctly-textured-trapezoid-polygons.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1186,
           "title": "How to draw correctly textured trapezoid polygons",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-draw-correctly-textured-trapezoid-polygons_en.jpg"
@@ -1094,7 +1084,7 @@
           "author": null,
           "description": "How to fade the drawing buffer",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-fade-the-drawing-buffer.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 986,
           "title": "How to fade the drawing buffer",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-fade-the-drawing-buffer_en.jpg"
@@ -1104,7 +1094,7 @@
           "author": null,
           "description": "How to figure out how much GPU work to do without crashing WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-figure-out-how-much-gpu-work-to-do-without-crashing-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1611,
           "title": "How to figure out how much GPU work to do without crashing WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-figure-out-how-much-gpu-work-to-do-without-crashing-webgl_en.jpg"
@@ -1114,7 +1104,7 @@
           "author": null,
           "description": "How to get audio data into a shader",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-audio-data-into-a-shader.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 841,
           "title": "How to get audio data into a shader",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-get-audio-data-into-a-shader_en.jpg"
@@ -1124,7 +1114,7 @@
           "author": null,
           "description": "How to get code completion for WebGL in Visual Studio Code",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-code-completion-for-webgl-in-visual-studio-code.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 942,
           "title": "How to get code completion for WebGL in Visual Studio Code",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-get-code-completion-for-webgl-in-visual-studio-code_en.jpg"
@@ -1134,7 +1124,7 @@
           "author": null,
           "description": "How to get pixelize effect in webgl?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-pixelize-effect-in-webgl-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 921,
           "title": "How to get pixelize effect in webgl?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-get-pixelize-effect-in-webgl-_en.jpg"
@@ -1144,7 +1134,7 @@
           "author": null,
           "description": "How to get the 3d coordinates of a mouse click",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-get-the-3d-coordinates-of-a-mouse-click.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1266,
           "title": "How to get the 3d coordinates of a mouse click",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-get-the-3d-coordinates-of-a-mouse-click_en.jpg"
@@ -1154,7 +1144,7 @@
           "author": null,
           "description": "How to implement zoom from mouse in 2D WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-implement-zoom-from-mouse-in-2d-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1201,
           "title": "How to implement zoom from mouse in 2D WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-implement-zoom-from-mouse-in-2d-webgl_en.jpg"
@@ -1164,7 +1154,7 @@
           "author": null,
           "description": "How to import a heightmap in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-import-a-heightmap-in-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1365,
           "title": "How to import a heightmap in WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-import-a-heightmap-in-webgl_en.jpg"
@@ -1174,7 +1164,7 @@
           "author": null,
           "description": "How to load images in the background with no jank",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-load-images-in-the-background-with-no-jank.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1542,
           "title": "How to load images in the background with no jank",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-load-images-in-the-background-with-no-jank_en.jpg"
@@ -1184,7 +1174,7 @@
           "author": null,
           "description": "How to make a smudge brush tool",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-a-smudge-brush-tool.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 822,
           "title": "How to make a smudge brush tool",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-make-a-smudge-brush-tool_en.jpg"
@@ -1194,7 +1184,7 @@
           "author": null,
           "description": "How to make WebGL canvas transparent",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-make-webgl-canvas-transparent.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1022,
           "title": "How to make WebGL canvas transparent",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-make-webgl-canvas-transparent_en.jpg"
@@ -1204,7 +1194,7 @@
           "author": null,
           "description": "How to optimize rendering a UI",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-optimize-rendering-a-ui.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1292,
           "title": "How to optimize rendering a UI",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-optimize-rendering-a-ui_en.jpg"
@@ -1214,7 +1204,7 @@
           "author": null,
           "description": "How to prevent texture bleeding with a texture atlas",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-prevent-texture-bleeding-with-a-texture-atlas.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1239,
           "title": "How to prevent texture bleeding with a texture atlas",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-prevent-texture-bleeding-with-a-texture-atlas_en.jpg"
@@ -1224,7 +1214,7 @@
           "author": null,
           "description": "How to process particle positions",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-process-particle-positions.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1122,
           "title": "How to process particle positions",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-process-particle-positions_en.jpg"
@@ -1234,7 +1224,7 @@
           "author": null,
           "description": "How to read a single component with readPixels",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-read-a-single-component-with-readpixels.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1541,
           "title": "How to read a single component with readPixels",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-read-a-single-component-with-readpixels_en.jpg"
@@ -1244,7 +1234,7 @@
           "author": null,
           "description": "How to render large scale images like 32000x32000",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-render-large-scale-images-like-32000x32000.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1667,
           "title": "How to render large scale images like 32000x32000",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-render-large-scale-images-like-32000x32000_en.jpg"
@@ -1254,7 +1244,7 @@
           "author": null,
           "description": "How to simulate a 3D texture in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-simulate-a-3d-texture-in-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1069,
           "title": "How to simulate a 3D texture in WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-simulate-a-3d-texture-in-webgl_en.jpg"
@@ -1264,7 +1254,7 @@
           "author": null,
           "description": "How to support both WebGL and WebGL2",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-support-both-webgl-and-webgl2.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1388,
           "title": "How to support both WebGL and WebGL2",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-support-both-webgl-and-webgl2_en.jpg"
@@ -1274,7 +1264,7 @@
           "author": null,
           "description": "How to tell if an image has an alpha channel",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-tell-if-an-image-has-an-alpha-channel.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1107,
           "title": "How to tell if an image has an alpha channel",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-tell-if-an-image-has-an-alpha-channel_en.jpg"
@@ -1284,7 +1274,7 @@
           "author": null,
           "description": "How to use a 2d sprite's transparency as a mask",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-a-2d-sprite-s-transparency-as-a-mask.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1056,
           "title": "How to use a 2d sprite's transparency as a mask",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-use-a-2d-sprite-s-transparency-as-a-mask_en.jpg"
@@ -1294,7 +1284,7 @@
           "author": null,
           "description": "How to use texture, and color also in WebGL?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-texture--and-color-also-in-webgl-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 923,
           "title": "How to use texture, and color also in WebGL?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-use-texture--and-color-also-in-webgl-_en.jpg"
@@ -1304,7 +1294,7 @@
           "author": null,
           "description": "How to use textures as data",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-textures-as-data.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1896,
           "title": "How to use textures as data",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-use-textures-as-data_en.jpg"
@@ -1314,7 +1304,7 @@
           "author": null,
           "description": "How to use the stencil buffer",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-use-the-stencil-buffer.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 929,
           "title": "How to use the stencil buffer",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-use-the-stencil-buffer_en.jpg"
@@ -1324,7 +1314,7 @@
           "author": null,
           "description": "How to write a web-based music visualizer",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-how-to-write-a-web-based-music-visualizer.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1055,
           "title": "How to write a web-based music visualizer",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-how-to-write-a-web-based-music-visualizer_en.jpg"
@@ -1334,7 +1324,7 @@
           "author": null,
           "description": "I get invalid type error when calling readPixels",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-i-get-invalid-type-error-when-calling-readpixels.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 828,
           "title": "I get invalid type error when calling readPixels",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-i-get-invalid-type-error-when-calling-readpixels_en.jpg"
@@ -1344,7 +1334,7 @@
           "author": null,
           "description": "Is it possible to measure rendering time in webgl using gl.finish()?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-is-it-possible-to-measure-rendering-time-in-webgl-using-gl-finish---.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 958,
           "title": "Is it possible to measure rendering time in webgl using gl.finish()?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-is-it-possible-to-measure-rendering-time-in-webgl-using-gl-finish---_en.jpg"
@@ -1354,7 +1344,7 @@
           "author": null,
           "description": "Is there the notion of a generalized vertex and fragment shader?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-is-there-the-notion-of-a-generalized-vertex-and-fragment-shader-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1756,
           "title": "Is there the notion of a generalized vertex and fragment shader?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-is-there-the-notion-of-a-generalized-vertex-and-fragment-shader-_en.jpg"
@@ -1364,7 +1354,7 @@
           "author": null,
           "description": "Optimize drawing lots of large images",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-optimize-drawing-lots-of-large-images.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 992,
           "title": "Optimize drawing lots of large images",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-optimize-drawing-lots-of-large-images_en.jpg"
@@ -1374,7 +1364,7 @@
           "author": null,
           "description": "Passing in per sprite alpha values when batching",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-passing-in-per-sprite-alpha-values-when-batching.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 892,
           "title": "Passing in per sprite alpha values when batching",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-passing-in-per-sprite-alpha-values-when-batching_en.jpg"
@@ -1384,7 +1374,7 @@
           "author": null,
           "description": "Pure WebGL Dashed Line",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-pure-webgl-dashed-line.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1020,
           "title": "Pure WebGL Dashed Line",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-pure-webgl-dashed-line_en.jpg"
@@ -1394,7 +1384,7 @@
           "author": null,
           "description": "Recording FPS in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-recording-fps-in-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 921,
           "title": "Recording FPS in WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-recording-fps-in-webgl_en.jpg"
@@ -1404,7 +1394,7 @@
           "author": null,
           "description": "Rendering slowly over time",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-rendering-slowly-over-time.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1048,
           "title": "Rendering slowly over time",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-rendering-slowly-over-time_en.jpg"
@@ -1414,7 +1404,7 @@
           "author": null,
           "description": "Setting the values of a struct array from JS to GLSL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-setting-the-values-of-a-struct-array-from-js-to-glsl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 916,
           "title": "Setting the values of a struct array from JS to GLSL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-setting-the-values-of-a-struct-array-from-js-to-glsl_en.jpg"
@@ -1424,7 +1414,7 @@
           "author": null,
           "description": "Show a night view vs a day view on a 3D Earth sphere",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-show-a-night-view-vs-a-day-view-on-a-3d-earth-sphere.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1744,
           "title": "Show a night view vs a day view on a 3D Earth sphere",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-show-a-night-view-vs-a-day-view-on-a-3d-earth-sphere_en.jpg"
@@ -1434,7 +1424,7 @@
           "author": null,
           "description": "Sorting and optimizing instanced rendering",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-sorting-and-optimizing-instanced-rendering.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1315,
           "title": "Sorting and optimizing instanced rendering",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-sorting-and-optimizing-instanced-rendering_en.jpg"
@@ -1444,7 +1434,7 @@
           "author": null,
           "description": "Tex image TEXTURE_2D level 0 is incurring lazy initialization",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-tex-image-texture_2d-level-0-is-incurring-lazy-initialization.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1326,
           "title": "Tex image TEXTURE_2D level 0 is incurring lazy initialization",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-tex-image-texture_2d-level-0-is-incurring-lazy-initialization_en.jpg"
@@ -1454,7 +1444,7 @@
           "author": null,
           "description": "The fastest way to draw many circles",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-the-fastest-way-to-draw-many-circles.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1450,
           "title": "The fastest way to draw many circles",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-the-fastest-way-to-draw-many-circles_en.jpg"
@@ -1464,7 +1454,7 @@
           "author": null,
           "description": "WebGL 2D tilemaps",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-2d-tilemaps.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1002,
           "title": "WebGL 2D tilemaps",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-webgl-2d-tilemaps_en.jpg"
@@ -1474,7 +1464,7 @@
           "author": null,
           "description": "WebGL Droste effect",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-webgl-droste-effect.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1206,
           "title": "WebGL Droste effect",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-webgl-droste-effect_en.jpg"
@@ -1484,7 +1474,7 @@
           "author": null,
           "description": "What is the local origin of a 3D model?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-what-is-the-local-origin-of-a-3d-model-.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2273,
           "title": "What is the local origin of a 3D model?",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-what-is-the-local-origin-of-a-3d-model-_en.jpg"
@@ -1494,7 +1484,7 @@
           "author": null,
           "description": "When to choose highp, mediump, lowp in shaders",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-when-to-choose-highp--mediump--lowp-in-shaders.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1078,
           "title": "When to choose highp, mediump, lowp in shaders",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-when-to-choose-highp--mediump--lowp-in-shaders_en.jpg"
@@ -1504,7 +1494,7 @@
           "author": null,
           "description": "Why does WebGL take more memory than Canvas 2D",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-why-does-webgl-take-more-memory-than-canvas-2d.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 960,
           "title": "Why does WebGL take more memory than Canvas 2D",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-why-does-webgl-take-more-memory-than-canvas-2d_en.jpg"
@@ -1514,7 +1504,7 @@
           "author": null,
           "description": "Working around gl_PointSize limitations webGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-working-around-gl_pointsize-limitations-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1288,
           "title": "Working around gl_PointSize limitations webGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-working-around-gl_pointsize-limitations-webgl_en.jpg"
@@ -1524,7 +1514,7 @@
           "author": null,
           "description": "Zooming to and stopping at object in a scene in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna-zooming-to-and-stopping-at-object-in-a-scene-in-webgl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1148,
           "title": "Zooming to and stopping at object in a scene in WebGL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna-zooming-to-and-stopping-at-object-in-a-scene-in-webgl_en.jpg"
@@ -1534,7 +1524,7 @@
           "author": null,
           "description": "Random Questions and Answers",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-qna.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1253,
           "title": "Questions and Answers",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-qna_en.jpg"
@@ -1544,7 +1534,7 @@
           "author": null,
           "description": "Using ramp textures",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-ramp-textures.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3209,
           "title": "WebGL Ramp Textures",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-ramp-textures_en.jpg"
@@ -1554,7 +1544,7 @@
           "author": null,
           "description": "Details on readPixels",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-readpixels.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 825,
           "title": "WebGL readPixels",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-readpixels_en.jpg"
@@ -1564,7 +1554,7 @@
           "author": null,
           "description": "Other References",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-references.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 876,
           "title": "References",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-references_en.jpg"
@@ -1574,7 +1564,7 @@
           "author": null,
           "description": "How to render to a texture.",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-render-to-texture.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2031,
           "title": "WebGL Rendering to a Texture",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-render-to-texture_en.jpg"
@@ -1584,7 +1574,7 @@
           "author": null,
           "description": "How to resize a WebGL canvas and the issues involved",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3685,
           "title": "WebGL Resizing the Canvas.",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-resizing-the-canvas_en.jpg"
@@ -1594,7 +1584,7 @@
           "author": null,
           "description": "What a scene graph is want what it's used for",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2947,
           "title": "WebGL - Scene Graph",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-scene-graph_en.jpg"
@@ -1604,7 +1594,7 @@
           "author": null,
           "description": "How to do WebGL development",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-setup-and-installation.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1414,
           "title": "WebGL Setup and Installation",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-setup-and-installation_en.jpg"
@@ -1614,7 +1604,7 @@
           "author": null,
           "description": "What's a shader and what's GLSL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2737,
           "title": "WebGL Shaders and GLSL",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-shaders-and-glsl_en.jpg"
@@ -1624,7 +1614,7 @@
           "author": null,
           "description": "Shadertoy shaders",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-shadertoy.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2944,
           "title": "WebGL Shadertoy",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-shadertoy_en.jpg"
@@ -1634,7 +1624,7 @@
           "author": null,
           "description": "How to compute shadows continued",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-shadows-continued.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 614,
           "title": "WebGL Shadows Continued",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-shadows-continued_en.jpg"
@@ -1644,7 +1634,7 @@
           "author": null,
           "description": "How to compute shadows",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-shadows.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 4986,
           "title": "WebGL Shadows",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-shadows_en.jpg"
@@ -1654,7 +1644,7 @@
           "author": null,
           "description": "How to skin a mesh in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-skinning.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 7562,
           "title": "WebGL Skinning",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-skinning_en.jpg"
@@ -1664,7 +1654,7 @@
           "author": null,
           "description": "Show the sky with a skybox!",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-skybox.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1932,
           "title": "WebGL SkyBox",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-skybox_en.jpg"
@@ -1674,7 +1664,7 @@
           "author": null,
           "description": "Smallest Code for Testing",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-smallest-programs.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2098,
           "title": "WebGL Smallest Programs",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-smallest-programs_en.jpg"
@@ -1684,7 +1674,7 @@
           "author": null,
           "description": "How to do sprites in WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-sprites.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 695,
           "title": "WebGL Sprites",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-sprites_en.jpg"
@@ -1694,7 +1684,7 @@
           "author": null,
           "description": "WebGL State Diagram",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-state-diagram.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 616,
           "title": "WebGL State Diagram",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-state-diagram_en.jpg"
@@ -1704,7 +1694,7 @@
           "author": null,
           "description": "How to display text using a 2D canvas that is in sync with WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1035,
           "title": "WebGL Text - Canvas 2D",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-text-canvas2d_en.jpg"
@@ -1714,7 +1704,7 @@
           "author": null,
           "description": "How to display text using a texture full of glyphs",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-text-glyphs.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2784,
           "title": "WebGL Text - Using a Glyph Texture",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-text-glyphs_en.jpg"
@@ -1724,7 +1714,7 @@
           "author": null,
           "description": "How to use HTML to display text that is positioned to match WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-text-html.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1803,
           "title": "WebGL Text - HTML",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-text-html_en.jpg"
@@ -1734,7 +1724,7 @@
           "author": null,
           "description": "Display Text in WebGL using Textures",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-text-texture.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 3451,
           "title": "WebGL Text - Textures",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-text-texture_en.jpg"
@@ -1744,7 +1734,7 @@
           "author": null,
           "description": "What are texture units in WebGL?",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-texture-units.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1237,
           "title": "WebGL Texture Units",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-texture-units_en.jpg"
@@ -1754,7 +1744,7 @@
           "author": null,
           "description": "Small issues that might trip you up with WebGL",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-tips.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 1868,
           "title": "WebGL Tips",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-tips_en.jpg"
@@ -1764,7 +1754,7 @@
           "author": null,
           "description": "How to draw a camera frustum",
           "link": "https://webglfundamentals.org/webgl/lessons/webgl-visualizing-the-camera.html",
-          "publishedOn": "2023-07-07T16:24:16.000Z",
+          "publishedOn": "2023-07-21T01:45:25.000Z",
           "wordCount": 2690,
           "title": "WebGL Visualizing the Camera",
           "imageUrl": "https://webglfundamentals.org/webgl/lessons/screenshots/webgl-visualizing-the-camera_en.jpg"
@@ -1912,16 +1902,6 @@
           "wordCount": null,
           "title": "This unicorn startup faked 95% of its users",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=3Ay6qZ88boI",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=3Ay6qZ88boI",
-          "publishedOn": "2023-06-21T20:11:06.000Z",
-          "wordCount": null,
-          "title": "PHP will make you poor? StackOverflow 2023 Results",
-          "imageUrl": null
         }
       ]
     },
@@ -1949,16 +1929,6 @@
           "wordCount": null,
           "title": "Rust is easy... (we make it hard)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=U4x9br8OXkg",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=U4x9br8OXkg",
-          "publishedOn": "2023-06-21T14:00:31.000Z",
-          "wordCount": null,
-          "title": "Rust 1.70.0",
-          "imageUrl": null
         }
       ]
     },
@@ -1968,13 +1938,23 @@
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=pocWrUj68tU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=pocWrUj68tU",
+          "publishedOn": "2023-07-21T09:21:38.000Z",
+          "wordCount": null,
+          "title": "A Good Rust Web Stack",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=DbsAQSIKQXk",
           "author": null,
           "description": "",
           "link": "https://www.youtube.com/watch?v=DbsAQSIKQXk",
           "publishedOn": "2023-07-07T06:36:44.000Z",
           "wordCount": null,
-          "title": "Remember everything with Obsidian.md",
+          "title": "Hack your brain with Obsidian.md",
           "imageUrl": null
         },
         {
