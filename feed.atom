@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-23T00:26:10.412Z</id>
+    <id>urn:2023-07-24T00:25:12.177Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-23T00:26:10.413Z</updated>
+    <updated>2023-07-24T00:25:12.178Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -67,7 +67,7 @@ letters_and_numbers = [["a", "b", "c", "d", "e"], [1, 2, 3, 4, 5]]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Good Rust Web Stack]]></title>
+        <title type="html"><![CDATA[My Recommended Rust Web Stack]]></title>
         <id>https://www.youtube.com/watch?v=pocWrUj68tU</id>
         <link href="https://www.youtube.com/watch?v=pocWrUj68tU"/>
         <updated>2023-07-21T09:21:38.000Z</updated>
@@ -2035,55 +2035,6 @@ select * from purchases where coupon is distinct from 'JULY4';]]></summary>
         <link href="https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/"/>
         <updated>2023-06-26T14:51:55.000Z</updated>
         <summary type="html"><![CDATA[User Inyerface &#8211; A worst-practice UI experiment is &#8220;a challenging exploration of user interactions and design patterns.&#8221; Hilariously bad UX and a lot of fun.]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delete A Rule In UFW - #devops]]></title>
-        <id>http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw</id>
-        <link href="http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw"/>
-        <updated>2023-06-23T20:25:50.000Z</updated>
-        <summary type="html"><![CDATA[uncomplicated firewall (ufw). You run ufw help and see that the entry for delete is 
-delete RULE|NUM                 delete RULE
-sudo ufw status, all you see is this
-Status: active
-
-To                         Action      From
---                         ------      ----
-OpenSSH                    ALLOW       Anywhere
-443                        ALLOW       Anywhere
-OpenSSH (v6)               ALLOW       Anywhere (v6)
-443 (v6)                   ALLOW       Anywhere (v6)
-sudo ufw status numbered, which has the rule number in the left hand column.
-Status: active
-
-     To                         Action      From
-     --                         ------      ----
-[ 1] OpenSSH                    ALLOW IN    Anywhere
-[ 2] 443                        ALLOW IN    Anywhere
-[ 3] OpenSSH (v6)               ALLOW IN    Anywhere (v6)
-[ 4] 443 (v6)                   ALLOW IN    Anywhere (v6)
-sudo ufw delete 3.]]></summary>
-        <author>
-            <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Speak Rust]]></title>
-        <id>https://www.youtube.com/watch?v=bu_gulee89Q</id>
-        <link href="https://www.youtube.com/watch?v=bu_gulee89Q"/>
-        <updated>2023-06-23T15:06:16.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop! Sabbatical time]]></title>
-        <id>https://bradfrost.com/blog/post/stop-sabbatical-time/</id>
-        <link href="https://bradfrost.com/blog/post/stop-sabbatical-time/"/>
-        <updated>2023-06-23T12:47:13.000Z</updated>
-        <summary type="html"><![CDATA[I&#8217;m taking a three-month sabbatical! It feels really weird to write that sentence, and it feels even weirder to add an exclamation mark at the end of it. But that&#8217;s what&#8217;s happening, even if it hasn&#8217;t sunk in yet. I&#8217;ve [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>

@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4622,
+          "wordCount": 4627,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -219,16 +219,6 @@
           "wordCount": 329,
           "title": "Use `is distinct from` to match `null` records - #sql",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw",
-          "author": "tonyyunker",
-          "description": "uncomplicated firewall (ufw). You run ufw help and see that the entry for delete is \ndelete RULE|NUM                 delete RULE\r\nsudo ufw status, all you see is this\nStatus: active\r\n\nTo                         Action      From\r\n--                         ------      ----\r\nOpenSSH                    ALLOW       Anywhere\r\n443                        ALLOW       Anywhere\r\nOpenSSH (v6)               ALLOW       Anywhere (v6)\r\n443 (v6)                   ALLOW       Anywhere (v6)\r\nsudo ufw status numbered, which has the rule number in the left hand column.\nStatus: active\r\n\n     To                         Action      From\r\n     --                         ------      ----\r\n[ 1] OpenSSH                    ALLOW IN    Anywhere\r\n[ 2] 443                        ALLOW IN    Anywhere\r\n[ 3] OpenSSH (v6)               ALLOW IN    Anywhere (v6)\r\n[ 4] 443 (v6)                   ALLOW IN    Anywhere (v6)\r\nsudo ufw delete 3.",
-          "link": "http://til.hashrocket.com/posts/wv9bcz1ph5-delete-a-rule-in-ufw",
-          "publishedOn": "2023-06-23T20:25:50.000Z",
-          "wordCount": 326,
-          "title": "Delete A Rule In UFW - #devops",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
         }
       ]
     },
@@ -1815,16 +1805,6 @@
           "wordCount": 652,
           "title": "User Inyerface &#8211; A worst-practice UI experiment",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/stop-sabbatical-time/",
-          "author": null,
-          "description": "I&#8217;m taking a three-month sabbatical! It feels really weird to write that sentence, and it feels even weirder to add an exclamation mark at the end of it. But that&#8217;s what&#8217;s happening, even if it hasn&#8217;t sunk in yet. I&#8217;ve [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/stop-sabbatical-time/",
-          "publishedOn": "2023-06-23T12:47:13.000Z",
-          "wordCount": 1017,
-          "title": "Stop! Sabbatical time",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/03/painting-crop-1024x753.jpg"
         }
       ]
     },
@@ -1944,7 +1924,7 @@
           "link": "https://www.youtube.com/watch?v=pocWrUj68tU",
           "publishedOn": "2023-07-21T09:21:38.000Z",
           "wordCount": null,
-          "title": "A Good Rust Web Stack",
+          "title": "My Recommended Rust Web Stack",
           "imageUrl": null
         },
         {
@@ -1955,16 +1935,6 @@
           "publishedOn": "2023-07-07T06:36:44.000Z",
           "wordCount": null,
           "title": "Hack your brain with Obsidian.md",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=bu_gulee89Q",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=bu_gulee89Q",
-          "publishedOn": "2023-06-23T15:06:16.000Z",
-          "wordCount": null,
-          "title": "How To Speak Rust",
           "imageUrl": null
         }
       ]
