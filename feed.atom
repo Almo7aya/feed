@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-24T00:25:12.177Z</id>
+    <id>urn:2023-07-25T00:24:58.625Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-24T00:25:12.178Z</updated>
+    <updated>2023-07-25T00:24:58.625Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Twitter rebrands to X in latest 5D chess move]]></title>
+        <id>https://www.youtube.com/watch?v=AE3iXR1JFak</id>
+        <link href="https://www.youtube.com/watch?v=AE3iXR1JFak"/>
+        <updated>2023-07-24T20:01:07.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Clone a Github Repository Wiki - #git]]></title>
         <id>http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki</id>
@@ -67,7 +76,7 @@ letters_and_numbers = [["a", "b", "c", "d", "e"], [1, 2, 3, 4, 5]]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[My Recommended Rust Web Stack]]></title>
+        <title type="html"><![CDATA[A Good Rust Web Stack]]></title>
         <id>https://www.youtube.com/watch?v=pocWrUj68tU</id>
         <link href="https://www.youtube.com/watch?v=pocWrUj68tU"/>
         <updated>2023-07-21T09:21:38.000Z</updated>

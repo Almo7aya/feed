@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4627,
+          "wordCount": 4621,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -1814,6 +1814,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=AE3iXR1JFak",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=AE3iXR1JFak",
+          "publishedOn": "2023-07-24T20:01:07.000Z",
+          "wordCount": null,
+          "title": "Twitter rebrands to X in latest 5D chess move",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=DXWwCggFROk",
           "author": null,
           "description": "",
@@ -1924,7 +1934,7 @@
           "link": "https://www.youtube.com/watch?v=pocWrUj68tU",
           "publishedOn": "2023-07-21T09:21:38.000Z",
           "wordCount": null,
-          "title": "My Recommended Rust Web Stack",
+          "title": "A Good Rust Web Stack",
           "imageUrl": null
         },
         {
