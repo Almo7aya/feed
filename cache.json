@@ -41,6 +41,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-",
+          "author": "jackrosa",
+          "description": "wc command, you can print out word count information to the terminal. By default, if you use the wc command along with a file path, the command will return 3 values: the line count, word count, and character count of that file. \nwc command into any other terminal command to receive the word count information about the previous command. For instance, you could use the command ls | wc to see the word count info for the current directory's file list.  \nwc command to only output either the line count, word count, or char count, you can pass it the following flags: wc -l for line count, wc -w for word count, and wc -c for the char count.",
+          "link": "http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-",
+          "publishedOn": "2023-07-26T14:22:42.000Z",
+          "wordCount": 311,
+          "title": "The Word Count Command  - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki",
           "author": "mattpolito",
           "description": ".wiki to the end of your repo when cloning.\ngh repo clone hashrocket/decent_exposure.wiki\r\n\nNow you have all of the wiki files locally and can search however you feel.",
@@ -208,16 +218,6 @@
           "publishedOn": "2023-06-29T14:14:13.000Z",
           "wordCount": 288,
           "title": "On-disk size of a table/view in Postgres - #sql",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records",
-          "author": "gabrielreis",
-          "description": "!= to filter them:\nselect * from purchases where coupon != 'JULY4';\r\nnull values. One way to solve that is by doing a or:\nselect * from purchases where coupon != 'JULY4' or coupon is null;\r\nis distinct from:\nselect * from purchases where coupon is distinct from 'JULY4';",
-          "link": "http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records",
-          "publishedOn": "2023-06-26T20:22:44.000Z",
-          "wordCount": 329,
-          "title": "Use `is distinct from` to match `null` records - #sql",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
         }
       ]
@@ -1794,16 +1794,6 @@
           "publishedOn": "2023-06-27T13:54:53.000Z",
           "wordCount": 711,
           "title": "“Artificial Intelligence &#038; Humanity,” an article by Dan Mall",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/",
-          "author": null,
-          "description": "User Inyerface &#8211; A worst-practice UI experiment is &#8220;a challenging exploration of user interactions and design patterns.&#8221; Hilariously bad UX and a lot of fun.",
-          "link": "https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/",
-          "publishedOn": "2023-06-26T14:51:55.000Z",
-          "wordCount": 652,
-          "title": "User Inyerface &#8211; A worst-practice UI experiment",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]

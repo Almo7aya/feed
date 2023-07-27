@@ -22,6 +22,56 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-26 datetime="2023-07-26T14:22:42.000Z">2023-07-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-26 datetime="2023-07-26T14:22:42.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-"
+                        open
+                      >
+                        <summary class="article-expander__title">The Word Count Command  - #command-line</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>wc command, you can print out word count information to the terminal. By default, if you use the wc command along with a file path, the command will return 3 values: the line count, word count, and character count of that file. 
+wc command into any other terminal command to receive the word count information about the previous command. For instance, you could use the command ls | wc to see the word count info for the current directory&#x27;s file list.  
+wc command to only output either the line count, word count, or char count, you can pass it the following flags: wc -l for line count, wc -w for word count, and wc -c for the char count.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-24 datetime="2023-07-24T20:01:07.000Z">2023-07-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-24 datetime="2023-07-24T20:01:07.000Z"></time>
           </button>
@@ -4471,97 +4521,10 @@ SELECT pg_size_pretty(pg_total_relation_size(&#x27;&#x27;)) as size;</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-26 datetime="2023-06-26T20:22:44.000Z">2023-06-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-26 datetime="2023-06-26T20:22:44.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records"
-                        open
-                      >
-                        <summary class="article-expander__title">Use &#x60;is distinct from&#x60; to match &#x60;null&#x60; records - #sql</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>!&#x3D; to filter them:
-select * from purchases where coupon !&#x3D; &#x27;JULY4&#x27;;
-null values. One way to solve that is by doing a or:
-select * from purchases where coupon !&#x3D; &#x27;JULY4&#x27; or coupon is null;
-is distinct from:
-select * from purchases where coupon is distinct from &#x27;JULY4&#x27;;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Brad Frost</button>
-                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/"
-                        open
-                      >
-                        <summary class="article-expander__title">User Inyerface – A worst-practice UI experiment</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>User Inyerface – A worst-practice UI experiment is “a challenging exploration of user interactions and design patterns.” Hilariously bad UX and a lot of fun.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5663178091">
-        <time id="build-timestamp" datetime="2023-07-26T00:23:58.285Z">2023-07-26T00:23:58.285Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5675027763">
+        <time id="build-timestamp" datetime="2023-07-27T00:22:00.464Z">2023-07-27T00:22:00.464Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

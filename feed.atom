@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-26T00:23:58.313Z</id>
+    <id>urn:2023-07-27T00:22:00.491Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-26T00:23:58.313Z</updated>
+    <updated>2023-07-27T00:22:00.491Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Word Count Command  - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-</id>
+        <link href="http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-"/>
+        <updated>2023-07-26T14:22:42.000Z</updated>
+        <summary type="html"><![CDATA[wc command, you can print out word count information to the terminal. By default, if you use the wc command along with a file path, the command will return 3 values: the line count, word count, and character count of that file. 
+wc command into any other terminal command to receive the word count information about the previous command. For instance, you could use the command ls | wc to see the word count info for the current directory's file list.  
+wc command to only output either the line count, word count, or char count, you can pass it the following flags: wc -l for line count, wc -w for word count, and wc -c for the char count.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twitter rebrands to X in latest 5D chess move]]></title>
         <id>https://www.youtube.com/watch?v=AE3iXR1JFak</id>
@@ -2019,31 +2031,6 @@ SELECT pg_size_pretty(pg_total_relation_size('<relation_name>')) as size;]]></su
         <link href="https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/"/>
         <updated>2023-06-27T13:54:53.000Z</updated>
         <summary type="html"><![CDATA[I love Dan&#8217;s Artificial Intelligence &#38; Humanity as it mirrors a lot of my own thinking about how best to wield AI. If I embrace the role of AI as an accident generator, then I’d gladly give it all the [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use `is distinct from` to match `null` records - #sql]]></title>
-        <id>http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records</id>
-        <link href="http://til.hashrocket.com/posts/jgmcg0pkyi-use-is-distinct-from-to-match-null-records"/>
-        <updated>2023-06-26T20:22:44.000Z</updated>
-        <summary type="html"><![CDATA[!= to filter them:
-select * from purchases where coupon != 'JULY4';
-null values. One way to solve that is by doing a or:
-select * from purchases where coupon != 'JULY4' or coupon is null;
-is distinct from:
-select * from purchases where coupon is distinct from 'JULY4';]]></summary>
-        <author>
-            <name>gabrielreis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[User Inyerface &#8211; A worst-practice UI experiment]]></title>
-        <id>https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/</id>
-        <link href="https://bradfrost.com/blog/link/user-inyerface-a-worst-practice-ui-experiment/"/>
-        <updated>2023-06-26T14:51:55.000Z</updated>
-        <summary type="html"><![CDATA[User Inyerface &#8211; A worst-practice UI experiment is &#8220;a challenging exploration of user interactions and design patterns.&#8221; Hilariously bad UX and a lot of fun.]]></summary>
         <author>
             <name>Brad Frost</name>
         </author>
