@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-27T00:22:00.491Z</id>
+    <id>urn:2023-07-28T00:21:55.522Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-27T00:22:00.491Z</updated>
+    <updated>2023-07-28T00:21:55.522Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Git checkout to previous branches - #git]]></title>
+        <id>http://til.hashrocket.com/posts/xmki4qh2xg-git-checkout-to-previous-branches</id>
+        <link href="http://til.hashrocket.com/posts/xmki4qh2xg-git-checkout-to-previous-branches"/>
+        <updated>2023-07-27T20:37:05.000Z</updated>
+        <summary type="html"><![CDATA[@{-N}, where N is how many "branches ago" you want to go back.
+main then checked out branch-1 then checked out branch-2, and finally you checked out branch-3.
+@{-2}
+> git checkout @{-2}
+Switched to branch 'branch-1'
+@{-1}, there is a nice shortcut:
+> git checkout -
+Switched to branch 'branch-2'
+Matt Polito]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PostgreSQL in 100 Seconds]]></title>
+        <id>https://www.youtube.com/watch?v=n2Fluyr3lbc</id>
+        <link href="https://www.youtube.com/watch?v=n2Fluyr3lbc"/>
+        <updated>2023-07-27T15:47:35.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Word Count Command  - #command-line]]></title>
         <id>http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-</id>
@@ -2013,26 +2040,6 @@ pg_size_pretty() to give a more readable output
 SELECT pg_size_pretty(pg_total_relation_size('<relation_name>')) as size;]]></summary>
         <author>
             <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No Handoff: close the gap between product and engineering]]></title>
-        <id>https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/</id>
-        <link href="https://bradfrost.com/blog/link/no-handoff-close-the-gap-between-product-and-engineering/"/>
-        <updated>2023-06-27T13:59:25.000Z</updated>
-        <summary type="html"><![CDATA[I love this initiative from Shamsi Brinn: No Handoff: close the gap between product and engineering. Imagine a project where teams work together at each stage, progressively improving the end result based on qualitative and quantitative data. Project handoff is [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Artificial Intelligence &#038; Humanity,” an article by Dan Mall]]></title>
-        <id>https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/</id>
-        <link href="https://bradfrost.com/blog/link/artificial-intelligence-humanity-an-article-by-dan-mall/"/>
-        <updated>2023-06-27T13:54:53.000Z</updated>
-        <summary type="html"><![CDATA[I love Dan&#8217;s Artificial Intelligence &#38; Humanity as it mirrors a lot of my own thinking about how best to wield AI. If I embrace the role of AI as an accident generator, then I’d gladly give it all the [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
