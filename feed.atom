@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-30T00:25:25.070Z</id>
+    <id>urn:2023-07-31T00:23:42.180Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-30T00:25:25.070Z</updated>
+    <updated>2023-07-31T00:23:42.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -2007,18 +2007,6 @@ macOS, but the asset pipeline that converts <code>.drawio</code> files, to <code
 <code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>]]></summary>
         <author>
             <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gem pristine <gem_name> restores installed gems - #ruby]]></title>
-        <id>http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems</id>
-        <link href="http://til.hashrocket.com/posts/wzclpkthio-gem-pristine-gemname-restores-installed-gems"/>
-        <updated>2023-06-30T20:07:07.000Z</updated>
-        <summary type="html"><![CDATA[gem pristine <gem_name>. This command restores installed gems to their original, pristine state using the files stored in the gem cache.
-here is some documentation.  
-Matt Polito]]></summary>
-        <author>
-            <name>craighafer</name>
         </author>
     </entry>
 </feed>
