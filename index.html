@@ -22,6 +22,86 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-01 datetime="2023-08-01T22:39:15.000Z">2023-08-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-01 datetime="2023-08-01T22:39:15.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and"
+                        open
+                      >
+                        <summary class="article-expander__title">ActiveRecord Query with &#x60;and&#x60; - #rails</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>and method for querying.
+Post.where(id: [1, 2]).and(Post.where(id: [2, 3]))
+# SELECT &quot;posts&quot;.* FROM &quot;posts&quot; WHERE &quot;posts&quot;.&quot;id&quot; IN (1, 2) AND &quot;posts&quot;.&quot;id&quot; IN (2, 3)
+wheres: 
+Post.where(id: [1, 2]).where(id: [2, 3])
+and really shines if you have more complicated querying with nesting of ANDs and ORs:
+SELECT &quot;posts&quot;.* 
+FROM &quot;posts&quot; 
+WHERE &quot;posts&quot;.&quot;id&quot; IN (1, 2) 
+  AND (&quot;posts&quot;.&quot;title&quot; &#x3D; &#x27;title&#x27;
+    OR &quot;posts&quot;.&quot;body&quot; IS NOT NULL)
+where and or doesn&#x27;t get us what we want: 
+Post.where(id: [1,2])
+  .where(title: &#x27;title&#x27;)
+  .or(Post.where.not(body: nil))
+
+# SELECT &quot;posts&quot;.* 
+# FROM &quot;posts&quot; 
+# WHERE (&quot;posts&quot;.&quot;id&quot; IN (1, 2) 
+# 	AND &quot;posts&quot;.&quot;title&quot; &#x3D; &#x27;title&#x27; 
+# 	OR &quot;posts&quot;.&quot;body&quot; IS NOT NULL)
+A AND (B OR C) we get A AND B OR C. We can use a well-placed and to get the right grouping of conditions:
+Post.where(id: [1,2])
+  .and(Post.where(title: &#x27;title&#x27;)
+    .or(Post.where.not(body: nil)))
+
+# SELECT &quot;posts&quot;.*
+# FROM &quot;posts&quot;
+# WHERE &quot;posts&quot;.&quot;id&quot; IN (1, 2)
+#   AND (&quot;posts&quot;.&quot;title&quot; &#x3D; &#x27;title&#x27;
+#     OR &quot;posts&quot;.&quot;body&quot; IS NOT NULL)
+Docs
+Craig Hafer</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-29 datetime="2023-07-29T18:49:22.000Z">2023-07-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-29 datetime="2023-07-29T18:49:22.000Z"></time>
           </button>
@@ -4501,8 +4581,8 @@ macOS, but the asset pipeline that converts .drawio files, to .pdf, to
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5721043198">
-        <time id="build-timestamp" datetime="2023-08-01T00:26:39.620Z">2023-08-01T00:26:39.620Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5733196689">
+        <time id="build-timestamp" datetime="2023-08-02T00:22:29.739Z">2023-08-02T00:22:29.739Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

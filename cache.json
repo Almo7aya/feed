@@ -29,7 +29,7 @@
           "description": "<p>I use the <a href=\"https://github.com/jgraph/drawio-desktop\">draw.io desktop app</a> to\nmake diagrams for my website. I run it on an actual desktop, like Windows or\nmacOS, but the asset pipeline that converts <code>.drawio</code> files, to <code>.pdf</code>, to\n<code>.svg</code>, and then to <code>.svg</code> again (but smaller) runs on Linux.</p>",
           "link": "https://fasterthanli.me/articles/cracking-electron-apps-open",
           "publishedOn": "2023-07-03T16:30:00.000Z",
-          "wordCount": 4623,
+          "wordCount": 4621,
           "title": "Cracking Electron apps open",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -40,6 +40,16 @@
       "feedUrl": "https://til.hashrocket.com/rss",
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
+        {
+          "id": "http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and",
+          "author": "tonyyunker",
+          "description": "and method for querying.\nPost.where(id: [1, 2]).and(Post.where(id: [2, 3]))\r\n# SELECT \"posts\".* FROM \"posts\" WHERE \"posts\".\"id\" IN (1, 2) AND \"posts\".\"id\" IN (2, 3)\r\nwheres: \nPost.where(id: [1, 2]).where(id: [2, 3])\r\nand really shines if you have more complicated querying with nesting of ANDs and ORs:\nSELECT \"posts\".* \r\nFROM \"posts\" \r\nWHERE \"posts\".\"id\" IN (1, 2) \r\n  AND (\"posts\".\"title\" = 'title'\r\n    OR \"posts\".\"body\" IS NOT NULL)\r\nwhere and or doesn't get us what we want: \nPost.where(id: [1,2])\r\n  .where(title: 'title')\r\n  .or(Post.where.not(body: nil))\r\n\n# SELECT \"posts\".* \r\n# FROM \"posts\" \r\n# WHERE (\"posts\".\"id\" IN (1, 2) \r\n# \tAND \"posts\".\"title\" = 'title' \r\n# \tOR \"posts\".\"body\" IS NOT NULL)\r\nA AND (B OR C) we get A AND B OR C. We can use a well-placed and to get the right grouping of conditions:\nPost.where(id: [1,2])\r\n  .and(Post.where(title: 'title')\r\n    .or(Post.where.not(body: nil)))\r\n\n# SELECT \"posts\".*\r\n# FROM \"posts\"\r\n# WHERE \"posts\".\"id\" IN (1, 2)\r\n#   AND (\"posts\".\"title\" = 'title'\r\n#     OR \"posts\".\"body\" IS NOT NULL)\r\nDocs\nCraig Hafer",
+          "link": "http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and",
+          "publishedOn": "2023-08-01T22:39:15.000Z",
+          "wordCount": 407,
+          "title": "ActiveRecord Query with `and` - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
         {
           "id": "http://til.hashrocket.com/posts/gx2cgiopce-vs-code-multi-cursor-clipboards",
           "author": "jackrosa",

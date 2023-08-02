@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-01T00:26:39.659Z</id>
+    <id>urn:2023-08-02T00:22:29.773Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-01T00:26:39.659Z</updated>
+    <updated>2023-08-02T00:22:29.773Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[ActiveRecord Query with `and` - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and</id>
+        <link href="http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and"/>
+        <updated>2023-08-01T22:39:15.000Z</updated>
+        <summary type="html"><![CDATA[and method for querying.
+Post.where(id: [1, 2]).and(Post.where(id: [2, 3]))
+# SELECT "posts".* FROM "posts" WHERE "posts"."id" IN (1, 2) AND "posts"."id" IN (2, 3)
+wheres: 
+Post.where(id: [1, 2]).where(id: [2, 3])
+and really shines if you have more complicated querying with nesting of ANDs and ORs:
+SELECT "posts".* 
+FROM "posts" 
+WHERE "posts"."id" IN (1, 2) 
+  AND ("posts"."title" = 'title'
+    OR "posts"."body" IS NOT NULL)
+where and or doesn't get us what we want: 
+Post.where(id: [1,2])
+  .where(title: 'title')
+  .or(Post.where.not(body: nil))
+
+# SELECT "posts".* 
+# FROM "posts" 
+# WHERE ("posts"."id" IN (1, 2) 
+# 	AND "posts"."title" = 'title' 
+# 	OR "posts"."body" IS NOT NULL)
+A AND (B OR C) we get A AND B OR C. We can use a well-placed and to get the right grouping of conditions:
+Post.where(id: [1,2])
+  .and(Post.where(title: 'title')
+    .or(Post.where.not(body: nil)))
+
+# SELECT "posts".*
+# FROM "posts"
+# WHERE "posts"."id" IN (1, 2)
+#   AND ("posts"."title" = 'title'
+#     OR "posts"."body" IS NOT NULL)
+Docs
+Craig Hafer]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA["World-changing" LK-99 Superconductor explained quickly]]></title>
         <id>https://www.youtube.com/watch?v=BPadRwJbylY</id>
