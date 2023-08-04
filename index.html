@@ -22,6 +22,121 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-03 datetime="2023-08-03T21:46:12.000Z">2023-08-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-03 datetime="2023-08-03T21:46:12.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/leeqdpagar-place-screenshot-straight-to-clipboard-on-mac"
+                        open
+                      >
+                        <summary class="article-expander__title">Place screenshot straight to clipboard on Mac - #workflow</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/leeqdpagar-place-screenshot-straight-to-clipboard-on-mac">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>cmd+shift+4. This brings up a crosshair to select which part of the screen you want.
+cmd+ctrl+shift+4. Then you can just paste the image wherever as soon as you&#x27;re done. This is awesome but is a hard keystroke for me. However I discovered that you can use the original cmd+shift+4 to activate the crosshair but it can be redirected to the pastebin if you hold ctrl before you click to finalize the screenshot&#x27;d section.
+
+Hooray!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/5uhiczz2tz-how-to-get-javascript-params-in-liveview"
+                        open
+                      >
+                        <summary class="article-expander__title">How to get javascript params in LiveView? - #elixir</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/5uhiczz2tz-how-to-get-javascript-params-in-liveview">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>get_connect_params to be used when you want to get some value sent at the connection time from the javascript. 
+// app.js
+const params &#x3D; {
+  _csrf_token: csrfToken,
+  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+};
+
+const liveSocket &#x3D; new LiveSocket(&#x27;/live&#x27;, Socket, { params });
+# my_live_view.ex
+@impl true
+def mount(_params, _session, socket) do
+  tz &#x3D; get_connect_params(socket)[&quot;timezone&quot;] || &quot;America/New_York&quot;
+  {:ok, assign(socket, :timezone, tz)}
+end</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;kxT8-C1vmd4"
+                        open
+                      >
+                        <summary class="article-expander__title">Zig in 100 Seconds</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;kxT8-C1vmd4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-01 datetime="2023-08-01T22:39:15.000Z">2023-08-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-01 datetime="2023-08-01T22:39:15.000Z"></time>
           </button>
@@ -4499,8 +4614,8 @@ h/t Mary Lee</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5745116424">
-        <time id="build-timestamp" datetime="2023-08-03T00:23:20.591Z">2023-08-03T00:23:20.591Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5756949191">
+        <time id="build-timestamp" datetime="2023-08-04T00:23:43.352Z">2023-08-04T00:23:43.352Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

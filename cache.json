@@ -30,6 +30,26 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/leeqdpagar-place-screenshot-straight-to-clipboard-on-mac",
+          "author": "mattpolito",
+          "description": "cmd+shift+4. This brings up a crosshair to select which part of the screen you want.\ncmd+ctrl+shift+4. Then you can just paste the image wherever as soon as you're done. This is awesome but is a hard keystroke for me. However I discovered that you can use the original cmd+shift+4 to activate the crosshair but it can be redirected to the pastebin if you hold ctrl before you click to finalize the screenshot'd section.\n\nHooray!",
+          "link": "http://til.hashrocket.com/posts/leeqdpagar-place-screenshot-straight-to-clipboard-on-mac",
+          "publishedOn": "2023-08-03T21:46:12.000Z",
+          "wordCount": 326,
+          "title": "Place screenshot straight to clipboard on Mac - #workflow",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/5uhiczz2tz-how-to-get-javascript-params-in-liveview",
+          "author": "viniciusnegrisolo",
+          "description": "get_connect_params to be used when you want to get some value sent at the connection time from the javascript. \n// app.js\r\nconst params = {\r\n  _csrf_token: csrfToken,\r\n  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,\r\n};\r\n\nconst liveSocket = new LiveSocket('/live', Socket, { params });\r\n# my_live_view.ex\r\n@impl true\r\ndef mount(_params, _session, socket) do\r\n  tz = get_connect_params(socket)[\"timezone\"] || \"America/New_York\"\r\n  {:ok, assign(socket, :timezone, tz)}\r\nend",
+          "link": "http://til.hashrocket.com/posts/5uhiczz2tz-how-to-get-javascript-params-in-liveview",
+          "publishedOn": "2023-08-03T20:47:53.000Z",
+          "wordCount": 311,
+          "title": "How to get javascript params in LiveView? - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and",
           "author": "tonyyunker",
           "description": "and method for querying.\nPost.where(id: [1, 2]).and(Post.where(id: [2, 3]))\r\n# SELECT \"posts\".* FROM \"posts\" WHERE \"posts\".\"id\" IN (1, 2) AND \"posts\".\"id\" IN (2, 3)\r\nwheres: \nPost.where(id: [1, 2]).where(id: [2, 3])\r\nand really shines if you have more complicated querying with nesting of ANDs and ORs:\nSELECT \"posts\".* \r\nFROM \"posts\" \r\nWHERE \"posts\".\"id\" IN (1, 2) \r\n  AND (\"posts\".\"title\" = 'title'\r\n    OR \"posts\".\"body\" IS NOT NULL)\r\nwhere and or doesn't get us what we want: \nPost.where(id: [1,2])\r\n  .where(title: 'title')\r\n  .or(Post.where.not(body: nil))\r\n\n# SELECT \"posts\".* \r\n# FROM \"posts\" \r\n# WHERE (\"posts\".\"id\" IN (1, 2) \r\n# \tAND \"posts\".\"title\" = 'title' \r\n# \tOR \"posts\".\"body\" IS NOT NULL)\r\nA AND (B OR C) we get A AND B OR C. We can use a well-placed and to get the right grouping of conditions:\nPost.where(id: [1,2])\r\n  .and(Post.where(title: 'title')\r\n    .or(Post.where.not(body: nil)))\r\n\n# SELECT \"posts\".*\r\n# FROM \"posts\"\r\n# WHERE \"posts\".\"id\" IN (1, 2)\r\n#   AND (\"posts\".\"title\" = 'title'\r\n#     OR \"posts\".\"body\" IS NOT NULL)\r\nDocs\nCraig Hafer",
@@ -1772,6 +1792,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=kxT8-C1vmd4",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=kxT8-C1vmd4",
+          "publishedOn": "2023-08-03T14:42:10.000Z",
+          "wordCount": null,
+          "title": "Zig in 100 Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=BPadRwJbylY",
           "author": null,
