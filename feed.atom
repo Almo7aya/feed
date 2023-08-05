@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-04T00:23:43.384Z</id>
+    <id>urn:2023-08-05T00:23:00.589Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-04T00:23:43.384Z</updated>
+    <updated>2023-08-05T00:23:00.589Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Hack Your Brain with Meal Replacments]]></title>
+        <id>https://www.youtube.com/watch?v=P_3jELGvx80</id>
+        <link href="https://www.youtube.com/watch?v=P_3jELGvx80"/>
+        <updated>2023-08-04T10:13:10.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Place screenshot straight to clipboard on Mac - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/leeqdpagar-place-screenshot-straight-to-clipboard-on-mac</id>
@@ -2016,62 +2025,6 @@ here.]]></summary>
         <updated>2023-07-07T06:36:44.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quote a SQL Value in Rails - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails</id>
-        <link href="http://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails"/>
-        <updated>2023-07-06T01:41:07.000Z</updated>
-        <summary type="html"><![CDATA[my last post about Geocoding, you'll notice that the value passed to the geocode sql function is an address. To properly pass that value, we need to make sure that we quote it for SQL land. 
-ActiveRecord::Base.connection.execute(<<~SQL)
-  select
-    rating
-  from geocode('#{address}', 1)
-SQL
-address like 100 O'Connel Ave will cause the above to throw an error in the database
-quote function from ActiveRecord, we properly quote our strings for SQL: 
-quoted_address = ActiveRecord::Base.connection.quote(address)
-
-ActiveRecord::Base.connection.execute(<<~SQL)
-  select
-    rating
-  from geocode(#{quoted_address}, 1)
-SQL
-https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/Quoting.html#method-i-quote]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Geocode an Address in PostgreSQL with PostGIS - #sql]]></title>
-        <id>http://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis</id>
-        <link href="http://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis"/>
-        <updated>2023-07-06T01:20:59.000Z</updated>
-        <summary type="html"><![CDATA[select
-  result.rating,
-  ST_X(result.geomout) as longitude,
-  ST_Y(result.geomout) as latitude
-from geocode('320 1st St N, Jacksonville Beach FL', 1) as result;
-
- rating |     longitude      |      latitude
---------+--------------------+--------------------
-      1 | -81.39021163774713 | 30.291481272126084
-(1 row)
-https://postgis.net/docs/manual-3.3/postgis_installation.html#loading_extras_tiger_geocoder
-
-h/t Mary Lee]]></summary>
-        <author>
-            <name>andrewvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust is easy... (we make it hard)]]></title>
-        <id>https://www.youtube.com/watch?v=06CVZKbNvgE</id>
-        <link href="https://www.youtube.com/watch?v=06CVZKbNvgE"/>
-        <updated>2023-07-05T14:00:00.000Z</updated>
-        <author>
-            <name>Let's Get Rusty</name>
         </author>
     </entry>
 </feed>
