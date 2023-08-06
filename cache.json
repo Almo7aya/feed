@@ -1903,7 +1903,7 @@
           "link": "https://www.youtube.com/watch?v=P_3jELGvx80",
           "publishedOn": "2023-08-04T10:13:10.000Z",
           "wordCount": null,
-          "title": "Hack Your Brain with Meal Replacments",
+          "title": "Hack Your Brain with Soylent",
           "imageUrl": null
         },
         {
@@ -1914,16 +1914,6 @@
           "publishedOn": "2023-07-21T09:21:38.000Z",
           "wordCount": null,
           "title": "A Good Rust Web Stack",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=DbsAQSIKQXk",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=DbsAQSIKQXk",
-          "publishedOn": "2023-07-07T06:36:44.000Z",
-          "wordCount": null,
-          "title": "Hack your brain with Obsidian.md",
           "imageUrl": null
         }
       ]

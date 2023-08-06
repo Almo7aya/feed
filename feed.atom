@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-05T00:23:00.589Z</id>
+    <id>urn:2023-08-06T00:22:08.199Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-05T00:23:00.589Z</updated>
+    <updated>2023-08-06T00:22:08.199Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Hack Your Brain with Meal Replacments]]></title>
+        <title type="html"><![CDATA[Hack Your Brain with Soylent]]></title>
         <id>https://www.youtube.com/watch?v=P_3jELGvx80</id>
         <link href="https://www.youtube.com/watch?v=P_3jELGvx80"/>
         <updated>2023-08-04T10:13:10.000Z</updated>
@@ -2016,15 +2016,6 @@ here.]]></summary>
         <updated>2023-07-07T15:18:55.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hack your brain with Obsidian.md]]></title>
-        <id>https://www.youtube.com/watch?v=DbsAQSIKQXk</id>
-        <link href="https://www.youtube.com/watch?v=DbsAQSIKQXk"/>
-        <updated>2023-07-07T06:36:44.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
