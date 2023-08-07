@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-06T00:22:08.199Z</id>
+    <id>urn:2023-08-07T00:24:32.481Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-06T00:22:08.199Z</updated>
+    <updated>2023-08-07T00:24:32.481Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1981,39 +1981,6 @@ Note: If you want to exclude templates from being used on main spina pages, you 
         <id>https://www.youtube.com/watch?v=p6Yw0Bx5dbw</id>
         <link href="https://www.youtube.com/watch?v=p6Yw0Bx5dbw"/>
         <updated>2023-07-08T18:58:53.000Z</updated>
-        <author>
-            <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modifier Keys with Hot Corners - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/vlni11wckx-modifier-keys-with-hot-corners</id>
-        <link href="http://til.hashrocket.com/posts/vlni11wckx-modifier-keys-with-hot-corners"/>
-        <updated>2023-07-07T19:23:20.000Z</updated>
-        <summary type="html"><![CDATA[this post.
-Command, Shift, Option, or Control , or a combination of these keys) while selecting a shortcut from the dropdown. Now whenever you move your pointer into the corner of the screen, your shortcut won't fire unless you're also holding down that modifier key.]]></summary>
-        <author>
-            <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MacOS Hot Corners - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/v9ho3pdmj5-macos-hot-corners</id>
-        <link href="http://til.hashrocket.com/posts/v9ho3pdmj5-macos-hot-corners"/>
-        <updated>2023-07-07T19:17:01.000Z</updated>
-        <summary type="html"><![CDATA[Hot Corners, which are shortcuts activated by moving your pointer into a corner of the screen.
-Mission Control, Launchpad, Lock Screen, Quick Note and a few others.
-macOS Ventura 13, it can be found under System Settings->Desktop & Dock->Hot Corners
-here.]]></summary>
-        <author>
-            <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[htmx in 100 seconds]]></title>
-        <id>https://www.youtube.com/watch?v=r-GSGH2RxJs</id>
-        <link href="https://www.youtube.com/watch?v=r-GSGH2RxJs"/>
-        <updated>2023-07-07T15:18:55.000Z</updated>
         <author>
             <name>Fireship</name>
         </author>

@@ -188,26 +188,6 @@
           "wordCount": 315,
           "title": "Excluding view templates for Spina resources - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/vlni11wckx-modifier-keys-with-hot-corners",
-          "author": "craighafer",
-          "description": "this post.\nCommand, Shift, Option, or Control , or a combination of these keys) while selecting a shortcut from the dropdown. Now whenever you move your pointer into the corner of the screen, your shortcut won't fire unless you're also holding down that modifier key.",
-          "link": "http://til.hashrocket.com/posts/vlni11wckx-modifier-keys-with-hot-corners",
-          "publishedOn": "2023-07-07T19:23:20.000Z",
-          "wordCount": 287,
-          "title": "Modifier Keys with Hot Corners - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/v9ho3pdmj5-macos-hot-corners",
-          "author": "craighafer",
-          "description": "Hot Corners, which are shortcuts activated by moving your pointer into a corner of the screen.\nMission Control, Launchpad, Lock Screen, Quick Note and a few others.\nmacOS Ventura 13, it can be found under System Settings->Desktop & Dock->Hot Corners\nhere.",
-          "link": "http://til.hashrocket.com/posts/v9ho3pdmj5-macos-hot-corners",
-          "publishedOn": "2023-07-07T19:17:01.000Z",
-          "wordCount": 259,
-          "title": "MacOS Hot Corners - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         }
       ]
     },
@@ -1860,16 +1840,6 @@
           "publishedOn": "2023-07-08T18:58:53.000Z",
           "wordCount": null,
           "title": "ChatGPT just leveled up big time...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=r-GSGH2RxJs",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=r-GSGH2RxJs",
-          "publishedOn": "2023-07-07T15:18:55.000Z",
-          "wordCount": null,
-          "title": "htmx in 100 seconds",
           "imageUrl": null
         }
       ]
