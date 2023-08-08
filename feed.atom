@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-07T00:24:32.481Z</id>
+    <id>urn:2023-08-08T00:23:33.039Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-07T00:24:32.481Z</updated>
+    <updated>2023-08-08T00:23:33.039Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Hack Your Brain with Soylent]]></title>
+        <title type="html"><![CDATA[Command Line Wildcards - #command-line]]></title>
+        <id>http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards</id>
+        <link href="http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards"/>
+        <updated>2023-08-07T17:35:47.000Z</updated>
+        <summary type="html"><![CDATA[* character can be used as a wildcard to match sequences of unknown characters in the command line.
+For example, lets say my elixir project has a few tests that I want to run in a directory: MyProject/tests. The folder is filled with a bunch of random files, but the ones that i want to run have a similar name, tests/user_views_home and tests/user_views_show. We could use a wild card to match on both of these file names and run the tests (assuming there are no other files that match) like this:
+mix test MyProject/tests/user_views*]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hack Your Brain with Powdered Food]]></title>
         <id>https://www.youtube.com/watch?v=P_3jELGvx80</id>
         <link href="https://www.youtube.com/watch?v=P_3jELGvx80"/>
         <updated>2023-08-04T10:13:10.000Z</updated>
@@ -1974,15 +1986,6 @@ Note: If you want to exclude templates from being used on main spina pages, you 
         <summary type="html"><![CDATA[Kevin Coyle, currently working with Brad Frost and friends at Big Medium, is an incredible all-star professional in tech currently focusing on frontend. We met when we enlisted his help to migrate a mutual client onto a Terraform setup in [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT just leveled up big time...]]></title>
-        <id>https://www.youtube.com/watch?v=p6Yw0Bx5dbw</id>
-        <link href="https://www.youtube.com/watch?v=p6Yw0Bx5dbw"/>
-        <updated>2023-07-08T18:58:53.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>

@@ -22,6 +22,56 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-07 datetime="2023-08-07T17:35:47.000Z">2023-08-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-07 datetime="2023-08-07T17:35:47.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards"
+                        open
+                      >
+                        <summary class="article-expander__title">Command Line Wildcards - #command-line</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>* character can be used as a wildcard to match sequences of unknown characters in the command line.
+For example, lets say my elixir project has a few tests that I want to run in a directory: MyProject/tests. The folder is filled with a bunch of random files, but the ones that i want to run have a similar name, tests/user_views_home and tests/user_views_show. We could use a wild card to match on both of these file names and run the tests (assuming there are no other files that match) like this:
+mix test MyProject/tests/user_views*</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-04 datetime="2023-08-04T10:13:10.000Z">2023-08-04</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-04 datetime="2023-08-04T10:13:10.000Z"></time>
           </button>
@@ -45,7 +95,7 @@
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;P_3jELGvx80"
                         open
                       >
-                        <summary class="article-expander__title">Hack Your Brain with Soylent</summary>
+                        <summary class="article-expander__title">Hack Your Brain with Powdered Food</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;P_3jELGvx80">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -4338,55 +4388,10 @@ Note: If you want to exclude templates from being used on main spina pages, you 
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-08 datetime="2023-07-08T18:58:53.000Z">2023-07-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-08 datetime="2023-07-08T18:58:53.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Fireship</button>
-                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;p6Yw0Bx5dbw"
-                        open
-                      >
-                        <summary class="article-expander__title">ChatGPT just leveled up big time...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;p6Yw0Bx5dbw">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5779588064">
-        <time id="build-timestamp" datetime="2023-08-07T00:24:32.448Z">2023-08-07T00:24:32.448Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5791230024">
+        <time id="build-timestamp" datetime="2023-08-08T00:23:33.012Z">2023-08-08T00:23:33.012Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards",
+          "author": "jackrosa",
+          "description": "* character can be used as a wildcard to match sequences of unknown characters in the command line.\nFor example, lets say my elixir project has a few tests that I want to run in a directory: MyProject/tests. The folder is filled with a bunch of random files, but the ones that i want to run have a similar name, tests/user_views_home and tests/user_views_show. We could use a wild card to match on both of these file names and run the tests (assuming there are no other files that match) like this:\nmix test MyProject/tests/user_views*",
+          "link": "http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards",
+          "publishedOn": "2023-08-07T17:35:47.000Z",
+          "wordCount": 271,
+          "title": "Command Line Wildcards - #command-line",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/leeqdpagar-place-screenshot-straight-to-clipboard-on-mac",
           "author": "mattpolito",
           "description": "cmd+shift+4. This brings up a crosshair to select which part of the screen you want.\ncmd+ctrl+shift+4. Then you can just paste the image wherever as soon as you're done. This is awesome but is a hard keystroke for me. However I discovered that you can use the original cmd+shift+4 to activate the crosshair but it can be redirected to the pastebin if you hold ctrl before you click to finalize the screenshot'd section.\n\nHooray!",
@@ -1831,16 +1841,6 @@
           "wordCount": null,
           "title": "The future of \"truth\" on the Internet",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=p6Yw0Bx5dbw",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=p6Yw0Bx5dbw",
-          "publishedOn": "2023-07-08T18:58:53.000Z",
-          "wordCount": null,
-          "title": "ChatGPT just leveled up big time...",
-          "imageUrl": null
         }
       ]
     },
@@ -1873,7 +1873,7 @@
           "link": "https://www.youtube.com/watch?v=P_3jELGvx80",
           "publishedOn": "2023-08-04T10:13:10.000Z",
           "wordCount": null,
-          "title": "Hack Your Brain with Soylent",
+          "title": "Hack Your Brain with Powdered Food",
           "imageUrl": null
         },
         {
