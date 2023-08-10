@@ -22,6 +22,111 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-09 datetime="2023-08-09T17:06:52.000Z">2023-08-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-09 datetime="2023-08-09T17:06:52.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Today I Learned</button>
+                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union"
+                        open
+                      >
+                        <summary class="article-expander__title">convice typescript your literally in the union - #react</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/react_twitter_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>union.
+function Alert({
+  level,
+  children,
+}: {
+  level: &quot;info&quot; | &quot;warn&quot;;
+  children: ReactNode;
+}) {
+  const iconName &#x3D; { info: &quot;info&quot;, warn: &quot;alert-triangle&quot; }[level];
+  return (
+    
+      
+      {children}
+    
+  );
+}
+info and alert-triangle are both in the union. Should be groovy, right?
+❯ npx tsc
+src/components/Alert.ts:666:69 - error TS2322: Type &#x27;string&#x27; is not assignable to type &#x27;&quot;key&quot; | &quot;type&quot; | ... 267 more ... | undefined&#x27;.
+const assertions
+const iconName &#x3D; { info: &quot;hashrocket&quot; as const, warn: &quot;alert-triangle&quot; as const }[level];
+❯ npx tsc
+src/components/Alert.ts:666:69 - error TS2322: Type &quot;hashrocket&quot; | &quot;alert-triangle&quot; is not assignable to type &#x27;&quot;key&quot; | &quot;type&quot; | ... 267 more ... | undefined&#x27;.
+&quot;info&quot; and we get no errors, with good reason this time. 😎</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Brad Frost</button>
+                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://bradfrost.com/blog/link/hatch-conference-an-event-for-ux-design-experts-in-berlin-online/"
+                        open
+                      >
+                        <summary class="article-expander__title">Hatch Conference – An event for UX &amp; design experts in Berlin &amp; online</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/hatch-conference-an-event-for-ux-design-experts-in-berlin-online/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Besides talking about the current state of Design and his masterclass at Hatch, we dive into AI, holding onto things you love that don’t necessarily pay the bills, and he reveals the story on how that famous astronaut helmet came […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-08 datetime="2023-08-08T15:40:38.000Z">2023-08-08</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-08 datetime="2023-08-08T15:40:38.000Z"></time>
           </button>
@@ -4344,99 +4449,10 @@ Nice!</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-10 datetime="2023-07-10T20:36:00.000Z">2023-07-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-10 datetime="2023-07-10T20:36:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources"
-                        open
-                      >
-                        <summary class="article-expander__title">Excluding view templates for Spina resources - #rails</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>view_template in a Spina CMS Rails app there is an option of exclude_from that will take an array of strings. For any resources included in this array, that view template will not be available to pages of that resource.
-theme.view_templates &#x3D; [
-  {
-    # The rest of your view template...
-    exclude_from: [&quot;main&quot;, &quot;blog_resource&quot;]
-  }
-]
-Note: If you want to exclude templates from being used on main spina pages, you can just exclude from the implicit &quot;main&quot; resource.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Brad Frost</button>
-                  <a class="source-heading__link" href="https://bradfrost.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/"
-                        open
-                      >
-                        <summary class="article-expander__title">Pfizer’s Design System, spatial design, and AI is coming after your (boring) job</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bradfrost.com/wp-content/uploads/2017/08/card-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Kevin Coyle, currently working with Brad Frost and friends at Big Medium, is an incredible all-star professional in tech currently focusing on frontend. We met when we enlisted his help to migrate a mutual client onto a Terraform setup in […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5803361028">
-        <time id="build-timestamp" datetime="2023-08-09T00:24:00.511Z">2023-08-09T00:24:00.511Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5815431251">
+        <time id="build-timestamp" datetime="2023-08-10T00:24:08.146Z">2023-08-10T00:24:08.146Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-09T00:24:00.543Z</id>
+    <id>urn:2023-08-10T00:24:08.173Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-09T00:24:00.543Z</updated>
+    <updated>2023-08-10T00:24:08.173Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[convice typescript your literally in the union - #react]]></title>
+        <id>http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union</id>
+        <link href="http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union"/>
+        <updated>2023-08-09T17:06:52.000Z</updated>
+        <summary type="html"><![CDATA[union.
+function Alert({
+  level,
+  children,
+}: {
+  level: "info" | "warn";
+  children: ReactNode;
+}) {
+  const iconName = { info: "info", warn: "alert-triangle" }[level];
+  return (
+    <View>
+      <Feather name={iconName} />
+      {children}
+    </View>
+  );
+}
+info and alert-triangle are both in the union. Should be groovy, right?
+❯ npx tsc
+src/components/Alert.ts:666:69 - error TS2322: Type 'string' is not assignable to type '"key" | "type" | ... 267 more ... | undefined'.
+const assertions
+const iconName = { info: "hashrocket" as const, warn: "alert-triangle" as const }[level];
+❯ npx tsc
+src/components/Alert.ts:666:69 - error TS2322: Type "hashrocket" | "alert-triangle" is not assignable to type '"key" | "type" | ... 267 more ... | undefined'.
+"info" and we get no errors, with good reason this time. 😎]]></summary>
+        <author>
+            <name>briandunn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hatch Conference – An event for UX &#038; design experts in Berlin &#038; online]]></title>
+        <id>https://bradfrost.com/blog/link/hatch-conference-an-event-for-ux-design-experts-in-berlin-online/</id>
+        <link href="https://bradfrost.com/blog/link/hatch-conference-an-event-for-ux-design-experts-in-berlin-online/"/>
+        <updated>2023-08-09T10:47:02.000Z</updated>
+        <summary type="html"><![CDATA[Besides talking about the current state of Design and his masterclass at Hatch, we dive into AI, holding onto things you love that don&#8217;t necessarily pay the bills, and he reveals the story on how that famous astronaut helmet came [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How programmers flex on each other]]></title>
         <id>https://www.youtube.com/watch?v=r6tH55syq0o</id>
@@ -1968,33 +2011,6 @@ puts [a, b, new_name]
 Nice!]]></summary>
         <author>
             <name>tonyyunker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Excluding view templates for Spina resources - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources</id>
-        <link href="http://til.hashrocket.com/posts/846ozybzxv-excluding-view-templates-for-spina-resources"/>
-        <updated>2023-07-10T20:36:00.000Z</updated>
-        <summary type="html"><![CDATA[view_template in a Spina CMS Rails app there is an option of exclude_from that will take an array of strings. For any resources included in this array, that view template will not be available to pages of that resource.
-theme.view_templates = [
-  {
-    # The rest of your view template...
-    exclude_from: ["main", "blog_resource"]
-  }
-]
-Note: If you want to exclude templates from being used on main spina pages, you can just exclude from the implicit "main" resource.]]></summary>
-        <author>
-            <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pfizer&#8217;s Design System, spatial design, and AI is coming after your (boring) job]]></title>
-        <id>https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/</id>
-        <link href="https://bradfrost.com/blog/link/pfizers-design-system-spatial-design-and-ai-is-coming-after-your-boring-job/"/>
-        <updated>2023-07-10T19:49:17.000Z</updated>
-        <summary type="html"><![CDATA[Kevin Coyle, currently working with Brad Frost and friends at Big Medium, is an incredible all-star professional in tech currently focusing on frontend. We met when we enlisted his help to migrate a mutual client onto a Terraform setup in [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
