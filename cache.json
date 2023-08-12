@@ -198,16 +198,6 @@
           "wordCount": 418,
           "title": "Add partial lookup prefixes in Rails - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring",
-          "author": "tonyyunker",
-          "description": "const obj = { a: 1, b: 2, c: 3, d: 4 }\r\nconst { a, b, d: newName } = obj\r\nconsole.log([a, b, newName]) \r\n// => [1, 2, 4]\r\nhsh = { a: 1, b: 2, c: 3, d: 4 }\r\nhsh => { a:, b:, d: new_name }\r\nputs [a, b, new_name]\r\n# => [1, 2, 4]\r\n\nNice!",
-          "link": "http://til.hashrocket.com/posts/8lykl50rsp-ruby-rightward-assignment-js-like-destructuring",
-          "publishedOn": "2023-07-12T18:51:16.000Z",
-          "wordCount": 371,
-          "title": "Ruby Rightward Assignment -> JS-like Destructuring - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
