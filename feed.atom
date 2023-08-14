@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-13T00:20:48.421Z</id>
+    <id>urn:2023-08-14T00:20:12.197Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-13T00:20:48.421Z</updated>
+    <updated>2023-08-14T00:20:12.197Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -86,7 +86,7 @@ mix test MyProject/tests/user_views*]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hack Your Brain with Powdered Food]]></title>
+        <title type="html"><![CDATA[Hack Your Brain with Soylent]]></title>
         <id>https://www.youtube.com/watch?v=P_3jELGvx80</id>
         <link href="https://www.youtube.com/watch?v=P_3jELGvx80"/>
         <updated>2023-08-04T10:13:10.000Z</updated>
