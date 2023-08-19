@@ -1744,16 +1744,6 @@
           "wordCount": 705,
           "title": "Hatch Conference – An event for UX &#038; design experts in Berlin &#038; online",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/post/sabbradical-vibe-check-1/",
-          "author": null,
-          "description": "Why hello there! I&#8217;m over three weeks into my 3-month sabbatical. Or Sabbradical as several people have pointed out (which, holy shit why didn&#8217;t I think of that!). Imagine waking up in the morning and saying &#8220;I wonder what I&#8217;m [&#8230;]",
-          "link": "https://bradfrost.com/blog/post/sabbradical-vibe-check-1/",
-          "publishedOn": "2023-07-19T16:03:18.000Z",
-          "wordCount": 1924,
-          "title": "Sabbradical Vibe Check #1",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/07/CleanShot-2023-07-17-at-12.30.55@2x-1-700x761.png"
         }
       ]
     },
@@ -1831,16 +1821,6 @@
           "wordCount": null,
           "title": "Is AI really getting dumber? Llama2 vs GPT-4",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=H1eEFfAkIik",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=H1eEFfAkIik",
-          "publishedOn": "2023-07-19T17:31:38.000Z",
-          "wordCount": null,
-          "title": "SvelteKit in 100 seconds",
-          "imageUrl": null
         }
       ]
     },
@@ -1866,6 +1846,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=v6RxJsk8otY",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=v6RxJsk8otY",
+          "publishedOn": "2023-08-18T16:15:06.000Z",
+          "wordCount": null,
+          "title": "Rust's Discoveries",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=P_3jELGvx80",
           "author": null,
