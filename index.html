@@ -22,6 +22,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-20 datetime="2023-08-20T14:56:49.000Z">2023-08-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-20 datetime="2023-08-20T14:56:49.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Let&#x27;s Get Rusty</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;H8aHX-JkiZs"
+                        open
+                      >
+                        <summary class="article-expander__title">Rust 1.71.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;H8aHX-JkiZs">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-18 datetime="2023-08-18T16:15:06.000Z">2023-08-18</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-18 datetime="2023-08-18T16:15:06.000Z"></time>
           </button>
@@ -4056,119 +4101,10 @@ wc command to only output either the line count, word count, or char count, you 
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-21 datetime="2023-07-21T21:10:31.000Z">2023-07-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-21 datetime="2023-07-21T21:10:31.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki"
-                        open
-                      >
-                        <summary class="article-expander__title">Clone a Github Repository Wiki - #git</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>.wiki to the end of your repo when cloning.
-gh repo clone hashrocket/decent_exposure.wiki
-
-Now you have all of the wiki files locally and can search however you feel.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/vnnawov1tt-decomposing-nested-arrays"
-                        open
-                      >
-                        <summary class="article-expander__title">Decomposing Nested Arrays - #ruby</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/vnnawov1tt-decomposing-nested-arrays">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>decompose a nested array into variables like so:
-letters_and_numbers &#x3D; [[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;], [1, 2, 3, 4, 5]]
-letters, numbers &#x3D; letters_and_numbers
-
-&gt;&gt; letters
-&#x3D;&gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;]
-
-&gt;&gt; numbers
-&#x3D;&gt; [1, 2, 3, 4, 5]
-() to decompose specific values from a nested array?
-letters_and_numbers &#x3D; [[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;], [1, 2, 3, 4, 5]]
-(a, b, *other_letters), numbers &#x3D; letters_and_numbers
-
-&gt;&gt; a
-&#x3D;&gt; &quot;a&quot;
-
-&gt;&gt; b
-&#x3D;&gt; &quot;b&quot;
-
-&gt;&gt; other_letters
-&#x3D;&gt; [&quot;c&quot;, &quot;d&quot;, &quot;e&quot;]
-
-&gt;&gt; numbers
-&#x3D;&gt; [1, 2, 3, 4, 5]
-Note: You can also grab values from either the beginning or  end of the array!
-letters_and_numbers &#x3D; [[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;], [1, 2, 3, 4, 5]]
-(a, *other, d, e), _ &#x3D; letters_and_numbers
-
-&gt;&gt; a
-&#x3D;&gt; &quot;a&quot;
-
-&gt;&gt; other
-&#x3D;&gt; [&quot;b&quot;, &quot;c&quot;]
-
-&gt;&gt; d
-&#x3D;&gt; &quot;d&quot;
-
-&gt;&gt; e
-&#x3D;&gt; &quot;e&quot;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5914278465">
-        <time id="build-timestamp" datetime="2023-08-20T00:20:47.236Z">2023-08-20T00:20:47.236Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/5920439135">
+        <time id="build-timestamp" datetime="2023-08-21T00:19:54.207Z">2023-08-21T00:19:54.207Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

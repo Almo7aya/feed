@@ -138,26 +138,6 @@
           "wordCount": 311,
           "title": "The Word Count Command  - #command-line",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki",
-          "author": "mattpolito",
-          "description": ".wiki to the end of your repo when cloning.\ngh repo clone hashrocket/decent_exposure.wiki\r\n\nNow you have all of the wiki files locally and can search however you feel.",
-          "link": "http://til.hashrocket.com/posts/y1a0ynmont-clone-a-github-repository-wiki",
-          "publishedOn": "2023-07-21T21:10:31.000Z",
-          "wordCount": 265,
-          "title": "Clone a Github Repository Wiki - #git",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/vnnawov1tt-decomposing-nested-arrays",
-          "author": "craighafer",
-          "description": "decompose a nested array into variables like so:\nletters_and_numbers = [[\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]]\r\nletters, numbers = letters_and_numbers\r\n\n>> letters\r\n=> [\"a\", \"b\", \"c\", \"d\", \"e\"]\r\n\n>> numbers\r\n=> [1, 2, 3, 4, 5]\r\n() to decompose specific values from a nested array?\nletters_and_numbers = [[\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]]\r\n(a, b, *other_letters), numbers = letters_and_numbers\r\n\n>> a\r\n=> \"a\"\r\n\n>> b\r\n=> \"b\"\r\n\n>> other_letters\r\n=> [\"c\", \"d\", \"e\"]\r\n\n>> numbers\r\n=> [1, 2, 3, 4, 5]\r\nNote: You can also grab values from either the beginning or  end of the array!\nletters_and_numbers = [[\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]]\r\n(a, *other, d, e), _ = letters_and_numbers\r\n\n>> a\r\n=> \"a\"\r\n\n>> other\r\n=> [\"b\", \"c\"]\r\n\n>> d\r\n=> \"d\"\r\n\n>> e\r\n=> \"e\"",
-          "link": "http://til.hashrocket.com/posts/vnnawov1tt-decomposing-nested-arrays",
-          "publishedOn": "2023-07-21T16:12:03.000Z",
-          "wordCount": 392,
-          "title": "Decomposing Nested Arrays - #ruby",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
         }
       ]
     },
@@ -1789,6 +1769,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSp-OaMpsO8K0KkOqyBl7_w",
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=H8aHX-JkiZs",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=H8aHX-JkiZs",
+          "publishedOn": "2023-08-20T14:56:49.000Z",
+          "wordCount": null,
+          "title": "Rust 1.71.0",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=fgrK7zWWU84",
           "author": null,
