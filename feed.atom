@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-23T00:19:35.864Z</id>
+    <id>urn:2023-08-24T00:19:25.844Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-23T00:19:35.864Z</updated>
+    <updated>2023-08-24T00:19:25.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Excel just got Python]]></title>
+        <id>https://www.youtube.com/watch?v=8ofsE7xiGho</id>
+        <link href="https://www.youtube.com/watch?v=8ofsE7xiGho"/>
+        <updated>2023-08-23T18:41:32.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust 1.71.0]]></title>
         <id>https://www.youtube.com/watch?v=H8aHX-JkiZs</id>
@@ -1814,15 +1823,6 @@ wc command into any other terminal command to receive the word count information
 wc command to only output either the line count, word count, or char count, you can pass it the following flags: wc -l for line count, wc -w for word count, and wc -c for the char count.]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter rebrands to X in latest 5D chess move]]></title>
-        <id>https://www.youtube.com/watch?v=AE3iXR1JFak</id>
-        <link href="https://www.youtube.com/watch?v=AE3iXR1JFak"/>
-        <updated>2023-07-24T20:01:07.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>
