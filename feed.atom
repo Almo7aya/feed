@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-24T00:19:25.844Z</id>
+    <id>urn:2023-08-25T00:19:46.627Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-24T00:19:25.844Z</updated>
+    <updated>2023-08-25T00:19:46.627Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Cycling keyboard languages on MacOS - #workflow]]></title>
+        <id>http://til.hashrocket.com/posts/h6d9ltchdp-cycling-keyboard-languages-on-macos</id>
+        <link href="http://til.hashrocket.com/posts/h6d9ltchdp-cycling-keyboard-languages-on-macos"/>
+        <updated>2023-08-24T19:59:09.000Z</updated>
+        <summary type="html"><![CDATA[control + space]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Excel just got Python]]></title>
         <id>https://www.youtube.com/watch?v=8ofsE7xiGho</id>
