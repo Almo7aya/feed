@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto",
+          "author": "craighafer",
+          "description": "ActionView::Helper using #link_to_if\n<%= link_to_if(current_user.nil?, \"Login\", login_path) %>\r\ntrue it would output:\n<a href=\"/sessions/new/\">Login</a>\r\nfalse it just outputs the text:\nLogin\r\n<%= link_to_if(current_user.nil?, \"Login\", login_path) do\r\n  link_to(\"Logout\", logout_path)\r\nend %>\r\nlink_to_unless method available  \ndocs if you're interested.",
+          "link": "http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto",
+          "publishedOn": "2023-08-25T19:56:01.000Z",
+          "wordCount": 296,
+          "title": "Conditional link_to - #rails",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/h6d9ltchdp-cycling-keyboard-languages-on-macos",
           "author": "craighafer",
           "description": "control + space",
@@ -138,16 +148,6 @@
           "wordCount": 281,
           "title": "Git checkout to previous branches - #git",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-",
-          "author": "jackrosa",
-          "description": "wc command, you can print out word count information to the terminal. By default, if you use the wc command along with a file path, the command will return 3 values: the line count, word count, and character count of that file. \nwc command into any other terminal command to receive the word count information about the previous command. For instance, you could use the command ls | wc to see the word count info for the current directory's file list.  \nwc command to only output either the line count, word count, or char count, you can pass it the following flags: wc -l for line count, wc -w for word count, and wc -c for the char count.",
-          "link": "http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-",
-          "publishedOn": "2023-07-26T14:22:42.000Z",
-          "wordCount": 311,
-          "title": "The Word Count Command  - #command-line",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
         }
       ]
     },

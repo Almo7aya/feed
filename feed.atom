@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-25T00:19:46.627Z</id>
+    <id>urn:2023-08-26T00:18:41.205Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-25T00:19:46.627Z</updated>
+    <updated>2023-08-26T00:18:41.205Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Conditional link_to - #rails]]></title>
+        <id>http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto</id>
+        <link href="http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto"/>
+        <updated>2023-08-25T19:56:01.000Z</updated>
+        <summary type="html"><![CDATA[ActionView::Helper using #link_to_if
+<%= link_to_if(current_user.nil?, "Login", login_path) %>
+true it would output:
+<a href="/sessions/new/">Login</a>
+false it just outputs the text:
+Login
+<%= link_to_if(current_user.nil?, "Login", login_path) do
+  link_to("Logout", logout_path)
+end %>
+link_to_unless method available  
+docs if you're interested.]]></summary>
+        <author>
+            <name>craighafer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cycling keyboard languages on MacOS - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/h6d9ltchdp-cycling-keyboard-languages-on-macos</id>
@@ -1821,18 +1841,6 @@ Matt Polito]]></summary>
         <updated>2023-07-27T15:47:35.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Word Count Command  - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-</id>
-        <link href="http://til.hashrocket.com/posts/dh3cotiqxj-the-word-count-command-"/>
-        <updated>2023-07-26T14:22:42.000Z</updated>
-        <summary type="html"><![CDATA[wc command, you can print out word count information to the terminal. By default, if you use the wc command along with a file path, the command will return 3 values: the line count, word count, and character count of that file. 
-wc command into any other terminal command to receive the word count information about the previous command. For instance, you could use the command ls | wc to see the word count info for the current directory's file list.  
-wc command to only output either the line count, word count, or char count, you can pass it the following flags: wc -l for line count, wc -w for word count, and wc -c for the char count.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>
