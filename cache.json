@@ -118,26 +118,6 @@
           "wordCount": 407,
           "title": "ActiveRecord Query with `and` - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/gx2cgiopce-vs-code-multi-cursor-clipboards",
-          "author": "jackrosa",
-          "description": "⌘+d to create multiple cursors in VSCode, each cursor has its own independent clipboard. With each cursor you can copy different text selections and paste them separately. 🤯",
-          "link": "http://til.hashrocket.com/posts/gx2cgiopce-vs-code-multi-cursor-clipboards",
-          "publishedOn": "2023-07-28T19:23:32.000Z",
-          "wordCount": 209,
-          "title": "VS Code Multi-Cursor Clipboards - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/3ywjnkrb8a-git-log-without-merges",
-          "author": "andrewvogel",
-          "description": "git log --no-merges\r\nhttps://git-scm.com/docs/git-log#Documentation/git-log.txt---no-merges",
-          "link": "http://til.hashrocket.com/posts/3ywjnkrb8a-git-log-without-merges",
-          "publishedOn": "2023-07-28T17:54:59.000Z",
-          "wordCount": 194,
-          "title": "Git Log Without Merges - #git",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/git_twitter_card.png"
         }
       ]
     },
@@ -1750,16 +1730,6 @@
           "publishedOn": "2023-07-29T18:49:22.000Z",
           "wordCount": null,
           "title": "\"World-changing\" LK-99 Superconductor explained quickly",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=cXlxMP9PU8I",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=cXlxMP9PU8I",
-          "publishedOn": "2023-07-28T17:25:59.000Z",
-          "wordCount": null,
-          "title": "The shocking decline of Stack Overflow",
           "imageUrl": null
         }
       ]
