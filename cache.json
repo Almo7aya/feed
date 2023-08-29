@@ -1656,6 +1656,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/how-to-be-happier-without-really-trying-barking-up-the-wrong-tree/",
+          "author": null,
+          "description": "How to Be Happier Without Really Trying summarizes a lot of the tactics I take in my own life to be happier (errr, more tranquil). This post does a good job summarizing Epicurean philosophies Live For Pleasure: Not the frat [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/how-to-be-happier-without-really-trying-barking-up-the-wrong-tree/",
+          "publishedOn": "2023-08-28T21:27:00.000Z",
+          "wordCount": 814,
+          "title": "How to Be Happier Without Really Trying &#8211; Barking Up The Wrong Tree",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/post/frostapalooza/",
           "author": null,
           "description": "I&#8217;m elated to announce that on August 17th, 2024 — exactly one year from now — I&#8217;m throwing a big-ass charity concert/party/happening in Pittsburgh, PA featuring an array of my talented musical collaborators, friends, and family. I&#8217;d love for you [&#8230;]",
@@ -1682,6 +1692,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=HzBA6FIn_Bo",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=HzBA6FIn_Bo",
+          "publishedOn": "2023-08-28T18:32:30.000Z",
+          "wordCount": null,
+          "title": "The ruthless forking of Terraform",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=r5NQecwZs1A",
           "author": null,
@@ -1720,16 +1740,6 @@
           "publishedOn": "2023-08-03T14:42:10.000Z",
           "wordCount": null,
           "title": "Zig in 100 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=BPadRwJbylY",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=BPadRwJbylY",
-          "publishedOn": "2023-07-29T18:49:22.000Z",
-          "wordCount": null,
-          "title": "\"World-changing\" LK-99 Superconductor explained quickly",
           "imageUrl": null
         }
       ]
