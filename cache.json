@@ -1758,16 +1758,6 @@
           "wordCount": null,
           "title": "Rust 1.71.0",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=fgrK7zWWU84",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=fgrK7zWWU84",
-          "publishedOn": "2023-08-15T15:00:34.000Z",
-          "wordCount": null,
-          "title": "The biggest problem with Rust",
-          "imageUrl": null
         }
       ]
     },
