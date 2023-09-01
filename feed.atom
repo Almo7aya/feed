@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-31T00:19:59.284Z</id>
+    <id>urn:2023-09-01T00:21:43.771Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-31T00:19:59.284Z</updated>
+    <updated>2023-09-01T00:21:43.771Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Elixir Data Type Comparison - #elixir]]></title>
+        <id>http://til.hashrocket.com/posts/jzqrofwjkx-elixir-data-type-comparison</id>
+        <link href="http://til.hashrocket.com/posts/jzqrofwjkx-elixir-data-type-comparison"/>
+        <updated>2023-08-31T01:08:49.000Z</updated>
+        <summary type="html"><![CDATA[number < atom < reference < function < port < pid < tuple < map < list < bitstring
+random_data = [["Hello World"], {:hello, :world}, 16, %{key: "value"}, :atom]
+Enum.sort(random_data)
+#=> [16, :atom, {:hello, :world}, %{key: "value"}, ["Hello World"]]
+4 < :atom
+#=> true]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to Be Happier Without Really Trying &#8211; Barking Up The Wrong Tree]]></title>
         <id>https://bradfrost.com/blog/link/how-to-be-happier-without-really-trying-barking-up-the-wrong-tree/</id>
@@ -1752,48 +1767,6 @@ end]]></summary>
         <updated>2023-08-03T14:42:10.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ActiveRecord Query with `and` - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and</id>
-        <link href="http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and"/>
-        <updated>2023-08-01T22:39:15.000Z</updated>
-        <summary type="html"><![CDATA[and method for querying.
-Post.where(id: [1, 2]).and(Post.where(id: [2, 3]))
-# SELECT "posts".* FROM "posts" WHERE "posts"."id" IN (1, 2) AND "posts"."id" IN (2, 3)
-wheres: 
-Post.where(id: [1, 2]).where(id: [2, 3])
-and really shines if you have more complicated querying with nesting of ANDs and ORs:
-SELECT "posts".* 
-FROM "posts" 
-WHERE "posts"."id" IN (1, 2) 
-  AND ("posts"."title" = 'title'
-    OR "posts"."body" IS NOT NULL)
-where and or doesn't get us what we want: 
-Post.where(id: [1,2])
-  .where(title: 'title')
-  .or(Post.where.not(body: nil))
-
-# SELECT "posts".* 
-# FROM "posts" 
-# WHERE ("posts"."id" IN (1, 2) 
-# 	AND "posts"."title" = 'title' 
-# 	OR "posts"."body" IS NOT NULL)
-A AND (B OR C) we get A AND B OR C. We can use a well-placed and to get the right grouping of conditions:
-Post.where(id: [1,2])
-  .and(Post.where(title: 'title')
-    .or(Post.where.not(body: nil)))
-
-# SELECT "posts".*
-# FROM "posts"
-# WHERE "posts"."id" IN (1, 2)
-#   AND ("posts"."title" = 'title'
-#     OR "posts"."body" IS NOT NULL)
-Docs
-Craig Hafer]]></summary>
-        <author>
-            <name>tonyyunker</name>
         </author>
     </entry>
 </feed>

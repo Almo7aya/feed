@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/jzqrofwjkx-elixir-data-type-comparison",
+          "author": "jackrosa",
+          "description": "number < atom < reference < function < port < pid < tuple < map < list < bitstring\r\nrandom_data = [[\"Hello World\"], {:hello, :world}, 16, %{key: \"value\"}, :atom]\r\nEnum.sort(random_data)\r\n#=> [16, :atom, {:hello, :world}, %{key: \"value\"}, [\"Hello World\"]]\r\n4 < :atom\r\n#=> true",
+          "link": "http://til.hashrocket.com/posts/jzqrofwjkx-elixir-data-type-comparison",
+          "publishedOn": "2023-08-31T01:08:49.000Z",
+          "wordCount": 285,
+          "title": "Elixir Data Type Comparison - #elixir",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto",
           "author": "craighafer",
           "description": "ActionView::Helper using #link_to_if\n<%= link_to_if(current_user.nil?, \"Login\", login_path) %>\r\ntrue it would output:\n<a href=\"/sessions/new/\">Login</a>\r\nfalse it just outputs the text:\nLogin\r\n<%= link_to_if(current_user.nil?, \"Login\", login_path) do\r\n  link_to(\"Logout\", logout_path)\r\nend %>\r\nlink_to_unless method available  \ndocs if you're interested.",
@@ -108,16 +118,6 @@
           "wordCount": 311,
           "title": "How to get javascript params in LiveView? - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and",
-          "author": "tonyyunker",
-          "description": "and method for querying.\nPost.where(id: [1, 2]).and(Post.where(id: [2, 3]))\r\n# SELECT \"posts\".* FROM \"posts\" WHERE \"posts\".\"id\" IN (1, 2) AND \"posts\".\"id\" IN (2, 3)\r\nwheres: \nPost.where(id: [1, 2]).where(id: [2, 3])\r\nand really shines if you have more complicated querying with nesting of ANDs and ORs:\nSELECT \"posts\".* \r\nFROM \"posts\" \r\nWHERE \"posts\".\"id\" IN (1, 2) \r\n  AND (\"posts\".\"title\" = 'title'\r\n    OR \"posts\".\"body\" IS NOT NULL)\r\nwhere and or doesn't get us what we want: \nPost.where(id: [1,2])\r\n  .where(title: 'title')\r\n  .or(Post.where.not(body: nil))\r\n\n# SELECT \"posts\".* \r\n# FROM \"posts\" \r\n# WHERE (\"posts\".\"id\" IN (1, 2) \r\n# \tAND \"posts\".\"title\" = 'title' \r\n# \tOR \"posts\".\"body\" IS NOT NULL)\r\nA AND (B OR C) we get A AND B OR C. We can use a well-placed and to get the right grouping of conditions:\nPost.where(id: [1,2])\r\n  .and(Post.where(title: 'title')\r\n    .or(Post.where.not(body: nil)))\r\n\n# SELECT \"posts\".*\r\n# FROM \"posts\"\r\n# WHERE \"posts\".\"id\" IN (1, 2)\r\n#   AND (\"posts\".\"title\" = 'title'\r\n#     OR \"posts\".\"body\" IS NOT NULL)\r\nDocs\nCraig Hafer",
-          "link": "http://til.hashrocket.com/posts/ocgwhb6uiq-activerecord-query-with-and",
-          "publishedOn": "2023-08-01T22:39:15.000Z",
-          "wordCount": 407,
-          "title": "ActiveRecord Query with `and` - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },
