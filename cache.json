@@ -1636,6 +1636,36 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/ai-the-next-chapter-in-design-figma-blog/",
+          "author": null,
+          "description": "It&#8217;s an honor to be referenced at Figma&#8217;s Config keynote and follow-up article AI: The Next Chapter in Design.  I like how Figma used the atomic design methodology to articulate where AI might prove to be most useful. Lower-level atoms [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/ai-the-next-chapter-in-design-figma-blog/",
+          "publishedOn": "2023-09-05T15:59:20.000Z",
+          "wordCount": 943,
+          "title": "AI: The Next Chapter in Design &#124; Figma Blog",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/never-waste-your-midlife-crisis-austin-kleon/",
+          "author": null,
+          "description": "You should never waste your midlife crisis. You can do great things with a midlife crisis. I love all of Austin&#8217;s great blogging and sharing, and this one stuck with me: never waste your midlife crisis. As a human being [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/never-waste-your-midlife-crisis-austin-kleon/",
+          "publishedOn": "2023-09-05T15:28:16.000Z",
+          "wordCount": 724,
+          "title": "Never waste your midlife crisis &#8211; Austin Kleon",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
+          "id": "https://bradfrost.com/blog/link/news-is-bad-for-you-and-giving-up-reading-it-will-make-you-happier-the-guardian/",
+          "author": null,
+          "description": "News is bad for your health. It leads to fear and aggression, and hinders your creativity and ability to think deeply. The solution? Stop consuming it altogether News is bad for you – and giving up reading it will make [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/news-is-bad-for-you-and-giving-up-reading-it-will-make-you-happier-the-guardian/",
+          "publishedOn": "2023-09-05T15:08:03.000Z",
+          "wordCount": 846,
+          "title": "News is bad for you – and giving up reading it will make you happier &#124; The Guardian",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/how-to-be-happier-without-really-trying-barking-up-the-wrong-tree/",
           "author": null,
           "description": "How to Be Happier Without Really Trying summarizes a lot of the tactics I take in my own life to be happier (errr, more tranquil). This post does a good job summarizing Epicurean philosophies Live For Pleasure: Not the frat [&#8230;]",
@@ -1672,6 +1702,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=7bmsDg4BaKw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=7bmsDg4BaKw",
+          "publishedOn": "2023-09-05T16:47:16.000Z",
+          "wordCount": null,
+          "title": "my browser, my paste",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=HzBA6FIn_Bo",
           "author": null,
