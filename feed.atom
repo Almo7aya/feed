@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-06T00:20:03.036Z</id>
+    <id>urn:2023-09-07T00:19:58.492Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-06T00:20:03.036Z</updated>
+    <updated>2023-09-07T00:19:58.492Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Educational Sensational Inspirational Foundational]]></title>
+        <id>https://bradfrost.com/blog/link/educational-sensational-inspirational-foundational/</id>
+        <link href="https://bradfrost.com/blog/link/educational-sensational-inspirational-foundational/"/>
+        <updated>2023-09-06T00:14:56.000Z</updated>
+        <summary type="html"><![CDATA[Absolutely honored to have atomic design included in this roundup of Educational Sensational Inspirational Foundational posts.]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[my browser, my paste]]></title>
         <id>https://www.youtube.com/watch?v=7bmsDg4BaKw</id>
@@ -1740,18 +1750,6 @@ src/components/Alert.ts:666:69 - error TS2322: Type "hashrocket" | "alert-triang
         <updated>2023-08-08T15:40:38.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Command Line Wildcards - #command-line]]></title>
-        <id>http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards</id>
-        <link href="http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards"/>
-        <updated>2023-08-07T17:35:47.000Z</updated>
-        <summary type="html"><![CDATA[* character can be used as a wildcard to match sequences of unknown characters in the command line.
-For example, lets say my elixir project has a few tests that I want to run in a directory: MyProject/tests. The folder is filled with a bunch of random files, but the ones that i want to run have a similar name, tests/user_views_home and tests/user_views_show. We could use a wild card to match on both of these file names and run the tests (assuming there are no other files that match) like this:
-mix test MyProject/tests/user_views*]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>

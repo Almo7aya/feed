@@ -88,16 +88,6 @@
           "wordCount": 377,
           "title": "convice typescript your literally in the union - #react",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/react_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards",
-          "author": "jackrosa",
-          "description": "* character can be used as a wildcard to match sequences of unknown characters in the command line.\nFor example, lets say my elixir project has a few tests that I want to run in a directory: MyProject/tests. The folder is filled with a bunch of random files, but the ones that i want to run have a similar name, tests/user_views_home and tests/user_views_show. We could use a wild card to match on both of these file names and run the tests (assuming there are no other files that match) like this:\nmix test MyProject/tests/user_views*",
-          "link": "http://til.hashrocket.com/posts/bae7nceahz-command-line-wildcards",
-          "publishedOn": "2023-08-07T17:35:47.000Z",
-          "wordCount": 271,
-          "title": "Command Line Wildcards - #command-line",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/command_line_twitter_card.png"
         }
       ]
     },
@@ -1635,6 +1625,16 @@
       "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
       "siteUrl": "https://bradfrost.com",
       "articles": [
+        {
+          "id": "https://bradfrost.com/blog/link/educational-sensational-inspirational-foundational/",
+          "author": null,
+          "description": "Absolutely honored to have atomic design included in this roundup of Educational Sensational Inspirational Foundational posts.",
+          "link": "https://bradfrost.com/blog/link/educational-sensational-inspirational-foundational/",
+          "publishedOn": "2023-09-06T00:14:56.000Z",
+          "wordCount": 659,
+          "title": "Educational Sensational Inspirational Foundational",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
         {
           "id": "https://bradfrost.com/blog/link/ai-the-next-chapter-in-design-figma-blog/",
           "author": null,
