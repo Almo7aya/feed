@@ -1684,16 +1684,6 @@
           "wordCount": 1149,
           "title": "Frostapalooza!",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/08/CleanShot-2023-08-17-at-08.48.00@2x.png"
-        },
-        {
-          "id": "https://bradfrost.com/blog/link/hatch-conference-an-event-for-ux-design-experts-in-berlin-online/",
-          "author": null,
-          "description": "Besides talking about the current state of Design and his masterclass at Hatch, we dive into AI, holding onto things you love that don&#8217;t necessarily pay the bills, and he reveals the story on how that famous astronaut helmet came [&#8230;]",
-          "link": "https://bradfrost.com/blog/link/hatch-conference-an-event-for-ux-design-experts-in-berlin-online/",
-          "publishedOn": "2023-08-09T10:47:02.000Z",
-          "wordCount": 723,
-          "title": "Hatch Conference – An event for UX &#038; design experts in Berlin &#038; online",
-          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
         }
       ]
     },
@@ -1702,6 +1692,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=5ChkQKUzDCs",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=5ChkQKUzDCs",
+          "publishedOn": "2023-09-07T17:47:46.000Z",
+          "wordCount": null,
+          "title": "Big projects are ditching TypeScript… wtf?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=7bmsDg4BaKw",
           "author": null,
@@ -1740,16 +1740,6 @@
           "publishedOn": "2023-08-23T18:41:32.000Z",
           "wordCount": null,
           "title": "Microsoft Excel just got Python",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=r6tH55syq0o",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=r6tH55syq0o",
-          "publishedOn": "2023-08-08T15:40:38.000Z",
-          "wordCount": null,
-          "title": "How programmers flex on each other",
           "imageUrl": null
         }
       ]
