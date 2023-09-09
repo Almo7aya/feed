@@ -78,16 +78,6 @@
           "wordCount": 332,
           "title": "Skip auto updates for brew install/upgrade/tap - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union",
-          "author": "briandunn",
-          "description": "union.\nfunction Alert({\r\n  level,\r\n  children,\r\n}: {\r\n  level: \"info\" | \"warn\";\r\n  children: ReactNode;\r\n}) {\r\n  const iconName = { info: \"info\", warn: \"alert-triangle\" }[level];\r\n  return (\r\n    <View>\r\n      <Feather name={iconName} />\r\n      {children}\r\n    </View>\r\n  );\r\n}\r\ninfo and alert-triangle are both in the union. Should be groovy, right?\n❯ npx tsc\r\nsrc/components/Alert.ts:666:69 - error TS2322: Type 'string' is not assignable to type '\"key\" | \"type\" | ... 267 more ... | undefined'.\r\nconst assertions\nconst iconName = { info: \"hashrocket\" as const, warn: \"alert-triangle\" as const }[level];\r\n❯ npx tsc\r\nsrc/components/Alert.ts:666:69 - error TS2322: Type \"hashrocket\" | \"alert-triangle\" is not assignable to type '\"key\" | \"type\" | ... 267 more ... | undefined'.\r\n\"info\" and we get no errors, with good reason this time. 😎",
-          "link": "http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union",
-          "publishedOn": "2023-08-09T17:06:52.000Z",
-          "wordCount": 377,
-          "title": "convice typescript your literally in the union - #react",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/react_twitter_card.png"
         }
       ]
     },
@@ -1693,13 +1683,23 @@
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=dWqNgzZwVJQ",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=dWqNgzZwVJQ",
+          "publishedOn": "2023-09-08T19:12:14.000Z",
+          "wordCount": null,
+          "title": "Bun is disrupting JavaScript land",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=5ChkQKUzDCs",
           "author": null,
           "description": "",
           "link": "https://www.youtube.com/watch?v=5ChkQKUzDCs",
           "publishedOn": "2023-09-07T17:47:46.000Z",
           "wordCount": null,
-          "title": "Big projects are ditching TypeScript… wtf?",
+          "title": "Big projects are ditching TypeScript… why?",
           "imageUrl": null
         },
         {

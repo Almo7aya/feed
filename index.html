@@ -22,6 +22,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-08 datetime="2023-09-08T19:12:14.000Z">2023-09-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-08 datetime="2023-09-08T19:12:14.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Fireship</button>
+                  <a class="source-heading__link" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.youtube.com/watch?v&#x3D;dWqNgzZwVJQ"
+                        open
+                      >
+                        <summary class="article-expander__title">Bun is disrupting JavaScript land</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;dWqNgzZwVJQ">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-07 datetime="2023-09-07T17:47:46.000Z">2023-09-07</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-07 datetime="2023-09-07T17:47:46.000Z"></time>
           </button>
@@ -45,7 +90,7 @@
                         data-accordion-key="https://www.youtube.com/watch?v&#x3D;5ChkQKUzDCs"
                         open
                       >
-                        <summary class="article-expander__title">Big projects are ditching TypeScript… wtf?</summary>
+                        <summary class="article-expander__title">Big projects are ditching TypeScript… why?</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;5ChkQKUzDCs">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -3829,81 +3874,10 @@ brew upgrade or brew tap.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-09 datetime="2023-08-09T17:06:52.000Z">2023-08-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-09 datetime="2023-08-09T17:06:52.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Today I Learned</button>
-                  <a class="source-heading__link" href="http://til.hashrocket.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union"
-                        open
-                      >
-                        <summary class="article-expander__title">convice typescript your literally in the union - #react</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://til.hashrocket.com/posts/etwvg9wpwm-convice-typescript-your-literally-in-the-union">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dys2hbvla0n8j.cloudfront.net/images/react_twitter_card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>union.
-function Alert({
-  level,
-  children,
-}: {
-  level: &quot;info&quot; | &quot;warn&quot;;
-  children: ReactNode;
-}) {
-  const iconName &#x3D; { info: &quot;info&quot;, warn: &quot;alert-triangle&quot; }[level];
-  return (
-    
-      
-      {children}
-    
-  );
-}
-info and alert-triangle are both in the union. Should be groovy, right?
-❯ npx tsc
-src/components/Alert.ts:666:69 - error TS2322: Type &#x27;string&#x27; is not assignable to type &#x27;&quot;key&quot; | &quot;type&quot; | ... 267 more ... | undefined&#x27;.
-const assertions
-const iconName &#x3D; { info: &quot;hashrocket&quot; as const, warn: &quot;alert-triangle&quot; as const }[level];
-❯ npx tsc
-src/components/Alert.ts:666:69 - error TS2322: Type &quot;hashrocket&quot; | &quot;alert-triangle&quot; is not assignable to type &#x27;&quot;key&quot; | &quot;type&quot; | ... 267 more ... | undefined&#x27;.
-&quot;info&quot; and we get no errors, with good reason this time. 😎</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/6116095014">
-        <time id="build-timestamp" datetime="2023-09-08T00:19:45.675Z">2023-09-08T00:19:45.675Z</time>
+      <a class="footer-link" href="https://github.com/Almo7aya/feed/actions/runs/6127651249">
+        <time id="build-timestamp" datetime="2023-09-09T00:19:26.194Z">2023-09-09T00:19:26.194Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
