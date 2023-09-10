@@ -68,16 +68,6 @@
           "wordCount": 288,
           "title": "Unix Timestamps in Elixir - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/qa2geixddk-skip-auto-updates-for-brew-installupgradetap",
-          "author": "craighafer",
-          "description": "Running `brew update --auto-update`...\r\nall of your formulae to update, just so you can use the one that you need.\nHOMEBREW_NO_AUTO_UPDATE to 1.\nHOMEBREW_NO_AUTO_UPDATE=1 brew install <formula>\r\nofficial docs:\nbrew install,\nbrew upgrade or brew tap.",
-          "link": "http://til.hashrocket.com/posts/qa2geixddk-skip-auto-updates-for-brew-installupgradetap",
-          "publishedOn": "2023-08-10T20:45:41.000Z",
-          "wordCount": 332,
-          "title": "Skip auto updates for brew install/upgrade/tap - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         }
       ]
     },

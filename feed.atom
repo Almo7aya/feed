@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-09T00:19:26.220Z</id>
+    <id>urn:2023-09-10T00:21:38.695Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-09T00:19:26.221Z</updated>
+    <updated>2023-09-10T00:21:38.695Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1700,22 +1700,6 @@ docs if you're interested.]]></summary>
         <summary type="html"><![CDATA[DateTime struct, and want to keep things simple, you can convert a DateTime struct to an integer with to_unix/2. By default, it will use seconds as the unit.]]></summary>
         <author>
             <name>jackrosa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Skip auto updates for brew install/upgrade/tap - #workflow]]></title>
-        <id>http://til.hashrocket.com/posts/qa2geixddk-skip-auto-updates-for-brew-installupgradetap</id>
-        <link href="http://til.hashrocket.com/posts/qa2geixddk-skip-auto-updates-for-brew-installupgradetap"/>
-        <updated>2023-08-10T20:45:41.000Z</updated>
-        <summary type="html"><![CDATA[Running `brew update --auto-update`...
-all of your formulae to update, just so you can use the one that you need.
-HOMEBREW_NO_AUTO_UPDATE to 1.
-HOMEBREW_NO_AUTO_UPDATE=1 brew install <formula>
-official docs:
-brew install,
-brew upgrade or brew tap.]]></summary>
-        <author>
-            <name>craighafer</name>
         </author>
     </entry>
 </feed>
