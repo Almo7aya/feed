@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-11T00:20:53.452Z</id>
+    <id>urn:2023-09-12T00:19:23.805Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-11T00:20:53.452Z</updated>
+    <updated>2023-09-12T00:19:23.805Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Close File Shortcut In VS Code - #workflow]]></title>
+        <id>http://til.hashrocket.com/posts/nkxofw9dff-close-file-shortcut-in-vs-code</id>
+        <link href="http://til.hashrocket.com/posts/nkxofw9dff-close-file-shortcut-in-vs-code"/>
+        <updated>2023-09-11T18:47:40.000Z</updated>
+        <summary type="html"><![CDATA[Cmd (⌘) + w in VS Code to close the currently open file.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bun is disrupting JavaScript land]]></title>
         <id>https://www.youtube.com/watch?v=dWqNgzZwVJQ</id>

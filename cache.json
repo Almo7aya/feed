@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/nkxofw9dff-close-file-shortcut-in-vs-code",
+          "author": "jackrosa",
+          "description": "Cmd (⌘) + w in VS Code to close the currently open file.",
+          "link": "http://til.hashrocket.com/posts/nkxofw9dff-close-file-shortcut-in-vs-code",
+          "publishedOn": "2023-09-11T18:47:40.000Z",
+          "wordCount": 201,
+          "title": "Close File Shortcut In VS Code - #workflow",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/jzqrofwjkx-elixir-data-type-comparison",
           "author": "jackrosa",
           "description": "number < atom < reference < function < port < pid < tuple < map < list < bitstring\r\nrandom_data = [[\"Hello World\"], {:hello, :world}, 16, %{key: \"value\"}, :atom]\r\nEnum.sort(random_data)\r\n#=> [16, :atom, {:hello, :world}, %{key: \"value\"}, [\"Hello World\"]]\r\n4 < :atom\r\n#=> true",
