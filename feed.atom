@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-13T00:20:18.710Z</id>
+    <id>urn:2023-09-14T00:20:22.294Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-13T00:20:18.710Z</updated>
+    <updated>2023-09-14T00:20:22.295Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Check and generate your site's Favicons - #html-css]]></title>
+        <id>http://til.hashrocket.com/posts/xf8cmtn0af-check-and-generate-your-sites-favicons</id>
+        <link href="http://til.hashrocket.com/posts/xf8cmtn0af-check-and-generate-your-sites-favicons"/>
+        <updated>2023-09-13T19:34:13.000Z</updated>
+        <summary type="html"><![CDATA[https://realfavicongenerator.net/ can audit your website's favicon's to show which devices and browsers will display your favicon properly.   
+ The site also helps with favicon generation and target resolutions.]]></summary>
+        <author>
+            <name>jackrosa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updating Postgres Timezone - #sql]]></title>
+        <id>http://til.hashrocket.com/posts/nx9yqjyfnh-updating-postgres-timezone</id>
+        <link href="http://til.hashrocket.com/posts/nx9yqjyfnh-updating-postgres-timezone"/>
+        <updated>2023-09-13T14:56:16.000Z</updated>
+        <summary type="html"><![CDATA[show timezone to see the current timezone on your postgres database:
+my_db_test=# show timezone;
+     TimeZone
+------------------
+ America/New_York
+alter database my_db_test set timezone to 'utc';
+psql session for the new timezone to apply.]]></summary>
+        <author>
+            <name>gabrielreis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Close File Shortcut In VS Code - #workflow]]></title>
         <id>http://til.hashrocket.com/posts/nkxofw9dff-close-file-shortcut-in-vs-code</id>
@@ -1700,16 +1727,6 @@ docs if you're interested.]]></summary>
         <summary type="html"><![CDATA[I&#8217;m elated to announce that on August 17th, 2024 — exactly one year from now — I&#8217;m throwing a big-ass charity concert/party/happening in Pittsburgh, PA featuring an array of my talented musical collaborators, friends, and family. I&#8217;d love for you [&#8230;]]]></summary>
         <author>
             <name>Brad Frost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unix Timestamps in Elixir - #elixir]]></title>
-        <id>http://til.hashrocket.com/posts/i4idu4a0me-unix-timestamps-in-elixir</id>
-        <link href="http://til.hashrocket.com/posts/i4idu4a0me-unix-timestamps-in-elixir"/>
-        <updated>2023-08-14T20:48:21.000Z</updated>
-        <summary type="html"><![CDATA[DateTime struct, and want to keep things simple, you can convert a DateTime struct to an integer with to_unix/2. By default, it will use seconds as the unit.]]></summary>
-        <author>
-            <name>jackrosa</name>
         </author>
     </entry>
 </feed>

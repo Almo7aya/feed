@@ -30,6 +30,26 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/xf8cmtn0af-check-and-generate-your-sites-favicons",
+          "author": "jackrosa",
+          "description": "https://realfavicongenerator.net/ can audit your website's favicon's to show which devices and browsers will display your favicon properly.   \n The site also helps with favicon generation and target resolutions.",
+          "link": "http://til.hashrocket.com/posts/xf8cmtn0af-check-and-generate-your-sites-favicons",
+          "publishedOn": "2023-09-13T19:34:13.000Z",
+          "wordCount": 212,
+          "title": "Check and generate your site's Favicons - #html-css",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/html_css_twitter_card.png"
+        },
+        {
+          "id": "http://til.hashrocket.com/posts/nx9yqjyfnh-updating-postgres-timezone",
+          "author": "gabrielreis",
+          "description": "show timezone to see the current timezone on your postgres database:\nmy_db_test=# show timezone;\r\n     TimeZone\r\n------------------\r\n America/New_York\r\nalter database my_db_test set timezone to 'utc';\r\npsql session for the new timezone to apply.",
+          "link": "http://til.hashrocket.com/posts/nx9yqjyfnh-updating-postgres-timezone",
+          "publishedOn": "2023-09-13T14:56:16.000Z",
+          "wordCount": 273,
+          "title": "Updating Postgres Timezone - #sql",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/sql_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/nkxofw9dff-close-file-shortcut-in-vs-code",
           "author": "jackrosa",
           "description": "Cmd (⌘) + w in VS Code to close the currently open file.",
@@ -68,16 +88,6 @@
           "wordCount": 239,
           "title": "Cycling keyboard languages on MacOS - #workflow",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/i4idu4a0me-unix-timestamps-in-elixir",
-          "author": "jackrosa",
-          "description": "DateTime struct, and want to keep things simple, you can convert a DateTime struct to an integer with to_unix/2. By default, it will use seconds as the unit.",
-          "link": "http://til.hashrocket.com/posts/i4idu4a0me-unix-timestamps-in-elixir",
-          "publishedOn": "2023-08-14T20:48:21.000Z",
-          "wordCount": 288,
-          "title": "Unix Timestamps in Elixir - #elixir",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
         }
       ]
     },
