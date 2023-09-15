@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/rm9tvmzf9p-using-sliceafter-to-split-arrays-by-a-value-",
+          "author": "marylee",
+          "description": "slice_after (there's also slice_before, which behaves the same way).\narray = [\r\n  {activity: \"traveling\", ticket: \"123\"},\r\n  {activity: \"working\", ticket: \"123\"},\r\n  {activity: \"awaiting_assignment\", ticket: \"\"},\r\n  {activity: \"traveling\", ticket: \"234\"},\r\n  {activity: \"refueling\", ticket: \"234\"},\r\n  {activity: \"traveling\", ticket: \"234\"},\r\n  {activity: \"working\", ticket: \"234\"},\r\n  {activity: \"awaiting_assignment\", ticket: \"\"}\r\n]\r\n\narray.slice_after { |i| i.activity == \"awaiting_assignment\" }\r\n# Returns:\r\n[\r\n  [\r\n    {activity: \"traveling\", ticket: \"123\"},\r\n    {activity: \"working\", ticket: \"123\"},\r\n    {activity: \"awaiting_assignment\", ticket: \"\"}\r\n  ],\r\n  [\r\n    {activity: \"traveling\", ticket: \"234\"},\r\n    {activity: \"refueling\", ticket: \"234\"},\r\n    {activity: \"traveling\", ticket: \"234\"},\r\n    {activity: \"working\", ticket: \"234\"},\r\n    {activity: \"awaiting_assignment\", ticket: \"\"}\r\n  ]\r\n]",
+          "link": "http://til.hashrocket.com/posts/rm9tvmzf9p-using-sliceafter-to-split-arrays-by-a-value-",
+          "publishedOn": "2023-09-14T17:25:52.000Z",
+          "wordCount": 367,
+          "title": "Using slice_after to split arrays by a value  - #ruby",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/ruby_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/xf8cmtn0af-check-and-generate-your-sites-favicons",
           "author": "jackrosa",
           "description": "https://realfavicongenerator.net/ can audit your website's favicon's to show which devices and browsers will display your favicon properly.   \n The site also helps with favicon generation and target resolutions.",
@@ -1692,6 +1702,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "siteUrl": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=mVKAyw0xqxw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=mVKAyw0xqxw",
+          "publishedOn": "2023-09-14T12:30:23.000Z",
+          "wordCount": null,
+          "title": "Tails OS in 100 Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=dWqNgzZwVJQ",
           "author": null,

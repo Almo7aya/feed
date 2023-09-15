@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-14T00:20:22.294Z</id>
+    <id>urn:2023-09-15T00:20:21.774Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-14T00:20:22.295Z</updated>
+    <updated>2023-09-15T00:20:21.774Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Using slice_after to split arrays by a value  - #ruby]]></title>
+        <id>http://til.hashrocket.com/posts/rm9tvmzf9p-using-sliceafter-to-split-arrays-by-a-value-</id>
+        <link href="http://til.hashrocket.com/posts/rm9tvmzf9p-using-sliceafter-to-split-arrays-by-a-value-"/>
+        <updated>2023-09-14T17:25:52.000Z</updated>
+        <summary type="html"><![CDATA[slice_after (there's also slice_before, which behaves the same way).
+array = [
+  {activity: "traveling", ticket: "123"},
+  {activity: "working", ticket: "123"},
+  {activity: "awaiting_assignment", ticket: ""},
+  {activity: "traveling", ticket: "234"},
+  {activity: "refueling", ticket: "234"},
+  {activity: "traveling", ticket: "234"},
+  {activity: "working", ticket: "234"},
+  {activity: "awaiting_assignment", ticket: ""}
+]
+
+array.slice_after { |i| i.activity == "awaiting_assignment" }
+# Returns:
+[
+  [
+    {activity: "traveling", ticket: "123"},
+    {activity: "working", ticket: "123"},
+    {activity: "awaiting_assignment", ticket: ""}
+  ],
+  [
+    {activity: "traveling", ticket: "234"},
+    {activity: "refueling", ticket: "234"},
+    {activity: "traveling", ticket: "234"},
+    {activity: "working", ticket: "234"},
+    {activity: "awaiting_assignment", ticket: ""}
+  ]
+]]]></summary>
+        <author>
+            <name>marylee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tails OS in 100 Seconds]]></title>
+        <id>https://www.youtube.com/watch?v=mVKAyw0xqxw</id>
+        <link href="https://www.youtube.com/watch?v=mVKAyw0xqxw"/>
+        <updated>2023-09-14T12:30:23.000Z</updated>
+        <author>
+            <name>Fireship</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Check and generate your site's Favicons - #html-css]]></title>
         <id>http://til.hashrocket.com/posts/xf8cmtn0af-check-and-generate-your-sites-favicons</id>
