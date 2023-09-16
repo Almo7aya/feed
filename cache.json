@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/olcvrf7mia-execute-nvim-commands-on-startup",
+          "author": "tonyyunker",
+          "description": ":Git to open vim-fugitive so I can easily navigate my modified and staged files. But that's 2 steps - 1 more than I want. \nnvim -c \":Git\", where the -c is the command you want to execute on startup. For even fewer keystrokes you could create an alias!",
+          "link": "http://til.hashrocket.com/posts/olcvrf7mia-execute-nvim-commands-on-startup",
+          "publishedOn": "2023-09-15T18:42:46.000Z",
+          "wordCount": 289,
+          "title": "Execute (n)vim Commands on Startup - #vim",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/vim_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/rm9tvmzf9p-using-sliceafter-to-split-arrays-by-a-value-",
           "author": "marylee",
           "description": "slice_after (there's also slice_before, which behaves the same way).\narray = [\r\n  {activity: \"traveling\", ticket: \"123\"},\r\n  {activity: \"working\", ticket: \"123\"},\r\n  {activity: \"awaiting_assignment\", ticket: \"\"},\r\n  {activity: \"traveling\", ticket: \"234\"},\r\n  {activity: \"refueling\", ticket: \"234\"},\r\n  {activity: \"traveling\", ticket: \"234\"},\r\n  {activity: \"working\", ticket: \"234\"},\r\n  {activity: \"awaiting_assignment\", ticket: \"\"}\r\n]\r\n\narray.slice_after { |i| i.activity == \"awaiting_assignment\" }\r\n# Returns:\r\n[\r\n  [\r\n    {activity: \"traveling\", ticket: \"123\"},\r\n    {activity: \"working\", ticket: \"123\"},\r\n    {activity: \"awaiting_assignment\", ticket: \"\"}\r\n  ],\r\n  [\r\n    {activity: \"traveling\", ticket: \"234\"},\r\n    {activity: \"refueling\", ticket: \"234\"},\r\n    {activity: \"traveling\", ticket: \"234\"},\r\n    {activity: \"working\", ticket: \"234\"},\r\n    {activity: \"awaiting_assignment\", ticket: \"\"}\r\n  ]\r\n]",
@@ -1636,6 +1646,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/design-systems-with-brad-frost-the-state-of-the-web-google-chrome-developers/",
+          "author": null,
+          "description": "YouTube&#8217;s recommendation algorithm led me to this interview I did about design systems with Google Chrome Developers: While it was published in Feb 2020 (😱), I think it still holds up pretty dang well!",
+          "link": "https://bradfrost.com/blog/link/design-systems-with-brad-frost-the-state-of-the-web-google-chrome-developers/",
+          "publishedOn": "2023-09-15T17:58:07.000Z",
+          "wordCount": 697,
+          "title": "Design Systems with Brad Frost &#8211; The State of the Web &#8211; Google Chrome Developers",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/educational-sensational-inspirational-foundational/",
           "author": null,
           "description": "Absolutely honored to have atomic design included in this roundup of Educational Sensational Inspirational Foundational posts.",
@@ -1796,6 +1816,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
       "siteUrl": "https://www.youtube.com/channel/UCUMwY9iS8oMyWDYIe6_RmoA",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=bJQj1uKtnus",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=bJQj1uKtnus",
+          "publishedOn": "2023-09-15T09:27:37.000Z",
+          "wordCount": null,
+          "title": "The Cult Of Done",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=v6RxJsk8otY",
           "author": null,

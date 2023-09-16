@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-15T00:20:21.774Z</id>
+    <id>urn:2023-09-16T00:19:33.332Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-15T00:20:21.774Z</updated>
+    <updated>2023-09-16T00:19:33.332Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Execute (n)vim Commands on Startup - #vim]]></title>
+        <id>http://til.hashrocket.com/posts/olcvrf7mia-execute-nvim-commands-on-startup</id>
+        <link href="http://til.hashrocket.com/posts/olcvrf7mia-execute-nvim-commands-on-startup"/>
+        <updated>2023-09-15T18:42:46.000Z</updated>
+        <summary type="html"><![CDATA[:Git to open vim-fugitive so I can easily navigate my modified and staged files. But that's 2 steps - 1 more than I want. 
+nvim -c ":Git", where the -c is the command you want to execute on startup. For even fewer keystrokes you could create an alias!]]></summary>
+        <author>
+            <name>tonyyunker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Systems with Brad Frost &#8211; The State of the Web &#8211; Google Chrome Developers]]></title>
+        <id>https://bradfrost.com/blog/link/design-systems-with-brad-frost-the-state-of-the-web-google-chrome-developers/</id>
+        <link href="https://bradfrost.com/blog/link/design-systems-with-brad-frost-the-state-of-the-web-google-chrome-developers/"/>
+        <updated>2023-09-15T17:58:07.000Z</updated>
+        <summary type="html"><![CDATA[YouTube&#8217;s recommendation algorithm led me to this interview I did about design systems with Google Chrome Developers: While it was published in Feb 2020 (😱), I think it still holds up pretty dang well!]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cult Of Done]]></title>
+        <id>https://www.youtube.com/watch?v=bJQj1uKtnus</id>
+        <link href="https://www.youtube.com/watch?v=bJQj1uKtnus"/>
+        <updated>2023-09-15T09:27:37.000Z</updated>
+        <author>
+            <name>No Boilerplate</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Using slice_after to split arrays by a value  - #ruby]]></title>
         <id>http://til.hashrocket.com/posts/rm9tvmzf9p-using-sliceafter-to-split-arrays-by-a-value-</id>
