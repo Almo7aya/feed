@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-16T00:19:33.332Z</id>
+    <id>urn:2023-09-17T00:22:04.513Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-16T00:19:33.332Z</updated>
+    <updated>2023-09-17T00:22:04.513Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1793,16 +1793,6 @@ docs if you're interested.]]></summary>
         <updated>2023-08-18T16:15:06.000Z</updated>
         <author>
             <name>No Boilerplate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frostapalooza!]]></title>
-        <id>https://bradfrost.com/blog/post/frostapalooza/</id>
-        <link href="https://bradfrost.com/blog/post/frostapalooza/"/>
-        <updated>2023-08-17T14:42:09.000Z</updated>
-        <summary type="html"><![CDATA[I&#8217;m elated to announce that on August 17th, 2024 — exactly one year from now — I&#8217;m throwing a big-ass charity concert/party/happening in Pittsburgh, PA featuring an array of my talented musical collaborators, friends, and family. I&#8217;d love for you [&#8230;]]]></summary>
-        <author>
-            <name>Brad Frost</name>
         </author>
     </entry>
 </feed>
