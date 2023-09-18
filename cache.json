@@ -1790,6 +1790,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=CpvzeyzgQdw",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=CpvzeyzgQdw",
+          "publishedOn": "2023-09-17T15:50:03.000Z",
+          "wordCount": null,
+          "title": "All Rust string types explained",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=H8aHX-JkiZs",
           "author": null,
           "description": "",
@@ -1813,17 +1823,7 @@
           "link": "https://www.youtube.com/watch?v=bJQj1uKtnus",
           "publishedOn": "2023-09-15T09:27:37.000Z",
           "wordCount": null,
-          "title": "The Cult Of Done",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=v6RxJsk8otY",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=v6RxJsk8otY",
-          "publishedOn": "2023-08-18T16:15:06.000Z",
-          "wordCount": null,
-          "title": "What Rust Discovered",
+          "title": "How To Finish Everything with the Cult Of Done",
           "imageUrl": null
         }
       ]

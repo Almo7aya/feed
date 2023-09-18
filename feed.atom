@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-17T00:22:04.513Z</id>
+    <id>urn:2023-09-18T00:20:50.716Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-17T00:22:04.513Z</updated>
+    <updated>2023-09-18T00:20:50.716Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[All Rust string types explained]]></title>
+        <id>https://www.youtube.com/watch?v=CpvzeyzgQdw</id>
+        <link href="https://www.youtube.com/watch?v=CpvzeyzgQdw"/>
+        <updated>2023-09-17T15:50:03.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Execute (n)vim Commands on Startup - #vim]]></title>
         <id>http://til.hashrocket.com/posts/olcvrf7mia-execute-nvim-commands-on-startup</id>
@@ -27,7 +36,7 @@ nvim -c ":Git", where the -c is the command you want to execute on startup. For 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Cult Of Done]]></title>
+        <title type="html"><![CDATA[How To Finish Everything with the Cult Of Done]]></title>
         <id>https://www.youtube.com/watch?v=bJQj1uKtnus</id>
         <link href="https://www.youtube.com/watch?v=bJQj1uKtnus"/>
         <updated>2023-09-15T09:27:37.000Z</updated>
@@ -1784,15 +1793,6 @@ docs if you're interested.]]></summary>
         <updated>2023-08-20T14:56:49.000Z</updated>
         <author>
             <name>Let's Get Rusty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Rust Discovered]]></title>
-        <id>https://www.youtube.com/watch?v=v6RxJsk8otY</id>
-        <link href="https://www.youtube.com/watch?v=v6RxJsk8otY"/>
-        <updated>2023-08-18T16:15:06.000Z</updated>
-        <author>
-            <name>No Boilerplate</name>
         </author>
     </entry>
 </feed>
