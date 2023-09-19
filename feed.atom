@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-18T00:20:50.716Z</id>
+    <id>urn:2023-09-19T00:20:41.689Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-18T00:20:50.716Z</updated>
+    <updated>2023-09-19T00:20:41.689Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[How To Make A Strong Case For Accessibility – Smart Interface Design Patterns]]></title>
+        <id>https://bradfrost.com/blog/link/how-to-make-a-strong-case-for-accessibility-smart-interface-design-patterns/</id>
+        <link href="https://bradfrost.com/blog/link/how-to-make-a-strong-case-for-accessibility-smart-interface-design-patterns/"/>
+        <updated>2023-09-18T14:54:55.000Z</updated>
+        <summary type="html"><![CDATA[Getting support for accessibility efforts isn’t easy. There are many accessibility myths, wrong assumptions and expectations that make accessibility look like a complex, expensive and time-consuming project. Let’s fix that! Below are some practical techniques that has been working well [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[All Rust string types explained]]></title>
         <id>https://www.youtube.com/watch?v=CpvzeyzgQdw</id>

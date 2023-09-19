@@ -1646,6 +1646,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/link/how-to-make-a-strong-case-for-accessibility-smart-interface-design-patterns/",
+          "author": null,
+          "description": "Getting support for accessibility efforts isn’t easy. There are many accessibility myths, wrong assumptions and expectations that make accessibility look like a complex, expensive and time-consuming project. Let’s fix that! Below are some practical techniques that has been working well [&#8230;]",
+          "link": "https://bradfrost.com/blog/link/how-to-make-a-strong-case-for-accessibility-smart-interface-design-patterns/",
+          "publishedOn": "2023-09-18T14:54:55.000Z",
+          "wordCount": 723,
+          "title": "How To Make A Strong Case For Accessibility – Smart Interface Design Patterns",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/design-systems-with-brad-frost-the-state-of-the-web-google-chrome-developers/",
           "author": null,
           "description": "YouTube&#8217;s recommendation algorithm led me to this interview I did about design systems with Google Chrome Developers: While it was published in Feb 2020 (😱), I think it still holds up pretty dang well!",
