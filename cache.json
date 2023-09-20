@@ -1808,16 +1808,6 @@
           "wordCount": null,
           "title": "All Rust string types explained",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=H8aHX-JkiZs",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=H8aHX-JkiZs",
-          "publishedOn": "2023-08-20T14:56:49.000Z",
-          "wordCount": null,
-          "title": "Rust 1.71.0",
-          "imageUrl": null
         }
       ]
     },
@@ -1833,7 +1823,7 @@
           "link": "https://www.youtube.com/watch?v=bJQj1uKtnus",
           "publishedOn": "2023-09-15T09:27:37.000Z",
           "wordCount": null,
-          "title": "How To Finish Everything with the Cult Of Done",
+          "title": "The Cult Of Done",
           "imageUrl": null
         }
       ]
