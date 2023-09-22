@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-21T00:20:17.124Z</id>
+    <id>urn:2023-09-22T00:20:34.008Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-21T00:20:17.124Z</updated>
+    <updated>2023-09-22T00:20:34.008Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Design System Ecosystem]]></title>
+        <id>https://bradfrost.com/blog/post/the-design-system-ecosystem/</id>
+        <link href="https://bradfrost.com/blog/post/the-design-system-ecosystem/"/>
+        <updated>2023-09-21T18:39:52.000Z</updated>
+        <summary type="html"><![CDATA[What does a mature, end-to-end design system look like in a big, complex organization? What are all the moving pieces, and how do they hang together as a well-considered architecture? What&#8217;s required and what&#8217;s optional? Hold onto your butts, because [&#8230;]]]></summary>
+        <author>
+            <name>Brad Frost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Block network requests in browser dev tools - #testing]]></title>
+        <id>http://til.hashrocket.com/posts/8tunzsr4tq-block-network-requests-in-browser-dev-tools</id>
+        <link href="http://til.hashrocket.com/posts/8tunzsr4tq-block-network-requests-in-browser-dev-tools"/>
+        <updated>2023-09-21T15:23:17.000Z</updated>
+        <summary type="html"><![CDATA[Ever do some sort of testing where you needed to block a specific request from completing in the browser? 
+
+Me too... 
+
+In chromium dev tools (Chrome, Brave, etc..) you can right-click a request in the network tab. You'll then be presented with an option to block the specific request or block the domain.
+
+Next time that request is made, it will not complete. 
+
+Easy-peasy]]></summary>
+        <author>
+            <name>mattpolito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust 1.72.0]]></title>
+        <id>https://www.youtube.com/watch?v=5qLMubxngoY</id>
+        <link href="https://www.youtube.com/watch?v=5qLMubxngoY"/>
+        <updated>2023-09-21T13:28:09.000Z</updated>
+        <author>
+            <name>Let's Get Rusty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How To Make A Strong Case For Accessibility – Smart Interface Design Patterns]]></title>
         <id>https://bradfrost.com/blog/link/how-to-make-a-strong-case-for-accessibility-smart-interface-design-patterns/</id>
@@ -46,7 +83,7 @@ nvim -c ":Git", where the -c is the command you want to execute on startup. For 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Cult Of Done]]></title>
+        <title type="html"><![CDATA[Can't start? Start here: Cult of Done]]></title>
         <id>https://www.youtube.com/watch?v=bJQj1uKtnus</id>
         <link href="https://www.youtube.com/watch?v=bJQj1uKtnus"/>
         <updated>2023-09-15T09:27:37.000Z</updated>

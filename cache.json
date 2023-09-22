@@ -30,6 +30,16 @@
       "siteUrl": "http://til.hashrocket.com/",
       "articles": [
         {
+          "id": "http://til.hashrocket.com/posts/8tunzsr4tq-block-network-requests-in-browser-dev-tools",
+          "author": "mattpolito",
+          "description": "Ever do some sort of testing where you needed to block a specific request from completing in the browser? \n\nMe too... \n\nIn chromium dev tools (Chrome, Brave, etc..) you can right-click a request in the network tab. You'll then be presented with an option to block the specific request or block the domain.\n\nNext time that request is made, it will not complete. \n\nEasy-peasy",
+          "link": "http://til.hashrocket.com/posts/8tunzsr4tq-block-network-requests-in-browser-dev-tools",
+          "publishedOn": "2023-09-21T15:23:17.000Z",
+          "wordCount": 252,
+          "title": "Block network requests in browser dev tools - #testing",
+          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/til_twitter_card.png"
+        },
+        {
           "id": "http://til.hashrocket.com/posts/olcvrf7mia-execute-nvim-commands-on-startup",
           "author": "tonyyunker",
           "description": ":Git to open vim-fugitive so I can easily navigate my modified and staged files. But that's 2 steps - 1 more than I want. \nnvim -c \":Git\", where the -c is the command you want to execute on startup. For even fewer keystrokes you could create an alias!",
@@ -1646,6 +1656,16 @@
       "siteUrl": "https://bradfrost.com",
       "articles": [
         {
+          "id": "https://bradfrost.com/blog/post/the-design-system-ecosystem/",
+          "author": null,
+          "description": "What does a mature, end-to-end design system look like in a big, complex organization? What are all the moving pieces, and how do they hang together as a well-considered architecture? What&#8217;s required and what&#8217;s optional? Hold onto your butts, because [&#8230;]",
+          "link": "https://bradfrost.com/blog/post/the-design-system-ecosystem/",
+          "publishedOn": "2023-09-21T18:39:52.000Z",
+          "wordCount": 5444,
+          "title": "The Design System Ecosystem",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2023/09/CleanShot-2023-09-21-at-10.57.22.png"
+        },
+        {
           "id": "https://bradfrost.com/blog/link/how-to-make-a-strong-case-for-accessibility-smart-interface-design-patterns/",
           "author": null,
           "description": "Getting support for accessibility efforts isn’t easy. There are many accessibility myths, wrong assumptions and expectations that make accessibility look like a complex, expensive and time-consuming project. Let’s fix that! Below are some practical techniques that has been working well [&#8230;]",
@@ -1800,6 +1820,16 @@
       "siteUrl": "https://www.youtube.com/channel/UCSp-OaMpsO8K0KkOqyBl7_w",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=5qLMubxngoY",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=5qLMubxngoY",
+          "publishedOn": "2023-09-21T13:28:09.000Z",
+          "wordCount": null,
+          "title": "Rust 1.72.0",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.youtube.com/watch?v=CpvzeyzgQdw",
           "author": null,
           "description": "",
@@ -1823,7 +1853,7 @@
           "link": "https://www.youtube.com/watch?v=bJQj1uKtnus",
           "publishedOn": "2023-09-15T09:27:37.000Z",
           "wordCount": null,
-          "title": "The Cult Of Done",
+          "title": "Can't start? Start here: Cult of Done",
           "imageUrl": null
         }
       ]
