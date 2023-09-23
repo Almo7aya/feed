@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-22T00:20:34.008Z</id>
+    <id>urn:2023-09-23T00:19:34.850Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-22T00:20:34.008Z</updated>
+    <updated>2023-09-23T00:19:34.850Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1822,15 +1822,6 @@ docs if you're interested.]]></summary>
         <summary type="html"><![CDATA[control + space]]></summary>
         <author>
             <name>craighafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Excel just got Python]]></title>
-        <id>https://www.youtube.com/watch?v=8ofsE7xiGho</id>
-        <link href="https://www.youtube.com/watch?v=8ofsE7xiGho"/>
-        <updated>2023-08-23T18:41:32.000Z</updated>
-        <author>
-            <name>Fireship</name>
         </author>
     </entry>
 </feed>

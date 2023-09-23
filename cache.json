@@ -1801,16 +1801,6 @@
           "wordCount": null,
           "title": "CPU vs GPU vs TPU vs DPU vs QPU",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=8ofsE7xiGho",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=8ofsE7xiGho",
-          "publishedOn": "2023-08-23T18:41:32.000Z",
-          "wordCount": null,
-          "title": "Microsoft Excel just got Python",
-          "imageUrl": null
         }
       ]
     },
