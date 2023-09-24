@@ -108,16 +108,6 @@
           "wordCount": 296,
           "title": "Conditional link_to - #rails",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/h6d9ltchdp-cycling-keyboard-languages-on-macos",
-          "author": "craighafer",
-          "description": "control + space",
-          "link": "http://til.hashrocket.com/posts/h6d9ltchdp-cycling-keyboard-languages-on-macos",
-          "publishedOn": "2023-08-24T19:59:09.000Z",
-          "wordCount": 239,
-          "title": "Cycling keyboard languages on MacOS - #workflow",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/workflow_twitter_card.png"
         }
       ]
     },
@@ -1843,7 +1833,7 @@
           "link": "https://www.youtube.com/watch?v=bJQj1uKtnus",
           "publishedOn": "2023-09-15T09:27:37.000Z",
           "wordCount": null,
-          "title": "Can't start? Start here: Cult of Done",
+          "title": "The Cult of Done",
           "imageUrl": null
         }
       ]
