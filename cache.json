@@ -98,16 +98,6 @@
           "wordCount": 285,
           "title": "Elixir Data Type Comparison - #elixir",
           "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/elixir_twitter_card.png"
-        },
-        {
-          "id": "http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto",
-          "author": "craighafer",
-          "description": "ActionView::Helper using #link_to_if\n<%= link_to_if(current_user.nil?, \"Login\", login_path) %>\r\ntrue it would output:\n<a href=\"/sessions/new/\">Login</a>\r\nfalse it just outputs the text:\nLogin\r\n<%= link_to_if(current_user.nil?, \"Login\", login_path) do\r\n  link_to(\"Logout\", logout_path)\r\nend %>\r\nlink_to_unless method available  \ndocs if you're interested.",
-          "link": "http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto",
-          "publishedOn": "2023-08-25T19:56:01.000Z",
-          "wordCount": 296,
-          "title": "Conditional link_to - #rails",
-          "imageUrl": "https://dys2hbvla0n8j.cloudfront.net/images/rails_twitter_card.png"
         }
       ]
     },

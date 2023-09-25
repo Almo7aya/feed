@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-24T00:22:03.698Z</id>
+    <id>urn:2023-09-25T00:21:01.122Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-24T00:22:03.698Z</updated>
+    <updated>2023-09-25T00:21:01.122Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1792,26 +1792,6 @@ Enum.sort(random_data)
         <updated>2023-08-26T18:30:41.000Z</updated>
         <author>
             <name>Fireship</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Conditional link_to - #rails]]></title>
-        <id>http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto</id>
-        <link href="http://til.hashrocket.com/posts/kyaojbkhgq-conditional-linkto"/>
-        <updated>2023-08-25T19:56:01.000Z</updated>
-        <summary type="html"><![CDATA[ActionView::Helper using #link_to_if
-<%= link_to_if(current_user.nil?, "Login", login_path) %>
-true it would output:
-<a href="/sessions/new/">Login</a>
-false it just outputs the text:
-Login
-<%= link_to_if(current_user.nil?, "Login", login_path) do
-  link_to("Logout", logout_path)
-end %>
-link_to_unless method available  
-docs if you're interested.]]></summary>
-        <author>
-            <name>craighafer</name>
         </author>
     </entry>
 </feed>
